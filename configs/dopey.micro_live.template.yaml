@@ -1,0 +1,26 @@
+# DOPEY micro-live TEMPLATE — DISABLED BY DEFAULT. Comments explain required future enablement.
+#
+# This file is a TEMPLATE only. It MUST NOT be used to enable live trading without explicit
+# operator action. Live trading requires ALL of the following to be set explicitly by an
+# operator who has reviewed DOPEY_RISK_DISCIPLINE.md and DOPEY_BROKER_BOUNDARIES.md:
+#
+#   1. mode: MICRO_LIVE  (or ADAPTIVE_LIVE)
+#   2. live_trading_enabled: true
+#   3. funded_broker_connections_enabled: true
+#   4. A supported, credentialed broker with options-exec capability DISCOVERED at runtime
+#   5. A strategy with a sufficient proof bundle (proof_strength >= min_proof_strength)
+#   6. Defined-risk structures only (default_structure_policy: defined_risk_first)
+#   7. The LiveOrderGate passing every check (see dopey_governor/live_order_gate.py)
+#
+# Until ALL of the above are satisfied, the LiveOrderGate BLOCKS every live order.
+mode: MICRO_LIVE
+live_trading_enabled: false          # MUST be set true explicitly by the operator
+funded_broker_connections_enabled: false  # MUST be set true explicitly by the operator
+allow_unofficial_robinhood_api: false # never use the unofficial Robinhood private API
+robinhood_mcp_discovery_enabled: true
+paper_trading_enabled: true           # paper remains on as a shadow lane
+default_structure_policy: defined_risk_first
+max_first_pass_order_mode: micro_live
+min_proof_strength: 0.6
+min_oos_edge: 0.05
+max_position_fraction: 0.01          # very small micro-live size cap

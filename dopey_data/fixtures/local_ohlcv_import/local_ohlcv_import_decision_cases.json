@@ -1,0 +1,159 @@
+{
+  "case_count": 14,
+  "cases": [
+    {
+      "case_hash": "5b0a8d1ebdd83a07c1a88c93727b39145dac9279b3d43039be548ff653f209b6",
+      "case_id": "local-free-ohlcv-stack-case-001",
+      "case_name": "real files absent -> missing status",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "9e708cd929ee6509ed53abd37d6be7753df1c7a6c2a778cb8f76e123eec30f4e",
+      "case_id": "local-free-ohlcv-stack-case-002",
+      "case_name": "real files fail -> validation fail",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "39be0eccc6965644b3212585aa970ebc18f665b2d24e904e3fb61a346cce2229",
+      "case_id": "local-free-ohlcv-stack-case-003",
+      "case_name": "real files pass -> ready for history spine",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "853ca6783d4c80ec4135949a688ea518921c3dc2fcd907252c6af92321649334",
+      "case_id": "local-free-ohlcv-stack-case-004",
+      "case_name": "schema errors block",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "0176318c06d847b0b3121d5ea5f1a802d8a85f4a60945ebb0444e2b3c55252ea",
+      "case_id": "local-free-ohlcv-stack-case-005",
+      "case_name": "quality errors block",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "1709c58adc3ce6bd49479def66e1b311fd781e3896a5e7a577b4ff79a82b43fd",
+      "case_id": "local-free-ohlcv-stack-case-006",
+      "case_name": "missing license block",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "a9bf8a9d91ed1fd485897a1feac35629266ff8f942442dec6b2a144e2ca5dc1e",
+      "case_id": "local-free-ohlcv-stack-case-007",
+      "case_name": "missing provenance block",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "304d845bf8dbab7500278d68143fd16c23506e877c90589f250aa29bdbdce43e",
+      "case_id": "local-free-ohlcv-stack-case-008",
+      "case_name": "sample contamination block",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "7084c94f7663225ea51467c7e2d8e8a0b0a290da7bacd994b7b35b282ad4b729",
+      "case_id": "local-free-ohlcv-stack-case-009",
+      "case_name": "credential contamination terminal",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "91e6a5eafe6d0b6b597aa1648535a3396d152219cbddf451e988d06837b59402",
+      "case_id": "local-free-ohlcv-stack-case-010",
+      "case_name": "manual review required",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "6c6920cc9ca636a2bd134ca224bc65ac2365ea36991ceba919503a17020ed2a9",
+      "case_id": "local-free-ohlcv-stack-case-011",
+      "case_name": "terminal block",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "e8fed4b191144b5029e72781a45b43f676e88a44ca529cab45adc2c25e9279ae",
+      "case_id": "local-free-ohlcv-stack-case-012",
+      "case_name": "history upgrade allowed only on pass",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "10295751715a91e6b8ef26da6224afcf9f10993f070419d43eee75eeaa1cc270",
+      "case_id": "local-free-ohlcv-stack-case-013",
+      "case_name": "valid dataset false by default",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "c6b01411a59dfda26aae4871aa35d02791ea0b2f7f49243652119ddc02af1762",
+      "case_id": "local-free-ohlcv-stack-case-014",
+      "case_name": "real history false by default",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    }
+  ]
+}

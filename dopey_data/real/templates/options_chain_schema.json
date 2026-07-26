@@ -1,0 +1,61 @@
+{
+  "column_types": {
+    "ask": "number",
+    "bid": "number",
+    "delta": "number",
+    "expiration_date": "date",
+    "gamma": "number",
+    "implied_volatility": "number",
+    "last": "number",
+    "mid": "number",
+    "open_interest": "integer",
+    "option_type": "string",
+    "provider_record_id": "string",
+    "rho": "number",
+    "snapshot_date": "date",
+    "source": "string",
+    "strike": "number",
+    "theta": "number",
+    "underlying_symbol": "string",
+    "vega": "number",
+    "volume": "integer"
+  },
+  "dataset_family": "historical_options_chain",
+  "live_blocked": true,
+  "not_real_data_ingested": true,
+  "optional_columns": [
+    "delta",
+    "gamma",
+    "theta",
+    "vega",
+    "rho"
+  ],
+  "paper_only": true,
+  "primary_key_columns": [
+    "snapshot_date",
+    "underlying_symbol",
+    "expiration_date",
+    "strike",
+    "option_type",
+    "provider_record_id"
+  ],
+  "required_columns": [
+    "snapshot_date",
+    "underlying_symbol",
+    "expiration_date",
+    "strike",
+    "option_type",
+    "bid",
+    "ask",
+    "mid",
+    "last",
+    "volume",
+    "open_interest",
+    "implied_volatility",
+    "source",
+    "provider_record_id"
+  ],
+  "sample_only_rows_allowed_as_real": false,
+  "schema_id": "schema-historical_options_chain",
+  "schema_version": "dopey-real-data-schema-contract-v1"
+}

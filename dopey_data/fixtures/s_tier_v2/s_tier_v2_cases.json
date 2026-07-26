@@ -1,0 +1,1006 @@
+{
+  "artifact_type": "s_tier_v2_cases",
+  "case_count": 100,
+  "cases": [
+    {
+      "case_hash": "e341e81490888536de40a62b4f14252df169a634dbb5d17e7ef4b863351e5394",
+      "case_id": "finish-everything-fixture-000",
+      "case_name": "S-tier V2 no data",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c148594e018e3684f2146bc132ee37e3db9e8ce113fbebd17689af24e28fd0c3",
+      "case_id": "finish-everything-fixture-001",
+      "case_name": "S-tier V2 accepted OHLCV",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "06b3e5789426d572f3c541259bb91c6c32cc244f82577147322a1f4e143940ae",
+      "case_id": "finish-everything-fixture-002",
+      "case_name": "S-tier V2 signal mutation",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "0d6c6445215b712714f90a33b7685e23241efb1885f04010e24d98dc47027190",
+      "case_id": "finish-everything-fixture-003",
+      "case_name": "S-tier V2 tournament",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "8af7fa8cb1ce0907da36b50a2974aaf3d262f9ab3e5304633ee9e24b01cd73a1",
+      "case_id": "finish-everything-fixture-004",
+      "case_name": "S-tier V2 no-trade gate",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "568f18f3ae1979bf4291c21a57bb80398d0ddb98a0542fabd353bf313ad8478d",
+      "case_id": "finish-everything-fixture-005",
+      "case_name": "S-tier V2 adversarial stress",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "6823d5a6704f30e70e372d2276884a61a9c6739bb7a30f0c400f3967b87cebe9",
+      "case_id": "finish-everything-fixture-006",
+      "case_name": "no profitability claim",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "bcd1fc8629fd2054f39ad4cd7ba22539dd3407a9c5c38388d4b6cc0dab9b5097",
+      "case_id": "finish-everything-fixture-007",
+      "case_name": "no live readiness claim",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e82b54e55e0ed3b5f8d02cd079699641b77406f27e7ba935c5814efd5ba35e7a",
+      "case_id": "finish-everything-fixture-008",
+      "case_name": "S-tier V2 no data repeat 008",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7e400debedefc22d6443a8655224f8301563f35e9a422766e6507950b6ebab99",
+      "case_id": "finish-everything-fixture-009",
+      "case_name": "S-tier V2 accepted OHLCV repeat 009",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d98344f99643341b2acebd3785732c1878397eca238e5244f2ddddc6c5df40b1",
+      "case_id": "finish-everything-fixture-010",
+      "case_name": "S-tier V2 signal mutation repeat 010",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a9884b80bbdd54a1dd7a0846d0d3dcc0a6d6b59786a13de8312a9ba6e500e012",
+      "case_id": "finish-everything-fixture-011",
+      "case_name": "S-tier V2 tournament repeat 011",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c1d790a4d7a5ba91defe5120bda81479060423cc2c55806be39c7db19cd69432",
+      "case_id": "finish-everything-fixture-012",
+      "case_name": "S-tier V2 no-trade gate repeat 012",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7abb3ea291a0e233513cc391eb54e27a78df360f45cd76a75c433232fa9a488a",
+      "case_id": "finish-everything-fixture-013",
+      "case_name": "S-tier V2 adversarial stress repeat 013",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "13f4b4e76583daf8f24573f5c7cc886264ef1edadba2af109f147d95dfd8433c",
+      "case_id": "finish-everything-fixture-014",
+      "case_name": "no profitability claim repeat 014",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "15966d6bbcdc3cb37405f6d0a5d969d3c43d2e74c46f3ae8a61567b4a8994aa4",
+      "case_id": "finish-everything-fixture-015",
+      "case_name": "no live readiness claim repeat 015",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "73748fbe483faa861e405f1df16678ace921b82c80eba6f99810cbec561dc274",
+      "case_id": "finish-everything-fixture-016",
+      "case_name": "S-tier V2 no data repeat 016",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2cda75e0ed0cdc2087695511f60d7bc7b20f0517fe564c0a0fcbd875da2b5c00",
+      "case_id": "finish-everything-fixture-017",
+      "case_name": "S-tier V2 accepted OHLCV repeat 017",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "f616eb20eeb3a17a91da8f48e839b257041c71367de743c0d5211f2855046298",
+      "case_id": "finish-everything-fixture-018",
+      "case_name": "S-tier V2 signal mutation repeat 018",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "86fe0312a20602f044adccfe0904638df749fcaf23fec4143f8cefd25bddd753",
+      "case_id": "finish-everything-fixture-019",
+      "case_name": "S-tier V2 tournament repeat 019",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "13082279352b7533272e03b0af212025d7638615d31949b074bffaec95529a3e",
+      "case_id": "finish-everything-fixture-020",
+      "case_name": "S-tier V2 no-trade gate repeat 020",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "970af3d84f5d434ec46848ead7548f5300c58eaacd8423d174be67c4e7e5fa19",
+      "case_id": "finish-everything-fixture-021",
+      "case_name": "S-tier V2 adversarial stress repeat 021",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "85b6d078eb8d41ac86b7465fc10199c2ff953197ba86b954fbe73d8de2dfcf0a",
+      "case_id": "finish-everything-fixture-022",
+      "case_name": "no profitability claim repeat 022",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7623308b99871766e88d95d562b4bb096c1830a16689106e642a9a00b65adf87",
+      "case_id": "finish-everything-fixture-023",
+      "case_name": "no live readiness claim repeat 023",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "dbb64ab3aa5cb2ee3adfc1bce2ca088d1e47807b3605f4dd51dc0821b281b2be",
+      "case_id": "finish-everything-fixture-024",
+      "case_name": "S-tier V2 no data repeat 024",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "898586a9c5e2e8d2db7559df62bbbd38b3e7be0b14f1a1ad800f72bdafced8f8",
+      "case_id": "finish-everything-fixture-025",
+      "case_name": "S-tier V2 accepted OHLCV repeat 025",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "65cc02258d0c72288f18eb95ff0efcad9065804ac43f98368804ef182da61a04",
+      "case_id": "finish-everything-fixture-026",
+      "case_name": "S-tier V2 signal mutation repeat 026",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "4b837c99177465f64600d2e705c0b44323ae2a4f7dad0a12288b1b3c5eb2f1d1",
+      "case_id": "finish-everything-fixture-027",
+      "case_name": "S-tier V2 tournament repeat 027",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "edf821f396bd6a16ff91d2695bb4187be19fbc89bf292a71c6fe526d7bd4f050",
+      "case_id": "finish-everything-fixture-028",
+      "case_name": "S-tier V2 no-trade gate repeat 028",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a1c06bba1adb2f942e94d5fa47a518592dafdb3b5255c12b3a04ef22cac678fb",
+      "case_id": "finish-everything-fixture-029",
+      "case_name": "S-tier V2 adversarial stress repeat 029",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "4f3c14d2ab77def9f6cfa68ebd006758c78f10d1d80c8b58f71b5e33652f2dd0",
+      "case_id": "finish-everything-fixture-030",
+      "case_name": "no profitability claim repeat 030",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "295d5f7fc1003c1fab0a6693788be2cc33fdca13aa056b0789b80076b94ac752",
+      "case_id": "finish-everything-fixture-031",
+      "case_name": "no live readiness claim repeat 031",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "0e8525ef5717a16e32cedf600da60862cfd0f39e4b8581ccc95460971bb34362",
+      "case_id": "finish-everything-fixture-032",
+      "case_name": "S-tier V2 no data repeat 032",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ab912ca8ff4294309577db86dc03de54ffde1ba87903888890e6b1064b919fd7",
+      "case_id": "finish-everything-fixture-033",
+      "case_name": "S-tier V2 accepted OHLCV repeat 033",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "34fe390c2ae1a58e0e41078b634e43c3c97b6d661f17194b0fff417e854cbb05",
+      "case_id": "finish-everything-fixture-034",
+      "case_name": "S-tier V2 signal mutation repeat 034",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "3f8ce0235a1c3419225435efe0d0e471d2b71b663a0691c7c7888bcfe40d4b72",
+      "case_id": "finish-everything-fixture-035",
+      "case_name": "S-tier V2 tournament repeat 035",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ca8add38214aee712591e6625f282f16d2700ccb9eb7e9868a4847443c33d6d5",
+      "case_id": "finish-everything-fixture-036",
+      "case_name": "S-tier V2 no-trade gate repeat 036",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "24a7a5f8290d1b17358c2d8204aefcc7799b9005a6114c054eff99780a68a02e",
+      "case_id": "finish-everything-fixture-037",
+      "case_name": "S-tier V2 adversarial stress repeat 037",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "5aa2f98d4d6f3ce088a3ab545fcdc8ba1cf035543f959b3ed6f7ed1446dbc6f4",
+      "case_id": "finish-everything-fixture-038",
+      "case_name": "no profitability claim repeat 038",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7f8d9b61ad7aca65807aad70dc5a634370f957e6d7717c2dd241184303b6e2ed",
+      "case_id": "finish-everything-fixture-039",
+      "case_name": "no live readiness claim repeat 039",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "f5b5aaa1d5f106fa283b39177dd5276e5c80b3b0628911d49702e29ca7c1f28a",
+      "case_id": "finish-everything-fixture-040",
+      "case_name": "S-tier V2 no data repeat 040",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d1b741cb50201c37f2bec3fd289344597066d9c863472cfa15e8eeb57d7a691b",
+      "case_id": "finish-everything-fixture-041",
+      "case_name": "S-tier V2 accepted OHLCV repeat 041",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "0f80881853efafb49402c5b643471655fabe109c6ce1ffe134ceef914d544af3",
+      "case_id": "finish-everything-fixture-042",
+      "case_name": "S-tier V2 signal mutation repeat 042",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "de727917a54de0c2762f3a61f9924d84df5498827c6483060adfb6ada378a2fe",
+      "case_id": "finish-everything-fixture-043",
+      "case_name": "S-tier V2 tournament repeat 043",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c931774013209842b691a9fddc514a7e0f2bfe78507b2c319909cc8a756c9ba7",
+      "case_id": "finish-everything-fixture-044",
+      "case_name": "S-tier V2 no-trade gate repeat 044",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a3bfd96bac342121d60470af434f9a6ebc79094474fed02993496b6e3d0b37f4",
+      "case_id": "finish-everything-fixture-045",
+      "case_name": "S-tier V2 adversarial stress repeat 045",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ae2f3f6893fd3f23e4b75859863f62a7db1a87525a761b4cca42f13726aa645e",
+      "case_id": "finish-everything-fixture-046",
+      "case_name": "no profitability claim repeat 046",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2f23caf0a5f7638dc40c830143c93790ca0eef3caea08401f35879f66a8fcd2c",
+      "case_id": "finish-everything-fixture-047",
+      "case_name": "no live readiness claim repeat 047",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "393ea1adb1060bf2bb50770b9b1a6cddbef18d7d458f4df5c0615def3609fedb",
+      "case_id": "finish-everything-fixture-048",
+      "case_name": "S-tier V2 no data repeat 048",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "771a86c85f10533cedeef3d02ec8a7a184534b4fc4652203e75792fb28dfe40e",
+      "case_id": "finish-everything-fixture-049",
+      "case_name": "S-tier V2 accepted OHLCV repeat 049",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e5ab4ed1d9a3e3f7172df8ec7462a9a2b1ee83f49fc785905dd87af2319d1b26",
+      "case_id": "finish-everything-fixture-050",
+      "case_name": "S-tier V2 signal mutation repeat 050",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "0cf9e2fec4dc22b9803c67ebda3f01161763017938451e2f110ddcc77c9747c9",
+      "case_id": "finish-everything-fixture-051",
+      "case_name": "S-tier V2 tournament repeat 051",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "07cc6473b751eac0546a71b64bc7f35fe685852bd1e0731037260ddebb9bd412",
+      "case_id": "finish-everything-fixture-052",
+      "case_name": "S-tier V2 no-trade gate repeat 052",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "37cb5a8b3ec9f885000237002a9dcdb802b73312e56a707ea877793d429f4ba4",
+      "case_id": "finish-everything-fixture-053",
+      "case_name": "S-tier V2 adversarial stress repeat 053",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "535b47c0aaa5475237965075dc922de3e2e53fb6d1627f756e0a78e18cb2561b",
+      "case_id": "finish-everything-fixture-054",
+      "case_name": "no profitability claim repeat 054",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "5608dc82905b746bcf63f6120d999cfaa90c8fab2067b92605dc9d4ce7d6966b",
+      "case_id": "finish-everything-fixture-055",
+      "case_name": "no live readiness claim repeat 055",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "9965e8b680fc17614617bf44e5380eaa79fe8640180e0eb79c0a4506bb229325",
+      "case_id": "finish-everything-fixture-056",
+      "case_name": "S-tier V2 no data repeat 056",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "3e5a3cd018ed75d94df4e8ee6bf968a4cc976edeebd57048d4b1bcd1aa834b40",
+      "case_id": "finish-everything-fixture-057",
+      "case_name": "S-tier V2 accepted OHLCV repeat 057",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "07e4db55319a5ce3ed5e961cbc7d31006193218c40f7bc4089671f3d5ca000ed",
+      "case_id": "finish-everything-fixture-058",
+      "case_name": "S-tier V2 signal mutation repeat 058",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "912f8638ef416c77af8e0a10ee575b7a91a9ffe275e70e1a34dfab1a34811a13",
+      "case_id": "finish-everything-fixture-059",
+      "case_name": "S-tier V2 tournament repeat 059",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b904a1295c8e3b6600b1bd97a4c66139383cd1322a5f4bc53819239eb60ce26b",
+      "case_id": "finish-everything-fixture-060",
+      "case_name": "S-tier V2 no-trade gate repeat 060",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "f72f31e5fa4b6310ac6aabd8de7cde68f6a3fc72f1e7f6fae224204cd7564d2b",
+      "case_id": "finish-everything-fixture-061",
+      "case_name": "S-tier V2 adversarial stress repeat 061",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2005d6dbc1276648abdf1584ac4aa54eb7b297523b9a43e2059b87030f5fb431",
+      "case_id": "finish-everything-fixture-062",
+      "case_name": "no profitability claim repeat 062",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "5e514b8ac34e3db5f8bc75417e133f35300b8822fb8293345c87480f0e284611",
+      "case_id": "finish-everything-fixture-063",
+      "case_name": "no live readiness claim repeat 063",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "71274f5d02de6f4b069bec5363940dbc7cadd08a3a7b3ddae32b1d361c698fdf",
+      "case_id": "finish-everything-fixture-064",
+      "case_name": "S-tier V2 no data repeat 064",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b4d498d913a3f3c724ed2e2eb756258e8be2fc6bb3860858bdfc9482fc20c9c6",
+      "case_id": "finish-everything-fixture-065",
+      "case_name": "S-tier V2 accepted OHLCV repeat 065",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "925813518e004fdddf21586ac34efa683c6a16f97e40aef54ac88510327c8b98",
+      "case_id": "finish-everything-fixture-066",
+      "case_name": "S-tier V2 signal mutation repeat 066",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a9a5f76ad86d0220712b5a7d328118d0dba91fce11d98ff6eb3dce8de077ef64",
+      "case_id": "finish-everything-fixture-067",
+      "case_name": "S-tier V2 tournament repeat 067",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e70240fb87267f3ce350f70d379a82698765c03a7323ee837bba7276d2f66e8a",
+      "case_id": "finish-everything-fixture-068",
+      "case_name": "S-tier V2 no-trade gate repeat 068",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1277942ad00afcbc9c803508a7a691ac987067b6a283a15a29a4b596651253e4",
+      "case_id": "finish-everything-fixture-069",
+      "case_name": "S-tier V2 adversarial stress repeat 069",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "0a252683487b0a2fdc6f287fbba3f8bc558ec5073bd33e682d2e9e520682973d",
+      "case_id": "finish-everything-fixture-070",
+      "case_name": "no profitability claim repeat 070",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "fa9b0cddee43c49dead9184027186c7f58b6f81f7eae2872cf6609944efa7bed",
+      "case_id": "finish-everything-fixture-071",
+      "case_name": "no live readiness claim repeat 071",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "6f07a993310fb0274e1459d10939d2e16895bb64e86c69d5dfb03a74cd105584",
+      "case_id": "finish-everything-fixture-072",
+      "case_name": "S-tier V2 no data repeat 072",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "55ecc7a7daa29fcecc498c503b6d34720664b54f3eece1ce49810fb8dfef39af",
+      "case_id": "finish-everything-fixture-073",
+      "case_name": "S-tier V2 accepted OHLCV repeat 073",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e7cd0b19aa12982bcbecd46862bb2aced10691dd14f71bd7c2a447ea99d490da",
+      "case_id": "finish-everything-fixture-074",
+      "case_name": "S-tier V2 signal mutation repeat 074",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "f07f671f46fec9dcb488d395d72d7492e68ac20a95e10e9f46cf30a58ec1337d",
+      "case_id": "finish-everything-fixture-075",
+      "case_name": "S-tier V2 tournament repeat 075",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "10292071ea9435befcd7040f4ebf0091344104ae9ed1d97953c971f85a63ce93",
+      "case_id": "finish-everything-fixture-076",
+      "case_name": "S-tier V2 no-trade gate repeat 076",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "59e0f977ab61c056174dcd4a7ffca3b5dc207c12f4f1b66152bbddd4556a45db",
+      "case_id": "finish-everything-fixture-077",
+      "case_name": "S-tier V2 adversarial stress repeat 077",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "14ae2d0e96f4016917ff9a5a8928f3c7f4d755e546a4121a3708c1b5ae63701e",
+      "case_id": "finish-everything-fixture-078",
+      "case_name": "no profitability claim repeat 078",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ab78f588c33d3de9b5341a74bcf97ccee43ffc72587b9bd1e5b6869a2ac2e7ae",
+      "case_id": "finish-everything-fixture-079",
+      "case_name": "no live readiness claim repeat 079",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "436f282d65bf38c91db6c588f805a454126f3d835487b6b4e939e3ef2c2fe4ef",
+      "case_id": "finish-everything-fixture-080",
+      "case_name": "S-tier V2 no data repeat 080",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "4f18cdb666649b41fd2b1fb2603e12c2e3eabab79105e369d557ca359cacfb7c",
+      "case_id": "finish-everything-fixture-081",
+      "case_name": "S-tier V2 accepted OHLCV repeat 081",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "96a9545c2a25ef520190e9e035facf050d26b25ec1f16befa35df060f6d55d18",
+      "case_id": "finish-everything-fixture-082",
+      "case_name": "S-tier V2 signal mutation repeat 082",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "97856697d757a1573a95dfc8fe0a3ff0f1b4e9ec02ff0aaed00b68dfde61c39b",
+      "case_id": "finish-everything-fixture-083",
+      "case_name": "S-tier V2 tournament repeat 083",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "138c5cade571e1a1a49ef97e1d87a8a5a6973e87d61c3c1b037cd4342121bfdd",
+      "case_id": "finish-everything-fixture-084",
+      "case_name": "S-tier V2 no-trade gate repeat 084",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "5819a2df9af3251f19c37108d5c0d1e0f308e28e55102564206afda88aed66ee",
+      "case_id": "finish-everything-fixture-085",
+      "case_name": "S-tier V2 adversarial stress repeat 085",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "49fe0ba8e655a4e8e8074946f7ec43425638d1ebbea492e731c8e2dacd20a2c3",
+      "case_id": "finish-everything-fixture-086",
+      "case_name": "no profitability claim repeat 086",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7c2d938b6985e0ea5fce2a466f3a05c8208c4ae34491f1cba57be84bcddfadfa",
+      "case_id": "finish-everything-fixture-087",
+      "case_name": "no live readiness claim repeat 087",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c61e8fe646814f10a9ac3d4ea8e8523bc3abec4c33d4d71d825ad4e9604f02bd",
+      "case_id": "finish-everything-fixture-088",
+      "case_name": "S-tier V2 no data repeat 088",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a2cb1f867488f351d652d408c836d992779292444f507487624a5e0a7a15ae40",
+      "case_id": "finish-everything-fixture-089",
+      "case_name": "S-tier V2 accepted OHLCV repeat 089",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e36bf9d417b418de8cf52439bfd66f29be78edd58b1d0b1d453fcb17ca4513cf",
+      "case_id": "finish-everything-fixture-090",
+      "case_name": "S-tier V2 signal mutation repeat 090",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "01dd18ee64cc492612f29d23d3b18652d5eaa96cc649e47637b1ecbd74621b99",
+      "case_id": "finish-everything-fixture-091",
+      "case_name": "S-tier V2 tournament repeat 091",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1d09c66587c4a212b9c7f891de6ef64f28d35d0ad07b0ba15591b37737763438",
+      "case_id": "finish-everything-fixture-092",
+      "case_name": "S-tier V2 no-trade gate repeat 092",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "0caabdad7c8dac9bef17628c1c31ade0d3366201b2c2113ffbf46cbd76e0aba5",
+      "case_id": "finish-everything-fixture-093",
+      "case_name": "S-tier V2 adversarial stress repeat 093",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "910eefefb3b122960deaf99d698f71564a55dadc0a8f09c63c2d7ac290027176",
+      "case_id": "finish-everything-fixture-094",
+      "case_name": "no profitability claim repeat 094",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "97ca137acbfc65d74ffd880527b0f67f78c34368c2b5d16fbc089cf3f46bfcb5",
+      "case_id": "finish-everything-fixture-095",
+      "case_name": "no live readiness claim repeat 095",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "14e038f7150107121d972939ae5f72c7d2e98b4db6b218ced3b222381d730535",
+      "case_id": "finish-everything-fixture-096",
+      "case_name": "S-tier V2 no data repeat 096",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1089d269791943833f33d9e1034e0744c10348cf3d405abf366d3cc03616cf39",
+      "case_id": "finish-everything-fixture-097",
+      "case_name": "S-tier V2 accepted OHLCV repeat 097",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "4e28c42053c30d0764b1239798304c0588c020a7bccdd1495600cbdb245a7402",
+      "case_id": "finish-everything-fixture-098",
+      "case_name": "S-tier V2 signal mutation repeat 098",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "31e5d17d0f1c2d40821d08b28716d87dffd665c9bce768ae6711949b1e03268e",
+      "case_id": "finish-everything-fixture-099",
+      "case_name": "S-tier V2 tournament repeat 099",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    }
+  ]
+}

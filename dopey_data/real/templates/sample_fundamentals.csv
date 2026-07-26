@@ -1,0 +1,2 @@
+period_end_date,symbol,revenue,gross_profit,operating_income,net_income,eps,free_cash_flow,cash,debt,shares_outstanding,source,provider_record_id,sample_only,not_real_data
+2000-03-31,SAMPLE_ONLY,1,1,1,1,0.01,1,1,0,1,SAMPLE_ONLY,SAMPLE_ONLY,true,true

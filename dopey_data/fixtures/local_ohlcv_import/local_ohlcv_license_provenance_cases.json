@@ -1,0 +1,225 @@
+{
+  "case_count": 20,
+  "cases": [
+    {
+      "case_hash": "302f56b60448f03f139ea59fd2b9843a80c3268cd8fe0c5e84f68ed301df5334",
+      "case_id": "local-free-ohlcv-stack-case-001",
+      "case_name": "manifest missing",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "4e5e5505ced69bee9e92d63041fa3724d6b33ab683900bcd4c8ec0d12f8bf54f",
+      "case_id": "local-free-ohlcv-stack-case-002",
+      "case_name": "manifest template-only fail",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "b029bf346a1e4bb56a8689ca46c83c4ba0c084eae32b67f43f6ba3612129f35a",
+      "case_id": "local-free-ohlcv-stack-case-003",
+      "case_name": "license unknown",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "9aca4ceb32aa90771b0c3b66af99493e2225f9f9d67f0b2045dca0e91939492c",
+      "case_id": "local-free-ohlcv-stack-case-004",
+      "case_name": "license unreviewed",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "6dafd63302c5e625226a74b72dcdb2a3d40372189b6a4af7d24ee02620d7b826",
+      "case_id": "local-free-ohlcv-stack-case-005",
+      "case_name": "license reviewed internal research pass",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "8fb1ae53a60365e35b7a7fa9ecb074d02d96157f9e3b7504ebc5ec03f39b2927",
+      "case_id": "local-free-ohlcv-stack-case-006",
+      "case_name": "license reviewed restricted internal research pass",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "361f46c6acdd127d96d117c61cd07556679190a53a920e1a1b0bb9630d4e3b10",
+      "case_id": "local-free-ohlcv-stack-case-007",
+      "case_name": "license public domain pass",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "1bbd55720b0929dcf7dca5b164cc13f9605371d418ae3a3c77f8586fc8b258f0",
+      "case_id": "local-free-ohlcv-stack-case-008",
+      "case_name": "license open data pass",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "be7aed2fee96286b01fb91894421a25f8cbdcc72ad18d0d4e7ba8a01e9cc71e5",
+      "case_id": "local-free-ohlcv-stack-case-009",
+      "case_name": "provenance missing",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "3274beacc63dfad636ace471534804d41b3d30103714d2d11cae0faab49ec0cb",
+      "case_id": "local-free-ohlcv-stack-case-010",
+      "case_name": "file hash mismatch terminal-block",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "8580da0bba7bb9ad1857b2c2290e1b5e100c4f16f2cf14418e4779c3115309a3",
+      "case_id": "local-free-ohlcv-stack-case-011",
+      "case_name": "file hash pass",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "f447f6d88a3a679ee8b9396be36c4ee5633d6852037ae01979795ecee8d4e9b7",
+      "case_id": "local-free-ohlcv-stack-case-012",
+      "case_name": "source field missing",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "59c378e915564fc57af4598debcb8b346d8399e9dd30607abd4f6dcb6f58c753",
+      "case_id": "local-free-ohlcv-stack-case-013",
+      "case_name": "source field present",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "db36061455aa7e86ea9c11cf7717836cdc7edf71221f5675c29ff95362eafc8e",
+      "case_id": "local-free-ohlcv-stack-case-014",
+      "case_name": "network fetched false terminal",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "3ccb8974a7a318050201a108f1b23316afbace8148d91726bc04d4583353ecca",
+      "case_id": "local-free-ohlcv-stack-case-015",
+      "case_name": "credentials false terminal",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "ec1f993873958c345c8818b3de9e05aac744b09bf7fd1cda609a89b18b4c02cb",
+      "case_id": "local-free-ohlcv-stack-case-016",
+      "case_name": "broker false terminal",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "ff9a02b81538436b1b36f3087a860370ebb73f58f0da9e2d27c7abf9b56a84dc",
+      "case_id": "local-free-ohlcv-stack-case-017",
+      "case_name": "live data false terminal",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "74dfcdb4bcae13c57d49c7a1cd2c84f73c0f008843b06e91e3c4e99351e5409d",
+      "case_id": "local-free-ohlcv-stack-case-018",
+      "case_name": "manifest references missing file",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "b7b3e54c3106fc42afc1aeb8ef24bbe09d4a2c74505bf597a56e1ded52c0ea5c",
+      "case_id": "local-free-ohlcv-stack-case-019",
+      "case_name": "redistribution recorded",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "feaa25b239538a532f9e46ea408363ecb1c3f6ffeb98529fb080df13e4d16b87",
+      "case_id": "local-free-ohlcv-stack-case-020",
+      "case_name": "terms reviewed required",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    }
+  ]
+}

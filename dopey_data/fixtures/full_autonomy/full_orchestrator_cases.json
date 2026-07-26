@@ -1,0 +1,756 @@
+{
+  "artifact_type": "full_orchestrator_cases",
+  "case_count": 75,
+  "cases": [
+    {
+      "case_hash": "68315c85fe9e22bf13fcdfc81d1235e9ab49d003a8e7736cf2a3dbf6b5b08551",
+      "case_id": "autonomy-fixture-001",
+      "case_name": "full orchestrator no admissible data",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ed752624834e6181c7446aaab51f8d093445a4da4e02beabaf784231fb74673c",
+      "case_id": "autonomy-fixture-002",
+      "case_name": "full orchestrator accepted OHLCV",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "3128c7ef2c42f400d9b749bbd5194d884876d32e88e23d3a225f31d812aafdc7",
+      "case_id": "autonomy-fixture-003",
+      "case_name": "full orchestrator accepted options",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "9cdaca643af60e4691d62c695e773354f282ca6152d27f44fe3de14ccc3e5326",
+      "case_id": "autonomy-fixture-004",
+      "case_name": "full orchestrator no options",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "4ffccd8dcd4827eb39b1635ad44623afadd8806f6fd0b7f2074206a3c99cc314",
+      "case_id": "autonomy-fixture-005",
+      "case_name": "autonomous admissibility kernel",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "f3f56bccbf94c431651fdfb715dbf008dceb40f26e9cc3f5fab4380e9b2e1914",
+      "case_id": "autonomy-fixture-006",
+      "case_name": "open source discovery",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "8a78c0e0d20ff09694836d0da53af80a27a2cd5f12183920cce182039dbf83f3",
+      "case_id": "autonomy-fixture-007",
+      "case_name": "open data discovery",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b69895c8bf1f8788b4a0ca380a1ee40000b5cb6d265ed36a5d527f1b491a509e",
+      "case_id": "autonomy-fixture-008",
+      "case_name": "quarantine fetcher zero accepted",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "de8fb77905f61ff8e35c2ce33cf8d8021ae8b4cef2ed6360d7624bb4c5f73e23",
+      "case_id": "autonomy-fixture-009",
+      "case_name": "normalizer blocked",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "5056a890dda370ba8ee2ce80a39c749a467b7d54267c9b5ae53c14b8a56b0ffe",
+      "case_id": "autonomy-fixture-010",
+      "case_name": "manifest blocked",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "f8d2a6900ca7f1410e6e00ad5e9a294c925d1441815a3a9b934aaf8cdbf141ca",
+      "case_id": "autonomy-fixture-011",
+      "case_name": "validator bridge blocked",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c7d06d0d0918f1ac155ab337b424f82ceb65d663fb70ed7d7ed7157665a614a7",
+      "case_id": "autonomy-fixture-012",
+      "case_name": "options gap report",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b8020c01a765bf46f6681d4f3068e810b9dc88f7d14063f460c60df8104eefc0",
+      "case_id": "autonomy-fixture-013",
+      "case_name": "research blocked",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "6f65fa0c235026c543424cd8f3cd54c6f06213c601d2121313d98321412536fa",
+      "case_id": "autonomy-fixture-014",
+      "case_name": "fitness blocked",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "70bcdf08bb08a86304ae4acd6c8222601e037c4f4197c34d7d68fd391a0066b3",
+      "case_id": "autonomy-fixture-015",
+      "case_name": "paper loop blocked",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "f3cc2baef8e08dd3e8c131f5e038f8b66af2bf64d5f1a6fcdb8bc93ed1cf4b19",
+      "case_id": "autonomy-fixture-016",
+      "case_name": "benchmark complete",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "975d5cf7b0a62619afc03563964cf7fdd8921107ff7724e75583b62a172b4a43",
+      "case_id": "autonomy-fixture-017",
+      "case_name": "shared copy attempted",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "01dff07f3ba5d5da3169d5764d345a6eb7e7153f9cff6ab61249d4338c957d96",
+      "case_id": "autonomy-fixture-018",
+      "case_name": "network fetch false",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "4e9781e68b72380f3068d266afc8462df8c9cfab23a10196e7bd4e82cb9813ac",
+      "case_id": "autonomy-fixture-019",
+      "case_name": "credentials false",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e96d8dc5b11f955ed118688bceb6fe5f5faa469dc0326196b17b8cd82de16b69",
+      "case_id": "autonomy-fixture-020",
+      "case_name": "broker false",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "3ddc3b778aad2df52d2c9b84ca4ee458c09af20c55a33392f8e59c92e5e46e46",
+      "case_id": "autonomy-fixture-021",
+      "case_name": "live false",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ae4b6d552f8917a2842604cdd24ab34848fe585f0d442480625bce27414934cf",
+      "case_id": "autonomy-fixture-022",
+      "case_name": "full orchestrator no admissible data repeat 021",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "5e1f315862a85a4398bb5fffd4828498c0621ec81249ebab5d45f8112d883fea",
+      "case_id": "autonomy-fixture-023",
+      "case_name": "full orchestrator accepted OHLCV repeat 022",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "43c34dd614f923ec9418f3044a2b6f093d2c599d2330ddaddca73e0b9af7367f",
+      "case_id": "autonomy-fixture-024",
+      "case_name": "full orchestrator accepted options repeat 023",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ab70163b3a672e104df6dfd061689dd1b312feb332a1dad55f5a865dc18225f6",
+      "case_id": "autonomy-fixture-025",
+      "case_name": "full orchestrator no options repeat 024",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "65092babcd9791648e7602bee2417061a3a880147776082f35984b9ad56bebf9",
+      "case_id": "autonomy-fixture-026",
+      "case_name": "autonomous admissibility kernel repeat 025",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "40cfbaa9aa9c065aab2421d2232ae20812127af46e04d67b00bcf45f47959690",
+      "case_id": "autonomy-fixture-027",
+      "case_name": "open source discovery repeat 026",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7bef70236d0558680a153e288d0c5f2cdebc27c5a92fed1a140b043846d21b06",
+      "case_id": "autonomy-fixture-028",
+      "case_name": "open data discovery repeat 027",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "5b520811e69c971b6e565811318b3b75fa86f2cab9aaf7487d5cc9c370146e6a",
+      "case_id": "autonomy-fixture-029",
+      "case_name": "quarantine fetcher zero accepted repeat 028",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "735f73cc6d98d2b61d58c8f6ff478e982f6e8597cd30fd33fd219983c54b1b66",
+      "case_id": "autonomy-fixture-030",
+      "case_name": "normalizer blocked repeat 029",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "96bd31cbf208165c6f511daf2803fc92147b5b343603560371b570abfade595c",
+      "case_id": "autonomy-fixture-031",
+      "case_name": "manifest blocked repeat 030",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7426625851443f8bcf3a7387cf792336271037c441cdff2c4382cb4cfeff22be",
+      "case_id": "autonomy-fixture-032",
+      "case_name": "validator bridge blocked repeat 031",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "cca2bad7e640e83a48f32d8505d71d41fce37f9a114650056c99389d80783858",
+      "case_id": "autonomy-fixture-033",
+      "case_name": "options gap report repeat 032",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c1c0d2fcc6422d7c05f5b522a6394e3d7b42ab06623883eae74d4b3e589272d7",
+      "case_id": "autonomy-fixture-034",
+      "case_name": "research blocked repeat 033",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b8c9445f4f22792ffb0f6b18643fa226c5faab24afc864d9471bdaa805cdd8fb",
+      "case_id": "autonomy-fixture-035",
+      "case_name": "fitness blocked repeat 034",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "89c28d3dd3f4b848cc7316b7f434d72c39059c30ce5447d1d3e01dd912c37c22",
+      "case_id": "autonomy-fixture-036",
+      "case_name": "paper loop blocked repeat 035",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "45210fe3f786512880461113b62dfdd0af6810b2efbabb839765f8dea0f98b66",
+      "case_id": "autonomy-fixture-037",
+      "case_name": "benchmark complete repeat 036",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c24940fe663fdcdbd70d56cdcfa57eb53e201f211ea09a485f17566f57b58b5d",
+      "case_id": "autonomy-fixture-038",
+      "case_name": "shared copy attempted repeat 037",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "0d87edd937b2783e77defb4b4b6ef1f65934abfd1e4198d736a9fa6176920043",
+      "case_id": "autonomy-fixture-039",
+      "case_name": "network fetch false repeat 038",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b7b152ddd45d7b91473d705dc4bc21c696b60b281b7b918401b3730bf184eefb",
+      "case_id": "autonomy-fixture-040",
+      "case_name": "credentials false repeat 039",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "44004fe34419d1da69fd7e21b6c00339984f98c16121b0c8aec3091e4e6dcfdf",
+      "case_id": "autonomy-fixture-041",
+      "case_name": "broker false repeat 040",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "460c00c60c8d81a1a88a7c8e7f984a8fef9eea22ddc40a8f9b3dc8bc7b2a93f0",
+      "case_id": "autonomy-fixture-042",
+      "case_name": "live false repeat 041",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "3bf200fb7bb59c8b1205c3d661f083531e2cf023c7678c4d50e59f97b437338b",
+      "case_id": "autonomy-fixture-043",
+      "case_name": "full orchestrator no admissible data repeat 042",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "4bda0c116a44c1874e363dd38f66c84a1158b9aeb2fb75c36ec787b7dac3601a",
+      "case_id": "autonomy-fixture-044",
+      "case_name": "full orchestrator accepted OHLCV repeat 043",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "8c7d579e9113c0eda067e7870eec11d13a01f246d64247a7c77adbed7dc5a9f6",
+      "case_id": "autonomy-fixture-045",
+      "case_name": "full orchestrator accepted options repeat 044",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ccd18108d8f56eef5ccba57629c990d6d19dcd36c09df735bc9f87a74a18e231",
+      "case_id": "autonomy-fixture-046",
+      "case_name": "full orchestrator no options repeat 045",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2e938997e4f5b4943476590716eea1cc9e6e29e2e245fb1ba62e02727a368f6b",
+      "case_id": "autonomy-fixture-047",
+      "case_name": "autonomous admissibility kernel repeat 046",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "518039546702138096f8dfb627e3bb41e7e56ae6a77e76d3e57807dc5961202d",
+      "case_id": "autonomy-fixture-048",
+      "case_name": "open source discovery repeat 047",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d38b12a8c40ad9a97dbb42897578c24b5368b371f46f99c8d1156b8e78d05511",
+      "case_id": "autonomy-fixture-049",
+      "case_name": "open data discovery repeat 048",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "42e1c8c1f848ee30a1ba0d62f278999ddf23cb7c9f9df105427ad03e92ab7403",
+      "case_id": "autonomy-fixture-050",
+      "case_name": "quarantine fetcher zero accepted repeat 049",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "95d217eba7a4ad596e32e7de31e9d594736aba5deabe48ae5c5048872f02832b",
+      "case_id": "autonomy-fixture-051",
+      "case_name": "normalizer blocked repeat 050",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d8e1081b655443cd39008c371d5c2705c3f2f209bf4ed4c121629a5d5441ffab",
+      "case_id": "autonomy-fixture-052",
+      "case_name": "manifest blocked repeat 051",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "0ab787bccf3c7a66d4e54072927d48eec71677cafc8ec02d9ceb712c376ed817",
+      "case_id": "autonomy-fixture-053",
+      "case_name": "validator bridge blocked repeat 052",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a7f0ddece82215cc33df65fe884a6d276a2c1d94de6591c57388fd1fd763b682",
+      "case_id": "autonomy-fixture-054",
+      "case_name": "options gap report repeat 053",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "39f0ba3c73f2a1180b7b2782e0fa2a3105e1a4d69b3515229efe13df6a785daf",
+      "case_id": "autonomy-fixture-055",
+      "case_name": "research blocked repeat 054",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7e4afd05d9ec66c72d8dac7bb43886ba550886dd629061f8110f466149aeb807",
+      "case_id": "autonomy-fixture-056",
+      "case_name": "fitness blocked repeat 055",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d73843a44bab3cb6c12cb529147c4048d9f64e17ca03d5176828074f0ec34672",
+      "case_id": "autonomy-fixture-057",
+      "case_name": "paper loop blocked repeat 056",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1ad1919707981d57b8b23957a93be0401831439cc0aff9823ee183feaacbe267",
+      "case_id": "autonomy-fixture-058",
+      "case_name": "benchmark complete repeat 057",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "76c52f1b5d0b8816a8503eb39c0abd7fa71a481237a08ab0e805ec8b0fba0427",
+      "case_id": "autonomy-fixture-059",
+      "case_name": "shared copy attempted repeat 058",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ad9de6c2c4acbf8bd044ea03ea3f6e3661c8acec3e8348c7197c7596275a18df",
+      "case_id": "autonomy-fixture-060",
+      "case_name": "network fetch false repeat 059",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "0cc98c995b61350d7f8769f4b821db15a3c96620c602489b46b7ce729545b209",
+      "case_id": "autonomy-fixture-061",
+      "case_name": "credentials false repeat 060",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7953453d35969277764adaa5bde71d9f01814595f1e9c065a72a3f615f202287",
+      "case_id": "autonomy-fixture-062",
+      "case_name": "broker false repeat 061",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "aab4c1f5f77f57b03a01860889b8f9a40e9c9ab3f7151a7eb42eb02bf2184ee8",
+      "case_id": "autonomy-fixture-063",
+      "case_name": "live false repeat 062",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "8a7e20da6a6e14484033bbc605823d2998b5de95fb5eb4bc0f5f3ec474f9e861",
+      "case_id": "autonomy-fixture-064",
+      "case_name": "full orchestrator no admissible data repeat 063",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "4d5bc1d2b0e6dc553669aced7dc8f40498d8418c3fb96ff8bb4b87a7a40f1f78",
+      "case_id": "autonomy-fixture-065",
+      "case_name": "full orchestrator accepted OHLCV repeat 064",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "fcdf7939918ff3df7080e7f317e76e279819de3f19d81c92bbce568165827ebb",
+      "case_id": "autonomy-fixture-066",
+      "case_name": "full orchestrator accepted options repeat 065",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "cdb347c754253b97483b0032e3b8d7c908146b5d0cb7bac165a364d17d76b1a6",
+      "case_id": "autonomy-fixture-067",
+      "case_name": "full orchestrator no options repeat 066",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e4a5e93470978aeab74539ae7d7c013be95b819a8fed8987dec626c46e409a19",
+      "case_id": "autonomy-fixture-068",
+      "case_name": "autonomous admissibility kernel repeat 067",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "65d0da901f4c6c5e1a34f67e733eb2ff19e71e8c85f2ee5133b09c91da03b4e0",
+      "case_id": "autonomy-fixture-069",
+      "case_name": "open source discovery repeat 068",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "0aaca8d5ea6b41733996760b362d8171f4d3c91e4ccf177593ac4cd6dfbea1f4",
+      "case_id": "autonomy-fixture-070",
+      "case_name": "open data discovery repeat 069",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "49344defcc25e0b24d9818bf2e952e84276b39dc79974210e6d277657a856910",
+      "case_id": "autonomy-fixture-071",
+      "case_name": "quarantine fetcher zero accepted repeat 070",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e77915bc207ec945a145abb2feb063c99debe4083dd93329d75250a9d4ee06ea",
+      "case_id": "autonomy-fixture-072",
+      "case_name": "normalizer blocked repeat 071",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "3b437c28cfe9194f89539f187aef9a6dee39d4eece58989841d847006026cf4c",
+      "case_id": "autonomy-fixture-073",
+      "case_name": "manifest blocked repeat 072",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "28fc4d37ab004b95601c6c05172017b5bac8c6cfc18908414c3e5c2b827e10ea",
+      "case_id": "autonomy-fixture-074",
+      "case_name": "validator bridge blocked repeat 073",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "5d4b082837fa2ac5eb5ad080d6cf77ee4ba92ecc0b156b953e1729b281e56589",
+      "case_id": "autonomy-fixture-075",
+      "case_name": "options gap report repeat 074",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    }
+  ]
+}

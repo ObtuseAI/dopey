@@ -1,0 +1,33 @@
+# DOPEY Pre-Run Safety Scanner Artifact Ledger
+
+- `pre_run_safety_scan_inputs`: `C:\Users\CH\dopey\artifacts\dopey\broker_readiness\pre_run_safety\pre_run_safety_scan_inputs.jsonl`
+  - hash: `13d8e8cb4f7244e51e0a2d4be596ce294ddcc9ae210f0fafcd325dad39fc4e46`
+  - record_count: `96`
+- `pre_run_boundary_scan_results`: `C:\Users\CH\dopey\artifacts\dopey\broker_readiness\pre_run_safety\pre_run_boundary_scan_results.jsonl`
+  - hash: `3ca6114ff8cab3513c3d0c6b400064f4b7aea4f37b63f0c789efdea84d81f860`
+  - record_count: `96`
+- `pre_run_safety_decisions`: `C:\Users\CH\dopey\artifacts\dopey\broker_readiness\pre_run_safety\pre_run_safety_decisions.jsonl`
+  - hash: `bddcb12f2ba0e1d12beca1ad5653192c33a77b0a03f8d4427cd8dade49d39c74`
+  - record_count: `96`
+- `pre_run_forbidden_boundary_patterns`: `C:\Users\CH\dopey\artifacts\dopey\broker_readiness\pre_run_safety\pre_run_forbidden_boundary_patterns.json`
+  - hash: `662ae55841495e06b56d1966ef7a5f17a1598c9c5a9e50334163fa8180b71f43`
+  - record_count: `1`
+- `pre_run_boundary_classifications`: `C:\Users\CH\dopey\artifacts\dopey\broker_readiness\pre_run_safety\pre_run_boundary_classifications.jsonl`
+  - hash: `653c17cb414895f23bb57d61b6f193b18ac5b4f06d42e73185b87ffb9fada8c0`
+  - record_count: `112`
+- `pre_run_incident_escalations`: `C:\Users\CH\dopey\artifacts\dopey\broker_readiness\pre_run_safety\pre_run_incident_escalations.jsonl`
+  - hash: `91dfbfddefca7f3a3f35f8e662c99009aad50b7fc3344a2a85787261a67615a2`
+  - record_count: `80`
+- `pre_run_safety_summary`: `C:\Users\CH\dopey\artifacts\dopey\broker_readiness\pre_run_safety\pre_run_safety_summary.json`
+  - hash: `2232a2e33aab49c8ffcc4eeb2f7dc2620ae7b0ee6945164038fd118c3a04250d`
+  - record_count: `1`
+- `pre_run_safety_proof`: `C:\Users\CH\dopey\artifacts\dopey\broker_readiness\pre_run_safety\pre_run_safety_proof.jsonl`
+  - hash: `0d652f0bdb0127c09e08191ab5ac23b10fc34f6c6942eb1a29ca9b4d1b641e9c`
+  - record_count: `96`
+- `scan_count`: `96`
+- `boundary_classification_count`: `112`
+- `decision_count`: `96`
+- `incident_escalation_count`: `80`
+- `proof_layer`: `pre_run_safety_proof`
+- `safety_state`: `live_blocked_broker_absent_detector_not_run`
+- `summary_hash`: `ca1df5a7015898c984bd954b6d978155a8e6ffa63f28154033c36c23b63ec0fc`

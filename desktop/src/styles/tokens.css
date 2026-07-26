@@ -1,0 +1,96 @@
+:root {
+  color: #edf7f1;
+  background: #050806;
+  font-family: "Segoe UI Variable Display", "Aptos Display", Bahnschrift, "Segoe UI", sans-serif;
+  font-synthesis: none;
+  text-rendering: geometricPrecision;
+  --graphite-0: #050806;
+  --graphite-1: #070b09;
+  --graphite-2: #0b110e;
+  --graphite-3: #101914;
+  --graphite-4: #17231c;
+  --hairline: #203029;
+  --hairline-bright: #385044;
+  --limestone: #edf7f1;
+  --muted: #a7b8ae;
+  --dim: #6f8378;
+  --celadon: #76f0a6;
+  --ochre: #f1bd62;
+  --vermilion: #ff6d61;
+  --mineral: #7da9ff;
+  --violet: #a28cff;
+  --cyan: #6be4da;
+  --panel: rgba(11, 17, 14, 0.96);
+  --panel-raised: rgba(16, 25, 20, 0.97);
+  --surface-glow: rgba(118, 240, 166, 0.1);
+  --display: "Segoe UI Variable Display", "Aptos Display", Bahnschrift, "Segoe UI", sans-serif;
+  --mono: "Cascadia Mono", "Cascadia Code", "SFMono-Regular", Consolas, monospace;
+}
+
+/* DOPEY analytical workstation v3 — evidence-first, adaptive, and accessible. */
+
+:root {
+  --type-meta: clamp(10px, 0.69rem, 11px);
+  --type-label: clamp(11px, 0.76rem, 12px);
+  --type-data: clamp(12px, 0.84rem, 14px);
+  --type-body: clamp(14px, 0.96rem, 16px);
+  --type-title: clamp(18px, 1.45vw, 26px);
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --radius-sm: 7px;
+  --radius-md: 12px;
+  --radius-lg: 17px;
+  --motion-fast: 160ms;
+  --motion-standard: 240ms;
+  --easing-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --z-base: 0;
+  --z-sticky: 20;
+  --z-overlay: 50;
+  --z-modal: 100;
+  --surface-blue: rgba(125, 169, 255, 0.1);
+  --surface-amber: rgba(241, 189, 98, 0.1);
+  --surface-red: rgba(255, 109, 97, 0.1);
+}
+
+.app-shell {
+  --app-text-scale: 1;
+  overflow: hidden;
+  font-size: calc(16px * var(--app-text-scale));
+}
+
+.app-shell[data-text-scale="115"] { --app-text-scale: 1.15; }
+
+.app-shell[data-text-scale="130"] { --app-text-scale: 1.3; }
+
+.app-shell[data-contrast="high"] {
+  --graphite-0: #010302;
+  --graphite-1: #030605;
+  --graphite-2: #07100b;
+  --graphite-3: #0c1711;
+  --hairline: #486153;
+  --hairline-bright: #739081;
+  --limestone: #ffffff;
+  --muted: #d2e0d8;
+  --dim: #a8bcb1;
+  --celadon: #94ffbe;
+  --mineral: #9dc2ff;
+  --ochre: #ffd37d;
+  --vermilion: #ff9187;
+}
+
+.app-shell[data-density="comfortable"] .instrument-panel__body,
+.app-shell[data-density="comfortable"] .analytics-frame__body,
+.app-shell[data-density="comfortable"] .view-panel__body {
+  padding: var(--space-4);
+}
+
+.app-shell[data-density="comfortable"] .analytics-bento,
+.app-shell[data-density="comfortable"] .command-grid,
+.app-shell[data-density="comfortable"] .market-grid,
+.app-shell[data-density="comfortable"] .truth-view-grid,
+.app-shell[data-density="comfortable"] .paper-grid {
+  gap: var(--space-4);
+}

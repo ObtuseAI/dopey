@@ -1,0 +1,20 @@
+{
+  "underlying": {
+    "symbol": "SPY_FIXTURE",
+    "asset_class": "equity",
+    "price": 450.0,
+    "currency": "USD"
+  },
+  "as_of": "2024-01-02T14:30:00Z",
+  "contracts": [
+    {"symbol": "SPYFIX240119C00440000", "underlying_symbol": "SPY_FIXTURE", "option_type": "call", "strike": 440.0, "expiry": "2024-01-19", "bid": 13.20, "ask": 13.60, "last": 13.40, "volume": 5200, "open_interest": 18000, "iv": 0.18, "delta": 0.72, "gamma": 0.018, "theta": -0.12, "vega": 0.22, "rho": 0.10, "defined_risk": true},
+    {"symbol": "SPYFIX240119C00450000", "underlying_symbol": "SPY_FIXTURE", "option_type": "call", "strike": 450.0, "expiry": "2024-01-19", "bid": 8.10, "ask": 8.35, "last": 8.25, "volume": 9800, "open_interest": 42000, "iv": 0.16, "delta": 0.52, "gamma": 0.024, "theta": -0.14, "vega": 0.25, "rho": 0.08, "defined_risk": true},
+    {"symbol": "SPYFIX240119C00460000", "underlying_symbol": "SPY_FIXTURE", "option_type": "call", "strike": 460.0, "expiry": "2024-01-19", "bid": 4.30, "ask": 4.70, "last": 4.50, "volume": 3100, "open_interest": 9500, "iv": 0.17, "delta": 0.34, "gamma": 0.020, "theta": -0.11, "vega": 0.21, "rho": 0.05, "defined_risk": true},
+    {"symbol": "SPYFIX240119P00440000", "underlying_symbol": "SPY_FIXTURE", "option_type": "put", "strike": 440.0, "expiry": "2024-01-19", "bid": 3.10, "ask": 3.40, "last": 3.25, "volume": 4100, "open_interest": 12000, "iv": 0.19, "delta": -0.28, "gamma": 0.018, "theta": -0.10, "vega": 0.22, "rho": -0.05, "defined_risk": true},
+    {"symbol": "SPYFIX240119P00450000", "underlying_symbol": "SPY_FIXTURE", "option_type": "put", "strike": 450.0, "expiry": "2024-01-19", "bid": 6.90, "ask": 7.20, "last": 7.05, "volume": 7600, "open_interest": 28000, "iv": 0.18, "delta": -0.48, "gamma": 0.024, "theta": -0.13, "vega": 0.25, "rho": -0.08, "defined_risk": true},
+    {"symbol": "SPYFIX240216C00450000", "underlying_symbol": "SPY_FIXTURE", "option_type": "call", "strike": 450.0, "expiry": "2024-02-16", "bid": 10.40, "ask": 10.80, "last": 10.60, "volume": 6200, "open_interest": 21000, "iv": 0.15, "delta": 0.55, "gamma": 0.016, "theta": -0.09, "vega": 0.31, "rho": 0.12, "defined_risk": true},
+    {"symbol": "SPYFIX240216C00460000", "underlying_symbol": "SPY_FIXTURE", "option_type": "call", "strike": 460.0, "expiry": "2024-02-16", "bid": 6.70, "ask": 7.10, "last": 6.90, "volume": 3800, "open_interest": 8800, "iv": 0.16, "delta": 0.40, "gamma": 0.017, "theta": -0.08, "vega": 0.30, "rho": 0.09, "defined_risk": true},
+    {"symbol": "SPYFIX240216P00450000", "underlying_symbol": "SPY_FIXTURE", "option_type": "put", "strike": 450.0, "expiry": "2024-02-16", "bid": 9.00, "ask": 9.50, "last": 9.25, "volume": 5400, "open_interest": 16000, "iv": 0.17, "delta": -0.45, "gamma": 0.016, "theta": -0.08, "vega": 0.31, "rho": -0.11, "defined_risk": true},
+    {"symbol": "SPYFIX240216P00440000", "underlying_symbol": "SPY_FIXTURE", "option_type": "put", "strike": 440.0, "expiry": "2024-02-16", "bid": 5.30, "ask": 5.80, "last": 5.55, "volume": 2200, "open_interest": 4100, "iv": 0.20, "delta": -0.30, "gamma": 0.014, "theta": -0.07, "vega": 0.28, "rho": -0.07, "defined_risk": true}
+  ]
+}

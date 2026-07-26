@@ -1,0 +1,18 @@
+{
+  "schema_version": "dopey-forward-evidence-trust-v1",
+  "environment_id": "dopey-options-paper-v1",
+  "status": "not_configured",
+  "algorithm": "ed25519",
+  "forward_recorder": {
+    "signer_id": null,
+    "signer_version": null,
+    "key_id": null,
+    "public_key_base64": null
+  },
+  "outcome_source": {
+    "signer_id": null,
+    "signer_version": null,
+    "key_id": null,
+    "public_key_base64": null
+  }
+}

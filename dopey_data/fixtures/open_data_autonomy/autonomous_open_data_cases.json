@@ -1,0 +1,756 @@
+{
+  "artifact_type": "autonomous_open_data_cases",
+  "case_count": 75,
+  "cases": [
+    {
+      "case_hash": "37d53556fafc3fb1ced566033685d571aa525bd3a90d97f42d83865d567c18c0",
+      "case_id": "autonomy-fixture-001",
+      "case_name": "open macro source accept",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d3473a2739ad20bed2123d9c75c640afdef8b5aef90f91568b835483661136cf",
+      "case_id": "autonomy-fixture-002",
+      "case_name": "open OHLCV candidate accept",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e54cd27242bd6d7a4d2ed2a1f207361ac860cdad8e5ada82e72b169c0840ff25",
+      "case_id": "autonomy-fixture-003",
+      "case_name": "open OHLCV candidate reject schema",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "457c59a3cb8c538bd8138a962e1ec89c9c694a4fc80a0c557c64b7cdf1a77a4d",
+      "case_id": "autonomy-fixture-004",
+      "case_name": "open OHLCV candidate reject license",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "4e5b34fb5e7447a917adcb0468c153db9126b5c8a51f2c0d94440e81f4a32373",
+      "case_id": "autonomy-fixture-005",
+      "case_name": "open OHLCV candidate reject provenance",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d3cb041530f4c2c9561606397c5e0843b30c54b2fe235412491a3d720ff58d02",
+      "case_id": "autonomy-fixture-006",
+      "case_name": "accepted file quarantine",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e0035ba736c170e81d570fe7d60c91e01d2b6b2b2bbc2d82aabda42bc1e58eb6",
+      "case_id": "autonomy-fixture-007",
+      "case_name": "rejected file quarantine",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "5693f16c09f755804a75422211b54b407b96536a93240ce484250fc6268cc9ab",
+      "case_id": "autonomy-fixture-008",
+      "case_name": "credential contamination terminal",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "36f3ec47eb12b2afd134b743759269cef5f12ed80241ecf9682ccaec47cf03d9",
+      "case_id": "autonomy-fixture-009",
+      "case_name": "sample contamination reject",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "4e0af073b108403cbcce01a38bd09b569ddd3d78aa514e5d69c319fee5547fae",
+      "case_id": "autonomy-fixture-010",
+      "case_name": "OHLCV normalize pass",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e89e33f58ba6bf741d1a5b6b36930f7f2714eb9d3fd01f7297f7a50a7361dff8",
+      "case_id": "autonomy-fixture-011",
+      "case_name": "OHLCV normalize fail",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c1b4fce9bdad4d98e64add4c30d739688f55bd66f06051a1b50648042b3d3066",
+      "case_id": "autonomy-fixture-012",
+      "case_name": "manifest build no files",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "676d02b8c6f6f009c5456cef163e90e0b07c2b0107489b4ce55fdad49150c8d2",
+      "case_id": "autonomy-fixture-013",
+      "case_name": "manifest build accepted files",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1d82f4471a47a1975a8cebeed7dabde407cb668139eb0b500ea6b508e7c0789f",
+      "case_id": "autonomy-fixture-014",
+      "case_name": "validator bridge no data",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "4f9c9d00356ce98224b5886c7933e963a09ec498601930f80e814df68e881ffe",
+      "case_id": "autonomy-fixture-015",
+      "case_name": "validator bridge pass",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "49fe6044fc9f23da46954ba75f7b5140b829218434b58c766b142375b1496828",
+      "case_id": "autonomy-fixture-016",
+      "case_name": "no Alpha Vantage",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "07d9280781272c1d89a6ca3688c484f8043f8062cea35fd786548adf9281da42",
+      "case_id": "autonomy-fixture-017",
+      "case_name": "no credentials",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e3800fd0e2a96d5de1950327238402ee4621e719590fd9615d283f4779e4fcf3",
+      "case_id": "autonomy-fixture-018",
+      "case_name": "no .env",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "31338e843b1441d91a44f644ea35cc5823a83fa0f67944ad2271c213db8e785f",
+      "case_id": "autonomy-fixture-019",
+      "case_name": "no broker",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b5ee807c9e6accea570ebd331b32e13a2e72dbfa749d89f9148dadc9369bdf81",
+      "case_id": "autonomy-fixture-020",
+      "case_name": "no live",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "568ba433dfa716ef8e2712e4a5087ae128e6ab1588c8af45edbcc0dd17dddbac",
+      "case_id": "autonomy-fixture-021",
+      "case_name": "watchdog safe timeout",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1a65d0aa9ada56e4ebf65e6c8bcf86725c1659dbcf8e31978cb14209195c77db",
+      "case_id": "autonomy-fixture-022",
+      "case_name": "export timeout inconclusive",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a64d856b39c001a6e5aec07249466a4d52a6625edf5f14e022ce9cab105d50b8",
+      "case_id": "autonomy-fixture-023",
+      "case_name": "open macro source accept repeat 022",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "617fde5dd9fd61ae85b1b9b542d150dec1cf9e419490320cc064f0689e57f069",
+      "case_id": "autonomy-fixture-024",
+      "case_name": "open OHLCV candidate accept repeat 023",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a7cf43150d0a340d23635868838e52363bfa3f37caef77e2f67380ccf3f7da13",
+      "case_id": "autonomy-fixture-025",
+      "case_name": "open OHLCV candidate reject schema repeat 024",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c465a4393da47745b224bfba3159a4282a4d1da2f4cc7146c7d1c3d6f100f916",
+      "case_id": "autonomy-fixture-026",
+      "case_name": "open OHLCV candidate reject license repeat 025",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c12e077d20860e725f49ba5f680f921a7ee0f68fe355fe7aa12c57e0366f7f0a",
+      "case_id": "autonomy-fixture-027",
+      "case_name": "open OHLCV candidate reject provenance repeat 026",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "537ddd90005f82376dd50a9c4cca262498c06e95807a5b0c0d3ab10fb8c249c1",
+      "case_id": "autonomy-fixture-028",
+      "case_name": "accepted file quarantine repeat 027",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "808065ff92b3844a867f5d51bd48100bf9708da5af65b1077771d3a7b6cb7f9a",
+      "case_id": "autonomy-fixture-029",
+      "case_name": "rejected file quarantine repeat 028",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "25283eacd8fcafab5e95a0294d9a7523c79485ec2229029bd47ba861cdae127a",
+      "case_id": "autonomy-fixture-030",
+      "case_name": "credential contamination terminal repeat 029",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "347b2f742de515dbd74778669235d00a50b5122f10d40c7a4859b520b1897501",
+      "case_id": "autonomy-fixture-031",
+      "case_name": "sample contamination reject repeat 030",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "086d60b859af40a59c7c0494867bab082486f1b341936028f0619da095e42fc7",
+      "case_id": "autonomy-fixture-032",
+      "case_name": "OHLCV normalize pass repeat 031",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "70c7e0a004b3ce265d1c5453aaef22ee272b6277d3502c74f6d390521f5c477c",
+      "case_id": "autonomy-fixture-033",
+      "case_name": "OHLCV normalize fail repeat 032",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "11d507d4ef06201d9dfef9b1d387e0716589874e04640696f22666b85d2fb6ab",
+      "case_id": "autonomy-fixture-034",
+      "case_name": "manifest build no files repeat 033",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "375c1bd87112e4eb43341355eb59d499ea95c69fb9c9f017a440c57a24d234c1",
+      "case_id": "autonomy-fixture-035",
+      "case_name": "manifest build accepted files repeat 034",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1e6ed0154d4d5fec42ba64ed14b0e5120115535e72e7e9eba4a7ee90ed403aa6",
+      "case_id": "autonomy-fixture-036",
+      "case_name": "validator bridge no data repeat 035",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "f2700b3a92a094b2846ea73a9c045b487eff29a3ceb528b790f5830a9980e07f",
+      "case_id": "autonomy-fixture-037",
+      "case_name": "validator bridge pass repeat 036",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2f485ce3559e708938bc25650ba662f7402dbb91a7b8e067b887ec3b1b7abde5",
+      "case_id": "autonomy-fixture-038",
+      "case_name": "no Alpha Vantage repeat 037",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "bdf6d662c89591bf3ded7b515dd68ccdb1adff975612bac32333a198e3825795",
+      "case_id": "autonomy-fixture-039",
+      "case_name": "no credentials repeat 038",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d4d48d04db1843a03784a8430dcf428bcde7739c0ab5f75a6d604f2ce6db42e1",
+      "case_id": "autonomy-fixture-040",
+      "case_name": "no .env repeat 039",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1b1e198e28cf93a5decf1dae59672235adc06c48a932dbcbf2d6ef16daf8f0be",
+      "case_id": "autonomy-fixture-041",
+      "case_name": "no broker repeat 040",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "204b4da4a68eacf763307f1d273ad3fd5c94746188d013379e659cc6bc6f6075",
+      "case_id": "autonomy-fixture-042",
+      "case_name": "no live repeat 041",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ad7ddd28413bfa8795c1023334697dc6a84da3ece137c28fba4c492cecc2c556",
+      "case_id": "autonomy-fixture-043",
+      "case_name": "watchdog safe timeout repeat 042",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2255938d264404cfd6a367a8fbd380a8643f706adc533ec785b851b8ad957cc9",
+      "case_id": "autonomy-fixture-044",
+      "case_name": "export timeout inconclusive repeat 043",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "be03f84829d0c8e8a3a2450a06347af82826831bf1d4ad03fd26c33a5334137a",
+      "case_id": "autonomy-fixture-045",
+      "case_name": "open macro source accept repeat 044",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "04ec1c2181af0dae5e2f0f208c2532491787355fc1a8a4baecccdd528caa58df",
+      "case_id": "autonomy-fixture-046",
+      "case_name": "open OHLCV candidate accept repeat 045",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "463fe44b0d3fe9aeaca8bb3292c3eea1a0c1e6b14c226c18140ece9635775c86",
+      "case_id": "autonomy-fixture-047",
+      "case_name": "open OHLCV candidate reject schema repeat 046",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ecc3a0aa07ce069a3c0082d76d796236f5201151d0a0d46d47edfc297fc0647f",
+      "case_id": "autonomy-fixture-048",
+      "case_name": "open OHLCV candidate reject license repeat 047",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "dc68cdf7867dbe01337112246f79bb38a4b88ae3f2323c3d7f780f084c970c2c",
+      "case_id": "autonomy-fixture-049",
+      "case_name": "open OHLCV candidate reject provenance repeat 048",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a13b133bf257bd986614936b1ffe53d9faa28543584de98619b7858d7b33fe60",
+      "case_id": "autonomy-fixture-050",
+      "case_name": "accepted file quarantine repeat 049",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a2b08c83477633ca5f5ca670fb60b42baa57b90005406dee3e18b9595bdb81cb",
+      "case_id": "autonomy-fixture-051",
+      "case_name": "rejected file quarantine repeat 050",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "9f4b1e1050598fde379cc4373b2c32e3e3eaa3d76a850eadec986f1b8e9baeb6",
+      "case_id": "autonomy-fixture-052",
+      "case_name": "credential contamination terminal repeat 051",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "4ae3ee956a584e6b7cce53a8e07ba6ceb384f3f3df9bfa8e2c6ed91b6a0aa0d1",
+      "case_id": "autonomy-fixture-053",
+      "case_name": "sample contamination reject repeat 052",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e7e7d2b109c3572856b2f51b0652041f922e911aeb3325d772127bafbecdb094",
+      "case_id": "autonomy-fixture-054",
+      "case_name": "OHLCV normalize pass repeat 053",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c2e924b5e4009dbb58843d203340d820528dfd1be3317f9332a4af3e9b024926",
+      "case_id": "autonomy-fixture-055",
+      "case_name": "OHLCV normalize fail repeat 054",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "bc78f90abb392123df4ad86beee1db033ecf6b33b57a6f1181627039807e435c",
+      "case_id": "autonomy-fixture-056",
+      "case_name": "manifest build no files repeat 055",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c78cf0393f774ed097d7884030a043c81c1215879da3492629537f608b6997f0",
+      "case_id": "autonomy-fixture-057",
+      "case_name": "manifest build accepted files repeat 056",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "554578819a793c4c916b4709895f01548a5f55ee22712a2750e3af11c812b11a",
+      "case_id": "autonomy-fixture-058",
+      "case_name": "validator bridge no data repeat 057",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "f44400a46a7c9aa1723e4d5726602b9fa431863677b44374889f3ddf435b704d",
+      "case_id": "autonomy-fixture-059",
+      "case_name": "validator bridge pass repeat 058",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "5f9f83e6605ff683a3bf469490bc334fd4205ddb846682e7624838adf2cf39ee",
+      "case_id": "autonomy-fixture-060",
+      "case_name": "no Alpha Vantage repeat 059",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "66d8575346bf37297b022975df0d38deb7eb24c10203e013863b9aa3467c3df3",
+      "case_id": "autonomy-fixture-061",
+      "case_name": "no credentials repeat 060",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "f567c3bb0f34cd35903b3f34d566bdb3b896426bdca8f561ffce245ec5410df7",
+      "case_id": "autonomy-fixture-062",
+      "case_name": "no .env repeat 061",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ce90e9d1ed3efea28386b82edaa88a58bff22d1a80059d8f646855982ab834f9",
+      "case_id": "autonomy-fixture-063",
+      "case_name": "no broker repeat 062",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c1bd6b2b1bade7fc523023b09b77c49dea944e6106ddd22331c9337c7981dd29",
+      "case_id": "autonomy-fixture-064",
+      "case_name": "no live repeat 063",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "101d49573461287ffad53b6a606f1456c583e45928bfdcb9cb3f2e22621a2def",
+      "case_id": "autonomy-fixture-065",
+      "case_name": "watchdog safe timeout repeat 064",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e3604c39c6e62d3bb339d85e6a859726cd0877e99bbec3c4d232bf2f0c996979",
+      "case_id": "autonomy-fixture-066",
+      "case_name": "export timeout inconclusive repeat 065",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "01b8be337093bd98e68bebf16345a21ea7e2930bbfde1f5d2a608a7d3409a72a",
+      "case_id": "autonomy-fixture-067",
+      "case_name": "open macro source accept repeat 066",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e2bebcd36e4a3253bcaf306f25edf0949c6521b1d0011ee66b10672cee454025",
+      "case_id": "autonomy-fixture-068",
+      "case_name": "open OHLCV candidate accept repeat 067",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "5706b04f9f2db51f8d3903419a28433c2903685463f5b537065002826848cbd1",
+      "case_id": "autonomy-fixture-069",
+      "case_name": "open OHLCV candidate reject schema repeat 068",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "378b11fb3c64b1f63b5ff7ee590a3d54cb949c0259c61e7be23b78f9d9ef7d02",
+      "case_id": "autonomy-fixture-070",
+      "case_name": "open OHLCV candidate reject license repeat 069",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "0acb3abf49b2c775b796ee42316943d586ad1e9e602677336c69c3a4228ca860",
+      "case_id": "autonomy-fixture-071",
+      "case_name": "open OHLCV candidate reject provenance repeat 070",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "72f12cf84dec21bc80879302d1eb3da233f7f8f752526fff721b5ce1e9ed3957",
+      "case_id": "autonomy-fixture-072",
+      "case_name": "accepted file quarantine repeat 071",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2dd1d6328f9a0754bab8137ad7ccd963dd19f26e16f62a1dad902579c8a7566f",
+      "case_id": "autonomy-fixture-073",
+      "case_name": "rejected file quarantine repeat 072",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "6915e56fbd400f3bbb215d0ac9f177f0ae6ea464d99772394d14ef962a67b486",
+      "case_id": "autonomy-fixture-074",
+      "case_name": "credential contamination terminal repeat 073",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "62fb9c6778041c71c9dc214100d0502e53150cbe2b898b1d232628685ad0eb13",
+      "case_id": "autonomy-fixture-075",
+      "case_name": "sample contamination reject repeat 074",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "artifact_type": "calibration_summary_fixture",
+  "calibration_sample_sufficient": false,
+  "contested_total": 0,
+  "live_blocked": true,
+  "not_readiness_evidence": true,
+  "paper_only": true,
+  "promotion_allowed": false,
+  "provenance": "integration_fixture_not_forward_evidence",
+  "settled_total": 0
+}

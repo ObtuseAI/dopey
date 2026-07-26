@@ -1,0 +1,39 @@
+{
+  "column_types": {
+    "asset_type": "string",
+    "end_date": "date",
+    "included_in_universe": "boolean",
+    "industry": "string",
+    "name": "string",
+    "optionable": "boolean",
+    "sector": "string",
+    "source": "string",
+    "start_date": "date",
+    "symbol": "string"
+  },
+  "dataset_family": "benchmark_and_universe_metadata",
+  "live_blocked": true,
+  "not_real_data_ingested": true,
+  "optional_columns": [],
+  "paper_only": true,
+  "primary_key_columns": [
+    "symbol",
+    "start_date",
+    "end_date"
+  ],
+  "required_columns": [
+    "symbol",
+    "name",
+    "asset_type",
+    "sector",
+    "industry",
+    "optionable",
+    "start_date",
+    "end_date",
+    "included_in_universe",
+    "source"
+  ],
+  "sample_only_rows_allowed_as_real": false,
+  "schema_id": "schema-benchmark_and_universe_metadata",
+  "schema_version": "dopey-real-data-schema-contract-v1"
+}

@@ -1,0 +1,137 @@
+{
+  "case_count": 12,
+  "cases": [
+    {
+      "case_hash": "009381119b89245413cfc19abdbcd784622fdd7a34c394eb099158b0ff406bb1",
+      "case_id": "local-free-ohlcv-stack-case-001",
+      "case_name": "manual staging required",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "eba8ffb30156f94d6893d0797b2836df2b1135753affecbedc42cf9a3b7b410e",
+      "case_id": "local-free-ohlcv-stack-case-002",
+      "case_name": "schema error advice",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "95861e27dcd02e8351cd16c06070eb32432a1671291175f646223bf2cafe715a",
+      "case_id": "local-free-ohlcv-stack-case-003",
+      "case_name": "quality error advice",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "57738fef6bea5c3f484a9438e11b1b0e3ddb6d65c1e16afb4eb4d737fcb6efdf",
+      "case_id": "local-free-ohlcv-stack-case-004",
+      "case_name": "license advice",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "e05a89a2579a56083e4352864036d753b5239437fc3a0945599b7db9037a006a",
+      "case_id": "local-free-ohlcv-stack-case-005",
+      "case_name": "provenance advice",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "0f1eb4e9dd9299792cdb3811827260a270c0b9a22576631aa68ccfdd9e95e484",
+      "case_id": "local-free-ohlcv-stack-case-006",
+      "case_name": "sample/template contamination advice",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "b235c4ad34d385123deb5fc8ad862138e0160f18f86ec627ae0d0356724a7df8",
+      "case_id": "local-free-ohlcv-stack-case-007",
+      "case_name": "credential/token contamination advice",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "fd7b5f7ee1736f694be9cce3b37e9e8f002b72b702b3f8a58433b195d5e37fda",
+      "case_id": "local-free-ohlcv-stack-case-008",
+      "case_name": "manifest/hash advice",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "0dcf3ac2ce61d405cb5ef0547e58f8876e6877ab0049c6117a7f205a83e59a75",
+      "case_id": "local-free-ohlcv-stack-case-009",
+      "case_name": "no fix required after pass",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "b5d2ebb7b2652421848d819c734d2ea94d4577eff5fa6f8a7e0d211b722e5290",
+      "case_id": "local-free-ohlcv-stack-case-010",
+      "case_name": "terminal block fix required",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "0c767b1e22ceed9d1a3951fcfae33615d6c99c5cdb6cbfd04304658f53ba8931",
+      "case_id": "local-free-ohlcv-stack-case-011",
+      "case_name": "manual review fix required",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "f8a9324e6963a701c1f0f6ad98f7ed0fe1731bd82cbd8abc8c3fd8129148d889",
+      "case_id": "local-free-ohlcv-stack-case-012",
+      "case_name": "free data still blocked",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    }
+  ]
+}

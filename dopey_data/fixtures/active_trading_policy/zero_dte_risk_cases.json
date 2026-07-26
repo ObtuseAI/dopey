@@ -1,0 +1,224 @@
+{
+  "fixture_version": "dopey-zero-dte-risk-cases-v1",
+  "case_defaults": {
+    "ask": 2.04,
+    "bid": 1.98,
+    "candidate_id": "zero-dte-default",
+    "defined_risk": true,
+    "delta": 0.48,
+    "event_risk_score": 0.18,
+    "expiry": "2026-07-03",
+    "expiry_managed_only_requested": false,
+    "explicit_exit_or_expiry_plan": "expiry-managed close only with explicit risk reason and no normal churn",
+    "explicit_thesis": "fixture trend and proof stack justify temporary same-day convexity exposure",
+    "gamma": 0.032,
+    "implied_volatility": 0.38,
+    "iv_rank_fixture": 0.42,
+    "later_expiry_alternative_available": false,
+    "liquidity_score": 0.86,
+    "live_blocked": true,
+    "macro_risk_score": 0.2,
+    "mid": 2.01,
+    "moneyness": 1.0,
+    "open_interest": 8500,
+    "option_type": "call",
+    "order_action": "buy_to_open",
+    "paper_only": true,
+    "proof_score": 0.84,
+    "regime_score": 0.78,
+    "reversal_score": 0.25,
+    "signal_confidence": 0.82,
+    "slippage_score": 0.14,
+    "special_close_reason": "",
+    "special_close_requested": false,
+    "spread_pct": 0.029,
+    "strike": 500.0,
+    "structure_type": "long_call",
+    "theta": -0.08,
+    "trade_date": "2026-07-03",
+    "trend_score": 0.86,
+    "underlying": "SPY_FIXTURE",
+    "vega": 0.08,
+    "volume": 6200,
+    "expected_hold_minutes": 90
+  },
+  "cases": [
+    {
+      "case_id": "liquid_strong_trend_call_approved",
+      "expected_decision": "approved_for_paper_open",
+      "expected_reason_codes": ["zero_dte_risk_model_approved_strict_controls"],
+      "input": {"candidate_id": "zrisk-liquid-trend-call"}
+    },
+    {
+      "case_id": "liquid_strong_breakdown_put_approved",
+      "expected_decision": "approved_for_paper_open",
+      "expected_reason_codes": ["zero_dte_risk_model_approved_strict_controls"],
+      "input": {
+        "candidate_id": "zrisk-liquid-breakdown-put",
+        "option_type": "put",
+        "structure_type": "long_put",
+        "delta": -0.45,
+        "reversal_score": 0.88,
+        "trend_score": 0.22,
+        "regime_score": 0.82
+      }
+    },
+    {
+      "case_id": "wide_spread_call_blocked",
+      "expected_decision": "blocked_spread",
+      "expected_reason_codes": ["spread_pct_exceeds_zero_dte_limit"],
+      "input": {"candidate_id": "zrisk-wide-spread-call", "ask": 2.24, "spread_pct": 0.08}
+    },
+    {
+      "case_id": "low_volume_put_blocked",
+      "expected_decision": "blocked_liquidity",
+      "expected_reason_codes": ["liquidity_below_zero_dte_floor"],
+      "input": {
+        "candidate_id": "zrisk-low-volume-put",
+        "option_type": "put",
+        "structure_type": "long_put",
+        "delta": -0.44,
+        "volume": 320,
+        "open_interest": 600,
+        "liquidity_score": 0.58,
+        "reversal_score": 0.82
+      }
+    },
+    {
+      "case_id": "high_slippage_candidate_blocked",
+      "expected_decision": "blocked_slippage",
+      "expected_reason_codes": ["slippage_or_entry_penalty_exceeds_limit"],
+      "input": {"candidate_id": "zrisk-high-slippage", "slippage_score": 0.72}
+    },
+    {
+      "case_id": "high_gamma_unstable_candidate_blocked",
+      "expected_decision": "blocked_gamma_instability",
+      "expected_reason_codes": ["gamma_instability_exceeds_limit"],
+      "input": {"candidate_id": "zrisk-high-gamma", "gamma": 0.092}
+    },
+    {
+      "case_id": "theta_decay_trap_blocked",
+      "expected_decision": "blocked_theta_decay",
+      "expected_reason_codes": ["theta_decay_pressure_exceeds_limit"],
+      "input": {"candidate_id": "zrisk-theta-trap", "gamma": 0.028, "theta": -0.24}
+    },
+    {
+      "case_id": "iv_overpayment_trap_blocked",
+      "expected_decision": "blocked_iv_shock",
+      "expected_reason_codes": ["iv_or_premium_overpayment_exceeds_limit"],
+      "input": {"candidate_id": "zrisk-iv-trap", "implied_volatility": 0.88, "iv_rank_fixture": 0.91}
+    },
+    {
+      "case_id": "event_risk_too_high_blocked",
+      "expected_decision": "blocked_event_risk",
+      "expected_reason_codes": ["event_macro_or_regime_risk_exceeds_limit"],
+      "input": {"candidate_id": "zrisk-event-risk", "event_risk_score": 0.84}
+    },
+    {
+      "case_id": "weak_thesis_blocked",
+      "expected_decision": "blocked_weak_thesis",
+      "expected_reason_codes": ["missing_explicit_thesis"],
+      "input": {"candidate_id": "zrisk-weak-thesis", "explicit_thesis": ""}
+    },
+    {
+      "case_id": "missing_explicit_exit_plan_blocked",
+      "expected_decision": "blocked_missing_exit_plan",
+      "expected_reason_codes": ["missing_explicit_exit_or_expiry_plan"],
+      "input": {"candidate_id": "zrisk-missing-exit-plan", "explicit_exit_or_expiry_plan": ""}
+    },
+    {
+      "case_id": "strong_signal_poor_liquidity_blocked",
+      "expected_decision": "blocked_liquidity",
+      "expected_reason_codes": ["liquidity_below_zero_dte_floor"],
+      "input": {"candidate_id": "zrisk-strong-poor-liquidity", "proof_score": 0.94, "signal_confidence": 0.93, "liquidity_score": 0.52}
+    },
+    {
+      "case_id": "good_liquidity_weak_proof_blocked",
+      "expected_decision": "blocked_missing_proof",
+      "expected_reason_codes": ["insufficient_proof_or_signal_confidence"],
+      "input": {"candidate_id": "zrisk-good-liq-weak-proof", "proof_score": 0.48, "signal_confidence": 0.55}
+    },
+    {
+      "case_id": "moderate_risk_candidate_approved_with_throttle",
+      "expected_decision": "approved_with_throttle",
+      "expected_reason_codes": ["zero_dte_risk_model_approved_with_throttle"],
+      "input": {
+        "candidate_id": "zrisk-moderate-throttle",
+        "gamma": 0.055,
+        "implied_volatility": 0.58,
+        "iv_rank_fixture": 0.64,
+        "liquidity_score": 0.75,
+        "slippage_score": 0.28,
+        "theta": -0.13
+      }
+    },
+    {
+      "case_id": "prefer_non_zero_dte_alternative_when_same_signal_exists",
+      "expected_decision": "prefer_non_zero_dte_alternative",
+      "expected_reason_codes": ["later_expiry_alternative_preferred"],
+      "input": {"candidate_id": "zrisk-prefer-later-expiry", "later_expiry_alternative_available": true}
+    },
+    {
+      "case_id": "expiry_managed_only_candidate",
+      "expected_decision": "expiry_managed_only",
+      "expected_reason_codes": ["expiry_managed_only_no_discretionary_intraday_close"],
+      "input": {"candidate_id": "zrisk-expiry-managed-only", "expiry_managed_only_requested": true}
+    },
+    {
+      "case_id": "same_day_special_close_rejected_without_explicit_reason",
+      "expected_decision": "blocked_policy_violation",
+      "expected_reason_codes": ["zero_dte_special_lifecycle_control_missing"],
+      "input": {"candidate_id": "zrisk-close-no-reason", "special_close_requested": true, "special_close_reason": ""}
+    },
+    {
+      "case_id": "same_day_special_close_accepted_with_reason_liquidity_risk_cap",
+      "expected_decision": "approved_for_paper_open",
+      "expected_reason_codes": ["zero_dte_risk_model_approved_strict_controls"],
+      "input": {"candidate_id": "zrisk-close-with-reason", "special_close_requested": true, "special_close_reason": "expiry_window_liquidity_risk_cap"}
+    },
+    {
+      "case_id": "live_path_blocked",
+      "expected_decision": "blocked_live_path",
+      "expected_reason_codes": ["blocked_live_path"],
+      "input": {"candidate_id": "zrisk-live-path", "live_blocked": false}
+    },
+    {
+      "case_id": "unsupported_option_type_blocked",
+      "expected_decision": "blocked_policy_violation",
+      "expected_reason_codes": ["non_call_put_option_type_rejected"],
+      "input": {"candidate_id": "zrisk-unsupported-option", "option_type": "future"}
+    },
+    {
+      "case_id": "sell_to_open_blocked",
+      "expected_decision": "blocked_policy_violation",
+      "expected_reason_codes": ["sell_to_open_rejected"],
+      "input": {"candidate_id": "zrisk-sell-to-open", "order_action": "sell_to_open"}
+    },
+    {
+      "case_id": "undefined_risk_structure_blocked",
+      "expected_decision": "blocked_policy_violation",
+      "expected_reason_codes": ["undefined_risk_structure_rejected"],
+      "input": {"candidate_id": "zrisk-undefined-risk", "defined_risk": false}
+    },
+    {
+      "case_id": "bearish_regime_aligned_put_approved",
+      "expected_decision": "approved_for_paper_open",
+      "expected_reason_codes": ["zero_dte_risk_model_approved_strict_controls"],
+      "input": {
+        "candidate_id": "zrisk-bearish-regime-put",
+        "option_type": "put",
+        "structure_type": "long_put",
+        "delta": -0.52,
+        "reversal_score": 0.9,
+        "trend_score": 0.18,
+        "regime_score": 0.86
+      }
+    },
+    {
+      "case_id": "bullish_regime_aligned_call_approved",
+      "expected_decision": "approved_for_paper_open",
+      "expected_reason_codes": ["zero_dte_risk_model_approved_strict_controls"],
+      "input": {"candidate_id": "zrisk-bullish-regime-call", "trend_score": 0.92, "regime_score": 0.88}
+    }
+  ]
+}

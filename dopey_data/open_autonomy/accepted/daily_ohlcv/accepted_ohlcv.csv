@@ -1,0 +1,2 @@
+date,symbol,open,high,low,close,adjusted_close,volume,source,source_url,license_status,provenance_hash,autonomous_admissibility_id
+2024-01-02,SPY,470.0,475.0,468.0,474.0,474.0,1000000,accepted-ohlcv,https://example.invalid/accepted-ohlcv,MIT,403aaed27067a0daed0c6224a8825f8ed56956120a00bde97e02943fec2a208c,accepted-ohlcv

@@ -1,0 +1,159 @@
+{
+  "case_count": 14,
+  "cases": [
+    {
+      "case_hash": "ee72e06396bf3de18b620b6ebade47e21d9b2f6283c74bb9cff6552daaffc468",
+      "case_id": "local-free-ohlcv-stack-case-001",
+      "case_name": "real signal blocked missing history",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "0547ee904f337e5afb6ed822c04e8c07b9e7a1f36bcb6309255b83cc8018489b",
+      "case_id": "local-free-ohlcv-stack-case-002",
+      "case_name": "real signal pass when valid history",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "d132b41464706abddeded9ca8d18b08636e4dac9a97bc4c5a0a9c11ec86ccd42",
+      "case_id": "local-free-ohlcv-stack-case-003",
+      "case_name": "momentum family",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "1b6712acf77662f6b66c12ba47f8e0bc782961416301f2da96bef0d496396300",
+      "case_id": "local-free-ohlcv-stack-case-004",
+      "case_name": "breakout family",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "55c0535563f8f2cfd0346e4172a302054886327bb285ed2340e21565939ea9bf",
+      "case_id": "local-free-ohlcv-stack-case-005",
+      "case_name": "fakeout family",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "2c772a512630399530f0476cd07a89aa00f83e9b895a2a57d0a3a8c853e9bcc8",
+      "case_id": "local-free-ohlcv-stack-case-006",
+      "case_name": "trend pullback family",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "0be841238ee2b647e912d6070da156936ebfd2686e0c6304a1412bde7c713006",
+      "case_id": "local-free-ohlcv-stack-case-007",
+      "case_name": "volatility regime family",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "91c792188d955e6ee93b29d2472c49bd0ad512da14858a3694141e0d9e740bb0",
+      "case_id": "local-free-ohlcv-stack-case-008",
+      "case_name": "relative strength family",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "7fa60d8663a393de68b226a30e2dc3a9d8803904424779f103709aa89907d161",
+      "case_id": "local-free-ohlcv-stack-case-009",
+      "case_name": "market regime family",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "57c0a15dc7bf21d406744fe13385be2a075c71924ea348f6939fbf012ff3c7ec",
+      "case_id": "local-free-ohlcv-stack-case-010",
+      "case_name": "directional setup family",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "36419a2d9b20c4ed99ee6c1ee8edab72bbefe35e5079a3bb5c5f7f2fc369c63e",
+      "case_id": "local-free-ohlcv-stack-case-011",
+      "case_name": "not options evidence",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "4075c62df78490ab9c48d31283e9527c4bddcb0bed26594268276059135c4692",
+      "case_id": "local-free-ohlcv-stack-case-012",
+      "case_name": "not profitability claim",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "fa4c735afffba320de5b7c12dc8601c735ab09c045fcb24ed044d9c4abd4344b",
+      "case_id": "local-free-ohlcv-stack-case-013",
+      "case_name": "not live ready",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "11daa7e9c1a254ebfe8de6aece96320765c30dccd1124339fb6d07496c31277a",
+      "case_id": "local-free-ohlcv-stack-case-014",
+      "case_name": "no strategy promotion",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    }
+  ]
+}

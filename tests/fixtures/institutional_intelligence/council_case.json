@@ -1,0 +1,96 @@
+{
+  "fixture_only": true,
+  "not_market_edge_evidence": true,
+  "thesis": {
+    "candidate_id": "fixture:quality-revision-thesis",
+    "instrument_class": "equity",
+    "economic_mechanism": "point-in-time quality and positive revisions may persist when valuation and liquidity remain acceptable",
+    "base_rate_evidence_id": "fixture:base-rate",
+    "opposed_thesis_id": "fixture:opposed-thesis",
+    "kill_condition_ids": ["fixture:revision-reversal", "fixture:cash-flow-deterioration"],
+    "cost_model_id": "fixture:cost-model",
+    "capacity_model_id": "fixture:capacity-model",
+    "forward_plan_id": "fixture:forward-plan",
+    "counterfactual_ids": ["no_trade", "fixture:simple-market-beta", "fixture:opposed-thesis"],
+    "required_lens_ids": ["fundamental_value", "systematic_independence", "validation"],
+    "required_doctrine_ids": [
+      "valuation_quality_range",
+      "factor_residual_independence",
+      "multi_axis_generalization",
+      "net_edge_capacity_surface",
+      "permanent_loss_liquidity"
+    ]
+  },
+  "observations": [
+    {
+      "observation_id": "fixture:fundamental-observation",
+      "lens_id": "fundamental_value",
+      "doctrine_ids": ["valuation_quality_range"],
+      "evidence_family": "point_in_time_fundamentals",
+      "independence_group": "issuer_fundamentals",
+      "direction": 0.7,
+      "data_quality": 0.85,
+      "calibration_quality": 0.65,
+      "uncertainty": 0.3,
+      "implementation_relevance": 0.8,
+      "evidence_ids": ["fixture:fundamental-evidence"],
+      "falsifier_id": "fixture:cash-flow-falsifier"
+    },
+    {
+      "observation_id": "fixture:factor-observation",
+      "lens_id": "systematic_independence",
+      "doctrine_ids": ["factor_residual_independence"],
+      "evidence_family": "factor_attribution",
+      "independence_group": "factor_residual",
+      "direction": 0.5,
+      "data_quality": 0.9,
+      "calibration_quality": 0.7,
+      "uncertainty": 0.35,
+      "implementation_relevance": 0.75,
+      "evidence_ids": ["fixture:factor-evidence"],
+      "falsifier_id": "fixture:factor-residual-falsifier"
+    },
+    {
+      "observation_id": "fixture:validation-observation",
+      "lens_id": "validation",
+      "doctrine_ids": ["multi_axis_generalization"],
+      "evidence_family": "rolling_origin",
+      "independence_group": "forward_validation",
+      "direction": 0.55,
+      "data_quality": 0.85,
+      "calibration_quality": 0.75,
+      "uncertainty": 0.3,
+      "implementation_relevance": 0.85,
+      "evidence_ids": ["fixture:validation-evidence"],
+      "falsifier_id": "fixture:oos-degradation-falsifier"
+    },
+    {
+      "observation_id": "fixture:implementation-observation",
+      "lens_id": "implementation",
+      "doctrine_ids": ["net_edge_capacity_surface"],
+      "evidence_family": "execution_cost",
+      "independence_group": "execution_quality",
+      "direction": 0.4,
+      "data_quality": 0.8,
+      "calibration_quality": 0.65,
+      "uncertainty": 0.4,
+      "implementation_relevance": 1.0,
+      "evidence_ids": ["fixture:execution-evidence"],
+      "falsifier_id": "fixture:cost-erases-edge"
+    },
+    {
+      "observation_id": "fixture:risk-observation",
+      "lens_id": "risk",
+      "doctrine_ids": ["permanent_loss_liquidity"],
+      "evidence_family": "portfolio_stress",
+      "independence_group": "permanent_loss",
+      "direction": 0.45,
+      "data_quality": 0.8,
+      "calibration_quality": 0.7,
+      "uncertainty": 0.35,
+      "implementation_relevance": 0.9,
+      "evidence_ids": ["fixture:risk-evidence"],
+      "falsifier_id": "fixture:liquidity-stress-falsifier"
+    }
+  ]
+}

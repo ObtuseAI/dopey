@@ -1,0 +1,203 @@
+{
+  "case_count": 18,
+  "cases": [
+    {
+      "case_hash": "0ad696e01dccac9647115d45b21ece790cd04adceb9471049de05d37f7db7fac",
+      "case_id": "local-free-ohlcv-stack-case-001",
+      "case_name": "no files present",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "92f0100401833ff631d69df6af3086408a6986a40cc3fc208906a5692f0f45d4",
+      "case_id": "local-free-ohlcv-stack-case-002",
+      "case_name": "valid CSV header",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "f38376f9c4bc8fd957257f1416e6efe3010c9896a6a82532c382eab553c378f0",
+      "case_id": "local-free-ohlcv-stack-case-003",
+      "case_name": "jsonl file accepted",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "3f9e74f8358c2712a3d1c1d7c89a23245ede8c5182b82c780ce7a56ef48e1d79",
+      "case_id": "local-free-ohlcv-stack-case-004",
+      "case_name": "manifest referenced",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "95c776c968af1504e34c46885e6fe8e5df275b147dd86ef388290bf898c32048",
+      "case_id": "local-free-ohlcv-stack-case-005",
+      "case_name": "sample-only detected",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "a6d5a090c3880b4cbf97d1182cbfab09dfbe5417cd3ef00d307189c0afa1d768",
+      "case_id": "local-free-ohlcv-stack-case-006",
+      "case_name": "fake symbol detected",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "5363b6b30c3e058792400f1d1cfc84024f6f65aaa84512c423a9112548d46efd",
+      "case_id": "local-free-ohlcv-stack-case-007",
+      "case_name": "credential token detected",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "50bbc3b2b3512f69080bb1185fcfba22d6630ee10388e67d3de067007eefc027",
+      "case_id": "local-free-ohlcv-stack-case-008",
+      "case_name": "future date candidate detected",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "749abd4624e4013dbb90121864079200d41470b200c3aa00ce1b0a8590553ce9",
+      "case_id": "local-free-ohlcv-stack-case-009",
+      "case_name": "source field present",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "981670a4cb08e6166a6113e4a26196bc573915ec05f638c137b0ed557b930e8e",
+      "case_id": "local-free-ohlcv-stack-case-010",
+      "case_name": "license field present",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "c83ad8b2bf17f29519269858872dc6544690fd19af7ad7207562fd045b7bf16e",
+      "case_id": "local-free-ohlcv-stack-case-011",
+      "case_name": "empty inventory allowed",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "c3486f056d26b2a089eed79e39a14c75c37340309463a10375df244f605cb67d",
+      "case_id": "local-free-ohlcv-stack-case-012",
+      "case_name": "csv extension accepted",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "be6de97eca9437708bc770ecc1660b067818e1d1a1305796e1c36fcd15bdd700",
+      "case_id": "local-free-ohlcv-stack-case-013",
+      "case_name": "jsonl extension accepted",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "ec241989c731cf8e943958e48b309f4b1e652b389ce2685b9e1f6f78929c949d",
+      "case_id": "local-free-ohlcv-stack-case-014",
+      "case_name": "env rejected",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "8469d3ba2fde16f442ffd8660a1870c399eb8b9ec7756a8e201140ffbb158302",
+      "case_id": "local-free-ohlcv-stack-case-015",
+      "case_name": "binary rejected",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "76d604e90d1f6a1f0f74261958c934c366b1f595e7ab39aa82e462b3025546d0",
+      "case_id": "local-free-ohlcv-stack-case-016",
+      "case_name": "manifest folder scanned",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "1123f0e396060f5c37f61339f61f7bc8fd9401652eb7909ef7c9434de896cf9b",
+      "case_id": "local-free-ohlcv-stack-case-017",
+      "case_name": "daily folder scanned",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "5076db22a6452ba5605a69a14583654743c591304b848b377f7474a5c956d97e",
+      "case_id": "local-free-ohlcv-stack-case-018",
+      "case_name": "market context folder scanned",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    }
+  ]
+}

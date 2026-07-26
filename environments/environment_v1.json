@@ -1,0 +1,245 @@
+{
+  "schema_version": "dopey-options-environment-v1",
+  "environment_id": "dopey-options-paper-v1",
+  "frozen": true,
+  "mode": "paper_research_only",
+  "authority": {
+    "real_capital_authority": false,
+    "broker_credentials_allowed": false,
+    "order_construction_allowed": false,
+    "order_transmission_allowed": false,
+    "maximum_autonomous_evidence_level": "L5"
+  },
+  "permitted_underlying_universe": {
+    "maximum_symbols": 200,
+    "membership_source": "operator_approved_point_in_time_manifest_required",
+    "survivorship_policy": "point_in_time_membership_required",
+    "missing_membership_action": "abstain"
+  },
+  "trading_hours": {
+    "calendar": "XNYS",
+    "timezone": "America/New_York",
+    "regular_session_open": "09:30:00",
+    "regular_session_close": "16:00:00",
+    "extended_hours_allowed": false,
+    "holiday_and_early_close_source": "versioned_exchange_calendar_required"
+  },
+  "data_sources": {
+    "development_option_chain_manifest": "C:/Users/CH/dopey/dopey_data/real/manifests/options_data_manifest.json",
+    "development_option_chain_manifest_sha256": "6ddc39e58e69c0b8a411ffee2c36d8a4cbd5d05f98340bee997ddbdf5572bad3",
+    "development_option_chain_provider": "yahoo_finance_chain_snapshot",
+    "required_executable_quote_source": "timestamped_sized_firm_consolidated_nbbo",
+    "required_corporate_actions_source": "versioned_point_in_time_source",
+    "required_dividend_source": "versioned_point_in_time_source",
+    "required_rates_source": "versioned_point_in_time_source",
+    "required_borrow_source": "versioned_point_in_time_source",
+    "unavailable_required_source_action": "abstain"
+  },
+  "quote_granularity": {
+    "available_development_granularity": "date_only_snapshot",
+    "required_decision_granularity": "event_and_receipt_timestamped_quote",
+    "required_timestamp_precision": "milliseconds_or_better",
+    "quote_sizes_required": true,
+    "venue_identity_required": true,
+    "firm_quote_condition_required": true
+  },
+  "option_chain_coverage": {
+    "available_files": 420,
+    "available_rows": 85608,
+    "available_unique_symbols": 199,
+    "available_sessions": 6,
+    "available_first_date": "2026-07-09",
+    "available_last_date": "2026-07-16",
+    "complete_chain_proof_available": false,
+    "adjusted_contract_validation_available": false,
+    "current_evidence_use": "mechanics_and_schema_validation_only"
+  },
+  "decision_timestamps": {
+    "source": "causal_event_journal",
+    "canonical_format": "UTC_ISO_8601",
+    "quote_must_be_received_before_decision": true,
+    "dummy_opportunity_must_precede_decision": true,
+    "decision_must_precede_opportunity_expiration": true
+  },
+  "maximum_permitted_latency": {
+    "quote_age_seconds": 15.0,
+    "multi_leg_package_receipt_skew_seconds": 1.0,
+    "unknown_latency_action": "abstain"
+  },
+  "allowed_option_structures": [
+    "long_call",
+    "long_put",
+    "long_straddle",
+    "long_strangle",
+    "bull_call_debit_spread",
+    "bear_call_credit_spread",
+    "bear_put_debit_spread",
+    "bull_put_credit_spread"
+  ],
+  "commissions_and_fees": {
+    "commission_per_contract_usd": 0.65,
+    "exchange_and_regulatory_fees": "must_be_declared_per_candidate_or_abstain",
+    "fee_omission_action": "abstain"
+  },
+  "spread_model": {
+    "entry_reference": "adverse_side_of_firm_nbbo",
+    "maximum_relative_spread": 0.10,
+    "minimum_bid_usd": 0.05,
+    "midpoint_fill_assumption_allowed": false
+  },
+  "slippage_model": {
+    "basis_points_beyond_adverse_side": 25.0,
+    "direction_aware": true,
+    "stress_multipliers": [2.0, 3.0]
+  },
+  "fill_model": {
+    "version": "paper-later-quote-witness-v1",
+    "immediate_assumed_fill_allowed": false,
+    "later_firm_quote_cross_required": true,
+    "partial_fills_supported": false,
+    "unsupported_partial_fill_action": "missed",
+    "realized_fill_evidence_claim_allowed": false
+  },
+  "market_impact_assumptions": {
+    "model_status": "unavailable",
+    "capacity_claims_allowed": false,
+    "unknown_impact_action": "abstain_or_cap_at_one_contract_for_mechanics"
+  },
+  "dividend_treatment": {
+    "point_in_time_discrete_dividends_required": true,
+    "current_status": "unavailable_for_certification",
+    "missing_data_action": "block_american_option_fair_value_claim"
+  },
+  "rates": {
+    "point_in_time_curve_required": true,
+    "current_status": "unavailable_for_certification",
+    "missing_data_action": "block_fair_value_claim"
+  },
+  "borrow_treatment": {
+    "point_in_time_borrow_required_when_material": true,
+    "current_status": "unavailable_for_certification",
+    "missing_data_action": "abstain"
+  },
+  "exercise_rules": {
+    "american_early_exercise_model_required": true,
+    "exercise_by_exception_threshold": "contract_and_broker_specific_rule_required",
+    "automatic_exercise_assumption_allowed": false,
+    "current_status": "uncertified"
+  },
+  "assignment_rules": {
+    "short_option_assignment_lifecycle_required": true,
+    "delta_proxy_allowed": false,
+    "pin_and_ex_dividend_scenarios_required": true,
+    "current_status": "uncertified"
+  },
+  "settlement_type": {
+    "contract_specific_validation_required": true,
+    "physical_and_cash_supported_by_contract_only": true,
+    "unknown_settlement_action": "abstain"
+  },
+  "capital": {
+    "paper_bankroll_usd": 100000.0,
+    "notional_only": true,
+    "real_capital_authority": false
+  },
+  "margin_model": {
+    "version": "defined_maximum_loss_only-v1",
+    "portfolio_margin_supported": false,
+    "undefined_margin_action": "abstain"
+  },
+  "maximum_position_size": {
+    "maximum_loss_fraction_of_paper_bankroll": 0.01,
+    "maximum_margin_fraction_of_paper_bankroll": 0.02,
+    "maximum_upstream_exposure_fraction": "immutable_dummy_contract_cap",
+    "effective_limit": "minimum_of_all_applicable_caps"
+  },
+  "maximum_portfolio_greek_exposure": {
+    "units": "absolute_normalized_fraction_of_paper_bankroll",
+    "delta": 0.10,
+    "gamma": 0.02,
+    "theta": 0.005,
+    "vega": 0.05,
+    "vanna": 0.02,
+    "charm": 0.02,
+    "vomma": 0.02,
+    "skew": 0.03,
+    "correlation": 0.05,
+    "event": 0.05,
+    "liquidity": 0.05,
+    "gap": 0.03,
+    "uncomputable_exposure_action": "abstain"
+  },
+  "concentration_limits": {
+    "sector_fraction_of_paper_bankroll": 0.05,
+    "factor_fraction_of_paper_bankroll": 0.05,
+    "single_expiration_fraction_of_paper_bankroll": 0.05,
+    "correlated_cluster_fraction_of_paper_bankroll": 0.05
+  },
+  "loss_limits": {
+    "maximum_daily_loss_fraction": 0.02,
+    "maximum_drawdown_fraction": 0.10,
+    "maximum_expected_shortfall_fraction": 0.03,
+    "maximum_probability_of_ruin": 0.001,
+    "breach_action": "paper_shutdown_and_human_review"
+  },
+  "allowed_holding_periods": {
+    "minimum": "one_regular_session",
+    "maximum": "30_calendar_days",
+    "overnight_allowed_only_when_explicitly_stress_tested": true
+  },
+  "benchmark_policies": [
+    "no_trade",
+    "underlying_only_risk_matched",
+    "fixed_defined_risk_option",
+    "delta_targeted_long_option",
+    "fixed_vertical",
+    "naive_immediate_paper_price",
+    "naive_limit_paper_price",
+    "fixed_fraction_allocation",
+    "volatility_matched_allocation",
+    "market_implied_distribution"
+  ],
+  "temporal_partitions": {
+    "development_period": "unassigned_until_sufficient_point_in_time_history_exists",
+    "validation_period": "unassigned_until_sufficient_point_in_time_history_exists",
+    "purging_and_embargo_required": true,
+    "current_status": "blocked_insufficient_history"
+  },
+  "sealed_holdout_policy": {
+    "holdout_location": "inaccessible_external_evaluator_required",
+    "raw_observation_access": false,
+    "aggregate_feedback_only": true,
+    "maximum_submissions_per_frozen_candidate": 1,
+    "current_status": "not_configured"
+  },
+  "compute_budget": {
+    "maximum_substantive_trials_per_generation": 100,
+    "maximum_parallel_research_workers": 4,
+    "trial_registry_required": true,
+    "budget_change_requires_new_environment_version": true
+  },
+  "candidate_expiration_policy": {
+    "maximum_age_calendar_days": 30,
+    "expires_on_environment_change": true,
+    "expires_on_data_contract_change": true,
+    "expired_candidate_action": "retire_or_create_new_version"
+  },
+  "liquidity_floors": {
+    "minimum_bid_size": 1,
+    "minimum_ask_size": 1,
+    "minimum_volume": 5,
+    "minimum_open_interest": 25
+  },
+  "forward_evidence": {
+    "minimum_decisions": 100,
+    "minimum_settlements": 100,
+    "minimum_sessions": 20,
+    "synthetic_replay_and_backtest_excluded": true
+  },
+  "zero_dte": {
+    "enabled": false,
+    "daily_bar_evidence_allowed": false,
+    "reopen_condition": "separate_intraday_data_execution_assignment_and_outage_evidence_standard"
+  },
+  "assumption_status": "conservative_v1_defaults_not_empirical_claims"
+}

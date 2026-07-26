@@ -1,0 +1,1006 @@
+{
+  "artifact_type": "paper_rotation_cases",
+  "case_count": 100,
+  "cases": [
+    {
+      "case_hash": "23cdbd44f2207e9f61b657237c5bf8a3cac48d2db5c361db46e20bf6ef5cb96a",
+      "case_id": "finish-everything-fixture-000",
+      "case_name": "paper rotation no data",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a2fbdbbcefe2756bc8463a8f7d8f3a6caa0d76bc424c95acaa998655f61c4775",
+      "case_id": "finish-everything-fixture-001",
+      "case_name": "paper rotation accepted data",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a7bc1d9710710388efb2f054a62a80b5838815e2dd5e2b86a18b6ef7ce161306",
+      "case_id": "finish-everything-fixture-002",
+      "case_name": "paper rotation no broker",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7e5a7dc93316e1f13d8ec217da74cfa391bd4e31a56890b1a1efa5fa1b3bcc45",
+      "case_id": "finish-everything-fixture-003",
+      "case_name": "paper rotation no live",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "78fdee6b2569fad07b03521b9d017b0784b692023663ad2d34dc6f7659b3d43c",
+      "case_id": "finish-everything-fixture-004",
+      "case_name": "paper rotation no credentials",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "78a9c0fbe19e4e970e6bc9785b5fe3d9ae08b796986e0d6c02d62c1f5f00e3e2",
+      "case_id": "finish-everything-fixture-005",
+      "case_name": "no same-day churn",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "f0d244643c46684d66a78db2fc2fb4ec89f56caedaa6b13e9465b24ae097277b",
+      "case_id": "finish-everything-fixture-006",
+      "case_name": "drawdown throttle",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2713dd266efc8fe0a0194b05dd4ace1ea53fb6a47198f283cdf7e5443b8da5ae",
+      "case_id": "finish-everything-fixture-007",
+      "case_name": "research feedback queue",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "147039a931b838af84d9e82c693c4aaedad8dd07880d88749aa68d12d7735afb",
+      "case_id": "finish-everything-fixture-008",
+      "case_name": "paper rotation no data repeat 008",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "0e72fb0450c5458edec471438148d9fee3283f82b820d5080eea56d554149032",
+      "case_id": "finish-everything-fixture-009",
+      "case_name": "paper rotation accepted data repeat 009",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d368969ab78fa30a06ded266262da3986b35e2a1ee0792ba32d7a825b8ad0889",
+      "case_id": "finish-everything-fixture-010",
+      "case_name": "paper rotation no broker repeat 010",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "217bcfef406910f11709bc54cb164e2ec6a9e424c8fc0812b501e794f0f3c845",
+      "case_id": "finish-everything-fixture-011",
+      "case_name": "paper rotation no live repeat 011",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "3703f9699b77bbbfc21182982ec31c38cdac6de1e726f8708279abf204efeb8b",
+      "case_id": "finish-everything-fixture-012",
+      "case_name": "paper rotation no credentials repeat 012",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "51a730fe1a0c70f1ae44ade6d37f12bfd7651abe964ab3f15ab54b4b84127241",
+      "case_id": "finish-everything-fixture-013",
+      "case_name": "no same-day churn repeat 013",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d4d81910af89c7d94eb6c0f35576d8159a3a2ea9023d7d5e60817d38f02141bb",
+      "case_id": "finish-everything-fixture-014",
+      "case_name": "drawdown throttle repeat 014",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "f723ff3c2fda438f6811b80e7f16ee7099f1d6ca6ff394e4793147ce74500cb1",
+      "case_id": "finish-everything-fixture-015",
+      "case_name": "research feedback queue repeat 015",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "dae34af028f897ff618c15e115c05bd144038a4eaeaf5b60c376c2799cbbe33a",
+      "case_id": "finish-everything-fixture-016",
+      "case_name": "paper rotation no data repeat 016",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1cd1868ee6e753d0fd18cadfac39952d099d4a918497186078b40c3a49ff961c",
+      "case_id": "finish-everything-fixture-017",
+      "case_name": "paper rotation accepted data repeat 017",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "071b136112c14a3bcb8acdda692cb3dba0c93c58ad948e39d989477a683672e9",
+      "case_id": "finish-everything-fixture-018",
+      "case_name": "paper rotation no broker repeat 018",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1d06c50c805ed296e2bbd8cd1481a78cc7e8db54566e52a0e43c501107d446bf",
+      "case_id": "finish-everything-fixture-019",
+      "case_name": "paper rotation no live repeat 019",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "84bfe70cb43fce7d839afb9e9ac475cd84cfef5722da2b20553374c6bf3119fc",
+      "case_id": "finish-everything-fixture-020",
+      "case_name": "paper rotation no credentials repeat 020",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a65a39c59acf379cbff9b935064f3883676f04aab398433ada332489699e6f76",
+      "case_id": "finish-everything-fixture-021",
+      "case_name": "no same-day churn repeat 021",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "34f3488745412627e4f55e844d8d3c96a2742575c3cdb168883aaf40e5fa8855",
+      "case_id": "finish-everything-fixture-022",
+      "case_name": "drawdown throttle repeat 022",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c4aa7ff7372a21168aeae1c437d1bb6cb41802de9ba9e9e8f184cde751edec98",
+      "case_id": "finish-everything-fixture-023",
+      "case_name": "research feedback queue repeat 023",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "101ce9828e79667ab2bc4354460a373aa5a109582064a1bb0bf6cacffb0c47ae",
+      "case_id": "finish-everything-fixture-024",
+      "case_name": "paper rotation no data repeat 024",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "cfa5312d26cd240b16e20a52cba773811da9e6d5df4ac19a7001176e7d16a9dd",
+      "case_id": "finish-everything-fixture-025",
+      "case_name": "paper rotation accepted data repeat 025",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b25342078b26d9b63fe2aa97ecdf97f4d41d7d7f2fb19c24b0d17aad70970ce1",
+      "case_id": "finish-everything-fixture-026",
+      "case_name": "paper rotation no broker repeat 026",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "77ff93c4f8d6d5bcb29ac76b1e29cfbc98e923613a16ee1fe4efb5aed4684212",
+      "case_id": "finish-everything-fixture-027",
+      "case_name": "paper rotation no live repeat 027",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "aa530510e5e9dfcc925a76596a4e784bacebcce2898f8eab8b2367257c04a0f9",
+      "case_id": "finish-everything-fixture-028",
+      "case_name": "paper rotation no credentials repeat 028",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "62895b498a232698924528e687a4bc6641a0836540ff7126d7219bcd31ed51d5",
+      "case_id": "finish-everything-fixture-029",
+      "case_name": "no same-day churn repeat 029",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "98f7c78e4399de5aa05e888b9305f3f33b7ddd146555c1e0e9a7fe69a89e66ea",
+      "case_id": "finish-everything-fixture-030",
+      "case_name": "drawdown throttle repeat 030",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "25bd257402684f3a972ba312e7b2fc5f34c1b903bc8770a2177c604e85355e26",
+      "case_id": "finish-everything-fixture-031",
+      "case_name": "research feedback queue repeat 031",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a3be18dc80732d534bb0db61f92e4814e1a4f30bb87ec6c7c0d78b0c266e0b7f",
+      "case_id": "finish-everything-fixture-032",
+      "case_name": "paper rotation no data repeat 032",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c58a4a4fa084ccc6fc8e7c8a06979aef4f7c082adb7e8a76902f1145538d9b57",
+      "case_id": "finish-everything-fixture-033",
+      "case_name": "paper rotation accepted data repeat 033",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "3ea15760218266c56a817aedf4cd7ff8572edf9a3b1d930938949d11616dc431",
+      "case_id": "finish-everything-fixture-034",
+      "case_name": "paper rotation no broker repeat 034",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e416ad38d1f992150f98c46ce179e26eded224dcdec4843a073ea643e01d0bf3",
+      "case_id": "finish-everything-fixture-035",
+      "case_name": "paper rotation no live repeat 035",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ad17cc2a732ab26cccbf8f7dccba7fbe4aec74af0b16878c3643a59ccf1e2f36",
+      "case_id": "finish-everything-fixture-036",
+      "case_name": "paper rotation no credentials repeat 036",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "142ae71df9062ed6ab166f0e37642859cea3f2db1ea462c0d565fa94fd58090e",
+      "case_id": "finish-everything-fixture-037",
+      "case_name": "no same-day churn repeat 037",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "cd9c329dc3a493eea3e0af13c6edb5847302fae7fe889e0dcd00dba4b3d04d27",
+      "case_id": "finish-everything-fixture-038",
+      "case_name": "drawdown throttle repeat 038",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ea1a5e7c520be2a8bf547fe8cd6f984d387beca05a0e2b704890effb3c159177",
+      "case_id": "finish-everything-fixture-039",
+      "case_name": "research feedback queue repeat 039",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "0508e4987f7573156b591201699a08ac22d1baedb67218f8a29c4f07cd3040f0",
+      "case_id": "finish-everything-fixture-040",
+      "case_name": "paper rotation no data repeat 040",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "4b7aaa4677d0a0cf915d751c9760ffa904a2f02474c6d2927a8ef986db08658a",
+      "case_id": "finish-everything-fixture-041",
+      "case_name": "paper rotation accepted data repeat 041",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "666c4b626212c4c70a6938535cbfdcc4b78c3c354287656b16b3c248a3b42a57",
+      "case_id": "finish-everything-fixture-042",
+      "case_name": "paper rotation no broker repeat 042",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "91862d8f2f6b79f38ec318b87f82d2cff26c00899c0ad972db4f36171f65d74c",
+      "case_id": "finish-everything-fixture-043",
+      "case_name": "paper rotation no live repeat 043",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a9b814ec575bd58d35b8949740890dc6d9d3551c6cb86f645f49e9185b443da2",
+      "case_id": "finish-everything-fixture-044",
+      "case_name": "paper rotation no credentials repeat 044",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b4e678588ba6f78c8acba154b207c1415f5fe2c2d1b9932d0f0ccb259bee9485",
+      "case_id": "finish-everything-fixture-045",
+      "case_name": "no same-day churn repeat 045",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "963be917ea3f2dae39e21312c8770580fcbebcd5388ab905bfd45b84cdaf9e68",
+      "case_id": "finish-everything-fixture-046",
+      "case_name": "drawdown throttle repeat 046",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "8cf73f8fd3cb94293ea50affddba9d2c5abc67749aeec1f72cd1ec3cb7ebe796",
+      "case_id": "finish-everything-fixture-047",
+      "case_name": "research feedback queue repeat 047",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7494f26881e565091a21c887fed8a461e7c1d5e90dd0b09a0ed3d74faccf9a24",
+      "case_id": "finish-everything-fixture-048",
+      "case_name": "paper rotation no data repeat 048",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "6c197956efa75317947b1b08283fb74d53817bec10e51878666593aaedc03d31",
+      "case_id": "finish-everything-fixture-049",
+      "case_name": "paper rotation accepted data repeat 049",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b22cc9e8b1db6852dae29a8d7ffaaa25b2dfa99cfbd308c9cb15a96ceb14a289",
+      "case_id": "finish-everything-fixture-050",
+      "case_name": "paper rotation no broker repeat 050",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "9c8f6b587a797ca5402ba4e8ec0aab700be6432caeddb87e524690858a8e6b11",
+      "case_id": "finish-everything-fixture-051",
+      "case_name": "paper rotation no live repeat 051",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "4b58c0897d139bf95f266b7b79f87e37f1ccc8782f9c421d609f48bb2086d205",
+      "case_id": "finish-everything-fixture-052",
+      "case_name": "paper rotation no credentials repeat 052",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "108042578641a4be3cb8d6fd5dec0809e347e96d14e5b2b9133e7455c113e6b4",
+      "case_id": "finish-everything-fixture-053",
+      "case_name": "no same-day churn repeat 053",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "755ace5a7271ba13fea4d1644c06d690504eb0c22b2f565af79441cec872dbe5",
+      "case_id": "finish-everything-fixture-054",
+      "case_name": "drawdown throttle repeat 054",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7eb3383261a0fe15bc654e0b13419b77803c948c2ad269152b8549750cb75d83",
+      "case_id": "finish-everything-fixture-055",
+      "case_name": "research feedback queue repeat 055",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a43aa38b3d3d322e910f78292173390d3f03a54367e1ca79ec4b4882d68c3417",
+      "case_id": "finish-everything-fixture-056",
+      "case_name": "paper rotation no data repeat 056",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "150d1e71c1102f6d4cc4c00f6f68d7a391e251b69cc5ea0715f598916b28d698",
+      "case_id": "finish-everything-fixture-057",
+      "case_name": "paper rotation accepted data repeat 057",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "dc56ff4bdf3463efe990aa0efe2af762032b2f2da95418d6cb76b12098632e3f",
+      "case_id": "finish-everything-fixture-058",
+      "case_name": "paper rotation no broker repeat 058",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "703e9af02a00ff2f70f627d903ab61ac24c045a24de36ad3b6d5969b34b89fae",
+      "case_id": "finish-everything-fixture-059",
+      "case_name": "paper rotation no live repeat 059",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "87cf938f646d87d9793f6b97d2318ee371e4dfc49048d71fdc67d9b41895ab68",
+      "case_id": "finish-everything-fixture-060",
+      "case_name": "paper rotation no credentials repeat 060",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "f704f6459da2b4ee624bf9da8979886d6432502732b92ea0c41ecc38a554eab6",
+      "case_id": "finish-everything-fixture-061",
+      "case_name": "no same-day churn repeat 061",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ab8f488aed3abe9ecae4cfc6f3b42625119a10ae2df9fd7b21da3ef2db001271",
+      "case_id": "finish-everything-fixture-062",
+      "case_name": "drawdown throttle repeat 062",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "22a48a6327bc4938d3e2527e70e53a652b4cbf8aa5532b19568e16885b0e259c",
+      "case_id": "finish-everything-fixture-063",
+      "case_name": "research feedback queue repeat 063",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "0f7643a6e936e8e595c1ea1d523a41631091592a7b3f674a4f6cd3b5a6cb6ecc",
+      "case_id": "finish-everything-fixture-064",
+      "case_name": "paper rotation no data repeat 064",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "4447994601dad3feecd90da8b5f5973364327109be1cd1c1159ff20ac19bcb29",
+      "case_id": "finish-everything-fixture-065",
+      "case_name": "paper rotation accepted data repeat 065",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "533bdd22d7f3b817671d52f2410e24a925aeb2662e3c2eb283b716f2457543b0",
+      "case_id": "finish-everything-fixture-066",
+      "case_name": "paper rotation no broker repeat 066",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "36acffa51e5a0c819611112b397a867c4c5d642babbc8d60428a846a7440a46e",
+      "case_id": "finish-everything-fixture-067",
+      "case_name": "paper rotation no live repeat 067",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "35b04459df155693eb4d2421f4798bb3575b23a77013850c52eb7d87eaba2179",
+      "case_id": "finish-everything-fixture-068",
+      "case_name": "paper rotation no credentials repeat 068",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "0eec99b1d73ce93218f0c40eb44228d56755ea28839f2043d194546530760ecd",
+      "case_id": "finish-everything-fixture-069",
+      "case_name": "no same-day churn repeat 069",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "37fd8d93b5bab75e2ddff335e33cd1ce34765c51bb630184b0544396af27906f",
+      "case_id": "finish-everything-fixture-070",
+      "case_name": "drawdown throttle repeat 070",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "17eec1f34f99bfe537e4bef34d15bafd040b44d30ba0d2fd868d3c2651ddbadb",
+      "case_id": "finish-everything-fixture-071",
+      "case_name": "research feedback queue repeat 071",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "07c1d92180f388065f1ffadc51d54e29283818ff70201b1cdd66e1f282f5fcd7",
+      "case_id": "finish-everything-fixture-072",
+      "case_name": "paper rotation no data repeat 072",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2d7cf071eb867d2714c8afef825a1604e1a58b8b3251dceb9596bb5d29783fa5",
+      "case_id": "finish-everything-fixture-073",
+      "case_name": "paper rotation accepted data repeat 073",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2f72e1f2140b6790a5e4fed17610d7293f6ac8798671c0048a445fbbab280408",
+      "case_id": "finish-everything-fixture-074",
+      "case_name": "paper rotation no broker repeat 074",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b19b7bdc0dee0324a81f3eee5e30696fea050ae64a46959683dcd1681e3cd270",
+      "case_id": "finish-everything-fixture-075",
+      "case_name": "paper rotation no live repeat 075",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7a7128bde3408498161f6781d50e023318c8c6c96bc4fe11ae5387bcb6849bf3",
+      "case_id": "finish-everything-fixture-076",
+      "case_name": "paper rotation no credentials repeat 076",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b2886eaafa1aeaabeff5152abe2f48771bbb16160e749c85cbf51fcfb9a8ebc6",
+      "case_id": "finish-everything-fixture-077",
+      "case_name": "no same-day churn repeat 077",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e3ce713b0b846093c1dbb652ec3ed6c573c57c3c371edd8f6f25e8c4f0ac552d",
+      "case_id": "finish-everything-fixture-078",
+      "case_name": "drawdown throttle repeat 078",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "bbf131df0e829fd1753600a035db8d865d710c7d5692b9674c2a7c276174b48a",
+      "case_id": "finish-everything-fixture-079",
+      "case_name": "research feedback queue repeat 079",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b41c1562b249e79fccb3b967c7ee99d66d15badb3b411e7adb0e2b09c9a7f33c",
+      "case_id": "finish-everything-fixture-080",
+      "case_name": "paper rotation no data repeat 080",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1390ed1ac06ce520e4d13211021e5a87c495d5b4b437ce947203407eb6e215d6",
+      "case_id": "finish-everything-fixture-081",
+      "case_name": "paper rotation accepted data repeat 081",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "3515c6ddb12a3a6f0564c0d8dd2d9e5b1e865b93805a63c0aa78bb5dc408b13c",
+      "case_id": "finish-everything-fixture-082",
+      "case_name": "paper rotation no broker repeat 082",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "3e3c0927209f86546ac0c11fddc0257e22da7b870f224f1e88502cec7ded3c24",
+      "case_id": "finish-everything-fixture-083",
+      "case_name": "paper rotation no live repeat 083",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "af1919053e7aa67cebf20efd3d6a9c6b5128de1b42ce1bed1783ed083f9ca3bb",
+      "case_id": "finish-everything-fixture-084",
+      "case_name": "paper rotation no credentials repeat 084",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ccc9925a8d36e9d699d81f755e392c09840bfc4309a9f6ba33865caa868862c4",
+      "case_id": "finish-everything-fixture-085",
+      "case_name": "no same-day churn repeat 085",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "5772f9893ceeac67865cb876959e8ea799ddfc5a4b83c35cc6dd89d0aa3fe152",
+      "case_id": "finish-everything-fixture-086",
+      "case_name": "drawdown throttle repeat 086",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "23c8b59cb524a959e47d4ef27981d54fc26d2ca73a08bb1ae5fa472ad56616dc",
+      "case_id": "finish-everything-fixture-087",
+      "case_name": "research feedback queue repeat 087",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "9c092d136f4dbd7dd188ccc9834d059367a38c86d432c14b21b7c102a085294f",
+      "case_id": "finish-everything-fixture-088",
+      "case_name": "paper rotation no data repeat 088",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2922fde03adb3140a403baa41abccc862d83a1deb0a9f7fcbb298c9f595d4b09",
+      "case_id": "finish-everything-fixture-089",
+      "case_name": "paper rotation accepted data repeat 089",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b077f09babd5bf915c714f9ad8a8bc324f6193bb5e5e357694b9e575cbc9b003",
+      "case_id": "finish-everything-fixture-090",
+      "case_name": "paper rotation no broker repeat 090",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "6bf338874473feaab937366e1fd237bbc1f5b43bf469f12e5a256809f7edee9b",
+      "case_id": "finish-everything-fixture-091",
+      "case_name": "paper rotation no live repeat 091",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "4a803ce9a3e8443ee60b653207dbf0155347804122016d34ce32b9cedd5cad2a",
+      "case_id": "finish-everything-fixture-092",
+      "case_name": "paper rotation no credentials repeat 092",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ac96bbf2bffc86891f94b40af25bbe6ab4d97964b08fbcc81250a299eeeef338",
+      "case_id": "finish-everything-fixture-093",
+      "case_name": "no same-day churn repeat 093",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "0d57c0f95b96a71dc26ea3021bc9d986697f42f0810db85021ad4cdc61bd130b",
+      "case_id": "finish-everything-fixture-094",
+      "case_name": "drawdown throttle repeat 094",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "270fcfd9f4841a1e878df2e15a1a8b696a84d0804c6d1816fa5fb767061e6391",
+      "case_id": "finish-everything-fixture-095",
+      "case_name": "research feedback queue repeat 095",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "6ee60f7d11244ea13b9c559cf0c2d02f7606d185e739b06c8cf986906e2465b4",
+      "case_id": "finish-everything-fixture-096",
+      "case_name": "paper rotation no data repeat 096",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "27a42cdb5fc350c8d70517a1d3a1b2e5fe879df2248f67b2d30a31aeafd40049",
+      "case_id": "finish-everything-fixture-097",
+      "case_name": "paper rotation accepted data repeat 097",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "24c9627c950b00ae42cb1f4dc4cad32bfd7e035ab7e951a39780aabf28906ba0",
+      "case_id": "finish-everything-fixture-098",
+      "case_name": "paper rotation no broker repeat 098",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "89d6cc431b163c8271554590fee8d4940b5f7d92e5e9da49c2591dce7b85d0fb",
+      "case_id": "finish-everything-fixture-099",
+      "case_name": "paper rotation no live repeat 099",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    }
+  ]
+}

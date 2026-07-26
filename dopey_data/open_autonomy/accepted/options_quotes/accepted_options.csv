@@ -1,0 +1,2 @@
+snapshot_date,underlying_symbol,contract_symbol,expiration_date,strike,option_type,bid,ask,mid,last,volume,open_interest,implied_volatility,source,source_url,license_status,provenance_hash,autonomous_admissibility_id
+2024-01-02,SPY,SPY240119C00475000,2024-01-19,475.0,call,2.1,2.3,2.2,2.2,100,1000,0.22,accepted-options,https://example.invalid/accepted-options,MIT,1c846e00ac0de63b012cf54b795dbd9db7a36c8b583e28483ed6ca688f0c1f81,accepted-options

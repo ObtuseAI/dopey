@@ -1,0 +1,70 @@
+{
+  "allowed_formats": [
+    "csv",
+    "jsonl"
+  ],
+  "artifact_type": "history_dataset_manifest",
+  "credential_required": false,
+  "data_files": [
+    {
+      "format": "csv",
+      "path": "raw/SPY.csv",
+      "row_count": 0,
+      "sha256": "replace_with_sha256_of_local_file",
+      "source": "operator_supplied_offline_file",
+      "symbols": [
+        "SPY"
+      ]
+    }
+  ],
+  "dataset_id": "dopey-offline-daily-ohlcv-history-v1",
+  "dataset_status": "sample_manifest_schema_only",
+  "generated_real_data": false,
+  "history_dataset_manifest_version": "dopey-real-data-backtest-spine-v1",
+  "live_blocked": true,
+  "manifest_reproducibility_hash": "sample_schema_only_not_a_real_dataset",
+  "network_fetch_performed": false,
+  "optional_columns": [
+    "dividend",
+    "split_factor",
+    "source"
+  ],
+  "paper_only": true,
+  "raw_data_directory": "dopey_data/history/raw",
+  "required_columns": [
+    "date",
+    "symbol",
+    "open",
+    "high",
+    "low",
+    "close",
+    "adjusted_close",
+    "volume"
+  ],
+  "required_universe": [
+    "SPY",
+    "QQQ",
+    "IWM",
+    "DIA",
+    "AAPL",
+    "MSFT",
+    "NVDA",
+    "AMD",
+    "TSLA",
+    "META",
+    "AMZN",
+    "GOOGL",
+    "NFLX",
+    "JPM",
+    "BAC",
+    "XLF",
+    "XLK",
+    "XLE",
+    "XLY",
+    "XLI",
+    "XLU",
+    "XLP",
+    "XLV",
+    "VIX"
+  ]
+}

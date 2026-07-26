@@ -1,0 +1,19 @@
+{
+  "schema_version": "dopey-sealed-budget-v1",
+  "environment_id": "dopey-options-paper-v1",
+  "aggregate_feedback_only": true,
+  "raw_holdout_access": false,
+  "maximum_submissions_per_frozen_candidate": 1,
+  "maximum_total_submissions": 100,
+  "allowed_aggregate_metric_ids": [
+    "lower_bound_utility",
+    "worst_block_utility",
+    "maximum_drawdown",
+    "expected_shortfall",
+    "calibration_error"
+  ],
+  "submissions_used": 0,
+  "candidate_submissions": {},
+  "frozen_hash_submissions": {},
+  "status": "not_configured_no_external_evaluator"
+}

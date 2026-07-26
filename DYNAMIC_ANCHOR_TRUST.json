@@ -1,0 +1,10 @@
+{
+  "schema_version": "dopey-dynamic-anchor-trust-v1",
+  "environment_id": "dopey-options-paper-v1",
+  "status": "not_configured",
+  "algorithm": "ed25519",
+  "authority_id": null,
+  "authority_version": null,
+  "key_id": null,
+  "public_key_base64": null
+}

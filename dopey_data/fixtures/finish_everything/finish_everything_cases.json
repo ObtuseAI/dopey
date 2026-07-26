@@ -1,0 +1,1006 @@
+{
+  "artifact_type": "finish_everything_cases",
+  "case_count": 100,
+  "cases": [
+    {
+      "case_hash": "7cb3f9a307ccfb08a3b50c75a7a05acd86fef59bfa7e8e7d6d63770ebe214247",
+      "case_id": "finish-everything-fixture-000",
+      "case_name": "remaining gap solved",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d4370cfe6b13ba56b081f551fcf65cb5ee98d4a92314aaf3d2bfc5714f485b7f",
+      "case_id": "finish-everything-fixture-001",
+      "case_name": "remaining gap blocked by policy",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "963bd06fe1361ca3506d0c9c105f79e60d33f692b2bb0e604c00fbe0d2d19012",
+      "case_id": "finish-everything-fixture-002",
+      "case_name": "remaining gap fallback model-priced",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2046646c43048e47c9be5c7e2b44bc32fa1d79c70d0d9af70508cda7e7e0087d",
+      "case_id": "finish-everything-fixture-003",
+      "case_name": "finish everything no data",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "dce5e8941653754d6f9491af8523f169bcae6fedf932268c820422973c36b3f6",
+      "case_id": "finish-everything-fixture-004",
+      "case_name": "finish everything OpenBB data",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "baece7b33dda9974fd6e13745ec6c2598e2b9d3f35c9cebb4d6557897e1b831a",
+      "case_id": "finish-everything-fixture-005",
+      "case_name": "finish everything quote unlocked",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "5c83edd6ac5a7e1bf2713c485bc346104a70a162a4106fda55726024a6f1a054",
+      "case_id": "finish-everything-fixture-006",
+      "case_name": "finish everything max completion",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "076e777c4c62d886a30f7a92e451d13c4a8b4d8fee181a93d50ad2b851fcd07e",
+      "case_id": "finish-everything-fixture-007",
+      "case_name": "no manual review dependency",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "18f657ea19fafd159260468ef3f528a120777dad977784f226618cd675371875",
+      "case_id": "finish-everything-fixture-008",
+      "case_name": "no operator action required",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "08d3216d5e11b172d965d2e71d126f75bce6ec06e3800ddb74ee101c4fddaaf9",
+      "case_id": "finish-everything-fixture-009",
+      "case_name": "no .env",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "95a8909510f4bbc018ecb0f089837bc3b8dd3309b09ec62ab602057feaf4f8a6",
+      "case_id": "finish-everything-fixture-010",
+      "case_name": "no credentials",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1e641c9517fa4d020ae5afb5aa2489dcc06d6baa8f1e1b2dc36a119a6edfb246",
+      "case_id": "finish-everything-fixture-011",
+      "case_name": "no broker",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "f54831b41f28b2077adccaa0a5fdb722359245e569d87e905ada65a531a9cfbf",
+      "case_id": "finish-everything-fixture-012",
+      "case_name": "no live",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c6312a5f66c7c686b964ad946940bc1ee0a32bdb238d0de33da9f8b278f2fc92",
+      "case_id": "finish-everything-fixture-013",
+      "case_name": "no strategy promotion",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1e4b3a05e8a41e1743c6551f8c046cbf7586b4abf114dbc113e61fd6931f220a",
+      "case_id": "finish-everything-fixture-014",
+      "case_name": "no profitability claim",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "9822eb872261cdfa221347c4e7075ce54c585992857af9c4ab2c2aa4a66bed12",
+      "case_id": "finish-everything-fixture-015",
+      "case_name": "no live readiness claim",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "67c6ad734965708ba4aa1fb9b1323a23cea0dfece68ae2f5efe56e9265015171",
+      "case_id": "finish-everything-fixture-016",
+      "case_name": "remaining gap solved repeat 016",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "3ca40d382507898cb8df296905d36104108b78f7c7a5aa60083bb1d4a0b8fc04",
+      "case_id": "finish-everything-fixture-017",
+      "case_name": "remaining gap blocked by policy repeat 017",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "221825f014aa956d11a4951c7463675815a2f3cdf02528fa2bb95dcff695a7a1",
+      "case_id": "finish-everything-fixture-018",
+      "case_name": "remaining gap fallback model-priced repeat 018",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7584ce151a584db902b0645a5555a235013d99d6ce3de49146d33c9a64fc7241",
+      "case_id": "finish-everything-fixture-019",
+      "case_name": "finish everything no data repeat 019",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ced553ebb7bbd6f0de7017abef8262276d328ec4b4048adb29688bd87cf0665a",
+      "case_id": "finish-everything-fixture-020",
+      "case_name": "finish everything OpenBB data repeat 020",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7ec1dd2a62250835ab7e845903199c01512409e6b7592c9289c882ee4349b280",
+      "case_id": "finish-everything-fixture-021",
+      "case_name": "finish everything quote unlocked repeat 021",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "22bc4b4a2689af48351e0ea7af7341bf18ba41441e5b7324c58b6fd288f8821f",
+      "case_id": "finish-everything-fixture-022",
+      "case_name": "finish everything max completion repeat 022",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ed04f039c4c17aeac0bcb655b08f07c2464387c0660b9d1ec456ab8b7df42922",
+      "case_id": "finish-everything-fixture-023",
+      "case_name": "no manual review dependency repeat 023",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d7dddd31b615fb29e4b531f3e408fd0a5475f8a227e874510e0ec3354fd34ffc",
+      "case_id": "finish-everything-fixture-024",
+      "case_name": "no operator action required repeat 024",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ef51f1b51badd6ff530aed1dc6626e56252e53becfec468458fbecab11303aa1",
+      "case_id": "finish-everything-fixture-025",
+      "case_name": "no .env repeat 025",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "613b440d48a42dfd632c1bdf8af1300f186c7a8e6c9306fb7e534dc29311f14f",
+      "case_id": "finish-everything-fixture-026",
+      "case_name": "no credentials repeat 026",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b331060dc105803f0b4886c559634886596642a662ecb4fd77acd361ccd2d0a2",
+      "case_id": "finish-everything-fixture-027",
+      "case_name": "no broker repeat 027",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "3f950be430b87b8e2697cbcdb25535c3eb65512f8b2ed227f3af8454335d941d",
+      "case_id": "finish-everything-fixture-028",
+      "case_name": "no live repeat 028",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7109d5f76e9305026afd46edd2c4d6e65b45c669838fb8427637dc0da6a3c6aa",
+      "case_id": "finish-everything-fixture-029",
+      "case_name": "no strategy promotion repeat 029",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "4f3c14d2ab77def9f6cfa68ebd006758c78f10d1d80c8b58f71b5e33652f2dd0",
+      "case_id": "finish-everything-fixture-030",
+      "case_name": "no profitability claim repeat 030",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "295d5f7fc1003c1fab0a6693788be2cc33fdca13aa056b0789b80076b94ac752",
+      "case_id": "finish-everything-fixture-031",
+      "case_name": "no live readiness claim repeat 031",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b16839ce900a1c7756b55d71ed908e16df2ff3af8c3709853e46e6fcc346db22",
+      "case_id": "finish-everything-fixture-032",
+      "case_name": "remaining gap solved repeat 032",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "6947ea375ea058bac68be05db6db9ea574ca261b117134525231c2dc7880eb8d",
+      "case_id": "finish-everything-fixture-033",
+      "case_name": "remaining gap blocked by policy repeat 033",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "8fa57a070c6d3fb315f7d278c5d54b4323bfb341cde1b630000eb0a1f45a760d",
+      "case_id": "finish-everything-fixture-034",
+      "case_name": "remaining gap fallback model-priced repeat 034",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1f0a53055a47c5a9c04eeed004ed714be3308c35a7e8405ec3433941189e0638",
+      "case_id": "finish-everything-fixture-035",
+      "case_name": "finish everything no data repeat 035",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "501cc27e763067e84dbe755a9e4069c9eb2a1f3bd6760215526a8d343b68abc6",
+      "case_id": "finish-everything-fixture-036",
+      "case_name": "finish everything OpenBB data repeat 036",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ba0bcbc12318fc2536930ade796102a22337caf84b5df03abf2c199d1af5f00a",
+      "case_id": "finish-everything-fixture-037",
+      "case_name": "finish everything quote unlocked repeat 037",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "8a45be57cfa096d21f72a271d2898e921472508566d299bd13e11692bd33c1ef",
+      "case_id": "finish-everything-fixture-038",
+      "case_name": "finish everything max completion repeat 038",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1d352908f005c18bace7aa614b16368e6dcb9ce1740e9280ef7226c26577dcac",
+      "case_id": "finish-everything-fixture-039",
+      "case_name": "no manual review dependency repeat 039",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b4674a102dda7149f0c3ee9ecc52bc2bfa84628dfc76a49d34364b5bab1aedea",
+      "case_id": "finish-everything-fixture-040",
+      "case_name": "no operator action required repeat 040",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "32768d0def6d22e4ec48a2f3be91a073f4d9238276255d82d35a3a8ea60ca25e",
+      "case_id": "finish-everything-fixture-041",
+      "case_name": "no .env repeat 041",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "72d6bcf8412d20f1800b9f4c92006a2bd2fe1878c9f6068b13e4268014645542",
+      "case_id": "finish-everything-fixture-042",
+      "case_name": "no credentials repeat 042",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "21cb306e764ee9f0ff7e93e13f0ff32cb307e103a9526905bd40d3acdcb9c8f0",
+      "case_id": "finish-everything-fixture-043",
+      "case_name": "no broker repeat 043",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b3474dde2268bc9d376ccde7687906ec3cc0935ff1d897403a6e393acc9bb5d6",
+      "case_id": "finish-everything-fixture-044",
+      "case_name": "no live repeat 044",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2bc013754affc7345ad1baf3654789e74431b3a20b70a95bf05df8d927d55bd1",
+      "case_id": "finish-everything-fixture-045",
+      "case_name": "no strategy promotion repeat 045",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ae2f3f6893fd3f23e4b75859863f62a7db1a87525a761b4cca42f13726aa645e",
+      "case_id": "finish-everything-fixture-046",
+      "case_name": "no profitability claim repeat 046",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2f23caf0a5f7638dc40c830143c93790ca0eef3caea08401f35879f66a8fcd2c",
+      "case_id": "finish-everything-fixture-047",
+      "case_name": "no live readiness claim repeat 047",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "0338f05e2b2ead24a2a7703a31fbdef8a54bf54b346719e06dae6bd765032eb8",
+      "case_id": "finish-everything-fixture-048",
+      "case_name": "remaining gap solved repeat 048",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b38d8e6e54ca8da9a3ccd27d0541c137ce2a1aa830b98b4eb48ac0f7470c4c46",
+      "case_id": "finish-everything-fixture-049",
+      "case_name": "remaining gap blocked by policy repeat 049",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a5ed728546e8d88d9a969864e370c0878978399144d1d085ec8996a3cb4833d8",
+      "case_id": "finish-everything-fixture-050",
+      "case_name": "remaining gap fallback model-priced repeat 050",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "55866917a18128a7e06a4ff9a78c3d56c86f3568eec2ac6635a87adfe22de97d",
+      "case_id": "finish-everything-fixture-051",
+      "case_name": "finish everything no data repeat 051",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "3bf23a9fdaf09767aabf82124d4ed10eb716440bcc509be53ec75c1da22bc397",
+      "case_id": "finish-everything-fixture-052",
+      "case_name": "finish everything OpenBB data repeat 052",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "0d851b91b31bda2362cadcb84a05826a91038b1d104952f4e7878d560fbee3e2",
+      "case_id": "finish-everything-fixture-053",
+      "case_name": "finish everything quote unlocked repeat 053",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "5f7e6b876d02992d2be56a9f71d0af4c7bc11c0bffaa476ba33c7ed7fb535d09",
+      "case_id": "finish-everything-fixture-054",
+      "case_name": "finish everything max completion repeat 054",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "77e0abe9163d3e14e39f97ee3e447b377196b24833be1e0809b56fa7d6d502de",
+      "case_id": "finish-everything-fixture-055",
+      "case_name": "no manual review dependency repeat 055",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "79701cc4e74d4f71405795f270bdd5cde98f64ebcecf35e5040c28e9d65373f3",
+      "case_id": "finish-everything-fixture-056",
+      "case_name": "no operator action required repeat 056",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "39f98113857657e7324a357bddaa92a93cd61a1af23115551b5ce0eb4e053ad9",
+      "case_id": "finish-everything-fixture-057",
+      "case_name": "no .env repeat 057",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "8c676062222638df7d5a2dcc5fd655a6f4327460c3f299bdf798bd11a6c42d01",
+      "case_id": "finish-everything-fixture-058",
+      "case_name": "no credentials repeat 058",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "03bd444566237ef663e4c421148ef8f5c86aa2aba035310c62a072aa8a4c039f",
+      "case_id": "finish-everything-fixture-059",
+      "case_name": "no broker repeat 059",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "bb98118a654b3fb9baabb5131a8d9fbc5af73a2b27716d313d5112fa6ca4a2d7",
+      "case_id": "finish-everything-fixture-060",
+      "case_name": "no live repeat 060",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ed7ea9cf88b339a1d3a7ccf9c61ddbcfbc5ab5097af0217e0e52f4801b54e162",
+      "case_id": "finish-everything-fixture-061",
+      "case_name": "no strategy promotion repeat 061",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2005d6dbc1276648abdf1584ac4aa54eb7b297523b9a43e2059b87030f5fb431",
+      "case_id": "finish-everything-fixture-062",
+      "case_name": "no profitability claim repeat 062",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "5e514b8ac34e3db5f8bc75417e133f35300b8822fb8293345c87480f0e284611",
+      "case_id": "finish-everything-fixture-063",
+      "case_name": "no live readiness claim repeat 063",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ba8857df1140e41cf6b98b058420c2e23f4f0e85e0154f7203a8a2c64acd5691",
+      "case_id": "finish-everything-fixture-064",
+      "case_name": "remaining gap solved repeat 064",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "0791bf7cae1fb41d856d388be82b15644385bd960001407df5dca2ec3312a854",
+      "case_id": "finish-everything-fixture-065",
+      "case_name": "remaining gap blocked by policy repeat 065",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "6ea7000db40119b628078f66578707852309e9f139774f54a8026eb93d75109d",
+      "case_id": "finish-everything-fixture-066",
+      "case_name": "remaining gap fallback model-priced repeat 066",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "db1a7ba0508af8833c334aa791fc4d3b29b11545c3bbc067286971c81222c37d",
+      "case_id": "finish-everything-fixture-067",
+      "case_name": "finish everything no data repeat 067",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ae82352fde3416d914c3f25a2c517189c07396b403a87709a5d0b038e1841583",
+      "case_id": "finish-everything-fixture-068",
+      "case_name": "finish everything OpenBB data repeat 068",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "3f01e5efb31c4d0ec048b93fe04906a055851e2f90f5d4df3da105216047e0fc",
+      "case_id": "finish-everything-fixture-069",
+      "case_name": "finish everything quote unlocked repeat 069",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "8bbe3e2d57da1b37fd953b486d4c110f17b27254eb26e707c903fc30b625008a",
+      "case_id": "finish-everything-fixture-070",
+      "case_name": "finish everything max completion repeat 070",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b208e1436d1a77fe6aef5ced84207fb34625ff7c8e5e4a767eabdb0b52946a56",
+      "case_id": "finish-everything-fixture-071",
+      "case_name": "no manual review dependency repeat 071",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "38d187c0d96350076c0954341cbaa13f249db8893b5fb3fafaa6252773e8bffb",
+      "case_id": "finish-everything-fixture-072",
+      "case_name": "no operator action required repeat 072",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "31bbb135c98f475a6fb7d9f493e8bb6a0d19b1fb338e4c620bff9523b15ce933",
+      "case_id": "finish-everything-fixture-073",
+      "case_name": "no .env repeat 073",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b7f4d89a984502917567bdcd044da9e0ef8043ce3072be4a34fd6de551eed714",
+      "case_id": "finish-everything-fixture-074",
+      "case_name": "no credentials repeat 074",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b8e183f71c16675bc5c8d5e9ff5ce5788ee9253e1ec5a350adc7ac8b9befce33",
+      "case_id": "finish-everything-fixture-075",
+      "case_name": "no broker repeat 075",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "270190dd3303afa0b24c4f5de19361a92ac8984858636947c04b45b47ae5bf2a",
+      "case_id": "finish-everything-fixture-076",
+      "case_name": "no live repeat 076",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "bb9de275ed6baaa87a419b5684718fa8b3bd1e5fde5cea94ce63fdaf45064b7a",
+      "case_id": "finish-everything-fixture-077",
+      "case_name": "no strategy promotion repeat 077",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "14ae2d0e96f4016917ff9a5a8928f3c7f4d755e546a4121a3708c1b5ae63701e",
+      "case_id": "finish-everything-fixture-078",
+      "case_name": "no profitability claim repeat 078",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ab78f588c33d3de9b5341a74bcf97ccee43ffc72587b9bd1e5b6869a2ac2e7ae",
+      "case_id": "finish-everything-fixture-079",
+      "case_name": "no live readiness claim repeat 079",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "19e39184a8685e398320a2502ec1af736593257b9c8273121177b08ec7498997",
+      "case_id": "finish-everything-fixture-080",
+      "case_name": "remaining gap solved repeat 080",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7b1e591c98c338199ad5534f3b430554234f1fc6e4c9e23dda70fc058846d9eb",
+      "case_id": "finish-everything-fixture-081",
+      "case_name": "remaining gap blocked by policy repeat 081",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e9d791225973e7ede6d73a92f2da91c4db0e4eea476c40e556c2d560cfe2c1bc",
+      "case_id": "finish-everything-fixture-082",
+      "case_name": "remaining gap fallback model-priced repeat 082",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1d95d927ca5369214fe62d3c19fbaf2bd1761434c97cfbbb117e916c08164bdc",
+      "case_id": "finish-everything-fixture-083",
+      "case_name": "finish everything no data repeat 083",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "01b2340bc79331d3f58a0a4817cb798809410f9d810a265b6e72443d7dfaa681",
+      "case_id": "finish-everything-fixture-084",
+      "case_name": "finish everything OpenBB data repeat 084",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "cf1169da25931ff4c7443aa28f857d182faedecbc95cafb99e3b617ce28f8e0b",
+      "case_id": "finish-everything-fixture-085",
+      "case_name": "finish everything quote unlocked repeat 085",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "03caedd364098aa61ffc9d949d1432aa9c71ee710ca065d80188e32b55ae44eb",
+      "case_id": "finish-everything-fixture-086",
+      "case_name": "finish everything max completion repeat 086",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "33652bce9a06eeae84fc62748276d0b7be6f625ab46bbd3c4635b6e31f9e4c86",
+      "case_id": "finish-everything-fixture-087",
+      "case_name": "no manual review dependency repeat 087",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "45b7dbdd0a1dde4cfff91fb0dc2d965498235f9c595465eb21933311310b618c",
+      "case_id": "finish-everything-fixture-088",
+      "case_name": "no operator action required repeat 088",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "cf7bc218fedc4ff9d5541db2b386a901d14d999ed5cac6588f3190f8526f3898",
+      "case_id": "finish-everything-fixture-089",
+      "case_name": "no .env repeat 089",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a0919fefca1cf4e9f29dd575bcfe3fe1716828a33be634055a32769412d3c0db",
+      "case_id": "finish-everything-fixture-090",
+      "case_name": "no credentials repeat 090",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "069a49c9e6898cd13115017cc7d23616bc10a74320ecdca518bc93edfa67f566",
+      "case_id": "finish-everything-fixture-091",
+      "case_name": "no broker repeat 091",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e9be2d8447217bdfd0bed8747c8adf9adf87622918d21af3aca32c4b3877b34a",
+      "case_id": "finish-everything-fixture-092",
+      "case_name": "no live repeat 092",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d011b8f0b23887f9b0627a0b471bf57d4c6b3e182c16b10b45cc09c3ba3f31a6",
+      "case_id": "finish-everything-fixture-093",
+      "case_name": "no strategy promotion repeat 093",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "910eefefb3b122960deaf99d698f71564a55dadc0a8f09c63c2d7ac290027176",
+      "case_id": "finish-everything-fixture-094",
+      "case_name": "no profitability claim repeat 094",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "97ca137acbfc65d74ffd880527b0f67f78c34368c2b5d16fbc089cf3f46bfcb5",
+      "case_id": "finish-everything-fixture-095",
+      "case_name": "no live readiness claim repeat 095",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "92c2d6d368a37ae4d55df4470e7307e5109dd84f9d5e21133ffa2dd29fd1797b",
+      "case_id": "finish-everything-fixture-096",
+      "case_name": "remaining gap solved repeat 096",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1f57726a973da2e4744e6bde54791e9c34cd1fcefeb19bcf56061f15b9e2dd1d",
+      "case_id": "finish-everything-fixture-097",
+      "case_name": "remaining gap blocked by policy repeat 097",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "3888337b82d434778e778c5794f5c6d577aa96e5782cf37373708bb01aad95a5",
+      "case_id": "finish-everything-fixture-098",
+      "case_name": "remaining gap fallback model-priced repeat 098",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "f31efe1d29cf3fb04a6f4618f348632a198802eecde3c17e28c3d527d1490280",
+      "case_id": "finish-everything-fixture-099",
+      "case_name": "finish everything no data repeat 099",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    }
+  ]
+}

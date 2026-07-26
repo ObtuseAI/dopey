@@ -1,0 +1,34 @@
+{
+  "column_types": {
+    "action_type": "string",
+    "date": "date",
+    "dividend_amount": "number",
+    "provider_record_id": "string",
+    "source": "string",
+    "split_ratio": "number",
+    "symbol": "string"
+  },
+  "dataset_family": "corporate_actions",
+  "live_blocked": true,
+  "not_real_data_ingested": true,
+  "optional_columns": [],
+  "paper_only": true,
+  "primary_key_columns": [
+    "date",
+    "symbol",
+    "action_type",
+    "provider_record_id"
+  ],
+  "required_columns": [
+    "date",
+    "symbol",
+    "action_type",
+    "split_ratio",
+    "dividend_amount",
+    "source",
+    "provider_record_id"
+  ],
+  "sample_only_rows_allowed_as_real": false,
+  "schema_id": "schema-corporate_actions",
+  "schema_version": "dopey-real-data-schema-contract-v1"
+}

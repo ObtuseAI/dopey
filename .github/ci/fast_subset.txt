@@ -1,0 +1,91 @@
+# DOPEY CI operational subset - curated, deterministic, and network-free test files.
+#
+# Why a curated subset (not the full suite):
+#   The full suite currently collects 3,535 tests across its isolated eight-shard
+#   execution plan and is intentionally heavy -
+#   DOPEY_TEST_SHARD_PLAN.md records full_suite_status: inconclusive_timeout with
+#   a recommended_long_timeout_seconds: 900. Many files drive real pipeline engines
+#   (signal/backtest/supervisor) that take tens of seconds each, and several spawn
+#   subprocesses or exercise environment-specific paths that are not appropriate for
+#   GitHub-hosted runners. The shard plan's own "Split Suite Commands" hardcode a
+#   local Windows venv path (C:\Users\CH\dopey\.venv\...) and cannot run in CI.
+#
+# This manifest is the CI-portable fallback the plan calls for: an explicit allowlist
+# of deterministic operational and pure-logic test files (900+ test cases). A
+# canonical content-addressed modulo plan assigns each path across the job matrix
+# without depending on line order or moving existing paths when a new one is added.
+# The workflow enforces an 800-test collection
+# floor, exact file coverage, and unique node-ID coverage so future edits cannot
+# silently narrow or duplicate the gate.
+#
+# Lines beginning with '#' and blank lines are ignored.
+tests/test_read_only_detector_pre_run_safety_scanner.py
+tests/test_human_approved_read_only_broker_capability_detector.py
+tests/test_read_only_detector_approval_intake_validator.py
+tests/test_read_only_detector_dry_run_validator.py
+tests/test_signal_calibration_v27.py
+tests/test_iv_surface_skew_expansion.py
+tests/test_failure_feedback_optimizer.py
+tests/test_read_only_detector_manual_approval_packet.py
+tests/test_universe_governor_v26.py
+tests/test_position_lifecycle_policy.py
+tests/test_greeks_iv_validation.py
+tests/test_vnext_dynamic_control_integration.py
+tests/test_pipeline.py
+tests/test_expanded_regime_tournament.py
+tests/test_hardening_pass.py
+tests/test_vnext_causal_cohort_integration.py
+tests/test_paperbroker_active_policy.py
+tests/test_acceleration_control_plane.py
+tests/test_autonomous_threshold_strategy_engineering.py
+tests/test_finish_everything_openbb_model_priced_s_tier_completion.py
+tests/test_vnext_agent_ablation.py
+tests/test_active_trading_policy.py
+tests/test_vnext_settlement_memory_integration.py
+tests/test_paperbroker_account_ledger.py
+tests/test_vnext_forward_accrual_monitor.py
+tests/test_vnext_sovereign_research.py
+tests/test_full_validation_stabilizer.py
+tests/test_proof_weighted_aggression_gate.py
+tests/test_vnext_operation_leases.py
+tests/test_action_readiness_gate.py
+tests/test_indicator_foundry.py
+tests/test_execution_intent_validation.py
+tests/test_vnext_recursive_evolution_integration.py
+tests/test_vnext_technical_foundry_integration.py
+tests/test_options_ontology.py
+tests/test_vnext_observatory_integration.py
+tests/test_vnext_cross_sectional_operation.py
+tests/test_vnext_world_model_enrichment_integration.py
+tests/test_broker_capability_detector.py
+tests/test_code_release_deployment.py
+tests/test_release_wheel_self_contained.py
+tests/test_option_roi_discovery.py
+tests/test_swing_target_discovery.py
+tests/test_strategy_playbook.py
+tests/test_playbook_wiring.py
+tests/test_ohlcv_tail_repair.py
+tests/test_forward_book_quality_schema.py
+tests/test_compression_candidate_pipeline.py
+tests/test_cross_lane_convergence.py
+tests/test_data_durability.py
+tests/test_dodgers_golf_layer.py
+tests/test_evolution_status.py
+tests/test_incremental_signal_engine.py
+tests/test_intelligence_research_engine.py
+tests/test_nightly_production_stack_verification.py
+tests/test_nightly_shards.py
+tests/test_ops_resilience_audit_fixes.py
+tests/test_playbook_rankings.py
+tests/test_scanner_holdout_fitness.py
+tests/test_situational_scorecard.py
+tests/test_squeeze_bubble_intelligence.py
+tests/test_stale_pytest_temp_cleanup.py
+tests/test_strategy_claim_compiler.py
+tests/test_symbol_targeting.py
+tests/test_targeting_source_contracts.py
+tests/test_trade_memory.py
+tests/test_ci_and_epistemic_ledger_stability.py
+tests/test_epistemic_adversarial_supervision.py
+tests/test_epistemic_runtime_integration.py
+tests/test_squeeze_bubble_epistemic_hardening.py

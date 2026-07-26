@@ -1,0 +1,858 @@
+{
+  "catalog_version": "dopey-capability-source-catalog-v2",
+  "observed_at_utc": "2026-07-24T06:50:00Z",
+  "score_provenance": "human_reviewed_architecture_fit_not_runtime_proof",
+  "remote_observation_status": "authenticated_github_metadata_observed_manual_snapshot",
+  "remote_verification_limitations": "offline_foundry_does_not_reverify_commit_ref_license_blob_or_capability_evidence_paths",
+  "sources": [
+    {
+      "repository": "ObtuseAI/blunder",
+      "url": "https://github.com/ObtuseAI/blunder",
+      "source_kind": "obtuseai_internal",
+      "visibility": "private",
+      "license_spdx": "Proprietary",
+      "license_evidence": "repository_readme_manual_review",
+      "default_ref": "main",
+      "observed_head_sha": "9489537b6f10e42cdb27eac87cb3a687fc818405",
+      "pushed_at_utc": "2026-07-16T22:01:55Z",
+      "stars": 1,
+      "capabilities": [
+        "capability_foundry",
+        "typed_tool_contracts",
+        "quarantined_intake",
+        "agent_evaluation",
+        "browser_evaluation"
+      ],
+      "scores": {
+        "dopey_fit": 0.93,
+        "evidence_value": 0.87,
+        "replayability": 0.82,
+        "isolation_fit": 0.78,
+        "integration_cost": 0.42,
+        "adoption_risk": 0.68
+      },
+      "rationale": "Clean-room architecture source for typed tools, quarantine, evaluation, and observed-use proof."
+    },
+    {
+      "repository": "ObtuseAI/dimwit",
+      "url": "https://github.com/ObtuseAI/dimwit",
+      "source_kind": "obtuseai_internal",
+      "visibility": "private",
+      "license_spdx": "Proprietary",
+      "license_evidence": "repository_readme_manual_review",
+      "default_ref": "master",
+      "observed_head_sha": "2bf1fa0b342eb119ae90800d37c7f8d73ca110d0",
+      "pushed_at_utc": "2026-07-16T22:02:58Z",
+      "stars": 1,
+      "capabilities": [
+        "vision_calibration",
+        "multimodal_quorum",
+        "proof_pipeline",
+        "document_vision"
+      ],
+      "scores": {
+        "dopey_fit": 0.79,
+        "evidence_value": 0.82,
+        "replayability": 0.75,
+        "isolation_fit": 0.68,
+        "integration_cost": 0.52,
+        "adoption_risk": 0.7
+      },
+      "rationale": "Clean-room pattern for deterministic visual metrics, golden fixtures, and calibrated semantic quorum."
+    },
+    {
+      "repository": "ObtuseAI/doofus",
+      "url": "https://github.com/ObtuseAI/doofus",
+      "source_kind": "obtuseai_internal",
+      "visibility": "private",
+      "license_spdx": "MIT",
+      "license_evidence": "repository_license_file",
+      "default_ref": "master",
+      "observed_head_sha": "c86929343c082c0ce532811877ebe246f8232b22",
+      "pushed_at_utc": "2026-07-17T20:07:42Z",
+      "stars": 1,
+      "capabilities": [
+        "knowledge_boundary",
+        "causal_confidence",
+        "scientific_memory",
+        "quality_diversity",
+        "research_optimization"
+      ],
+      "scores": {
+        "dopey_fit": 0.9,
+        "evidence_value": 0.84,
+        "replayability": 0.86,
+        "isolation_fit": 0.67,
+        "integration_cost": 0.34,
+        "adoption_risk": 0.22
+      },
+      "rationale": "MIT source for explicit unknown-state scoring, causal replication, and quality-diversity research archives."
+    },
+    {
+      "repository": "ObtuseAI/dummy",
+      "url": "https://github.com/ObtuseAI/dummy",
+      "source_kind": "obtuseai_internal",
+      "visibility": "private",
+      "license_spdx": "Proprietary",
+      "license_evidence": "repository_readme_manual_review",
+      "default_ref": "main",
+      "observed_head_sha": "e3143e69f0d15d5d5f88738e16a5941434d1733f",
+      "pushed_at_utc": "2026-07-24T06:20:30Z",
+      "stars": 1,
+      "capabilities": [
+        "point_in_time_world_model",
+        "repository_harvesting",
+        "lineage_allocation",
+        "scientific_memory",
+        "browser_acquisition"
+      ],
+      "scores": {
+        "dopey_fit": 0.98,
+        "evidence_value": 0.94,
+        "replayability": 0.86,
+        "isolation_fit": 0.73,
+        "integration_cost": 0.55,
+        "adoption_risk": 0.72
+      },
+      "rationale": "Highest-value clean-room source for bitemporal market state, lineage allocation, and governed repository scouting."
+    },
+    {
+      "repository": "ObtuseAI/nimrod",
+      "url": "https://github.com/ObtuseAI/nimrod",
+      "source_kind": "obtuseai_internal",
+      "visibility": "private",
+      "license_spdx": "Proprietary",
+      "license_evidence": "repository_readme_manual_review",
+      "default_ref": "main",
+      "observed_head_sha": "2c31c24e55f6593867c1a5760629dfbea46ea429",
+      "pushed_at_utc": "2026-07-16T22:27:09Z",
+      "stars": 1,
+      "capabilities": [
+        "evaluator_isolation",
+        "tamper_evident_witness",
+        "world_model",
+        "resource_leases",
+        "policy_sandbox"
+      ],
+      "scores": {
+        "dopey_fit": 0.96,
+        "evidence_value": 0.95,
+        "replayability": 0.88,
+        "isolation_fit": 0.96,
+        "integration_cost": 0.48,
+        "adoption_risk": 0.7
+      },
+      "rationale": "Clean-room architecture source for distinct evaluator principals, isolation witnesses, leases, and Merkle checkpoints."
+    },
+    {
+      "repository": "ObtuseAI/universal-sports-engine",
+      "url": "https://github.com/ObtuseAI/universal-sports-engine",
+      "source_kind": "obtuseai_internal",
+      "visibility": "public",
+      "license_spdx": "MIT",
+      "license_evidence": "repository_license_file",
+      "default_ref": "main",
+      "observed_head_sha": "72853d287099fdcbc0bd6f4f947d9353ce316d82",
+      "pushed_at_utc": "2026-07-18T07:51:53Z",
+      "stars": 1,
+      "capabilities": [
+        "semantic_rng",
+        "common_random_numbers",
+        "deterministic_replay",
+        "hash_chained_events",
+        "calibration"
+      ],
+      "scores": {
+        "dopey_fit": 0.97,
+        "evidence_value": 0.92,
+        "replayability": 0.99,
+        "isolation_fit": 0.82,
+        "integration_cost": 0.18,
+        "adoption_risk": 0.12
+      },
+      "rationale": "Direct MIT reuse candidate for semantic random streams, paired counterfactuals, and replay integrity."
+    },
+    {
+      "repository": "feast-dev/feast",
+      "url": "https://github.com/feast-dev/feast",
+      "source_kind": "external_oss",
+      "visibility": "public",
+      "license_spdx": "Apache-2.0",
+      "license_evidence": "github_api_license_detection",
+      "default_ref": "master",
+      "observed_head_sha": "f843c632976b018ca9f81c925385e7be5fdbb41d",
+      "pushed_at_utc": "2026-07-23T16:25:39Z",
+      "stars": 7166,
+      "capabilities": [
+        "point_in_time_data",
+        "feature_store",
+        "offline_data_contracts"
+      ],
+      "scores": {
+        "dopey_fit": 0.98,
+        "evidence_value": 0.96,
+        "replayability": 0.9,
+        "isolation_fit": 0.83,
+        "integration_cost": 0.55,
+        "adoption_risk": 0.27
+      },
+      "rationale": "Offline point-in-time joins directly attack look-ahead leakage; online serving is excluded."
+    },
+    {
+      "repository": "mlflow/mlflow",
+      "url": "https://github.com/mlflow/mlflow",
+      "source_kind": "external_oss",
+      "visibility": "public",
+      "license_spdx": "Apache-2.0",
+      "license_evidence": "github_api_license_detection",
+      "default_ref": "master",
+      "observed_head_sha": "d774b289587eac3ff3fc76226d68b461b6efb71f",
+      "pushed_at_utc": "2026-07-24T06:08:22Z",
+      "stars": 27189,
+      "capabilities": [
+        "experiment_tracking",
+        "model_lineage",
+        "trace_observability"
+      ],
+      "scores": {
+        "dopey_fit": 0.84,
+        "evidence_value": 0.9,
+        "replayability": 0.86,
+        "isolation_fit": 0.72,
+        "integration_cost": 0.5,
+        "adoption_risk": 0.3
+      },
+      "rationale": "Useful as a local mirror of canonical DOPEY artifact hashes, inputs, parameters, metrics, and traces."
+    },
+    {
+      "repository": "OpenLineage/OpenLineage",
+      "url": "https://github.com/OpenLineage/OpenLineage",
+      "source_kind": "external_oss",
+      "visibility": "public",
+      "license_spdx": "Apache-2.0",
+      "license_evidence": "github_api_license_detection",
+      "default_ref": "main",
+      "observed_head_sha": "91703a381b47b4f9c827933358a4612197adec7a",
+      "pushed_at_utc": "2026-07-23T15:06:17Z",
+      "stars": 2560,
+      "capabilities": [
+        "lineage_events",
+        "dataset_provenance",
+        "run_identity"
+      ],
+      "scores": {
+        "dopey_fit": 0.93,
+        "evidence_value": 0.94,
+        "replayability": 0.92,
+        "isolation_fit": 0.86,
+        "integration_cost": 0.3,
+        "adoption_risk": 0.18
+      },
+      "rationale": "Its event vocabulary can standardize DOPEY run, job, and dataset lineage without deploying the full ecosystem."
+    },
+    {
+      "repository": "UKGovernmentBEIS/inspect_ai",
+      "url": "https://github.com/UKGovernmentBEIS/inspect_ai",
+      "source_kind": "external_oss",
+      "visibility": "public",
+      "license_spdx": "MIT",
+      "license_evidence": "github_api_license_detection",
+      "default_ref": "main",
+      "observed_head_sha": "3e9a18f4e7e17d7cf6aaa14b13026774ca747597",
+      "pushed_at_utc": "2026-07-23T21:09:49Z",
+      "stars": 2400,
+      "capabilities": [
+        "agent_evaluation",
+        "tool_evaluation",
+        "sandbox_evaluation",
+        "prompt_injection_testing"
+      ],
+      "scores": {
+        "dopey_fit": 0.96,
+        "evidence_value": 0.98,
+        "replayability": 0.95,
+        "isolation_fit": 0.92,
+        "integration_cost": 0.42,
+        "adoption_risk": 0.2
+      },
+      "rationale": "Best current framework candidate for proving agent and tool competence with deterministic scorers."
+    },
+    {
+      "repository": "scikit-learn-contrib/MAPIE",
+      "url": "https://github.com/scikit-learn-contrib/MAPIE",
+      "source_kind": "external_oss",
+      "visibility": "public",
+      "license_spdx": "BSD-3-Clause",
+      "license_evidence": "github_api_license_detection",
+      "default_ref": "master",
+      "observed_head_sha": "db75c85cc5d80cc93b82126311beb9e1718b7e77",
+      "pushed_at_utc": "2026-07-24T05:50:19Z",
+      "stars": 1573,
+      "capabilities": [
+        "conformal_risk",
+        "prediction_intervals",
+        "calibrated_abstention"
+      ],
+      "scores": {
+        "dopey_fit": 0.95,
+        "evidence_value": 0.96,
+        "replayability": 0.91,
+        "isolation_fit": 0.88,
+        "integration_cost": 0.34,
+        "adoption_risk": 0.24
+      },
+      "rationale": "Strong candidate for time-aware conformal intervals and explicit abstention when assumptions fail."
+    },
+    {
+      "repository": "py-why/dowhy",
+      "url": "https://github.com/py-why/dowhy",
+      "source_kind": "external_oss",
+      "visibility": "public",
+      "license_spdx": "MIT",
+      "license_evidence": "github_api_license_detection",
+      "default_ref": "main",
+      "observed_head_sha": "90654ab2a0c254518296e9dff2cd4190c9b7a803",
+      "pushed_at_utc": "2026-07-24T04:11:39Z",
+      "stars": 8230,
+      "capabilities": [
+        "causal_refutation",
+        "negative_controls",
+        "counterfactual_analysis"
+      ],
+      "scores": {
+        "dopey_fit": 0.92,
+        "evidence_value": 0.97,
+        "replayability": 0.9,
+        "isolation_fit": 0.83,
+        "integration_cost": 0.48,
+        "adoption_risk": 0.3
+      },
+      "rationale": "Use as a falsifier through placebo, negative-control, and sensitivity checks, never as alpha proof."
+    },
+    {
+      "repository": "deepcharles/ruptures",
+      "url": "https://github.com/deepcharles/ruptures",
+      "source_kind": "external_oss",
+      "visibility": "public",
+      "license_spdx": "BSD-2-Clause",
+      "license_evidence": "github_api_license_detection",
+      "default_ref": "master",
+      "observed_head_sha": "ee1c8ff8a548d54c641b2bb471562165931f31c7",
+      "pushed_at_utc": "2026-07-06T22:04:14Z",
+      "stars": 2066,
+      "capabilities": [
+        "change_point_detection",
+        "regime_segmentation"
+      ],
+      "scores": {
+        "dopey_fit": 0.88,
+        "evidence_value": 0.85,
+        "replayability": 0.92,
+        "isolation_fit": 0.87,
+        "integration_cost": 0.26,
+        "adoption_risk": 0.2
+      },
+      "rationale": "Small adapter candidate for causal, history-only regime boundaries without full-series leakage."
+    },
+    {
+      "repository": "sktime/sktime",
+      "url": "https://github.com/sktime/sktime",
+      "source_kind": "external_oss",
+      "visibility": "public",
+      "license_spdx": "BSD-3-Clause",
+      "license_evidence": "github_api_license_detection",
+      "default_ref": "main",
+      "observed_head_sha": "f4f7d5b30261b05acb56c2e568075602e98b579f",
+      "pushed_at_utc": "2026-07-23T22:31:53Z",
+      "stars": 9877,
+      "capabilities": [
+        "time_series_evaluation",
+        "change_point_detection",
+        "forecast_baselines"
+      ],
+      "scores": {
+        "dopey_fit": 0.86,
+        "evidence_value": 0.87,
+        "replayability": 0.9,
+        "isolation_fit": 0.82,
+        "integration_cost": 0.5,
+        "adoption_risk": 0.25
+      },
+      "rationale": "Unified time-series interfaces are useful as independent challengers and validation adapters."
+    },
+    {
+      "repository": "lballabio/QuantLib",
+      "url": "https://github.com/lballabio/QuantLib",
+      "source_kind": "external_oss",
+      "visibility": "public",
+      "license_spdx": "BSD-3-Clause",
+      "license_evidence": "repository_license_manual_review",
+      "default_ref": "master",
+      "observed_head_sha": "2570781f1c69552a40ebcce4f4013cc21ed32e0a",
+      "pushed_at_utc": "2026-07-23T13:12:34Z",
+      "stars": 7391,
+      "capabilities": [
+        "derivatives_pricing_oracle",
+        "greeks_oracle",
+        "calendar_oracle"
+      ],
+      "scores": {
+        "dopey_fit": 0.97,
+        "evidence_value": 0.98,
+        "replayability": 0.97,
+        "isolation_fit": 0.9,
+        "integration_cost": 0.46,
+        "adoption_risk": 0.18
+      },
+      "rationale": "Highest-value independent differential oracle for frozen option pricing, Greeks, calendars, and conventions."
+    },
+    {
+      "repository": "great-expectations/great_expectations",
+      "url": "https://github.com/great-expectations/great_expectations",
+      "source_kind": "external_oss",
+      "visibility": "public",
+      "license_spdx": "Apache-2.0",
+      "license_evidence": "github_api_license_detection",
+      "default_ref": "develop",
+      "observed_head_sha": "f6d7aec4f43cf0a9bae53a48ad0ec93003dc4bd4",
+      "pushed_at_utc": "2026-07-23T13:25:59Z",
+      "stars": 11667,
+      "capabilities": [
+        "data_quality_contracts",
+        "validation_receipts",
+        "dataset_provenance"
+      ],
+      "scores": {
+        "dopey_fit": 0.83,
+        "evidence_value": 0.91,
+        "replayability": 0.9,
+        "isolation_fit": 0.84,
+        "integration_cost": 0.58,
+        "adoption_risk": 0.24
+      },
+      "rationale": "Borrow declarative expectation patterns where DOPEY typed validators cannot express the contract simply."
+    },
+    {
+      "repository": "QuantConnect/Lean",
+      "url": "https://github.com/QuantConnect/Lean",
+      "source_kind": "external_oss",
+      "visibility": "public",
+      "license_spdx": "Apache-2.0",
+      "license_evidence": "github_api_license_detection",
+      "default_ref": "master",
+      "observed_head_sha": "cd52034ddf55c0c9aa57264d2a148e563924100f",
+      "pushed_at_utc": "2026-07-23T19:38:24Z",
+      "stars": 20710,
+      "capabilities": [
+        "event_driven_backtest",
+        "differential_execution_oracle",
+        "corporate_action_replay"
+      ],
+      "scores": {
+        "dopey_fit": 0.91,
+        "evidence_value": 0.96,
+        "replayability": 0.94,
+        "isolation_fit": 0.78,
+        "integration_cost": 0.82,
+        "adoption_risk": 0.36
+      },
+      "rationale": "Broker-disabled container oracle for calendars, fees, fills, corporate actions, and PnL reconciliation."
+    },
+    {
+      "repository": "nautechsystems/nautilus_trader",
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "source_kind": "external_oss",
+      "visibility": "public",
+      "license_spdx": "LGPL-3.0",
+      "license_evidence": "github_api_license_detection",
+      "default_ref": "develop",
+      "observed_head_sha": "d193242495b238b5c87f3ac81087f8749219a037",
+      "pushed_at_utc": "2026-07-24T03:15:47Z",
+      "stars": 24943,
+      "capabilities": [
+        "event_driven_backtest",
+        "deterministic_replay",
+        "microstructure_replay",
+        "order_book_simulation"
+      ],
+      "scores": {
+        "dopey_fit": 0.94,
+        "evidence_value": 0.97,
+        "replayability": 0.97,
+        "isolation_fit": 0.82,
+        "integration_cost": 0.77,
+        "adoption_risk": 0.48
+      },
+      "rationale": "Strong subprocess-isolated oracle candidate; LGPL review and complete live-adapter exclusion are mandatory."
+    },
+    {
+      "repository": "Quod-Financial/quantreplay",
+      "url": "https://github.com/Quod-Financial/quantreplay",
+      "source_kind": "external_oss",
+      "visibility": "public",
+      "license_spdx": "Apache-2.0",
+      "license_evidence": "github_api_license_detection",
+      "default_ref": "main",
+      "observed_head_sha": "8c8556744ae6b4f98c5626c2311c6aa05e09f9c4",
+      "pushed_at_utc": "2026-07-23T17:14:36Z",
+      "stars": 40,
+      "capabilities": [
+        "microstructure_replay",
+        "matching_engine",
+        "latency_simulation"
+      ],
+      "scores": {
+        "dopey_fit": 0.84,
+        "evidence_value": 0.8,
+        "replayability": 0.84,
+        "isolation_fit": 0.84,
+        "integration_cost": 0.72,
+        "adoption_risk": 0.58
+      },
+      "rationale": "Innovative adversarial microstructure laboratory, but too young for a core dependency."
+    },
+    {
+      "repository": "nkaz001/hftbacktest",
+      "url": "https://github.com/nkaz001/hftbacktest",
+      "source_kind": "external_oss",
+      "visibility": "public",
+      "license_spdx": "MIT",
+      "license_evidence": "github_api_license_detection",
+      "default_ref": "master",
+      "observed_head_sha": "5f3ec40b2afb764e0fea112f941ed85523ef4e88",
+      "pushed_at_utc": "2025-12-23T15:57:58Z",
+      "stars": 4305,
+      "capabilities": [
+        "microstructure_replay",
+        "queue_position_simulation",
+        "latency_simulation"
+      ],
+      "scores": {
+        "dopey_fit": 0.86,
+        "evidence_value": 0.88,
+        "replayability": 0.9,
+        "isolation_fit": 0.8,
+        "integration_cost": 0.7,
+        "adoption_risk": 0.35
+      },
+      "rationale": "Useful offline queue and latency models when granular data exists; exchange examples remain unreachable."
+    },
+    {
+      "repository": "microsoft/qlib",
+      "url": "https://github.com/microsoft/qlib",
+      "source_kind": "external_oss",
+      "visibility": "public",
+      "license_spdx": "MIT",
+      "license_evidence": "github_api_license_detection",
+      "default_ref": "main",
+      "observed_head_sha": "79633dd9506ea689e5400dea0197717b5b3d74b7",
+      "pushed_at_utc": "2026-07-23T08:15:29Z",
+      "stars": 46580,
+      "capabilities": [
+        "point_in_time_data",
+        "quant_research_workflows",
+        "forecast_baselines",
+        "drift_adaptation"
+      ],
+      "scores": {
+        "dopey_fit": 0.95,
+        "evidence_value": 0.94,
+        "replayability": 0.9,
+        "isolation_fit": 0.7,
+        "integration_cost": 0.78,
+        "adoption_risk": 0.38
+      },
+      "rationale": "Mine point-in-time and workflow-record architecture; avoid wholesale online and execution runtime adoption."
+    },
+    {
+      "repository": "microsoft/RD-Agent",
+      "url": "https://github.com/microsoft/RD-Agent",
+      "source_kind": "external_oss",
+      "visibility": "public",
+      "license_spdx": "MIT",
+      "license_evidence": "github_api_license_detection",
+      "default_ref": "main",
+      "observed_head_sha": "4f9ecb005881cddc08df0124a2e894c018007679",
+      "pushed_at_utc": "2026-07-16T10:03:35Z",
+      "stars": 14006,
+      "capabilities": [
+        "automated_quant_research",
+        "factor_model_cooptimization",
+        "research_feedback_loop"
+      ],
+      "scores": {
+        "dopey_fit": 0.94,
+        "evidence_value": 0.88,
+        "replayability": 0.82,
+        "isolation_fit": 0.62,
+        "integration_cost": 0.72,
+        "adoption_risk": 0.45
+      },
+      "rationale": "Borrow proposer, developer, experiment, and feedback roles only behind DOPEY-owned sandboxes and evaluators."
+    },
+    {
+      "repository": "optuna/optuna",
+      "url": "https://github.com/optuna/optuna",
+      "source_kind": "external_oss",
+      "visibility": "public",
+      "license_spdx": "MIT",
+      "license_evidence": "github_api_license_detection",
+      "default_ref": "master",
+      "observed_head_sha": "78651493f89e0e03e5cc5dbeadccd3353616e009",
+      "pushed_at_utc": "2026-07-24T04:08:43Z",
+      "stars": 14553,
+      "capabilities": [
+        "research_optimization",
+        "multiobjective_search",
+        "trial_pruning"
+      ],
+      "scores": {
+        "dopey_fit": 0.84,
+        "evidence_value": 0.83,
+        "replayability": 0.93,
+        "isolation_fit": 0.8,
+        "integration_cost": 0.36,
+        "adoption_risk": 0.42
+      },
+      "rationale": "Only useful behind frozen objectives, nested validation, precommitted budgets, and familywise selection controls."
+    },
+    {
+      "repository": "microsoft/playwright",
+      "url": "https://github.com/microsoft/playwright",
+      "source_kind": "external_oss",
+      "visibility": "public",
+      "license_spdx": "Apache-2.0",
+      "license_evidence": "github_api_license_detection",
+      "default_ref": "main",
+      "observed_head_sha": "f86bd78cc191f154d9db49dedf96e7ead7b7b694",
+      "pushed_at_utc": "2026-07-24T03:22:27Z",
+      "stars": 93352,
+      "capabilities": [
+        "browser_acquisition",
+        "browser_evaluation",
+        "screenshot_capture",
+        "network_control"
+      ],
+      "scores": {
+        "dopey_fit": 0.92,
+        "evidence_value": 0.9,
+        "replayability": 0.92,
+        "isolation_fit": 0.9,
+        "integration_cost": 0.42,
+        "adoption_risk": 0.24
+      },
+      "rationale": "Controlled read-only acquisition with fresh contexts, domain allowlists, download quarantine, and source hashing."
+    },
+    {
+      "repository": "unclecode/crawl4ai",
+      "url": "https://github.com/unclecode/crawl4ai",
+      "source_kind": "external_oss",
+      "visibility": "public",
+      "license_spdx": "Apache-2.0",
+      "license_evidence": "github_api_license_detection",
+      "default_ref": "main",
+      "observed_head_sha": "7e801521428ee12509994d39151006f64055ebe3",
+      "pushed_at_utc": "2026-07-22T12:57:04Z",
+      "stars": 74731,
+      "capabilities": [
+        "web_crawling",
+        "citation_extraction",
+        "structured_web_content"
+      ],
+      "scores": {
+        "dopey_fit": 0.8,
+        "evidence_value": 0.78,
+        "replayability": 0.75,
+        "isolation_fit": 0.65,
+        "integration_cost": 0.48,
+        "adoption_risk": 0.52
+      },
+      "rationale": "Pilot only behind source policy because scraped text is untrusted and prompt-injection-prone."
+    },
+    {
+      "repository": "ServiceNow/BrowserGym",
+      "url": "https://github.com/ServiceNow/BrowserGym",
+      "source_kind": "external_oss",
+      "visibility": "public",
+      "license_spdx": "Apache-2.0",
+      "license_evidence": "repository_license_manual_review",
+      "default_ref": "main",
+      "observed_head_sha": "9e779f087de9a65668b6974d11f9ce9816026e96",
+      "pushed_at_utc": "2026-07-17T18:09:30Z",
+      "stars": 1288,
+      "capabilities": [
+        "browser_evaluation",
+        "web_agent_benchmarks",
+        "visual_web_evaluation"
+      ],
+      "scores": {
+        "dopey_fit": 0.9,
+        "evidence_value": 0.94,
+        "replayability": 0.9,
+        "isolation_fit": 0.86,
+        "integration_cost": 0.5,
+        "adoption_risk": 0.25
+      },
+      "rationale": "Use to evaluate filing retrieval, date validation, table extraction, and unsafe-instruction refusal."
+    },
+    {
+      "repository": "docling-project/docling",
+      "url": "https://github.com/docling-project/docling",
+      "source_kind": "external_oss",
+      "visibility": "public",
+      "license_spdx": "MIT",
+      "license_evidence": "github_api_license_detection",
+      "default_ref": "main",
+      "observed_head_sha": "9b51f4f857176cdd95cef53e2ec7f5f32ffbc6a5",
+      "pushed_at_utc": "2026-07-23T18:46:11Z",
+      "stars": 63702,
+      "capabilities": [
+        "document_vision",
+        "pdf_parsing",
+        "chart_to_table",
+        "ocr"
+      ],
+      "scores": {
+        "dopey_fit": 0.92,
+        "evidence_value": 0.9,
+        "replayability": 0.86,
+        "isolation_fit": 0.8,
+        "integration_cost": 0.56,
+        "adoption_risk": 0.3
+      },
+      "rationale": "Highest-priority local document and chart extraction challenger with source coordinates and hash retention."
+    },
+    {
+      "repository": "getzep/graphiti",
+      "url": "https://github.com/getzep/graphiti",
+      "source_kind": "external_oss",
+      "visibility": "public",
+      "license_spdx": "Apache-2.0",
+      "license_evidence": "github_api_license_detection",
+      "default_ref": "main",
+      "observed_head_sha": "3bb2d0bba56f8e22311574c045452c420a012f49",
+      "pushed_at_utc": "2026-07-23T23:03:24Z",
+      "stars": 29134,
+      "capabilities": [
+        "temporal_evidence_graph",
+        "bitemporal_memory",
+        "hybrid_retrieval",
+        "scientific_memory"
+      ],
+      "scores": {
+        "dopey_fit": 0.91,
+        "evidence_value": 0.9,
+        "replayability": 0.82,
+        "isolation_fit": 0.72,
+        "integration_cost": 0.68,
+        "adoption_risk": 0.38
+      },
+      "rationale": "Pilot only as a derived temporal evidence index whose edges point to immutable DOPEY artifacts."
+    },
+    {
+      "repository": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "source_kind": "external_oss",
+      "visibility": "public",
+      "license_spdx": "Apache-2.0",
+      "license_evidence": "github_api_license_detection",
+      "default_ref": "main",
+      "observed_head_sha": "59f7839f6bf0220fc03409aec16fadb4217c7d0f",
+      "pushed_at_utc": "2026-07-24T04:20:55Z",
+      "stars": 7778,
+      "capabilities": [
+        "policy_sandbox",
+        "network_egress_policy",
+        "microvm_isolation"
+      ],
+      "scores": {
+        "dopey_fit": 0.94,
+        "evidence_value": 0.91,
+        "replayability": 0.86,
+        "isolation_fit": 0.97,
+        "integration_cost": 0.76,
+        "adoption_risk": 0.45
+      },
+      "rationale": "Promising default-deny research sandbox policy model, but alpha status and Linux virtualization require a bakeoff."
+    },
+    {
+      "repository": "alibaba/OpenSandbox",
+      "url": "https://github.com/alibaba/OpenSandbox",
+      "source_kind": "external_oss",
+      "visibility": "public",
+      "license_spdx": "Apache-2.0",
+      "license_evidence": "github_api_license_detection",
+      "default_ref": "main",
+      "observed_head_sha": "e9d0a63919739b1bed05914373acbacb11e37d43",
+      "pushed_at_utc": "2026-07-24T06:16:57Z",
+      "stars": 12151,
+      "capabilities": [
+        "sandbox_orchestration",
+        "network_egress_policy",
+        "microvm_isolation",
+        "browser_sandbox"
+      ],
+      "scores": {
+        "dopey_fit": 0.92,
+        "evidence_value": 0.9,
+        "replayability": 0.87,
+        "isolation_fit": 0.96,
+        "integration_cost": 0.8,
+        "adoption_risk": 0.44
+      },
+      "rationale": "Bakeoff candidate against OpenShell; credential-vault and all account-facing features remain disabled."
+    },
+    {
+      "repository": "microsoft/skills",
+      "url": "https://github.com/microsoft/skills",
+      "source_kind": "external_oss",
+      "visibility": "public",
+      "license_spdx": "MIT",
+      "license_evidence": "github_api_license_detection",
+      "default_ref": "main",
+      "observed_head_sha": "cc93536d8b809e177a7d1008b276ce41a9456a9c",
+      "pushed_at_utc": "2026-07-23T23:28:24Z",
+      "stars": 2805,
+      "capabilities": [
+        "skill_evaluation",
+        "selective_skill_routing",
+        "progressive_context"
+      ],
+      "scores": {
+        "dopey_fit": 0.8,
+        "evidence_value": 0.84,
+        "replayability": 0.88,
+        "isolation_fit": 0.82,
+        "integration_cost": 0.32,
+        "adoption_risk": 0.24
+      },
+      "rationale": "Borrow selective routing and skill test patterns; bulk loading would create context rot and supply-chain risk."
+    },
+    {
+      "repository": "microsoft/AgentRx",
+      "url": "https://github.com/microsoft/AgentRx",
+      "source_kind": "external_oss",
+      "visibility": "public",
+      "license_spdx": "MIT",
+      "license_evidence": "github_api_license_detection",
+      "default_ref": "main",
+      "observed_head_sha": "f228165bfec60a801fd5fedd9d8ffe0f9de0c69d",
+      "pushed_at_utc": "2026-06-22T09:29:32Z",
+      "stars": 131,
+      "capabilities": [
+        "agent_failure_localization",
+        "trajectory_diagnostics",
+        "tool_trace_analysis"
+      ],
+      "scores": {
+        "dopey_fit": 0.87,
+        "evidence_value": 0.9,
+        "replayability": 0.88,
+        "isolation_fit": 0.84,
+        "integration_cost": 0.38,
+        "adoption_risk": 0.32
+      },
+      "rationale": "Early but directly relevant framework for locating the critical failure step in long agent trajectories."
+    }
+  ]
+}

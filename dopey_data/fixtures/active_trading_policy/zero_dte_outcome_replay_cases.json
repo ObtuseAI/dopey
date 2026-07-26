@@ -1,0 +1,177 @@
+{
+  "fixture_version": "dopey-zero-dte-outcome-replay-cases-v1",
+  "paper_only": true,
+  "live_blocked": true,
+  "no_real_market_data": true,
+  "no_broker": true,
+  "cases": [
+    {
+      "replay_id": "zreplay-clean-bullish-trend-call",
+      "source_case_id": "liquid_strong_trend_call_approved",
+      "fixture_path_id": "path-clean-bullish-trend-call-win",
+      "expected_outcome_type": "approved_survived_fixture",
+      "expected_threshold_feedback": []
+    },
+    {
+      "replay_id": "zreplay-clean-bearish-breakdown-put",
+      "source_case_id": "liquid_strong_breakdown_put_approved",
+      "fixture_path_id": "path-clean-bearish-breakdown-put-win",
+      "expected_outcome_type": "approved_survived_fixture",
+      "expected_threshold_feedback": []
+    },
+    {
+      "replay_id": "zreplay-early-spike-then-fade",
+      "source_case_id": "bullish_regime_aligned_call_approved",
+      "fixture_path_id": "path-early-spike-then-fade",
+      "expected_outcome_type": "approved_spiked_then_failed",
+      "expected_threshold_feedback": ["tighten_gamma_instability_threshold"]
+    },
+    {
+      "replay_id": "zreplay-immediate-theta-bleed",
+      "source_case_id": "liquid_strong_trend_call_approved",
+      "fixture_path_id": "path-immediate-theta-bleed",
+      "expected_outcome_type": "approved_decayed",
+      "expected_threshold_feedback": ["tighten_theta_decay_threshold"]
+    },
+    {
+      "replay_id": "zreplay-midday-chop-decay",
+      "source_case_id": "liquid_strong_trend_call_approved",
+      "fixture_path_id": "path-midday-chop-decay",
+      "expected_outcome_type": "approved_decayed",
+      "expected_threshold_feedback": ["tighten_theta_decay_threshold"]
+    },
+    {
+      "replay_id": "zreplay-gamma-squeeze-then-reversal",
+      "source_case_id": "bullish_regime_aligned_call_approved",
+      "fixture_path_id": "path-gamma-squeeze-then-reversal",
+      "expected_outcome_type": "approved_spiked_then_failed",
+      "expected_threshold_feedback": ["tighten_gamma_instability_threshold"]
+    },
+    {
+      "replay_id": "zreplay-iv-crush-after-entry",
+      "source_case_id": "liquid_strong_trend_call_approved",
+      "fixture_path_id": "path-iv-crush-after-entry",
+      "expected_outcome_type": "approved_should_have_been_throttled_more",
+      "expected_threshold_feedback": ["tighten_iv_overpayment_threshold"]
+    },
+    {
+      "replay_id": "zreplay-wide-spread-exit-trap",
+      "source_case_id": "liquid_strong_trend_call_approved",
+      "fixture_path_id": "path-wide-spread-exit-trap",
+      "expected_outcome_type": "approved_should_have_been_throttled_more",
+      "expected_threshold_feedback": ["tighten_spread_threshold"]
+    },
+    {
+      "replay_id": "zreplay-liquidity-dries-near-close",
+      "source_case_id": "liquid_strong_trend_call_approved",
+      "fixture_path_id": "path-liquidity-dries-near-close",
+      "expected_outcome_type": "approved_should_have_been_throttled_more",
+      "expected_threshold_feedback": ["tighten_liquidity_threshold"]
+    },
+    {
+      "replay_id": "zreplay-false-breakout-call-failure",
+      "source_case_id": "bullish_regime_aligned_call_approved",
+      "fixture_path_id": "path-false-breakout-call-failure",
+      "expected_outcome_type": "approved_decayed",
+      "expected_threshold_feedback": ["increase_proof_score_requirement"]
+    },
+    {
+      "replay_id": "zreplay-false-breakdown-put-failure",
+      "source_case_id": "bearish_regime_aligned_put_approved",
+      "fixture_path_id": "path-false-breakdown-put-failure",
+      "expected_outcome_type": "approved_decayed",
+      "expected_threshold_feedback": ["increase_proof_score_requirement"]
+    },
+    {
+      "replay_id": "zreplay-late-day-rescue-move",
+      "source_case_id": "liquid_strong_trend_call_approved",
+      "fixture_path_id": "path-late-day-rescue-move",
+      "expected_outcome_type": "approved_expiry_managed_success",
+      "expected_threshold_feedback": []
+    },
+    {
+      "replay_id": "zreplay-expiry-pin-near-strike",
+      "source_case_id": "expiry_managed_only_candidate",
+      "fixture_path_id": "path-expiry-pin-near-strike",
+      "expected_outcome_type": "approved_expiry_managed_failure",
+      "expected_threshold_feedback": ["mark_inconclusive_needs_more_fixture_coverage"]
+    },
+    {
+      "replay_id": "zreplay-deep-otm-expires-worthless",
+      "source_case_id": "liquid_strong_trend_call_approved",
+      "fixture_path_id": "path-deep-otm-expires-worthless",
+      "expected_outcome_type": "approved_expiry_managed_failure",
+      "expected_threshold_feedback": ["tighten_theta_decay_threshold"]
+    },
+    {
+      "replay_id": "zreplay-itm-expiry-intrinsic-value",
+      "source_case_id": "liquid_strong_trend_call_approved",
+      "fixture_path_id": "path-itm-expiry-intrinsic-value",
+      "expected_outcome_type": "approved_expiry_managed_success",
+      "expected_threshold_feedback": []
+    },
+    {
+      "replay_id": "zreplay-later-expiry-alternative-better",
+      "source_case_id": "prefer_non_zero_dte_alternative_when_same_signal_exists",
+      "fixture_path_id": "path-signal-valid-later-expiry-better",
+      "expected_outcome_type": "prefer_later_expiry_confirmed",
+      "expected_threshold_feedback": ["prefer_later_expiry_more_often"]
+    },
+    {
+      "replay_id": "zreplay-blocked-poor-liquidity-correct",
+      "source_case_id": "low_volume_put_blocked",
+      "fixture_path_id": "path-blocked-poor-liquidity-correct",
+      "expected_outcome_type": "blocked_correctly",
+      "expected_threshold_feedback": ["tighten_liquidity_threshold", "keep_block_reason_validated"]
+    },
+    {
+      "replay_id": "zreplay-blocked-wide-spread-correct",
+      "source_case_id": "wide_spread_call_blocked",
+      "fixture_path_id": "path-blocked-wide-spread-correct",
+      "expected_outcome_type": "blocked_correctly",
+      "expected_threshold_feedback": ["tighten_spread_threshold", "keep_block_reason_validated"]
+    },
+    {
+      "replay_id": "zreplay-blocked-weak-thesis-unexpected-work",
+      "source_case_id": "weak_thesis_blocked",
+      "fixture_path_id": "path-blocked-weak-thesis-unexpected-work",
+      "expected_outcome_type": "blocked_maybe_too_strict",
+      "expected_threshold_feedback": ["mark_inconclusive_needs_more_fixture_coverage"]
+    },
+    {
+      "replay_id": "zreplay-throttled-candidate-works",
+      "source_case_id": "moderate_risk_candidate_approved_with_throttle",
+      "fixture_path_id": "path-throttled-candidate-works",
+      "expected_outcome_type": "throttled_correctly",
+      "expected_threshold_feedback": ["allow_throttle_not_full_block"]
+    },
+    {
+      "replay_id": "zreplay-high-gamma-unstable",
+      "source_case_id": "high_gamma_unstable_candidate_blocked",
+      "fixture_path_id": "path-high-gamma-unstable",
+      "expected_outcome_type": "blocked_correctly",
+      "expected_threshold_feedback": ["tighten_gamma_instability_threshold", "keep_block_reason_validated"]
+    },
+    {
+      "replay_id": "zreplay-event-risk-validates-block",
+      "source_case_id": "event_risk_too_high_blocked",
+      "fixture_path_id": "path-event-risk-validates-block",
+      "expected_outcome_type": "blocked_correctly",
+      "expected_threshold_feedback": ["keep_block_reason_validated"]
+    },
+    {
+      "replay_id": "zreplay-special-close-missing-reason",
+      "source_case_id": "same_day_special_close_rejected_without_explicit_reason",
+      "fixture_path_id": "path-special-close-missing-reason",
+      "expected_outcome_type": "rejected_policy_violation",
+      "expected_threshold_feedback": ["mark_inconclusive_needs_more_fixture_coverage"]
+    },
+    {
+      "replay_id": "zreplay-special-close-with-reason",
+      "source_case_id": "same_day_special_close_accepted_with_reason_liquidity_risk_cap",
+      "fixture_path_id": "path-special-close-with-reason-improves",
+      "expected_outcome_type": "approved_special_close_helped",
+      "expected_threshold_feedback": ["tighten_gamma_instability_threshold"]
+    }
+  ]
+}

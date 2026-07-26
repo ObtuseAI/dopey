@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools==83.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dopey-control-center-desktop"
+version = "0.1.0"
+description = "Native EdgeChromium host for the local DOPEY operator control center."
+requires-python = ">=3.11"
+dependencies = [
+    "pystray==0.19.5",
+    "pywebview==6.2.1",
+]
+
+[project.optional-dependencies]
+build = [
+    "pyinstaller==6.21.0",
+]
+
+[tool.setuptools]
+py-modules = []

@@ -1,0 +1,26 @@
+{
+  "artifact_type": "cognitive_evaluation_task_store_contract",
+  "contract_version": "dopey-cognitive-task-store-v1",
+  "evaluator_version": "dopey-cognitive-task-evaluator-v1",
+  "expected_files": {
+    "PRIVATE_SELECTION": "private_selection_tasks.jsonl",
+    "EXTERNAL_GENERALIZATION": "external_generalization_tasks.jsonl",
+    "REAL_TASK_FORWARD": "real_task_forward_tasks.jsonl"
+  },
+  "required_domains": [
+    "dopey_market_research",
+    "software_engineering",
+    "security_analysis"
+  ],
+  "candidate_can_read_expected_answer_during_selection": false,
+  "candidate_can_modify_evaluator": false,
+  "visible_development_can_activate": false,
+  "private_selection_has_item_level_feedback": false,
+  "external_generalization_has_selection_authority": false,
+  "real_task_forward_requires_point_in_time_identity": true,
+  "human_review_required_for_qualified_activation": false,
+  "readiness_effect": "none",
+  "execution_effect": "none",
+  "paper_only": true,
+  "live_blocked": true
+}

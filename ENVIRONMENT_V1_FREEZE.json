@@ -1,0 +1,10 @@
+{
+  "schema_version": "dopey-environment-freeze-v1",
+  "environment_file": "environments/environment_v1.json",
+  "environment_id": "dopey-options-paper-v1",
+  "file_sha256": "811d348d94e151087cd77d496bd1f5135b24dd40ba107b5d860cde34b8475652",
+  "frozen_at": "2026-07-17T00:00:00Z",
+  "mutation_policy": "new_version_required",
+  "paper_only": true,
+  "live_blocked": true
+}

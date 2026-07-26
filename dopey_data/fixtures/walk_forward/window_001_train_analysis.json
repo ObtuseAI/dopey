@@ -1,0 +1,10 @@
+{
+  "macro": {"regime_tag": "trend_vol_expansion", "risk_on_score": 0.8, "volatility_regime_score": 0.65, "event_risk_score": 0.15, "sector_rotation_score": 0.7, "breadth_score": 0.78, "liquidity_regime_score": 0.8, "notes": "train: risk-on trend + vol expansion; favorable for long convexity (placeholder, no real data)"},
+  "microstructure": {"spread_quality_score": 0.8, "liquidity_score": 0.82, "slippage_sensitivity_score": 0.2, "volume_oi_anomaly_score": 0.1, "quote_stability_score": 0.78, "contract_fillability_score": 0.85, "notes": "tight spreads + deep OI; healthy execution (placeholder)"},
+  "technical": {"trend_score": 0.8, "momentum_score": 0.72, "realized_volatility_score": 0.6, "breakout_score": 0.65, "fakeout_risk_score": 0.2, "support_resistance_score": 0.7, "volume_confirmation_score": 0.75, "gap_behavior_score": 0.6, "notes": "clean uptrend; momentum confirmation (placeholder)"},
+  "fundamental": {"earnings_risk_score": 0.15, "filing_event_score": 0.1, "valuation_context_score": 0.6, "growth_quality_score": 0.65, "analyst_revision_score": 0.6, "sector_peer_score": 0.6, "fundamental_support_score": 0.6, "notes": "neutral-to-supportive fundamentals (placeholder)"},
+  "patterns": [
+    {"pattern_id": "p-trend-cont", "pattern_type": "trend_continuation", "confidence": 0.7, "directional_bias": "long", "volatility_bias": "expansion", "regime_dependency": "trend_vol_expansion", "failure_mode": "", "notes": "continuation pattern (placeholder)"},
+    {"pattern_id": "p-vol-exp", "pattern_type": "volatility_expansion", "confidence": 0.6, "directional_bias": "long", "volatility_bias": "expansion", "regime_dependency": "trend_vol_expansion", "failure_mode": "", "notes": "IV expanding (placeholder)"}
+  ]
+}

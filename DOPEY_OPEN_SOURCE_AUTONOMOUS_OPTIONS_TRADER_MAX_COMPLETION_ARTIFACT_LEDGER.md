@@ -1,0 +1,17 @@
+# DOPEY Open Source Autonomous Options Trader Max Completion Artifact Ledger
+
+## Files
+- `DOPEY_OPEN_SOURCE_AUTONOMOUS_OPTIONS_TRADER_MAX_COMPLETION_REPORT.md` sha256=`9b275764d8c5427ccf6e05f053e92bf1691285eba40206662bdbe572ae8d7488`
+- `DOPEY_OPEN_SOURCE_AUTONOMOUS_OPTIONS_TRADER_COMMANDS.md` sha256=`f51f5c3f7ca071b3973bb11959f1fb2a075c781ccddd54390b7c18a21b61f0f2`
+- `artifacts/dopey/full_autonomy/full_open_source_autonomous_orchestrator_summary.json` sha256=`240d2357f69bea65a8707739ed5ea8e9f40d32bcb2011061e6da3f19a8ff653f`
+- `artifacts/dopey/full_autonomy/full_open_source_autonomous_orchestrator_steps.jsonl` sha256=`e6affbc21407ca905cff2436a39c67a967641e6173ac8565aa7112568cac7a5b`
+- `artifacts/dopey/full_autonomy/full_open_source_autonomous_orchestrator_quality_flags.jsonl` sha256=`637229fe87e0265c7157eb1554be39462d45f87987b50d769a6846a71ed92c9d`
+- `artifacts/dopey/full_autonomy/full_open_source_autonomous_orchestrator_proof.jsonl` sha256=`26806e8870ca8d803f5eedf458c9b332ae66bb965713dd0926057125792f5e9d`
+- `artifacts/dopey/full_autonomy/full_autonomy_validation_summary.json` sha256=`dd67aa1c564efb1a760fc8259cca873a6f3594efb2de1ba51374875bb42da46f`
+- `artifacts/dopey/full_autonomy/full_autonomy_timeout_records.jsonl` sha256=`e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- `artifacts/dopey/full_autonomy/full_autonomy_action_gap_packet.json` sha256=`b61a2c3e11ed06ed6f78e3932f84473608e501c4fa921f4ffbccd3652b865f9a`
+- `dopey_data/fixtures/open_source_autonomy/autonomous_oss_cases.json` sha256=`355b7ae8b73ccd2a6436a3e3adf7996e6cd03a9a236244a6964730a23d326c12`
+- `dopey_data/fixtures/open_data_autonomy/autonomous_open_data_cases.json` sha256=`3dab819677416ed83ce7e294c1167939e864047e033ac5fbd884f104d1b79047`
+- `dopey_data/fixtures/research_autonomy/autonomous_research_cases.json` sha256=`4763854a277f206817b6be7905e8801fe14c9ef1cf1d9e7b10439d74aec74a8e`
+- `dopey_data/fixtures/paper_autonomy/autonomous_paper_cases.json` sha256=`c3947e6a82850bde9ffd5772aefa84d142af6f95335a351d20f65b56b0325f91`
+- `dopey_data/fixtures/full_autonomy/full_orchestrator_cases.json` sha256=`c5825f8871785a4b33e9dd3cfaa35958feb1297bef0873a8c88bff03eb8e2c49`

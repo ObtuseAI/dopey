@@ -1,0 +1,50 @@
+{
+  "artifact_type": "dopey_public_source_manifest",
+  "release_version": "public-source-v1",
+  "generated_at_utc": "2026-07-26T17:39:51Z",
+  "source_repository": "ObtuseAI/dopey-private-archive",
+  "source_commit": "a03052e787bafeb6419af440d9326fe69cf1742f",
+  "public_repository": "ObtuseAI/dopey",
+  "public_branch": "public-release",
+  "fresh_git_history": true,
+  "real_market_data_included": false,
+  "raw_provider_market_data_included": false,
+  "derived_historical_public_market_test_fixture_included": true,
+  "broker_credentials_included": false,
+  "broker_account_history_included": false,
+  "private_runtime_history_included": false,
+  "historical_private_session_reports_included": false,
+  "operator_agent_configuration_included": false,
+  "aggregate_non_account_validation_metadata_included": true,
+  "source_inventory": {
+    "public_file_count": 2678,
+    "public_source_size_class": "under_50_mib",
+    "excluded_file_count": 4514
+  },
+  "excluded_boundaries": [
+    ".codex/",
+    ".cursor/",
+    ".mcp.json",
+    "AGENTS.md",
+    "dopey_data/history/",
+    "dopey_data/market_lake/",
+    "dopey_data/real/ provider and runtime content",
+    "operator logs and pre-migration backups",
+    "generated desktop visual-QA output",
+    "private broker reconciliation evidence",
+    "private live-session reports and copy proof"
+  ],
+  "allowed_top_level_reports": [
+    "reports/DOPEY_AUTONOMY_RSI_IMPLEMENTATION_20260725.md",
+    "reports/DOPEY_AUTONOMY_RSI_INTELLIGENCE_REVIEW_20260725.md",
+    "reports/DOPEY_SQUEEZE_BUBBLE_INTELLIGENCE_20260725.md",
+    "reports/README.md",
+    "reports/STATE_OF_ART_OPTIONS_RESEARCH_BASIS.md"
+  ],
+  "allowed_real_data_path_content": [
+    "dopey_data/real/manifests/*.template.json",
+    "dopey_data/real/templates/**"
+  ],
+  "public_fixture_policy": "Deterministic, bounded, explicitly test-only fixtures are included. One hash-pinned archive preserves derived paper-research outputs from historical public-market observations for integration tests; it contains no raw provider dataset, broker history, current state, or forward evidence and is extracted only into isolated test directories.",
+  "operator_data_policy": "Operators bring and govern their own data outside Git history under DATA_NOTICE.md."
+}

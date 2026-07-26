@@ -1,0 +1,756 @@
+{
+  "artifact_type": "quote_unlock_cases",
+  "case_count": 75,
+  "cases": [
+    {
+      "case_hash": "dc09269ee27165c6a128bf86532e23f02b52920ac485fe83336eb72d28c76a6c",
+      "case_id": "open-data-breakthrough-fixture-000",
+      "case_name": "quote unlock no options",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "faca813f4f30828967ee0072fefd3cf94f3e431f729f56219ea33ecef501a35c",
+      "case_id": "open-data-breakthrough-fixture-001",
+      "case_name": "quote unlock options pass",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a0a81b376e02d16e15ef363a95fbab7fdccac82b556a26b3a3bc6c45504e59d4",
+      "case_id": "open-data-breakthrough-fixture-002",
+      "case_name": "quote unlock missing OHLCV",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "6b8e2e6d3b48c0a70a6fe78d5f22541cbede8d469b7bd01d7e659e1c762cd23c",
+      "case_id": "open-data-breakthrough-fixture-003",
+      "case_name": "quote evidence blocked",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "9a0986ec3408e3cf287d31386513930585619f51c0ba84a1f0a457edc1354ef5",
+      "case_id": "open-data-breakthrough-fixture-004",
+      "case_name": "underlying context required",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "aaf267aebd4d24242bd44da1211c3e65e9978f59382479a2e52ea8cf56aa1032",
+      "case_id": "open-data-breakthrough-fixture-005",
+      "case_name": "bid ask validation required",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "83f188c32a4ab65e21e81f0e1b88c136af6f6edf15fef9e0f4bf0c3617b18b9b",
+      "case_id": "open-data-breakthrough-fixture-006",
+      "case_name": "volume open interest validation required",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "8a3da37561d7376bfe6df24a2ac96dc0d58e4bc9d3c4c173d1f46ccb729592da",
+      "case_id": "open-data-breakthrough-fixture-007",
+      "case_name": "sample size validation required",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "8c7162748cf024ef22f6dc3f74903a8b48d29e978f48e644e83db49af397ab71",
+      "case_id": "open-data-breakthrough-fixture-008",
+      "case_name": "schema validation required",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "8e9f46c1952e5e6e09850850149bde78582052c2436df7137165eb168fa8ee68",
+      "case_id": "open-data-breakthrough-fixture-009",
+      "case_name": "license provenance required",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "25d0ebf06913c6ecf0e1261e68fe46fee01c9045c8da7b86212ca9ab1390cbe1",
+      "case_id": "open-data-breakthrough-fixture-010",
+      "case_name": "no broker",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "580d4f761c16d5dd16dd8401007fbaf31a3c140340f470ea1ccf2b56d5f2ab76",
+      "case_id": "open-data-breakthrough-fixture-011",
+      "case_name": "no live",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ab26ecbcd83a8fb631ad3601688f6b680d1dbe85692b900165408b0917268380",
+      "case_id": "open-data-breakthrough-fixture-012",
+      "case_name": "no strategy promotion",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "89fa66d0b24893049d5250f49bcba3c5dc5a03b3a0b56325477fc7762250c640",
+      "case_id": "open-data-breakthrough-fixture-013",
+      "case_name": "full completion options unlocked",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "744e757474818878cfb5129b3ac72e617faba426f61cf850515a5d519af76afa",
+      "case_id": "open-data-breakthrough-fixture-014",
+      "case_name": "quote unlock no options repeat 014",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "395216dfae184fbc1a881a80de50dd5a43f2a83dd6fbf323ed74df1ea8e39135",
+      "case_id": "open-data-breakthrough-fixture-015",
+      "case_name": "quote unlock options pass repeat 015",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ea043e9d9f73f0eb6195432a857af459d861862ecb8ab9d32f9e03fea39354b2",
+      "case_id": "open-data-breakthrough-fixture-016",
+      "case_name": "quote unlock missing OHLCV repeat 016",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "95597e7cfd060540b65647bd73d97ea8ebf6ba27a2219f1f11c7e92e3cf31403",
+      "case_id": "open-data-breakthrough-fixture-017",
+      "case_name": "quote evidence blocked repeat 017",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "77ff6b82c8a4584d92e0693d3ca6a64340990fcd17b88b9dc7f443e00a5c11c3",
+      "case_id": "open-data-breakthrough-fixture-018",
+      "case_name": "underlying context required repeat 018",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "fd05b2963893f8372cd61ebb6cc7f618b57d25e56636e5957e8d4383c4202a27",
+      "case_id": "open-data-breakthrough-fixture-019",
+      "case_name": "bid ask validation required repeat 019",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ca037f6e28002d9f9633abb95a04294f152706909967d6aa63402bcc928f9875",
+      "case_id": "open-data-breakthrough-fixture-020",
+      "case_name": "volume open interest validation required repeat 020",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "473b245a57ec2cbba2560cb076f4aadbae2d82dea549bb49db9e4742f1279be8",
+      "case_id": "open-data-breakthrough-fixture-021",
+      "case_name": "sample size validation required repeat 021",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ccfb87e99a40b591689b7368f28e7e8119864a95ece84b0ab53493fad24c3594",
+      "case_id": "open-data-breakthrough-fixture-022",
+      "case_name": "schema validation required repeat 022",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d0296eea6e43ee4475fd36fedf06513cbc4b32687138426c8b98401cb5262965",
+      "case_id": "open-data-breakthrough-fixture-023",
+      "case_name": "license provenance required repeat 023",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "8fee4fb05b27fffda853e8673cd767b3ed50ab8db9bdc2469a332f283ef43d37",
+      "case_id": "open-data-breakthrough-fixture-024",
+      "case_name": "no broker repeat 024",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ab03759a1fdadd74d2f90c5b9d45b6a3e1ae91c2fd9384f63e8031e84e921d13",
+      "case_id": "open-data-breakthrough-fixture-025",
+      "case_name": "no live repeat 025",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "4c10c49cf00e73c91c7fca1e549b9e8b83e161fbac743db4e2166c15c62b6051",
+      "case_id": "open-data-breakthrough-fixture-026",
+      "case_name": "no strategy promotion repeat 026",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "8d6b75e90d4315548e1f6b7e6e08729f75f89b53fecafdca653497da9aeca4bc",
+      "case_id": "open-data-breakthrough-fixture-027",
+      "case_name": "full completion options unlocked repeat 027",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "945d168d0a2912a9e4b7a385eb967f42de7fc7a62667447d37ba0c74ae53de3b",
+      "case_id": "open-data-breakthrough-fixture-028",
+      "case_name": "quote unlock no options repeat 028",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "58222890056be28d7b81bdad5a4cd593e6db601da7dd17eb881f6be8f0771bf3",
+      "case_id": "open-data-breakthrough-fixture-029",
+      "case_name": "quote unlock options pass repeat 029",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "413615ec2ab7e6c29e7b89035b7cefaa5f86f3945e8a0a747f78a378473a27af",
+      "case_id": "open-data-breakthrough-fixture-030",
+      "case_name": "quote unlock missing OHLCV repeat 030",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "3d849cf4f837de5fc7c5782c79cbf2f8349efc32f198a2c9ddac42ebdc57e992",
+      "case_id": "open-data-breakthrough-fixture-031",
+      "case_name": "quote evidence blocked repeat 031",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d60881e2bd6a3cadb1c1ba32c136af04e5f3f7453c1f61fb5bca12f813540caf",
+      "case_id": "open-data-breakthrough-fixture-032",
+      "case_name": "underlying context required repeat 032",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "303db21c6be8468a26ce38ae6a02e1287920bbaa31e6869d7fa2ec6193687efd",
+      "case_id": "open-data-breakthrough-fixture-033",
+      "case_name": "bid ask validation required repeat 033",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "0c98033ab757b88b18e04e78c33c449dc0ac1bb2e814ad4dc645116b54833c71",
+      "case_id": "open-data-breakthrough-fixture-034",
+      "case_name": "volume open interest validation required repeat 034",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a29ba0711a68be6d87a42bfe4637a0b83c40ef4112643a7f104dd293d07e5fa6",
+      "case_id": "open-data-breakthrough-fixture-035",
+      "case_name": "sample size validation required repeat 035",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e7c10d5b3acf5111b12a859bab74d2cea1ce51f62563551451d51194d2a7a894",
+      "case_id": "open-data-breakthrough-fixture-036",
+      "case_name": "schema validation required repeat 036",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "df1705fe384d1d1e244a3a4ad351bc4c39b58a5babd07a5d978f2742d00eedee",
+      "case_id": "open-data-breakthrough-fixture-037",
+      "case_name": "license provenance required repeat 037",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "4b290ffe83ea680e396ae38977950b499e89492b323f8a3632d85cbb0644149a",
+      "case_id": "open-data-breakthrough-fixture-038",
+      "case_name": "no broker repeat 038",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b17a1d29d2aa4d9abe13cf8f513dcbaa7df9f6c6578454af11ff776756547944",
+      "case_id": "open-data-breakthrough-fixture-039",
+      "case_name": "no live repeat 039",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "814776bf652d9966dc1cc4ebbabdea89756ee6e6ec701a558612501fea399276",
+      "case_id": "open-data-breakthrough-fixture-040",
+      "case_name": "no strategy promotion repeat 040",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "12e9b180abeb552ee12e26f95f082002ac58207d7598bb03457c03da3d04b633",
+      "case_id": "open-data-breakthrough-fixture-041",
+      "case_name": "full completion options unlocked repeat 041",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1630b064279433365beab7a334b1014ddf7e7bf7ef79b91dd1c4feb2ece03b09",
+      "case_id": "open-data-breakthrough-fixture-042",
+      "case_name": "quote unlock no options repeat 042",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "6dc998beaef5dd9c2dee364e2a841c57b6259eb5b63db4dde668f412fdc33b47",
+      "case_id": "open-data-breakthrough-fixture-043",
+      "case_name": "quote unlock options pass repeat 043",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "6c0f9276f9b4f226418d8906b9fb9c806e826badbc39b4a7348bd70dc00dfd2a",
+      "case_id": "open-data-breakthrough-fixture-044",
+      "case_name": "quote unlock missing OHLCV repeat 044",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "6ffcba66f4f55dbdad60cdcf367ad47a9fb7d3219f6cd36b7bfa480255310c03",
+      "case_id": "open-data-breakthrough-fixture-045",
+      "case_name": "quote evidence blocked repeat 045",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ece7407fa6c3e8c7368f92f62107f571e5f218d87f1c637d2e00d6e2a6de65fe",
+      "case_id": "open-data-breakthrough-fixture-046",
+      "case_name": "underlying context required repeat 046",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "606b2a7b4bfd9666472bef70d5b098f026c35b166aeba2c4fa298a8616b2c204",
+      "case_id": "open-data-breakthrough-fixture-047",
+      "case_name": "bid ask validation required repeat 047",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "24226ce8e7d74aa18cc30229bf978b2ce78b78212aec92bdade267267aa3147d",
+      "case_id": "open-data-breakthrough-fixture-048",
+      "case_name": "volume open interest validation required repeat 048",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "02211a97cbd4636baead08079cb6c116ccab11d6e0e607154b4f08840d22a8cf",
+      "case_id": "open-data-breakthrough-fixture-049",
+      "case_name": "sample size validation required repeat 049",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "679acc710014dd9e48ca4ddef99d2dbf9d124f749067bec9cd036078b13bea87",
+      "case_id": "open-data-breakthrough-fixture-050",
+      "case_name": "schema validation required repeat 050",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "8c7719798dd87d730ed70a94a1b606fbb16c81168fbe6cb65c02c8609b35c3c1",
+      "case_id": "open-data-breakthrough-fixture-051",
+      "case_name": "license provenance required repeat 051",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "13a110f3b4fd220755b585417f7314e3290d7f42f73889bc243a94de7e8f06cb",
+      "case_id": "open-data-breakthrough-fixture-052",
+      "case_name": "no broker repeat 052",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "44a5214e69fa91cca7a7bb1350601d6644e8cf3a91f89aac20cb2a6c68823a22",
+      "case_id": "open-data-breakthrough-fixture-053",
+      "case_name": "no live repeat 053",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "564b79a11f02c4b154982b29371be23051a1acc616be6da7fb90ce730cd50429",
+      "case_id": "open-data-breakthrough-fixture-054",
+      "case_name": "no strategy promotion repeat 054",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "fc22d9e7a1324c03f0bdfdea653a2271bec3b7a2c0da508fc7a3de5732084403",
+      "case_id": "open-data-breakthrough-fixture-055",
+      "case_name": "full completion options unlocked repeat 055",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "8959e3165bc34a08fa15665e60f8b17e258604de02ccd4e58db87be2e2428f60",
+      "case_id": "open-data-breakthrough-fixture-056",
+      "case_name": "quote unlock no options repeat 056",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "34a11842bd062b965d8941326ef81141ce0e737ffc33d07347b7413de87334b7",
+      "case_id": "open-data-breakthrough-fixture-057",
+      "case_name": "quote unlock options pass repeat 057",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "dfb7c39cd27f2a2b386efee9809475da2d11b2376a24977d33934ea84d34865a",
+      "case_id": "open-data-breakthrough-fixture-058",
+      "case_name": "quote unlock missing OHLCV repeat 058",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "bf1d3b4d1a459fd9eb0d331bb10202ccdd6a6e89bb2aab2d2804c582ca9a061a",
+      "case_id": "open-data-breakthrough-fixture-059",
+      "case_name": "quote evidence blocked repeat 059",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ac3a869a6a1a3e4e42cf40312725e36a4b1fc4a554bbca3e8c7a2663263a1eee",
+      "case_id": "open-data-breakthrough-fixture-060",
+      "case_name": "underlying context required repeat 060",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2da548d6c1f8427277942211e580e90770e249aa179309a805b9a5e8c834eec3",
+      "case_id": "open-data-breakthrough-fixture-061",
+      "case_name": "bid ask validation required repeat 061",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "14319bd02ce374bf65ef22086d5fdd2c6eb051aa3f7c6b80787e05bf1230b1ca",
+      "case_id": "open-data-breakthrough-fixture-062",
+      "case_name": "volume open interest validation required repeat 062",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "3e664dc116a714d8dae2677928229934788c6a195d9477480735e88602c2eeb5",
+      "case_id": "open-data-breakthrough-fixture-063",
+      "case_name": "sample size validation required repeat 063",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "84520b30756b2bbdf3fb923b15c22a7d2599ed16cd4b38c6eff1f203c0cf4a89",
+      "case_id": "open-data-breakthrough-fixture-064",
+      "case_name": "schema validation required repeat 064",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "5060ef1670b6011e96b92b1f284c477cb1a0d3c4d99e3ded96c118d3a723c6c9",
+      "case_id": "open-data-breakthrough-fixture-065",
+      "case_name": "license provenance required repeat 065",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "18cc2e10628930d900b5d713b2f0b564daf77b84f6dc31b4f8b219d4ede6b8e5",
+      "case_id": "open-data-breakthrough-fixture-066",
+      "case_name": "no broker repeat 066",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "dbefdc304e2a4ff694021d08ef1f3e03cc6b0c842c3ee92086128863b95922d2",
+      "case_id": "open-data-breakthrough-fixture-067",
+      "case_name": "no live repeat 067",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "f362d236fb4a17bc5cbf6b18eb8c1785848203e7726a68a8b7acfa56157b26ff",
+      "case_id": "open-data-breakthrough-fixture-068",
+      "case_name": "no strategy promotion repeat 068",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "9e2b42dc8a411f307f77c346da496610adc067813c34c4ee762d19ad543b25e6",
+      "case_id": "open-data-breakthrough-fixture-069",
+      "case_name": "full completion options unlocked repeat 069",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "91482afac0e529cd0d8d1cca89f195683d460ea08f95c73d70021ed747b1379f",
+      "case_id": "open-data-breakthrough-fixture-070",
+      "case_name": "quote unlock no options repeat 070",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "43b5ae0e20889ea4152d6b0a03feeff925f60638a1231eacb65137c435ee6163",
+      "case_id": "open-data-breakthrough-fixture-071",
+      "case_name": "quote unlock options pass repeat 071",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b6e97811d6be1f0a47ad0d40b0c2e2d3c711af4656388d2b1fe3dc66a9a50cce",
+      "case_id": "open-data-breakthrough-fixture-072",
+      "case_name": "quote unlock missing OHLCV repeat 072",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "3a5d0cf8c0ead3c2e84c0fa34689d30e48bd61ce3a57697701e8934888220aeb",
+      "case_id": "open-data-breakthrough-fixture-073",
+      "case_name": "quote evidence blocked repeat 073",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "edcf6fb53a9736e86c3b875c9075344cc0cf018135c6e40ca5f799c7a6eb89b9",
+      "case_id": "open-data-breakthrough-fixture-074",
+      "case_name": "underlying context required repeat 074",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    }
+  ]
+}

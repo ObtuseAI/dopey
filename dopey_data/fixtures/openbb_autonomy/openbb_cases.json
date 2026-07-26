@@ -1,0 +1,1006 @@
+{
+  "artifact_type": "openbb_cases",
+  "case_count": 100,
+  "cases": [
+    {
+      "case_hash": "512b0051338afaaff80fa1192fca1c8c10b2a7362804ee86c8e730fef49306ad",
+      "case_id": "finish-everything-fixture-000",
+      "case_name": "OpenBB installed",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e67b55120a776945e10020856287d33a5003fdb80f754453f5672ceffb1f11a0",
+      "case_id": "finish-everything-fixture-001",
+      "case_name": "OpenBB not installed",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "f7c1156bca8c1e98fc90d23aebfafc94775e842183fea022097b77b2ccb45a91",
+      "case_id": "finish-everything-fixture-002",
+      "case_name": "OpenBB provider no-key accepted",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e5d333a8ba3e59ee1287bb9ed31d4ba4909de47b54d289bd2e7f1d7b983d3817",
+      "case_id": "finish-everything-fixture-003",
+      "case_name": "OpenBB provider API-key rejected",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "92a0a92632e2eb5f5d0905c60979925ae44988f51f6760a1f90a9d71ab7481e3",
+      "case_id": "finish-everything-fixture-004",
+      "case_name": "OpenBB provider paid rejected",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e047beb1f4327566d2e34d5772f3d2bdd76ab946da23c27004c2546cf000fe3e",
+      "case_id": "finish-everything-fixture-005",
+      "case_name": "OpenBB provider broker rejected",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ebd6896c2f6466492b5967b8d113fe636066b0bacc375a35cd0acd7f785a17bc",
+      "case_id": "finish-everything-fixture-006",
+      "case_name": "OpenBB provider Alpha Vantage rejected",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "612817a6d92b475f07bd5417ad4e5703041e1c417911d9bdf2597f17d0409dfd",
+      "case_id": "finish-everything-fixture-007",
+      "case_name": "OpenBB provider Alpaca rejected",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "01de65edcf33eb66417b715c494bd891f04952bb72413203581c9a66fe8c8949",
+      "case_id": "finish-everything-fixture-008",
+      "case_name": "OpenBB provider Databento rejected",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "3b16e809b719e834d12acf6b30920e1afc038426df9bb8c758a13f9c2fb6998c",
+      "case_id": "finish-everything-fixture-009",
+      "case_name": "OpenBB provider TradingView rejected",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "40fe7c4fdc8ec90d59dbf750f8dac42f8ceddfe6d8f920b8469ccceadc78f805",
+      "case_id": "finish-everything-fixture-010",
+      "case_name": "OpenBB OHLCV normalize pass",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7075fc65191e5ec922c44cdc2d0a817f7360648f1b9e4f753ed3be9409f47aa8",
+      "case_id": "finish-everything-fixture-011",
+      "case_name": "OpenBB OHLCV normalize fail",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "21728f8c00c40b0f8ce8a209ed80a494ddb8a3ffed671c8127b9bff0a47e5485",
+      "case_id": "finish-everything-fixture-012",
+      "case_name": "OpenBB validator bridge no data",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "dc9c3f46fb8bfe99e10dde3e0ebc88041538d1fb7ea174c57694677b9813aa41",
+      "case_id": "finish-everything-fixture-013",
+      "case_name": "OpenBB validator bridge pass",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ed7db5d744fe61a3b4f131a95890ad5042d7968ef9342fdbfb8d9c219592ce8c",
+      "case_id": "finish-everything-fixture-014",
+      "case_name": "OpenBB installed repeat 014",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "9e8ce501b33813c0fae0b31399ddb7d52a4b2053a876c194af533c9051ad26c2",
+      "case_id": "finish-everything-fixture-015",
+      "case_name": "OpenBB not installed repeat 015",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "f3d5beb615622ca93f58ad5b5616bbabe814e5fb4b087bb133a47441ff4d723f",
+      "case_id": "finish-everything-fixture-016",
+      "case_name": "OpenBB provider no-key accepted repeat 016",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "67696866eed3d0b9cf5c15d6356541aa589aefe7a241f6de55c8479a57f51cd8",
+      "case_id": "finish-everything-fixture-017",
+      "case_name": "OpenBB provider API-key rejected repeat 017",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "52b74bd127715fdf1b26b669733cc8af58f7d0726984c1b7a1e5a3c172769685",
+      "case_id": "finish-everything-fixture-018",
+      "case_name": "OpenBB provider paid rejected repeat 018",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "5eeccbbdb27ccd93a6194e15890804ae30320ec0b8441d18683bfeba276ad670",
+      "case_id": "finish-everything-fixture-019",
+      "case_name": "OpenBB provider broker rejected repeat 019",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7343ed72289a9bafe79be1bd574cb34edf20070ef42e8d205816124d761b2fa0",
+      "case_id": "finish-everything-fixture-020",
+      "case_name": "OpenBB provider Alpha Vantage rejected repeat 020",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "809ebc3dfd993bc6ef0ff1cb792644a14486f920dda1bc9b098ddf38f564b78e",
+      "case_id": "finish-everything-fixture-021",
+      "case_name": "OpenBB provider Alpaca rejected repeat 021",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "6481b5d8a4a5bc6d5482b1efed00f6782e6e358768029249acb1fb56d5d29096",
+      "case_id": "finish-everything-fixture-022",
+      "case_name": "OpenBB provider Databento rejected repeat 022",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1f0fe0cc00585f9ec2bc450092e289261927e1e5b4eb545968703caccea9c121",
+      "case_id": "finish-everything-fixture-023",
+      "case_name": "OpenBB provider TradingView rejected repeat 023",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "5e335f36af897a8e54ae99d07a63f954e2673d5ba41103b9c526e63246f606a1",
+      "case_id": "finish-everything-fixture-024",
+      "case_name": "OpenBB OHLCV normalize pass repeat 024",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2b2d64550e5593b04e85f98cd51e882d2cbb54f31f44adc2783142e79bd0633e",
+      "case_id": "finish-everything-fixture-025",
+      "case_name": "OpenBB OHLCV normalize fail repeat 025",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2f6d5d49dce16f45fccf8324f744c0486970a43f11c3f791df022a53dc472bc6",
+      "case_id": "finish-everything-fixture-026",
+      "case_name": "OpenBB validator bridge no data repeat 026",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "3c912a213899b94b4e6f1c3b502434c430e6b6c2b21eb2a56d7a840fb2a993aa",
+      "case_id": "finish-everything-fixture-027",
+      "case_name": "OpenBB validator bridge pass repeat 027",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "6d116f6dea1ba2a601c76525ad97716370b3448e09e44b2560c4bdf4d012d3b3",
+      "case_id": "finish-everything-fixture-028",
+      "case_name": "OpenBB installed repeat 028",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "146c961ee9b46982086cbb04fba6d78d9d8ca6dccebb62606c900160fda9a8bc",
+      "case_id": "finish-everything-fixture-029",
+      "case_name": "OpenBB not installed repeat 029",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "77f6ac456062347aae012d2ee389cb102445ae07edbbd3d8a4abb96bad2c3d9d",
+      "case_id": "finish-everything-fixture-030",
+      "case_name": "OpenBB provider no-key accepted repeat 030",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d6b4beff47dd3f9a550258edf572556628aee025c499b0d4f33f2b808b758063",
+      "case_id": "finish-everything-fixture-031",
+      "case_name": "OpenBB provider API-key rejected repeat 031",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "76f24be7ab0409aa6479bc98b8f451adf346587e9812a931fde2851d6773bc57",
+      "case_id": "finish-everything-fixture-032",
+      "case_name": "OpenBB provider paid rejected repeat 032",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d3aa9af3a1347892f630f9b8e7f6c827393eba412d347a355e2be13ea8312297",
+      "case_id": "finish-everything-fixture-033",
+      "case_name": "OpenBB provider broker rejected repeat 033",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "f1c66b3e4c2bef477ff06edc17e917d243593b8b2b6ab27e4ed8337a2a5b0e77",
+      "case_id": "finish-everything-fixture-034",
+      "case_name": "OpenBB provider Alpha Vantage rejected repeat 034",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ba5573dfda38b99017d98f46c5292d9c302714660aa3afef336ae31ff93e2852",
+      "case_id": "finish-everything-fixture-035",
+      "case_name": "OpenBB provider Alpaca rejected repeat 035",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "856c1d19ed34c519d77fd8b08d629e3b6be39d751f3af329caf836a46a89abf9",
+      "case_id": "finish-everything-fixture-036",
+      "case_name": "OpenBB provider Databento rejected repeat 036",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "6db5b3beb997dfd0415e1bb62e69e91e403e5997024dc4dbcc3f04bb013c24e2",
+      "case_id": "finish-everything-fixture-037",
+      "case_name": "OpenBB provider TradingView rejected repeat 037",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "50eeacefb3d70b17d43087679041f00aaa2ef426d6fb937c860f8b5b86030ccd",
+      "case_id": "finish-everything-fixture-038",
+      "case_name": "OpenBB OHLCV normalize pass repeat 038",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d74d140d6c35445e22f1935dfbadabc54edccad40dda4652f864764d0f6269a1",
+      "case_id": "finish-everything-fixture-039",
+      "case_name": "OpenBB OHLCV normalize fail repeat 039",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b8c0fb1c18b025182861f93742d02a48aadac7c72240647bc81bd2c7a89c834c",
+      "case_id": "finish-everything-fixture-040",
+      "case_name": "OpenBB validator bridge no data repeat 040",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d55b4d96aa476f9edfbd477d5360fab423836d55ec9128d9a2cdb495db9c72d9",
+      "case_id": "finish-everything-fixture-041",
+      "case_name": "OpenBB validator bridge pass repeat 041",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "40a7ec4b9157f60dc1f3fd8e05bfbeff4c8c39e3abf2178570a74aeb79833baa",
+      "case_id": "finish-everything-fixture-042",
+      "case_name": "OpenBB installed repeat 042",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "3ea2a825c672435b91da399e6a94db3af2e7b9cdc6438becbdec00b8c7dca6c0",
+      "case_id": "finish-everything-fixture-043",
+      "case_name": "OpenBB not installed repeat 043",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "9f92b4b14c9921be07923eab94df897f8f32e35a30abaf5544708da30d95c63a",
+      "case_id": "finish-everything-fixture-044",
+      "case_name": "OpenBB provider no-key accepted repeat 044",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c9cc274713dcf136842d0fc3c0a6368ed3df67dd38a880d736e1e793dad698c1",
+      "case_id": "finish-everything-fixture-045",
+      "case_name": "OpenBB provider API-key rejected repeat 045",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "5bf5c82b6eee4ea3818f7c90af7e84724a59caff67ff5d60e1617097fbc9a81a",
+      "case_id": "finish-everything-fixture-046",
+      "case_name": "OpenBB provider paid rejected repeat 046",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "941e706f1a114b83d9fd2a0f427a92c6d5c04d30f4aa2f820a74087b7afa2881",
+      "case_id": "finish-everything-fixture-047",
+      "case_name": "OpenBB provider broker rejected repeat 047",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d73307f890d27d8b13a2155b803312e90228e696edfc68d782d63c1a078069d2",
+      "case_id": "finish-everything-fixture-048",
+      "case_name": "OpenBB provider Alpha Vantage rejected repeat 048",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "0005c877f3de4a69b5ecde662c55c2297af2f64114b052d214cb20ab80c02b71",
+      "case_id": "finish-everything-fixture-049",
+      "case_name": "OpenBB provider Alpaca rejected repeat 049",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1852a5798680bfc5264ebd5f5e1a15d3d9427e893230b3dec4ba6669affe0b7a",
+      "case_id": "finish-everything-fixture-050",
+      "case_name": "OpenBB provider Databento rejected repeat 050",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "8de9897e3b7aa477707b928b054b1fc92c06d93f44ccfc5b6e0941d383188308",
+      "case_id": "finish-everything-fixture-051",
+      "case_name": "OpenBB provider TradingView rejected repeat 051",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "3075a0d4c57dc2750fd54a67054462671f3a61fe71635f35373c24487c355bd7",
+      "case_id": "finish-everything-fixture-052",
+      "case_name": "OpenBB OHLCV normalize pass repeat 052",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2f57ceec420c62873934d42c2d71bd1946e8f20b51ce425fe981152920ed4684",
+      "case_id": "finish-everything-fixture-053",
+      "case_name": "OpenBB OHLCV normalize fail repeat 053",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b582f81a27bc58ed57ccf9622ee3829b133faad79c251f3f74146f9e99ee3fe1",
+      "case_id": "finish-everything-fixture-054",
+      "case_name": "OpenBB validator bridge no data repeat 054",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d335386cb3e94ff8d65a4c27c051753ce7b61879103e4914578f2528d20678cc",
+      "case_id": "finish-everything-fixture-055",
+      "case_name": "OpenBB validator bridge pass repeat 055",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "eccc32d9756670f11112327b4862ec00b794323a78c168f0f4dfe5b773588b94",
+      "case_id": "finish-everything-fixture-056",
+      "case_name": "OpenBB installed repeat 056",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "6ff8dfcb34c2efc19424cd0e2737f63aef57b353f1b747c0644431e673ea2206",
+      "case_id": "finish-everything-fixture-057",
+      "case_name": "OpenBB not installed repeat 057",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "987686c53251d9ec2aa98964b8887d59f27971c6b2d591d44d78b570d535e50d",
+      "case_id": "finish-everything-fixture-058",
+      "case_name": "OpenBB provider no-key accepted repeat 058",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "5ff0dae1205a309437cbfde939054c0ae5beeaa14bb158c79568a6cf1dcfc56a",
+      "case_id": "finish-everything-fixture-059",
+      "case_name": "OpenBB provider API-key rejected repeat 059",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "abe6abd5a6c97659d5d25f97583a99643c9d61aec630abe60d5484be539e9381",
+      "case_id": "finish-everything-fixture-060",
+      "case_name": "OpenBB provider paid rejected repeat 060",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a8dffe063245e5af43f2bcaaa1a4a00fb2c250fb5b1fb921ae8bcfecdd635892",
+      "case_id": "finish-everything-fixture-061",
+      "case_name": "OpenBB provider broker rejected repeat 061",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "26f46470ec966b55eb5f3f9e8a4a9a7feb96027e86af84f2546f2cb323ef733e",
+      "case_id": "finish-everything-fixture-062",
+      "case_name": "OpenBB provider Alpha Vantage rejected repeat 062",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "abc5c0363ff198236e5df9619d025ccf3af193dca6a0261727e06f39a62bc915",
+      "case_id": "finish-everything-fixture-063",
+      "case_name": "OpenBB provider Alpaca rejected repeat 063",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1314f290329bb78d399949d342886543b15bb70ec2fe467834abb25590358586",
+      "case_id": "finish-everything-fixture-064",
+      "case_name": "OpenBB provider Databento rejected repeat 064",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "de6edc6249431d237b8f9516f61cced759a79592b60d5359c9523a61269309be",
+      "case_id": "finish-everything-fixture-065",
+      "case_name": "OpenBB provider TradingView rejected repeat 065",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "99a6ac062e0fbd83be65ea4c8eacc4268a917f0962d90f9cad2e5b93bad8fff8",
+      "case_id": "finish-everything-fixture-066",
+      "case_name": "OpenBB OHLCV normalize pass repeat 066",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "5745808ded2fba6683cfbc47486917f3547c7703f284262b8cf7367883f52856",
+      "case_id": "finish-everything-fixture-067",
+      "case_name": "OpenBB OHLCV normalize fail repeat 067",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d5d19661023d3c1727b0f777a3686a1ec30a0ccac747e1b4f1c7d96ba19b91c2",
+      "case_id": "finish-everything-fixture-068",
+      "case_name": "OpenBB validator bridge no data repeat 068",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "69786df591cfe086e326ef7d2d2a1032a94fa37657d14e2994fa6d912bb61df9",
+      "case_id": "finish-everything-fixture-069",
+      "case_name": "OpenBB validator bridge pass repeat 069",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "3b5d454c787d866367b6f2772df959a8b7f28085c62653bfe5810a4907b55b3b",
+      "case_id": "finish-everything-fixture-070",
+      "case_name": "OpenBB installed repeat 070",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7789ce56c29164175fa2ba3f448d7ba6d56566c0f390f4f9c5ac7df2741b714b",
+      "case_id": "finish-everything-fixture-071",
+      "case_name": "OpenBB not installed repeat 071",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1a2c194438c54087c194761a051021f12280b65bff90b68f269394d815fecbf6",
+      "case_id": "finish-everything-fixture-072",
+      "case_name": "OpenBB provider no-key accepted repeat 072",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7df65d9b303a6dd954c1e18d8e77e03ea7af3dfcc13050dd98759614cbaa6699",
+      "case_id": "finish-everything-fixture-073",
+      "case_name": "OpenBB provider API-key rejected repeat 073",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "91f6371d3d5ebc9a3abbe64bcd71c4dafcf0786e72aef0c49c4432c27de66f6b",
+      "case_id": "finish-everything-fixture-074",
+      "case_name": "OpenBB provider paid rejected repeat 074",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "3e530bed2c7328119d9b99d427a7aac599d94ea27d44f2f01383f220d24ee97e",
+      "case_id": "finish-everything-fixture-075",
+      "case_name": "OpenBB provider broker rejected repeat 075",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ad1464b619e5f54da02af4eb67a0126b5eaefc5618770664c3e4f7cd1c2c5c92",
+      "case_id": "finish-everything-fixture-076",
+      "case_name": "OpenBB provider Alpha Vantage rejected repeat 076",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b103940ad3f09d813a73b18350fc23b58758d35bbaae2c4eba82207432972d60",
+      "case_id": "finish-everything-fixture-077",
+      "case_name": "OpenBB provider Alpaca rejected repeat 077",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "79d4a938b55b537be48c7dee709baf2783fee2b56b1f16757a001e549c246351",
+      "case_id": "finish-everything-fixture-078",
+      "case_name": "OpenBB provider Databento rejected repeat 078",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "3fda357a7c506b9a64a1d5dbf5ac236cfffbe9676e118df758d1447551c19ca4",
+      "case_id": "finish-everything-fixture-079",
+      "case_name": "OpenBB provider TradingView rejected repeat 079",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b5cde0c618b8b46b61032029664447a7e175438335e33cc62fa6061405f6409c",
+      "case_id": "finish-everything-fixture-080",
+      "case_name": "OpenBB OHLCV normalize pass repeat 080",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7db5c796a9f2ccc067949ea1cd208cb25b282d378548d9ee7eedca30be5f1a01",
+      "case_id": "finish-everything-fixture-081",
+      "case_name": "OpenBB OHLCV normalize fail repeat 081",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "62d23a945b1f61163a26b47eb0d421c5579fae0aba836fe7107d8c6c104a438b",
+      "case_id": "finish-everything-fixture-082",
+      "case_name": "OpenBB validator bridge no data repeat 082",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "10efb84a0b41c5747bdd461da8017f6113898c71fbc6cdcb5a0e612bb650d9e4",
+      "case_id": "finish-everything-fixture-083",
+      "case_name": "OpenBB validator bridge pass repeat 083",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "369b90a55382949ac406731721c881bd3da023d57ef5ff55a7981ebe4b7555d9",
+      "case_id": "finish-everything-fixture-084",
+      "case_name": "OpenBB installed repeat 084",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "5f2e7ca9387f4915f5c269bac964aafb860c58fc28e8126b99f5c73d3429cb40",
+      "case_id": "finish-everything-fixture-085",
+      "case_name": "OpenBB not installed repeat 085",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "5071a9b647521d201540dbe6ff0820f1fdaea3768dfae116e3112fef90fc2c09",
+      "case_id": "finish-everything-fixture-086",
+      "case_name": "OpenBB provider no-key accepted repeat 086",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a16bce7f8a50214e024c46dd3ce8b2af81335b00603dc8f175f169e26e6ac4e4",
+      "case_id": "finish-everything-fixture-087",
+      "case_name": "OpenBB provider API-key rejected repeat 087",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "558401f00608f20dca94a85431a476a8a60084b0fd3fa2bd0c024df111e581c2",
+      "case_id": "finish-everything-fixture-088",
+      "case_name": "OpenBB provider paid rejected repeat 088",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "3f7585dc0b82192cd674c24e19f80efde9b141e0336f755c494520f7f6f8c8b9",
+      "case_id": "finish-everything-fixture-089",
+      "case_name": "OpenBB provider broker rejected repeat 089",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "44e3dd1eed417fe76271129403f8d7e9437c583df9889ce91a2902e65b3ca99c",
+      "case_id": "finish-everything-fixture-090",
+      "case_name": "OpenBB provider Alpha Vantage rejected repeat 090",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c98d7bf2af48050259004c00d07516637f3a695c073601074a7ad5564654c18b",
+      "case_id": "finish-everything-fixture-091",
+      "case_name": "OpenBB provider Alpaca rejected repeat 091",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "8ac3c3784b004e40bd6b10f85ce153963bd986fc538eddcf7e1cc8ece3f5e0af",
+      "case_id": "finish-everything-fixture-092",
+      "case_name": "OpenBB provider Databento rejected repeat 092",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c3d35f40535d193b4d6a35d7f0f7c9fd4c046569ee2d3c1ef10b7f691f39e0df",
+      "case_id": "finish-everything-fixture-093",
+      "case_name": "OpenBB provider TradingView rejected repeat 093",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "9daecf2639e5db6dc871a11d8233a32106751bc4979e48026fb74ee94f63ad58",
+      "case_id": "finish-everything-fixture-094",
+      "case_name": "OpenBB OHLCV normalize pass repeat 094",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c3a1004375a1e3311f4f851657579dece706afc3691f9ca33fa45d61e5ccd688",
+      "case_id": "finish-everything-fixture-095",
+      "case_name": "OpenBB OHLCV normalize fail repeat 095",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "27851a25877f8091285029e55fd3ec407b49b563acbb5d31c3efd03b09ebe5b7",
+      "case_id": "finish-everything-fixture-096",
+      "case_name": "OpenBB validator bridge no data repeat 096",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "4a35022662e0cb721a76b780a0fd1e9baf613c4cb7ece9e014a8ce5630036caa",
+      "case_id": "finish-everything-fixture-097",
+      "case_name": "OpenBB validator bridge pass repeat 097",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "258ae758ec17ecfc6a3b2902e905bd977df490a4da842e19ffd076ac60018ba9",
+      "case_id": "finish-everything-fixture-098",
+      "case_name": "OpenBB installed repeat 098",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "38018ae6c4209de16d0172f6e2c47bf7e1e2cfa5734fe93f08c3db0f4b6aaa5d",
+      "case_id": "finish-everything-fixture-099",
+      "case_name": "OpenBB not installed repeat 099",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    }
+  ]
+}

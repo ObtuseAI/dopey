@@ -1,0 +1,54 @@
+{
+  "macro": {
+    "regime_tag": "range_bound_pin",
+    "risk_on_score": 0.5,
+    "volatility_regime_score": 0.35,
+    "event_risk_score": 0.18,
+    "sector_rotation_score": 0.45,
+    "breadth_score": 0.475,
+    "liquidity_regime_score": 0.81,
+    "notes": "range_bound_pin: deterministic macro placeholder (no real data)"
+  },
+  "microstructure": {
+    "spread_quality_score": 0.94,
+    "liquidity_score": 0.81,
+    "slippage_sensitivity_score": 0.07,
+    "volume_oi_anomaly_score": 0.19,
+    "quote_stability_score": 0.93,
+    "contract_fillability_score": 0.729,
+    "notes": "range_bound_pin: deterministic microstructure placeholder"
+  },
+  "technical": {
+    "trend_score": 0.5,
+    "momentum_score": 0.475,
+    "realized_volatility_score": 0.25,
+    "breakout_score": 0.3,
+    "fakeout_risk_score": 0.28,
+    "support_resistance_score": 0.6,
+    "volume_confirmation_score": 0.729,
+    "gap_behavior_score": 0.72,
+    "notes": "range_bound_pin: deterministic technical placeholder"
+  },
+  "fundamental": {
+    "earnings_risk_score": 0.18,
+    "filing_event_score": 0.1,
+    "valuation_context_score": 0.5,
+    "growth_quality_score": 0.45,
+    "analyst_revision_score": 0.425,
+    "sector_peer_score": 0.6,
+    "fundamental_support_score": 0.45,
+    "notes": "range_bound_pin: deterministic fundamental placeholder"
+  },
+  "patterns": [
+    {
+      "pattern_id": "p-range_bound_pin-dir",
+      "pattern_type": "neutral_directional",
+      "confidence": 0.58,
+      "directional_bias": "neutral",
+      "volatility_bias": "compression",
+      "regime_dependency": "range_bound_pin",
+      "failure_mode": "",
+      "notes": "deterministic placeholder"
+    }
+  ]
+}

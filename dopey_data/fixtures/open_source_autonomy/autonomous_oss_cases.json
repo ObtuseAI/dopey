@@ -1,0 +1,756 @@
+{
+  "artifact_type": "autonomous_oss_cases",
+  "case_count": 75,
+  "cases": [
+    {
+      "case_hash": "d9e2eac67aba1abd9cf22f415cd813aad09b34f4c87495e6e3340b8d52b23c78",
+      "case_id": "autonomy-fixture-001",
+      "case_name": "unknown license reject",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "dcef894c3952fbd7055b101d0aea56bb2bd1cfc4e1a72d95153a2b504ae78f01",
+      "case_id": "autonomy-fixture-002",
+      "case_name": "ambiguous terms reject",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "700f5ec1ef4a23a6852595aec620d4e5ef27f646b36264d43f3ceb91cbf4d8f1",
+      "case_id": "autonomy-fixture-003",
+      "case_name": "credentials required reject",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "eaa861dba0722eef2dc0469b74102d15692cddf2fa6304f1646068edc1b6712d",
+      "case_id": "autonomy-fixture-004",
+      "case_name": "paid proprietary reject",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "f22ccdc5e6c4181abf67cd20bcbd6bc4eafc6fff0802b02f04389febc78d56a3",
+      "case_id": "autonomy-fixture-005",
+      "case_name": "broker source reject",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "5a819dfdad5dac1f1eff0f40a37e509089d58c2f54e289f3232bc0c7b03556fb",
+      "case_id": "autonomy-fixture-006",
+      "case_name": "scrape only reject",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d0bad6a07f75c53a36aa214ccee3e052ded867bf95365bac5d40fc5ad2f091b8",
+      "case_id": "autonomy-fixture-007",
+      "case_name": "permissive license accept",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "899b06dbb0423cf4fd072a0491738accc92101d98dbda148c9d3abff4f1cc623",
+      "case_id": "autonomy-fixture-008",
+      "case_name": "public domain accept",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "f7a4c7a029be192cf94d704744b567219b5b257f04306d0a9fd68aced77dfc80",
+      "case_id": "autonomy-fixture-009",
+      "case_name": "MIT repo accept",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "628852409fb5e6cb6e619ffd080c062057eb8f008fdf4ca4a4eeadd4e60b4b67",
+      "case_id": "autonomy-fixture-010",
+      "case_name": "Apache repo accept",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "eeed2a3c6944de127d6a5a9592db165de53fe45d4d8e1cca06e1357342972da2",
+      "case_id": "autonomy-fixture-011",
+      "case_name": "GPL reference only",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "6ad53dc56907a85ffecc36df74f604d183c054588fd578f8c37f2850182f082a",
+      "case_id": "autonomy-fixture-012",
+      "case_name": "broker repo quarantine",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "da19ff0cbbb3b54a46f43913c1b2f33153eda20c5cbda1ef3552c6d8eb8a69d5",
+      "case_id": "autonomy-fixture-013",
+      "case_name": "data adapter with API key reject",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "376907f63483b4b8c26fb38870b3f497a7f9e06b33cadb3bf5f6d7b14b2d906a",
+      "case_id": "autonomy-fixture-014",
+      "case_name": "dependency risk score",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "310f16537bb40dbf229cd01a37a9a8efa6e952bb6a85c0b250c7c11c65fe23c0",
+      "case_id": "autonomy-fixture-015",
+      "case_name": "network risk score",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "9c98ec1cda28b81c5c93b36bdb48d59affe19ca60cccab126ac149319f74d7a5",
+      "case_id": "autonomy-fixture-016",
+      "case_name": "options usefulness",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "6bb83f70d5a09ecb29449b4e5e78dd48e8a078eb24061881a3e794dcd5e7ae61",
+      "case_id": "autonomy-fixture-017",
+      "case_name": "signal usefulness",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a3ed1cf4eedad3cf4b0a53fa5bb3b07fd716c50f3041aabfe48e8b0e76d790d6",
+      "case_id": "autonomy-fixture-018",
+      "case_name": "backtest usefulness",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "31fb10fc988b224b22010487f041eb4ada9fcd678493eeec8d7b7d497ac53ef4",
+      "case_id": "autonomy-fixture-019",
+      "case_name": "risk model usefulness",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1d233aea7e5062f75daf213603a5616e97b219820f36ba17e951a0c5b8854110",
+      "case_id": "autonomy-fixture-020",
+      "case_name": "statistical validation usefulness",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c3e028449131fc90452e9ebe295ef7d058770498dd03d740d4c68c3454946b37",
+      "case_id": "autonomy-fixture-021",
+      "case_name": "integration cost",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "49bb356f2f2a79ff891848f78c5eb7647c395c8fca19303a9af29b14746074e3",
+      "case_id": "autonomy-fixture-022",
+      "case_name": "Dopey control preservation",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b9233d89d555edec7f7b4edc276e5bbc465e1228e333bc38c729b5ddabaed817",
+      "case_id": "autonomy-fixture-023",
+      "case_name": "no clone",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "4d966b30a810be00c1ae8209dd88ea4e6bd42356494f2e0f4cc3b34dd6aefdb4",
+      "case_id": "autonomy-fixture-024",
+      "case_name": "no import",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "53fa759c388d9fe1e612cf3709d273e4ac7e59fa1c5b2cb9819cea2361c63dde",
+      "case_id": "autonomy-fixture-025",
+      "case_name": "no execution",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "0f643dacedc78e6cde3b3cfe8671955084372752bcdda0e79f07b72dc5192c00",
+      "case_id": "autonomy-fixture-026",
+      "case_name": "unknown license reject repeat 025",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2b56767ce53c35aafad13bc9e2b677b21ef3e8277233ccf46d824ba0cfbcd390",
+      "case_id": "autonomy-fixture-027",
+      "case_name": "ambiguous terms reject repeat 026",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ecb8d2e6abd2bf8bf26008f904070efa2f871d99bd2808cb342b69627571de93",
+      "case_id": "autonomy-fixture-028",
+      "case_name": "credentials required reject repeat 027",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "f709108f2a38989468c50c3bb744e2f3c82507c1400f0bb77800e01a4deda7e4",
+      "case_id": "autonomy-fixture-029",
+      "case_name": "paid proprietary reject repeat 028",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ca7ca1ff4835ac7fb15392762b6ec546895971622df39f324b694f633b75d341",
+      "case_id": "autonomy-fixture-030",
+      "case_name": "broker source reject repeat 029",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "0a0c9cf9ce1fc31051b439d8ec443277f7aa4dffb0304c301ce49ee66a925c5f",
+      "case_id": "autonomy-fixture-031",
+      "case_name": "scrape only reject repeat 030",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "22b2ac0869969d414912028c277dbce4219787689063a86ba6da3c7a10e01c81",
+      "case_id": "autonomy-fixture-032",
+      "case_name": "permissive license accept repeat 031",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2cb84e0f49e1ff25d4cb7ff8d88e4bb997e6a35bad41587ad37643fbb82b285a",
+      "case_id": "autonomy-fixture-033",
+      "case_name": "public domain accept repeat 032",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d0e0d2aa4178100b94189039086a0d6b40aa28e11bfbd2913aec33aba0ba4ce1",
+      "case_id": "autonomy-fixture-034",
+      "case_name": "MIT repo accept repeat 033",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "f2e8414c9f645ab709020d60987952be713a2951bdbbe96ef4b7a166f9f2022d",
+      "case_id": "autonomy-fixture-035",
+      "case_name": "Apache repo accept repeat 034",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "603d4f9a074c1ef1b6f39d6803512397cf91d85570bf8a864207b80920fad801",
+      "case_id": "autonomy-fixture-036",
+      "case_name": "GPL reference only repeat 035",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "9ea11979f748a733a47620c095ef6d63e688411cb5601c7e6d49cc07ef7eaeec",
+      "case_id": "autonomy-fixture-037",
+      "case_name": "broker repo quarantine repeat 036",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d5c3867538c99ca638c6d00d29dd2781987259f6c6814502c040326e0f29fdb3",
+      "case_id": "autonomy-fixture-038",
+      "case_name": "data adapter with API key reject repeat 037",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "da4618dc5efd9005e4f5ab62fc97e09eba2466c3a70d2ba0b43d80fe9e124130",
+      "case_id": "autonomy-fixture-039",
+      "case_name": "dependency risk score repeat 038",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "25d2776093226cbbdc0a3b83d708a9d888a82a27e40a0d84ef790e14fb237425",
+      "case_id": "autonomy-fixture-040",
+      "case_name": "network risk score repeat 039",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "cb22900005a60cd728bc32e3da23d279cc83f0475b89cacb3d5073b6b05da510",
+      "case_id": "autonomy-fixture-041",
+      "case_name": "options usefulness repeat 040",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e754734fca8377145ed05bc5e63f65131380ec8fa201308a87e0171b365c723f",
+      "case_id": "autonomy-fixture-042",
+      "case_name": "signal usefulness repeat 041",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "bb9a868710be4a7288afba304ccfede49a28d9480607bb17598d9134bde97dc6",
+      "case_id": "autonomy-fixture-043",
+      "case_name": "backtest usefulness repeat 042",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "6fb298cfcedd297a43f20d4b85ea5a01d89826aed7ca6bc3414b40f9129b5bf8",
+      "case_id": "autonomy-fixture-044",
+      "case_name": "risk model usefulness repeat 043",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "53d6ee4535ff07254de47f1513a179a76a006ccf33e6bedf63ce5eaa1690c4d1",
+      "case_id": "autonomy-fixture-045",
+      "case_name": "statistical validation usefulness repeat 044",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e337ad269842431ddcc49a3ccba761a2292a32cefb788055df5cbf0b8cd432d8",
+      "case_id": "autonomy-fixture-046",
+      "case_name": "integration cost repeat 045",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7b164ca5b7b07941de0349ac62334811daf14d110658cd389a730106c70ebd83",
+      "case_id": "autonomy-fixture-047",
+      "case_name": "Dopey control preservation repeat 046",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "47ddedd15e3f2c0c18613f7c9b725321ff517f24e2b7a84c152fbae729c48248",
+      "case_id": "autonomy-fixture-048",
+      "case_name": "no clone repeat 047",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "3449c7b3091fe173aff1fed94d715c305fb181b8c8667d6089a7ed70dd91dcc9",
+      "case_id": "autonomy-fixture-049",
+      "case_name": "no import repeat 048",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "816893cb3c34e05b5b800df7e26943ef951a33be87adae816d1c8a3374420aff",
+      "case_id": "autonomy-fixture-050",
+      "case_name": "no execution repeat 049",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ed95528ebe89642a9d820652c1d6ffae974aaad641cad4615f3d30097f3c5110",
+      "case_id": "autonomy-fixture-051",
+      "case_name": "unknown license reject repeat 050",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "554d37328f0f61b273ac9870a89c2d2b7b4db5acac0ea2d55b882a5a4b3ebd5c",
+      "case_id": "autonomy-fixture-052",
+      "case_name": "ambiguous terms reject repeat 051",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ffb5b19b9f15ba1195ba18fa66ae6c09731f604f3825fbeb868c5ad81ec5c4b1",
+      "case_id": "autonomy-fixture-053",
+      "case_name": "credentials required reject repeat 052",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2f3e718b8715f68ee437c1d79ae05e6de97724471d58a9dbaa488c8b1dc126ee",
+      "case_id": "autonomy-fixture-054",
+      "case_name": "paid proprietary reject repeat 053",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "5b4b15423d0161a31b618a2e8291fc851b636ab3908b1802cfe8173f549eec47",
+      "case_id": "autonomy-fixture-055",
+      "case_name": "broker source reject repeat 054",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "76ea38c8a65d882d10e21c1472c3b1095f413ab8c7ca0f45eebdecacf1d28fac",
+      "case_id": "autonomy-fixture-056",
+      "case_name": "scrape only reject repeat 055",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "0273e5b7c28cfa53c1a0fab4fb1fee01474535d11fde6063d860511cf73b18bd",
+      "case_id": "autonomy-fixture-057",
+      "case_name": "permissive license accept repeat 056",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "770d8c334a6ae095e7e4a1cab2a72d565686c3f5ae6837144421f0085ee4d1bc",
+      "case_id": "autonomy-fixture-058",
+      "case_name": "public domain accept repeat 057",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "9ed1aba9e3eebd2294e73164808f4eeb1f7f339b556ab8d77573bb8406c83642",
+      "case_id": "autonomy-fixture-059",
+      "case_name": "MIT repo accept repeat 058",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "37aa6681832a8c9b277b6b67892066912ade691b3b83770a20cfe3fa4e0e0669",
+      "case_id": "autonomy-fixture-060",
+      "case_name": "Apache repo accept repeat 059",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "8579ec9f76c8d068f6f80f545851bbc67569d629c3b6ed69758cf03ed1a90535",
+      "case_id": "autonomy-fixture-061",
+      "case_name": "GPL reference only repeat 060",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "5c09ef448d8f30d4aa2bc8e81962e2e5ffdfc5f930ee21f7f52482b73289d249",
+      "case_id": "autonomy-fixture-062",
+      "case_name": "broker repo quarantine repeat 061",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c7e085fce79842fd45254802d602b177fe032d44e158638e257e90c94b1b252f",
+      "case_id": "autonomy-fixture-063",
+      "case_name": "data adapter with API key reject repeat 062",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "0c6219b3e965f80814facecd8c82476b39471e389bb0eac6c9dff1693361fd80",
+      "case_id": "autonomy-fixture-064",
+      "case_name": "dependency risk score repeat 063",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c524c2f70b78c550de1c0ff4159c50418950d6d6536fcf46157f49a19247faf1",
+      "case_id": "autonomy-fixture-065",
+      "case_name": "network risk score repeat 064",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "33bbdf5887d55502c578ae9efabc6f38a3ae71167e699d9b1e84896732c429c0",
+      "case_id": "autonomy-fixture-066",
+      "case_name": "options usefulness repeat 065",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2f4d3e1be33d6e16b83f8d03f356c912c00cc8a5248315f67f0bbb9a39cd8a1f",
+      "case_id": "autonomy-fixture-067",
+      "case_name": "signal usefulness repeat 066",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b3715a0b2977edfc19a3ccaa76be666a25b89fb3bab53a5f5e74978a44e58bae",
+      "case_id": "autonomy-fixture-068",
+      "case_name": "backtest usefulness repeat 067",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "fc15a977b71b8353bf899070f9f59bae3b627e6cae294cf979dddd627398b609",
+      "case_id": "autonomy-fixture-069",
+      "case_name": "risk model usefulness repeat 068",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "729fc40e07b9145ceed2ebccd72ef567c97b99f54bb55fff2a160d22dc4466c1",
+      "case_id": "autonomy-fixture-070",
+      "case_name": "statistical validation usefulness repeat 069",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "f17465bff9b8a4e5bc7da669ca23e6fd986d655a17d2f45846f5e2252aa310d7",
+      "case_id": "autonomy-fixture-071",
+      "case_name": "integration cost repeat 070",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d05aa398093b6b5d0fc5fe44d2e9cf4b6bf5ab0f5d215715d5fdc1ac2e88dda0",
+      "case_id": "autonomy-fixture-072",
+      "case_name": "Dopey control preservation repeat 071",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d9757a9e8ce0582a5cca0ded08abd5e0c57922dfd70eca338d375adf71d99ed3",
+      "case_id": "autonomy-fixture-073",
+      "case_name": "no clone repeat 072",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a855d076f80105a83e988c968fe178a2c64f79a54688f618cdf08211e29f1a5f",
+      "case_id": "autonomy-fixture-074",
+      "case_name": "no import repeat 073",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "574483e5d0154dead6102742dbb798406bb1ce510f3c560d9a878043721cbe4b",
+      "case_id": "autonomy-fixture-075",
+      "case_name": "no execution repeat 074",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    }
+  ]
+}

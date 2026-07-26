@@ -1,0 +1,11 @@
+{
+  "artifact_type": "news_intelligence_context_fixture",
+  "corroborated_alert_count": 0,
+  "decision_time": "2026-07-14T20:30:00+00:00",
+  "fresh_7d_event_count": 0,
+  "live_blocked": true,
+  "not_readiness_evidence": true,
+  "paper_only": true,
+  "pipeline_status": "complete",
+  "provenance": "integration_fixture_not_forward_evidence"
+}

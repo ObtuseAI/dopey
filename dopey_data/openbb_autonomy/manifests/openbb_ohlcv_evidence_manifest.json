@@ -1,0 +1,41 @@
+{
+  "artifact_type": "openbb_ohlcv_evidence_manifest",
+  "date_range": {
+    "end": "2024-01-02",
+    "start": "2024-01-02"
+  },
+  "file_count": 1,
+  "files": [
+    {
+      "admissibility_ids": [
+        "openbb-probe-fixture_openbb"
+      ],
+      "date_range": {
+        "end": "2024-01-02",
+        "start": "2024-01-02"
+      },
+      "entry_hash": "b1aeb06c0bcd47191544968cfec59bfdff99d7881a6e8cbd7d700af10f1ad9bb",
+      "file_hash": "8dc8be6f03a52f68061906f0604212f730d815d9a21573a8e98461b40a528615",
+      "file_path": "C:\\Users\\CH\\dopey\\dopey_data\\openbb_autonomy\\accepted\\daily_ohlcv\\openbb_fixture_ohlcv.csv",
+      "license": "machine_verified_openbb_provider",
+      "provenance_hash": "403aaed27067a0daed0c6224a8825f8ed56956120a00bde97e02943fec2a208c",
+      "provider_id": "openbb-provider-fixture",
+      "provider_name": "fixture_openbb",
+      "row_count": 1,
+      "schema_version": "dopey-openbb-normalized-ohlcv-v1",
+      "source_url": "openbb://openbb.equity.price.historical",
+      "symbol_count": 1,
+      "symbols": [
+        "SPY"
+      ]
+    }
+  ],
+  "live_blocked": true,
+  "manifest_hash": "4f3a76b3bce59eeee8501e6efab9408d04637f4cedfe1c777322a31472abea1b",
+  "manifest_version": "dopey-openbb-model-priced-s-tier-completion-v1",
+  "not_live_ready": true,
+  "not_profitability_claim": true,
+  "paper_only": true,
+  "row_count": 1,
+  "symbol_count": 1
+}

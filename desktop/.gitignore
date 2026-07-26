@@ -1,0 +1,9 @@
+node_modules/
+dist/
+build/
+release/
+.desktop-venv/
+release/*.sha256
+release/*_RELEASE_MANIFEST.json
+*.spec.bak
+visual-qa/

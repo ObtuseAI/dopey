@@ -1,0 +1,756 @@
+{
+  "artifact_type": "open_data_breakthrough_cases",
+  "case_count": 75,
+  "cases": [
+    {
+      "case_hash": "a352182ab25877f7f936a7628dedb80130dac8daacd4775dae07b35ad60c9bec",
+      "case_id": "open-data-breakthrough-fixture-000",
+      "case_name": "accepted permissive OHLCV candidate",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "626848f4c28a0185d58e1857a9daf525298c0eaa2654e771584995f94df41c00",
+      "case_id": "open-data-breakthrough-fixture-001",
+      "case_name": "rejected OHLCV unknown license",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "968402632a8669100beb7501ce20ac994bad70fcbcbf0e31878058ca56d4e7eb",
+      "case_id": "open-data-breakthrough-fixture-002",
+      "case_name": "rejected OHLCV ambiguous terms",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "235d4298d9a31a2f0768206da24ca1a20f6feefedbd23d500caa9d3e0b56daaf",
+      "case_id": "open-data-breakthrough-fixture-003",
+      "case_name": "rejected OHLCV credentials required",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2a676cab2258c3070a8e4316caa189795613baf5565e7a16b2731aaba9408872",
+      "case_id": "open-data-breakthrough-fixture-004",
+      "case_name": "rejected OHLCV paid source",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "9569c51a530a5fa8617ccdfa0d12612c75ceaa63d056f1189c2a6cec2d409218",
+      "case_id": "open-data-breakthrough-fixture-005",
+      "case_name": "rejected OHLCV scrape-only",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7968e3b88a627ec22da3dcf896790f7da4b5ea8f63ccb54a7cb18fffbb2c4e0f",
+      "case_id": "open-data-breakthrough-fixture-006",
+      "case_name": "accepted public-domain macro source",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "43893b9cfc6f116121f8c10291b2b3034de84bc8485172ffb9ddbb3699463418",
+      "case_id": "open-data-breakthrough-fixture-007",
+      "case_name": "accepted context-only source",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "02bdce4065cb2b7f9aed167743b1c04a7c6db50fb4e22afb6799156c4012f48f",
+      "case_id": "open-data-breakthrough-fixture-008",
+      "case_name": "rejected Alpha Vantage",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "55a4c9f647577b2f4ef03fa40928da3acef7fd777c4424e4c7d968ac2101eb7b",
+      "case_id": "open-data-breakthrough-fixture-009",
+      "case_name": "rejected TradingView",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ca52604570a9bd60cca9c90ccfc23b42f1b3c6ffb55f04db7a60cd840a4217cb",
+      "case_id": "open-data-breakthrough-fixture-010",
+      "case_name": "quarantine fetch no candidates",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "909185b08d4320d477424cc06bb91a96a7197040dc2fb60b71422aca1a0d8eab",
+      "case_id": "open-data-breakthrough-fixture-011",
+      "case_name": "quarantine fetch accepted candidate",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b57e3988805363eb90092bb32f52bad9e1b3d4fb7e876f088351e39b753c1beb",
+      "case_id": "open-data-breakthrough-fixture-012",
+      "case_name": "quarantine fetch failed unavailable",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "eb3150e3d7d82fbb9bdebcea17bbd76c19360963992e496376bda73e2618657d",
+      "case_id": "open-data-breakthrough-fixture-013",
+      "case_name": "OHLCV schema pass",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "de34b318083e0d7373e64e6af53b608ea4eed396c30846f652db46fd6a9ff6c2",
+      "case_id": "open-data-breakthrough-fixture-014",
+      "case_name": "OHLCV schema fail",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "779db0def8aa4dc04628e17c54dd14e15f46930da9833bdb61c713a02cdb0583",
+      "case_id": "open-data-breakthrough-fixture-015",
+      "case_name": "OHLCV quality pass",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7984b206520192d1713d2fae84397fadd952280c29d73281b771d37a0cf1975b",
+      "case_id": "open-data-breakthrough-fixture-016",
+      "case_name": "OHLCV quality fail",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "51d632652a2e69668431e4942852d4a29e3ba39481bc3786d709652d32233bc7",
+      "case_id": "open-data-breakthrough-fixture-017",
+      "case_name": "manifest no accepted files",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "fc30290ed1d6e781761fb54adb84a193f4294a7c2d96781d6f6aa19804b44701",
+      "case_id": "open-data-breakthrough-fixture-018",
+      "case_name": "manifest OHLCV ready",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "8e6232a645704c6175797fe7bca1717d8387bff190d1940a98b66a4c62c425f0",
+      "case_id": "open-data-breakthrough-fixture-019",
+      "case_name": "validator bridge no data",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d8292fade23defb670760a5ee115c157849329504ee2d7836826f98752222c36",
+      "case_id": "open-data-breakthrough-fixture-020",
+      "case_name": "validator bridge OHLCV pass",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e51533e56d5883c026e9bef97122706737ca8e02e7d5c00d7833cf0046fea017",
+      "case_id": "open-data-breakthrough-fixture-021",
+      "case_name": "discovery proof no accepted sources",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "744786f93ba54b8f74f4698c5bf370154402f47e1cf3f0a53762bc08b4f1a6de",
+      "case_id": "open-data-breakthrough-fixture-022",
+      "case_name": "discovery proof accepted OHLCV",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a3ba0f1555b43709cedf1c28879469a6e4b624710efea36b60270f2287e6c66f",
+      "case_id": "open-data-breakthrough-fixture-023",
+      "case_name": "full completion no accepted data",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "77f5c5b93c5607408543a646beb8c4eb3e77d9b3713df212c4d8494063137b01",
+      "case_id": "open-data-breakthrough-fixture-024",
+      "case_name": "full completion OHLCV only",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2ba922cc201e83c14c67ca4cc3330dcd307f8444ee46805ea3e9990ecc868780",
+      "case_id": "open-data-breakthrough-fixture-025",
+      "case_name": "accepted permissive OHLCV candidate repeat 025",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "f8b855fcdcf1505ea09e36c01c3d5e081b7ac90d372ca456ef3772fa13202a01",
+      "case_id": "open-data-breakthrough-fixture-026",
+      "case_name": "rejected OHLCV unknown license repeat 026",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e8499a6d94df2fb3c75e41dd717bddcd2be27da4f6e14a89774354c6f48218e9",
+      "case_id": "open-data-breakthrough-fixture-027",
+      "case_name": "rejected OHLCV ambiguous terms repeat 027",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2fd29f85fd8c79f5872c39d48b089fd5c3a6ff714f9461eda1bb0a135bbf8b9c",
+      "case_id": "open-data-breakthrough-fixture-028",
+      "case_name": "rejected OHLCV credentials required repeat 028",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "fd068441858f41ce614dad8cbf95deed534e97309e49483f2a515a428fe9ae12",
+      "case_id": "open-data-breakthrough-fixture-029",
+      "case_name": "rejected OHLCV paid source repeat 029",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "aa945392474203a9c857d3e830dbc5a864c2db6f2005191fc3a42d21b1d4982f",
+      "case_id": "open-data-breakthrough-fixture-030",
+      "case_name": "rejected OHLCV scrape-only repeat 030",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "075965b2447514c18074cc21ef234aeb8b46f616d66419a4234590773192a76c",
+      "case_id": "open-data-breakthrough-fixture-031",
+      "case_name": "accepted public-domain macro source repeat 031",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "19db7dd3dcc7183eafd03c191b8e83c82b35e2397ccbf0d2811d351f0ae61a15",
+      "case_id": "open-data-breakthrough-fixture-032",
+      "case_name": "accepted context-only source repeat 032",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "06005b98a9695ce44e31dfa69507fe9082ed277c16fbbb7e844b3b03ab85b9b7",
+      "case_id": "open-data-breakthrough-fixture-033",
+      "case_name": "rejected Alpha Vantage repeat 033",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b43e4b366de0544106f1b379951f2d3bc8ff147587c447d409a2d71fb67c167f",
+      "case_id": "open-data-breakthrough-fixture-034",
+      "case_name": "rejected TradingView repeat 034",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "665c5403cf76123f689eaeac50d7d2af57f063ba3a4b02b3a645d112f498cede",
+      "case_id": "open-data-breakthrough-fixture-035",
+      "case_name": "quarantine fetch no candidates repeat 035",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "9391f8976ae71652248b02d316d85b944718635b2b407a9debbb1ce894fdebef",
+      "case_id": "open-data-breakthrough-fixture-036",
+      "case_name": "quarantine fetch accepted candidate repeat 036",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "294c496a8d48904b5818a4aa2bbedb1030b6df0a91f9cf74bfc2606bc5590105",
+      "case_id": "open-data-breakthrough-fixture-037",
+      "case_name": "quarantine fetch failed unavailable repeat 037",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "dfce667f39368f3037f3485ce65654d69e223a1df4de33a9cbea72c5b9037a5e",
+      "case_id": "open-data-breakthrough-fixture-038",
+      "case_name": "OHLCV schema pass repeat 038",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c13e7cb1088057eaf875a4e8d6f71a54493a388ff01f7fc18f9eab39ea5202c4",
+      "case_id": "open-data-breakthrough-fixture-039",
+      "case_name": "OHLCV schema fail repeat 039",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "180431b0c56c5ba5fc93c664cd9fa152da560ed5ca79782847506c7c8ed27da9",
+      "case_id": "open-data-breakthrough-fixture-040",
+      "case_name": "OHLCV quality pass repeat 040",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a876895b3d0d80850fc91ec150f8f30c9796f285ba0496ad007fd5fa927644c0",
+      "case_id": "open-data-breakthrough-fixture-041",
+      "case_name": "OHLCV quality fail repeat 041",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c68c2ce6dd67b6a94aace63700573f60446a5dfd5db183c8ea60d9548b68ddaf",
+      "case_id": "open-data-breakthrough-fixture-042",
+      "case_name": "manifest no accepted files repeat 042",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "3f3119c7675976d6df5a8b21e4dc81545568a12e6f02cb5f845a856234a7eef7",
+      "case_id": "open-data-breakthrough-fixture-043",
+      "case_name": "manifest OHLCV ready repeat 043",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c1e780ae4bc8eb23dbbd96849645d01fc29379daa835f79f2efdeb7f835d95e3",
+      "case_id": "open-data-breakthrough-fixture-044",
+      "case_name": "validator bridge no data repeat 044",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "4364ab71d0e6e6327c7f615555fd6a674f5ff0c8e68a549c92c32c06aac7be5c",
+      "case_id": "open-data-breakthrough-fixture-045",
+      "case_name": "validator bridge OHLCV pass repeat 045",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c5371a5c652b62ba2ef60daebe4a88195a9c077cecdc06cf3198ce5fe7195a63",
+      "case_id": "open-data-breakthrough-fixture-046",
+      "case_name": "discovery proof no accepted sources repeat 046",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7bd0c650107d5ba150e2274407b9d8498b912324de47002813304e89705168ea",
+      "case_id": "open-data-breakthrough-fixture-047",
+      "case_name": "discovery proof accepted OHLCV repeat 047",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e4095062da4e6d6df09723def707e1420d14782281cfee56fb5cadfb5a653edf",
+      "case_id": "open-data-breakthrough-fixture-048",
+      "case_name": "full completion no accepted data repeat 048",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "47e46540157609375dfcd8f731f13e83d6358d680a82a2378975257123238019",
+      "case_id": "open-data-breakthrough-fixture-049",
+      "case_name": "full completion OHLCV only repeat 049",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b05d19abb5da4bd941d97d71d3bc5e8e1f8faec41fe32a0a55c7680c8c6e0888",
+      "case_id": "open-data-breakthrough-fixture-050",
+      "case_name": "accepted permissive OHLCV candidate repeat 050",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "33885b8f6a71bfe47bb26424593d000f8eacd5260e9f482ee4825271753f57ed",
+      "case_id": "open-data-breakthrough-fixture-051",
+      "case_name": "rejected OHLCV unknown license repeat 051",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d37be54bd2e75b3838daf2d78d9b937e94a9540ba8f7bd925c3a9a67b1718ec3",
+      "case_id": "open-data-breakthrough-fixture-052",
+      "case_name": "rejected OHLCV ambiguous terms repeat 052",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "5ef88c9c376b4bde0faf06147ca281c73e95de1f61afb81277f4e889b9650225",
+      "case_id": "open-data-breakthrough-fixture-053",
+      "case_name": "rejected OHLCV credentials required repeat 053",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "91f41f8f177d0e6f492b4743b073f403dc9fbda1eed73959b98f7184c84f0a03",
+      "case_id": "open-data-breakthrough-fixture-054",
+      "case_name": "rejected OHLCV paid source repeat 054",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c20fd9637902c369cea154608a83c377a5e5ab8d7d5f4f1d93f623a2af4c4130",
+      "case_id": "open-data-breakthrough-fixture-055",
+      "case_name": "rejected OHLCV scrape-only repeat 055",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "80720da25e67823563b71769a92597a82f803efa84247365b4fa0f8a9103fddf",
+      "case_id": "open-data-breakthrough-fixture-056",
+      "case_name": "accepted public-domain macro source repeat 056",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "93d016941920e79d74e7246cf803cfb05b1be71fab0b26439b8f4f8e6d93e1b3",
+      "case_id": "open-data-breakthrough-fixture-057",
+      "case_name": "accepted context-only source repeat 057",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "5586cea3a14c94e8d72c9080a515421a08bbfdca8e6e70b19ed967f69c18de59",
+      "case_id": "open-data-breakthrough-fixture-058",
+      "case_name": "rejected Alpha Vantage repeat 058",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "93045854d0d15eb5afe2ceec7f0e609624d92b99f68f654b1a677bb03534ed92",
+      "case_id": "open-data-breakthrough-fixture-059",
+      "case_name": "rejected TradingView repeat 059",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c112f3d7b257a5279ad629a7663ad06c6ab323e086b5c70ed02437bbd09059e0",
+      "case_id": "open-data-breakthrough-fixture-060",
+      "case_name": "quarantine fetch no candidates repeat 060",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "6e967f7f4f3363fb4d25475c899261004ea5ea1406b8d5e42b32b9e4616ec409",
+      "case_id": "open-data-breakthrough-fixture-061",
+      "case_name": "quarantine fetch accepted candidate repeat 061",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1a4e01b95fb224e63bcd4cd3f739f2a6c2564d64f0f0da0fa6b1a5a18a95f291",
+      "case_id": "open-data-breakthrough-fixture-062",
+      "case_name": "quarantine fetch failed unavailable repeat 062",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7794bd6ecd57ebcb03f3cdd5ec5183e9026db2a60ea16c728c19b69769321cde",
+      "case_id": "open-data-breakthrough-fixture-063",
+      "case_name": "OHLCV schema pass repeat 063",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "044132fe161d17fe08f3fa60fe471df4ed4c79f91fc90837c53b5babce7c40ac",
+      "case_id": "open-data-breakthrough-fixture-064",
+      "case_name": "OHLCV schema fail repeat 064",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "929d84d0786277ed26f867d5be0f49fe9df6be3b3cc5059b500598e61e9bad76",
+      "case_id": "open-data-breakthrough-fixture-065",
+      "case_name": "OHLCV quality pass repeat 065",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d049375f7f10afbd277b9a35d1cfaf82ce870430c09adbec22e1c6f88b922578",
+      "case_id": "open-data-breakthrough-fixture-066",
+      "case_name": "OHLCV quality fail repeat 066",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "955d94590903b12bcfc5d2ea5bcf6509a79139c459366f50f9d1b05faf6621f4",
+      "case_id": "open-data-breakthrough-fixture-067",
+      "case_name": "manifest no accepted files repeat 067",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "8f0b8e2a2041a63cc1726147c60f0666fd86651ef2e66350fed3564716e38aeb",
+      "case_id": "open-data-breakthrough-fixture-068",
+      "case_name": "manifest OHLCV ready repeat 068",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "84c866f23709ba401d41f1b7a448b89c7c3b5e4267cf71543414f8ecec4c8af4",
+      "case_id": "open-data-breakthrough-fixture-069",
+      "case_name": "validator bridge no data repeat 069",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "edad641bf4dd2d7764facb37d4f474d3aeb876544cb08571a9ee486f665e6ee5",
+      "case_id": "open-data-breakthrough-fixture-070",
+      "case_name": "validator bridge OHLCV pass repeat 070",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b353c416e5144554f3332bda505f1c1892b2028907e7457a4750599a1b8292c9",
+      "case_id": "open-data-breakthrough-fixture-071",
+      "case_name": "discovery proof no accepted sources repeat 071",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1e03e7be16e1de8f6493d0c313c8f1bb8a90811ba454300497df63d5586ff874",
+      "case_id": "open-data-breakthrough-fixture-072",
+      "case_name": "discovery proof accepted OHLCV repeat 072",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ab97f1fb7f30bfc73a217d1c440a05c37424f9a3e60c9f34cef4659a8247eec8",
+      "case_id": "open-data-breakthrough-fixture-073",
+      "case_name": "full completion no accepted data repeat 073",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2d388501aad8b6695ae93c8ae0dc9cbabe87284d6dbf441d7ec112fcbf3720e1",
+      "case_id": "open-data-breakthrough-fixture-074",
+      "case_name": "full completion OHLCV only repeat 074",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    }
+  ]
+}

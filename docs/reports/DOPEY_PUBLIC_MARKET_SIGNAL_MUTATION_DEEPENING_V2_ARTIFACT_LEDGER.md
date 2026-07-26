@@ -1,0 +1,22 @@
+# DOPEY_PUBLIC_MARKET_SIGNAL_MUTATION_DEEPENING_V2_ARTIFACT_LEDGER
+
+- `artifacts/dopey/public_signal_deepening/public_lake_final_state_lock_v2_summary.json`
+- `artifacts/dopey/public_signal_deepening/strategy_cohort_summary.json`
+- `artifacts/dopey/signals/public_signal_mutation_factory_v4_summary.json`
+- `artifacts/dopey/signals/public_signal_mutation_candidates_v4.jsonl`
+- `artifacts/dopey/signals/near_champion_signal_expansion_v4.jsonl`
+- `artifacts/dopey/signals/public_signal_density_schedule_v4.jsonl`
+- `artifacts/dopey/options_engine/model_priced_path_simulator_v4_summary.json`
+- `artifacts/dopey/options_engine/model_priced_path_simulator_v4_trades.jsonl`
+- `artifacts/dopey/tournament/public_cohort_walk_forward_tournament_v4_summary.json`
+- `artifacts/dopey/tournament/public_cohort_tournament_leaderboard_v4.jsonl`
+- `artifacts/dopey/champions/public_paper_champion_gate_v2_summary.json`
+- `artifacts/dopey/champions/public_paper_champion_gate_v2_near_champions.jsonl`
+- `artifacts/dopey/champions/public_paper_champion_gate_v2_sample_repair_plan.jsonl`
+- `artifacts/dopey/evolution/public_signal_deepening_loop_v2_summary.json`
+- `artifacts/dopey/evolution/cohort_loser_elimination_v2.jsonl`
+- `artifacts/dopey/scoreboard/public_signal_deepening_scoreboard_v4.json`
+- `artifacts/dopey/scoreboard/public_signal_deepening_dashboard_v4.html`
+- `artifacts/dopey/live_gate/public_signal_deepening_live_gate_status_v2.json`
+- `artifacts/dopey/public_signal_deepening/public_market_signal_mutation_deepening_v2_summary.json`
+- `artifacts/dopey/public_signal_deepening/public_market_signal_mutation_deepening_v2_validation_summary.json`

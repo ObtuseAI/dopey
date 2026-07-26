@@ -1,0 +1,33 @@
+# DOPEY Pre-Run Safety Scanner Artifact Ledger
+
+- `pre_run_safety_scan_inputs`: `C:\Users\CH\AppData\Local\Temp\pytest-of-CH\pytest-1803\isolated_live_tree0\artifacts\dopey\broker_readiness\pre_run_safety\pre_run_safety_scan_inputs.jsonl`
+  - hash: `41a55934fa63c4e2a5364c9fd9d0e6b4b4df525b228257ba7ed83152d326c0a3`
+  - record_count: `96`
+- `pre_run_boundary_scan_results`: `C:\Users\CH\AppData\Local\Temp\pytest-of-CH\pytest-1803\isolated_live_tree0\artifacts\dopey\broker_readiness\pre_run_safety\pre_run_boundary_scan_results.jsonl`
+  - hash: `3ca6114ff8cab3513c3d0c6b400064f4b7aea4f37b63f0c789efdea84d81f860`
+  - record_count: `96`
+- `pre_run_safety_decisions`: `C:\Users\CH\AppData\Local\Temp\pytest-of-CH\pytest-1803\isolated_live_tree0\artifacts\dopey\broker_readiness\pre_run_safety\pre_run_safety_decisions.jsonl`
+  - hash: `bddcb12f2ba0e1d12beca1ad5653192c33a77b0a03f8d4427cd8dade49d39c74`
+  - record_count: `96`
+- `pre_run_forbidden_boundary_patterns`: `C:\Users\CH\AppData\Local\Temp\pytest-of-CH\pytest-1803\isolated_live_tree0\artifacts\dopey\broker_readiness\pre_run_safety\pre_run_forbidden_boundary_patterns.json`
+  - hash: `662ae55841495e06b56d1966ef7a5f17a1598c9c5a9e50334163fa8180b71f43`
+  - record_count: `1`
+- `pre_run_boundary_classifications`: `C:\Users\CH\AppData\Local\Temp\pytest-of-CH\pytest-1803\isolated_live_tree0\artifacts\dopey\broker_readiness\pre_run_safety\pre_run_boundary_classifications.jsonl`
+  - hash: `653c17cb414895f23bb57d61b6f193b18ac5b4f06d42e73185b87ffb9fada8c0`
+  - record_count: `112`
+- `pre_run_incident_escalations`: `C:\Users\CH\AppData\Local\Temp\pytest-of-CH\pytest-1803\isolated_live_tree0\artifacts\dopey\broker_readiness\pre_run_safety\pre_run_incident_escalations.jsonl`
+  - hash: `91dfbfddefca7f3a3f35f8e662c99009aad50b7fc3344a2a85787261a67615a2`
+  - record_count: `80`
+- `pre_run_safety_summary`: `C:\Users\CH\AppData\Local\Temp\pytest-of-CH\pytest-1803\isolated_live_tree0\artifacts\dopey\broker_readiness\pre_run_safety\pre_run_safety_summary.json`
+  - hash: `a65adedec39a69bfb3d76d0159d8890c7ae78283c68f70b5d4b1d723eac8dd31`
+  - record_count: `1`
+- `pre_run_safety_proof`: `C:\Users\CH\AppData\Local\Temp\pytest-of-CH\pytest-1803\isolated_live_tree0\artifacts\dopey\broker_readiness\pre_run_safety\pre_run_safety_proof.jsonl`
+  - hash: `0d652f0bdb0127c09e08191ab5ac23b10fc34f6c6942eb1a29ca9b4d1b641e9c`
+  - record_count: `96`
+- `scan_count`: `96`
+- `boundary_classification_count`: `112`
+- `decision_count`: `96`
+- `incident_escalation_count`: `80`
+- `proof_layer`: `pre_run_safety_proof`
+- `safety_state`: `live_blocked_broker_absent_detector_not_run`
+- `summary_hash`: `54f9aad94826e52293a6484dcf416df45eef9a08194bee8ef2edf5466bf8c347`

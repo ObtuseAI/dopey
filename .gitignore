@@ -1,0 +1,58 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.build/
+# setuptools bdist scratch: stale build/ + egg-info silently override
+# pyproject packaging config at wheel-build time (2026-07-17 defect).
+/build/
+artifacts/
+
+.venv/
+
+# Local operator and agent configuration.
+/.codex/
+/.cursor/
+/.mcp.json
+
+# Credentials and local environment files.
+/.env
+/.env.*
+!/.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Runtime market state belongs to the operator's local lake, never this source
+# repository. Only schema/sample templates are intentionally versioned.
+/dopey_data/history/
+/dopey_data/market_lake/
+/dopey_data/real/**
+!/dopey_data/real/manifests/
+!/dopey_data/real/manifests/*.template.json
+!/dopey_data/real/templates/
+!/dopey_data/real/templates/**
+/operator_tools/*.log
+
+# Root-level run logs and pre-migration backups.
+/*.log
+/*.v5_backup
+
+# Private release evidence belongs in the private archive and operator handoff,
+# never in the public source repository.
+/reports/*COPY_PROOF*
+/reports/*HANDOFF_MANIFEST*
+/reports/*SESSION_REPORT*
+/reports/*ROBINHOOD*
+/reports/FULL_SHARDED_SUITE_RESULT.json
+
+# Dated session and handoff evidence is private operational history regardless
+# of the directory where a local run emitted it.
+**/DOPEY_*_COPY_PROOF*
+**/DOPEY_*_COPY_MANIFEST*
+**/DOPEY_*_HANDOFF_MANIFEST*
+**/DOPEY_*_HANDOFF_PROOF*
+**/DOPEY_*_HANDOFF_20*
+**/DOPEY_*_SESSION_REPORT*
+**/DOPEY_*_SESSION_20*

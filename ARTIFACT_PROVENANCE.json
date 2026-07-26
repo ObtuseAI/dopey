@@ -1,0 +1,122 @@
+{
+  "schema_version": "dopey-ascendancy-artifact-provenance-v1",
+  "generated_at": "2026-07-17T12:19:09Z",
+  "environment_id": "dopey-options-paper-v1",
+  "environment_hash": "811d348d94e151087cd77d496bd1f5135b24dd40ba107b5d860cde34b8475652",
+  "snapshot_semantics": "frozen_evaluation_corpus_not_current_operational_state",
+  "current_operational_manifest_claimed": false,
+  "source_data": {
+    "manifest": "C:/Users/CH/dopey/dopey_data/real/manifests/options_data_manifest.json",
+    "manifest_sha256": "6ddc39e58e69c0b8a411ffee2c36d8a4cbd5d05f98340bee997ddbdf5572bad3",
+    "data_cutoff": "2026-07-16",
+    "eligibility": "development_mechanics_only",
+    "binding_policy": "immutable_frozen_snapshot_hash"
+  },
+  "code": {
+    "base_commit": "ccf460eb514fa19ed1769f3c8cfa70bc6c8754ed",
+    "branch": "agent/dopey-ascendancy-v1",
+    "changes_committed": false,
+    "code_version_label": "dopey-ascendancy-v1-working-tree"
+  },
+  "candidate_ids": [],
+  "evaluator": {
+    "version": "sealed-v1",
+    "status": "not_configured_no_external_evaluator",
+    "raw_holdout_access": false,
+    "signed_fields_include": ["passed", "evaluator_issued_at"],
+    "candidate_submissions": 0
+  },
+  "external_trust": {
+    "promotion_authority": {
+      "config": "PROMOTION_AUTHORITY_TRUST.json",
+      "status": "not_configured",
+      "receipt": "ed25519_stage_receipt"
+    },
+    "sealed_evaluator": {
+      "config": "SEALED_EVALUATOR_TRUST.json",
+      "status": "not_configured",
+      "receipt": "ed25519_aggregate_verdict_and_issue_time"
+    },
+    "forward_evidence": {
+      "config": "FORWARD_EVIDENCE_TRUST.json",
+      "status": "not_configured",
+      "roles": ["forward_recorder", "outcome_source"],
+      "independent_roles_required": true
+    },
+    "dynamic_anchor": {
+      "config": "DYNAMIC_ANCHOR_TRUST.json",
+      "status": "not_configured",
+      "repository_receipt_schema": "dopey-dynamic-state-anchor-v2",
+      "repository_receipt_required_by_current_promotion_policy": true,
+      "deployment_root_status": "not_supplied",
+      "deployment_root_required_for_certification": true,
+      "deployment_root_custody": "outside_repository"
+    }
+  },
+  "protection": {
+    "static_manifest_scope": "enumerated_immutable_source_dependency_trust_and_configuration_files",
+    "dynamic_state_scope": "canonical_root_scoped_runtime_artifacts_including_forward_ledger_and_head",
+    "external_root_scope": "protected_manifest_four_repository_trust_configs_five_independent_keys_accepted_anchor_parent_and_minimum_sequence",
+    "external_anchor_verified": false,
+    "certification_eligible": false
+  },
+  "assumptions": "ASSUMPTIONS.md",
+  "unresolved_risks": [
+    "no_timestamped_sized_firm_nbbo_history",
+    "no_external_inaccessible_evaluator",
+    "no_lifecycle_grade_american_pricing_and_assignment_evidence",
+    "no_partial_fill_routing_or_market_impact_evidence",
+    "no_qualifying_candidate_or_prospective_settlements",
+    "static_manifest_and_dynamic_state_hash_are_same_filesystem_consistency_checks",
+    "no_external_promotion_authority_or_signed_stage_receipts",
+    "no_independent_forward_recorder_or_outcome_source",
+    "no_operator_custodied_external_deployment_trust_root",
+    "no_independent_clean_room_replication",
+    "canonical_ledger_writer_is_not_an_os_or_process_permission_boundary"
+  ],
+  "reproduction_instructions": "REPRODUCTION_REPORT.md",
+  "artifacts": {
+    "DOPEY_CONSTITUTION.md": {"version": "v1", "status": "frozen_paper_only"},
+    "ASSUMPTIONS.md": {"version": "v1", "status": "frozen_conservative_defaults"},
+    "CAPABILITY_CARD.md": {"version": "v1", "status": "L0_current_state"},
+    "data_contracts/universe_v1.json": {"version": "v1", "status": "protected_200_symbol_watch_universe_199_symbol_options_mechanics_coverage_vix_context_only"},
+    "DATA_MANIFEST.json": {"version": "v1", "status": "mechanics_only"},
+    "DATA_QUALITY_REPORT.md": {"version": "v1", "status": "full_85608_row_inventory_audit"},
+    "OPTION_SURFACE_AUDIT.md": {"version": "v1", "status": "uncertified"},
+    "APPROACH_REGISTRY.jsonl": {"version": "v1", "status": "dynamic_26_families_registered_not_evaluated"},
+    "HYPOTHESIS_REGISTRY.jsonl": {"version": "v1", "status": "dynamic_empty_initialized"},
+    "EXPERIMENT_REGISTRY.jsonl": {"version": "v1", "status": "dynamic_hash_chained_genesis_local_anchor_only"},
+    "FAILURE_REGISTRY.jsonl": {"version": "v1", "status": "dynamic_empty_initialized"},
+    "CANDIDATE_LINEAGE.jsonl": {"version": "v1", "status": "dynamic_empty_initialized"},
+    "PROOF_LEDGER.jsonl": {"version": "v1", "status": "dynamic_hash_chained_genesis_local_anchor_only"},
+    "shadow_trading/FORWARD_EVIDENCE.jsonl": {"version": "v1", "status": "dynamic_hash_chained_genesis_zero_forward_decisions_or_settlements"},
+    "shadow_trading/FORWARD_EVIDENCE.jsonl.head.json": {"version": "v1", "status": "dynamic_local_head_anchor_only"},
+    "HOLDOUT_BUDGET.json": {"version": "v1", "status": "dynamic_not_configured_zero_submissions_semantically_audited"},
+    "PROTECTED_MANIFEST.json": {"version": "v1", "status": "static_enumerated_source_dependency_trust_and_configuration_manifest"},
+    "PROMOTION_AUTHORITY_TRUST.json": {"version": "v1", "status": "static_ed25519_trust_root_not_configured"},
+    "SEALED_EVALUATOR_TRUST.json": {"version": "v1", "status": "static_ed25519_trust_root_not_configured"},
+    "FORWARD_EVIDENCE_TRUST.json": {"version": "v1", "status": "static_independent_ed25519_role_trust_roots_not_configured"},
+    "DYNAMIC_ANCHOR_TRUST.json": {"version": "v1", "status": "static_required_repository_ed25519_anchor_trust_not_configured"},
+    "pyproject.toml": {"version": "v1", "status": "static_dependency_and_clean_install_package_discovery_contract"},
+    "BASELINE_SPECIFICATIONS.md": {"version": "v1", "status": "mechanics_implemented_no_market_evidence"},
+    "EXECUTION_MODEL.md": {"version": "v1", "status": "paper_witness_only"},
+    "FILL_MODEL_VALIDATION.md": {"version": "v1", "status": "mechanics_tested_market_untested"},
+    "ADVANTAGE_PLAYER_TRANSFER.md": {"version": "v1", "status": "process_controls_only"},
+    "GREEK_RISK_FRAMEWORK.md": {"version": "v1", "status": "gate_implemented_models_uncertified"},
+    "PNL_ATTRIBUTION_SPEC.md": {"version": "v1", "status": "reconciliation_mechanics_implemented"},
+    "BEHAVIORAL_FIREWALL.md": {"version": "v1", "status": "immutable_state_machine_implemented"},
+    "PARETO_FRONTIER.csv": {"version": "v1", "status": "no_certified_candidate"},
+    "CONTEXTUAL_CHAMPION_MAP.md": {"version": "v1", "status": "abstention_only_no_champion"},
+    "ABSTENTION_MAP.md": {"version": "v1", "status": "active_policy"},
+    "FAILURE_ENVELOPE.md": {"version": "v1", "status": "active_policy"},
+    "ADVERSARIAL_AUDIT.md": {"version": "v1", "status": "engineering_review_complete_evidence_open"},
+    "REPRODUCTION_REPORT.md": {"version": "v1", "status": "engineering_reproduction"},
+    "SEALED_EVALUATION_REPORT.md": {"version": "v1", "status": "not_evaluated"},
+    "SHADOW_TRADING_PROTOCOL.md": {"version": "v1", "status": "protocol_only_no_candidate"},
+    "STRATEGY_RETIREMENT_POLICY.md": {"version": "v1", "status": "mechanics_implemented"},
+    "DAILY_OPERATING_PLAYBOOK.md": {"version": "v1", "status": "paper_only"},
+    "HUMAN_APPROVAL_CHECKLIST.md": {"version": "v1", "status": "no_approval_granted"},
+    "FINAL_DOPEY_OPTIONS_OPERATING_SYSTEM.md": {"version": "v1", "status": "L0_honest_frontier"},
+    "NO_EDGE_CERTIFICATE.md": {"version": "v1", "status": "scoped_no_candidate_result"}
+  }
+}

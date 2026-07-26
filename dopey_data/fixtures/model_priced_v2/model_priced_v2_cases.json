@@ -1,0 +1,1006 @@
+{
+  "artifact_type": "model_priced_v2_cases",
+  "case_count": 100,
+  "cases": [
+    {
+      "case_hash": "5dea2fa5af0e51e46e59566917fdc4c54ee2e418c2109ae9d1390ee3ab5ba3eb",
+      "case_id": "finish-everything-fixture-000",
+      "case_name": "model-priced V2 no data",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "5f8ee89a51bc67041dd6491329bfd13b3a346356cdfea6827aea060a0cdf6293",
+      "case_id": "finish-everything-fixture-001",
+      "case_name": "model-priced V2 accepted OHLCV",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "03d6959e9fe85edef8ffff9194f0b7c728868b061d0d88459f0ea60cd8d79262",
+      "case_id": "finish-everything-fixture-002",
+      "case_name": "model-priced V2 quote blocked",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "49e3d62ca70580dabfd60e56461d045dc6e140d72d8584de5efd4a5a9f82cf49",
+      "case_id": "finish-everything-fixture-003",
+      "case_name": "model-priced V2 scenario grid",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "837234be761a69ae49667de0b7f948fdccfe2fe389280322269fee0284b1913e",
+      "case_id": "finish-everything-fixture-004",
+      "case_name": "model-priced V2 theta stress",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "6cad11f9d8791c488e0642d1da416ac7c669a9d1280e7daf3c1fe190f5afbed3",
+      "case_id": "finish-everything-fixture-005",
+      "case_name": "model-priced V2 IV shock",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "4818a9799e4352e04b7675d4b742460fe43c4b249a701241b74232442b1ccbc7",
+      "case_id": "finish-everything-fixture-006",
+      "case_name": "model-priced V2 moneyness",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d006557ebfa6373d0a5d31d1d1cae427c58033efdf1e81411e421d8ac7fa67fe",
+      "case_id": "finish-everything-fixture-007",
+      "case_name": "model-priced V2 expiration bucket",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "6312bf593932b50b8fc76fe9d8b5f5a8261251f0967075190f41fdf68a78b8c2",
+      "case_id": "finish-everything-fixture-008",
+      "case_name": "model-priced V2 risk stress",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "bdbe4e0773ad7a28c3ad0ce602384e04df368717c5ad8a820395f221a50f4bef",
+      "case_id": "finish-everything-fixture-009",
+      "case_name": "model-priced V2 no data repeat 009",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7e7711eb8795175b7158f6aa350b840d8a5eed858f15310538823f40ee3f9ba5",
+      "case_id": "finish-everything-fixture-010",
+      "case_name": "model-priced V2 accepted OHLCV repeat 010",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "92e60a6937b2d4dc824aec041ce317b1b9aef54ba9825b50586ae4dbf2b5adee",
+      "case_id": "finish-everything-fixture-011",
+      "case_name": "model-priced V2 quote blocked repeat 011",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1bbe745cc042f60008193136a93285b643928d8624b9e700c02203f43e89a323",
+      "case_id": "finish-everything-fixture-012",
+      "case_name": "model-priced V2 scenario grid repeat 012",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "71ca984e850f1ab605ff65823f7d113198e73d2492de23dfabce11d81d1d8880",
+      "case_id": "finish-everything-fixture-013",
+      "case_name": "model-priced V2 theta stress repeat 013",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "913230556292c6550048c4a9fa630702f7eadda9f818c35a4ed61a6fe9dafa77",
+      "case_id": "finish-everything-fixture-014",
+      "case_name": "model-priced V2 IV shock repeat 014",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "8dc5dbebcd4b4d530a9c38b82efc4cf6e004183f1006a3e41671da2dc7f02a2c",
+      "case_id": "finish-everything-fixture-015",
+      "case_name": "model-priced V2 moneyness repeat 015",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e1e4b4ca7aa4cc8d577c787bf201aef81da54ebbcdaf36b0accd53ff298c3700",
+      "case_id": "finish-everything-fixture-016",
+      "case_name": "model-priced V2 expiration bucket repeat 016",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a0f6205131a0752de304f027b4193e9915d4a5fa0f7ce3934d0f12a727a0a63a",
+      "case_id": "finish-everything-fixture-017",
+      "case_name": "model-priced V2 risk stress repeat 017",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b96cf0d79b276b271bd876ade406b03b63116609eb61d33f081d2a13176f5f1e",
+      "case_id": "finish-everything-fixture-018",
+      "case_name": "model-priced V2 no data repeat 018",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e38371c78f2bcdbfe8ef0c7e635401394e85602deedcab75a823fb90c7cb6d1a",
+      "case_id": "finish-everything-fixture-019",
+      "case_name": "model-priced V2 accepted OHLCV repeat 019",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c163e065cfbe3fe3a1377a4bdb517036d937102f4cb051facfc559ed6578a3f4",
+      "case_id": "finish-everything-fixture-020",
+      "case_name": "model-priced V2 quote blocked repeat 020",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ff11e1f4ef9183e6d92857c252327cede3370c15964345bb6f411b5bd37a7ea9",
+      "case_id": "finish-everything-fixture-021",
+      "case_name": "model-priced V2 scenario grid repeat 021",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "28af145a6a3b63a655bcba7f6dacf4c54b214594ab4e3dbe244a8981c53b1dfa",
+      "case_id": "finish-everything-fixture-022",
+      "case_name": "model-priced V2 theta stress repeat 022",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "8b3435283ad8377460edade17abde0a57b6076eb6ef48fc72b49c1f3d1e93f38",
+      "case_id": "finish-everything-fixture-023",
+      "case_name": "model-priced V2 IV shock repeat 023",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "9246517cac2d8bcc4bf85370c73f86f734596a76b3f8aeaa75d13d2d1602512f",
+      "case_id": "finish-everything-fixture-024",
+      "case_name": "model-priced V2 moneyness repeat 024",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "eccfebf3ec1ca1fab1197d93bcccf75d72069c309aeedd6260c99e1968f5feaf",
+      "case_id": "finish-everything-fixture-025",
+      "case_name": "model-priced V2 expiration bucket repeat 025",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "f4180cde4d53120581cb669f4bcca909c6b8566d01ee45c7e9fada1c66b0c60d",
+      "case_id": "finish-everything-fixture-026",
+      "case_name": "model-priced V2 risk stress repeat 026",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "97ed3d8719c2397a8ff85b32885a4bec44a67bb56a8929e61b391f905712c14e",
+      "case_id": "finish-everything-fixture-027",
+      "case_name": "model-priced V2 no data repeat 027",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d452d9d55cf2f937533746de4ee9f624476825e4a854f12be85b573cb50db3f9",
+      "case_id": "finish-everything-fixture-028",
+      "case_name": "model-priced V2 accepted OHLCV repeat 028",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ade9ff603d2b2f1a39b1240da4b6a41ff9d06878576c1f2c9fd7b57ff41891e9",
+      "case_id": "finish-everything-fixture-029",
+      "case_name": "model-priced V2 quote blocked repeat 029",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "9796faf5740603f3eca023ce91991af447820beb48aba9dc8466450d4c9ab7f4",
+      "case_id": "finish-everything-fixture-030",
+      "case_name": "model-priced V2 scenario grid repeat 030",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "126c129b423e83f4a76ef4bef6b11a16ff8fe3364a99059513a7e1451f5e45dc",
+      "case_id": "finish-everything-fixture-031",
+      "case_name": "model-priced V2 theta stress repeat 031",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "59372a39a7aeab2f1f9723b8ea6f300b15926a5f957fcb991d88b1cd181fe3e9",
+      "case_id": "finish-everything-fixture-032",
+      "case_name": "model-priced V2 IV shock repeat 032",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e308f541f02c1f6ce6b2e2e86b19c26aa3c38c3d6a78ba1498188a3efd31a335",
+      "case_id": "finish-everything-fixture-033",
+      "case_name": "model-priced V2 moneyness repeat 033",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "22189d7aa2b16d8d6af6e0ebffcc50567a4e2fec9febac23503c3d9d71e15622",
+      "case_id": "finish-everything-fixture-034",
+      "case_name": "model-priced V2 expiration bucket repeat 034",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2ad8c9ddb60e33e0ae5622a517219a8d8f35fa46ff09bfed315894ec46cd85d3",
+      "case_id": "finish-everything-fixture-035",
+      "case_name": "model-priced V2 risk stress repeat 035",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "4e71fda6846dd5f7f596e37030d3d686bd233d6edc7da36d2953c5965dcecaae",
+      "case_id": "finish-everything-fixture-036",
+      "case_name": "model-priced V2 no data repeat 036",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "64c33aafe9f40aa8eba119d4961decff8ada4daf34cb98ea55e8fe48413e529b",
+      "case_id": "finish-everything-fixture-037",
+      "case_name": "model-priced V2 accepted OHLCV repeat 037",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a24325c58504cd1b0b7ef629dfd4d7380c5a866536d231744857f8f0f01c5b18",
+      "case_id": "finish-everything-fixture-038",
+      "case_name": "model-priced V2 quote blocked repeat 038",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7909af408e2944c920c986d93ab8eae2aa5e44691b74b14f4ba30f357fdbebcb",
+      "case_id": "finish-everything-fixture-039",
+      "case_name": "model-priced V2 scenario grid repeat 039",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "9f6a8c5d6ca9e5a5dce36e355e08632617d9242fc0dd3ff06256316bdaa5c1a1",
+      "case_id": "finish-everything-fixture-040",
+      "case_name": "model-priced V2 theta stress repeat 040",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "6ba8834385e1948e077e1c88aa7ccb560f96efcedc5a1a8d219f4e2a4d47acc4",
+      "case_id": "finish-everything-fixture-041",
+      "case_name": "model-priced V2 IV shock repeat 041",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "3cd5815af8c88bac4cf07c9068e3b1ed0a76e1f99670dff0af21457dde25abd2",
+      "case_id": "finish-everything-fixture-042",
+      "case_name": "model-priced V2 moneyness repeat 042",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "057630d0af526e861cc307781bdf7687f3192a5ca3e44dc0f268d22de594e6df",
+      "case_id": "finish-everything-fixture-043",
+      "case_name": "model-priced V2 expiration bucket repeat 043",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "28862741ce143b8fa3a9c15def745018a4eed56ce1af43a595525b330f690bce",
+      "case_id": "finish-everything-fixture-044",
+      "case_name": "model-priced V2 risk stress repeat 044",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d838d49d2172a14d13b772132178c8acab2cb7dae182e4c5f52fa105e570c601",
+      "case_id": "finish-everything-fixture-045",
+      "case_name": "model-priced V2 no data repeat 045",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "f90a6b158ee1fe4fea6e580d01dd0c0d47a56bb20aff47627be3b18c4e46aef7",
+      "case_id": "finish-everything-fixture-046",
+      "case_name": "model-priced V2 accepted OHLCV repeat 046",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "04a2d52516752f8d91b3e2a620908adf4c3e08be32d9bee2648c17ef9bb58a26",
+      "case_id": "finish-everything-fixture-047",
+      "case_name": "model-priced V2 quote blocked repeat 047",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c3a7425471259be90d92f11213aa4b4d95d55c8ab597b7ea8996988d634c7a0d",
+      "case_id": "finish-everything-fixture-048",
+      "case_name": "model-priced V2 scenario grid repeat 048",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "fd22e5a2e9358360521fdc1823c7c265a348dee0b453d8d79378774c917b04af",
+      "case_id": "finish-everything-fixture-049",
+      "case_name": "model-priced V2 theta stress repeat 049",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "fa0ac33d31935d843283c19150f8e37e40c7b64bd9b2b5950622c16aa9ce9889",
+      "case_id": "finish-everything-fixture-050",
+      "case_name": "model-priced V2 IV shock repeat 050",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "f960aec0d37c444b1748915096ea0fe87a214562a3681cbacf74f6bb9a2e8161",
+      "case_id": "finish-everything-fixture-051",
+      "case_name": "model-priced V2 moneyness repeat 051",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e7ebd9af8a7c4d6eccb815e3814840c9968ee42a43ac1f2c1b57655bd2b617ac",
+      "case_id": "finish-everything-fixture-052",
+      "case_name": "model-priced V2 expiration bucket repeat 052",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "cfcb69c105224755622efab44cb265d42cffa714d57ceb95b4e4ba1a0d9c9b74",
+      "case_id": "finish-everything-fixture-053",
+      "case_name": "model-priced V2 risk stress repeat 053",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "50812debd955d3477f14974c59150e371e9918194c88c1b0efe4c1ceb5c6a8a3",
+      "case_id": "finish-everything-fixture-054",
+      "case_name": "model-priced V2 no data repeat 054",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "4a3bcddbb4b116abdf32adf07e47d317c014abc35471ebe58a81d0053454b519",
+      "case_id": "finish-everything-fixture-055",
+      "case_name": "model-priced V2 accepted OHLCV repeat 055",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "afdd34eb86960e1326f7f90dc8ccd80be69d7508868e94359dc19cf68a6769e7",
+      "case_id": "finish-everything-fixture-056",
+      "case_name": "model-priced V2 quote blocked repeat 056",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "5eac5533ab67f724c9cac84ca4203940d680c079bca013e43b6e54cbf4db2bd8",
+      "case_id": "finish-everything-fixture-057",
+      "case_name": "model-priced V2 scenario grid repeat 057",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "322d4ce9c216897e0ab1b47ebbfd04fe92adede322314454c1fa6826bc9ced44",
+      "case_id": "finish-everything-fixture-058",
+      "case_name": "model-priced V2 theta stress repeat 058",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "6561e79e1da9c86e387bd5d5f82d327d25c82802645f068d3ba4ae765818cb84",
+      "case_id": "finish-everything-fixture-059",
+      "case_name": "model-priced V2 IV shock repeat 059",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "9facfa5597b6d3b7a148faa5c428d46805153d2b5c1bb8d600e7b562fde6984e",
+      "case_id": "finish-everything-fixture-060",
+      "case_name": "model-priced V2 moneyness repeat 060",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1c9f563c6e7ee0f3a051b2ced01531d14344231f7763e8efd207ab45a3142c8c",
+      "case_id": "finish-everything-fixture-061",
+      "case_name": "model-priced V2 expiration bucket repeat 061",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2c3e690e06ec5f22a1b0f8afc13ade8afbb88d9208facecc1fe4d29a7c8065d9",
+      "case_id": "finish-everything-fixture-062",
+      "case_name": "model-priced V2 risk stress repeat 062",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "702705ba3e5379b4cf0c11cd71e56473fcaf191febb30675d36214017265070c",
+      "case_id": "finish-everything-fixture-063",
+      "case_name": "model-priced V2 no data repeat 063",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "9e9a0dfccecd01355bf507a55bdc236d8e0887e9e03bcfdfbaa0490f849f0ddc",
+      "case_id": "finish-everything-fixture-064",
+      "case_name": "model-priced V2 accepted OHLCV repeat 064",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a979cb26175bba784f9a67f17196c05eec640e27328888ae6f3c4fee3f709cf4",
+      "case_id": "finish-everything-fixture-065",
+      "case_name": "model-priced V2 quote blocked repeat 065",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "590db12827d4936548b2295707e3cebc01183f3aad1883f5b9a95c1c81b65b86",
+      "case_id": "finish-everything-fixture-066",
+      "case_name": "model-priced V2 scenario grid repeat 066",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2b490091c6deed263452af555007ad6735e2551aa70331099bd266ce0d68abdc",
+      "case_id": "finish-everything-fixture-067",
+      "case_name": "model-priced V2 theta stress repeat 067",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "64063cc622b64fef18c963f384194d6f364e93cc514d885e6e4ac3fdde1abe53",
+      "case_id": "finish-everything-fixture-068",
+      "case_name": "model-priced V2 IV shock repeat 068",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e4b4382a440ebd3a8c4caa373e0f8418b039023b79dba545e527f3be4bdaded7",
+      "case_id": "finish-everything-fixture-069",
+      "case_name": "model-priced V2 moneyness repeat 069",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2ce66a203d228788c4db7d1501c02665114767605b970698b1d97b3d458f83bd",
+      "case_id": "finish-everything-fixture-070",
+      "case_name": "model-priced V2 expiration bucket repeat 070",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "50314adb5c04b0d672163888ed300da59cff262faa1fe47c06651460a5f465ce",
+      "case_id": "finish-everything-fixture-071",
+      "case_name": "model-priced V2 risk stress repeat 071",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "06b8a30b9ad5515009c3a3089223a61ce1e6976278a62a4294b9db13c0882963",
+      "case_id": "finish-everything-fixture-072",
+      "case_name": "model-priced V2 no data repeat 072",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ef02d6afaddd8f3f2f3acb8884195d00db1c3621b762356780065d1448807f07",
+      "case_id": "finish-everything-fixture-073",
+      "case_name": "model-priced V2 accepted OHLCV repeat 073",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "cf4931f713df5e6610083f10bb5a4ef1a157f9b7d4856c9da275d223cfafcdbf",
+      "case_id": "finish-everything-fixture-074",
+      "case_name": "model-priced V2 quote blocked repeat 074",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b361957dcf908eb630c5dd59b2b9c3e9c06b32cb7bb652cafc892f150f276d68",
+      "case_id": "finish-everything-fixture-075",
+      "case_name": "model-priced V2 scenario grid repeat 075",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "959e325b6a60f5821a511024435e7a19f4c852a972e57340d186169ab7b24393",
+      "case_id": "finish-everything-fixture-076",
+      "case_name": "model-priced V2 theta stress repeat 076",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "f356f0d1749deb8314758bee0fcce825005dd6514dde69b71da5696c93b285fa",
+      "case_id": "finish-everything-fixture-077",
+      "case_name": "model-priced V2 IV shock repeat 077",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a7c8ef8c3ec0499e00bbf3de593ce5dcc41c58b94a0ff4184d3fa27fef8ee874",
+      "case_id": "finish-everything-fixture-078",
+      "case_name": "model-priced V2 moneyness repeat 078",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "f7989f64848a846274d4af0ce0b4fe233a8f85cfc3a532b23c9126636c5fdfae",
+      "case_id": "finish-everything-fixture-079",
+      "case_name": "model-priced V2 expiration bucket repeat 079",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "773adbbe62e910a7f5807c0e9ae8e103f1969485a5c48dc7a8e13bf271349856",
+      "case_id": "finish-everything-fixture-080",
+      "case_name": "model-priced V2 risk stress repeat 080",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c3f490a29dccce4b349bf295d5e2ac4c1051a7374bb378d36f5c239b315f427f",
+      "case_id": "finish-everything-fixture-081",
+      "case_name": "model-priced V2 no data repeat 081",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "3fc31bfeb68ee592e7e8972c3af4d6f35774d8241d45d818bfa360fd2c61617e",
+      "case_id": "finish-everything-fixture-082",
+      "case_name": "model-priced V2 accepted OHLCV repeat 082",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "0b135bcf6680d652486d0357370e36e7a1dde888893433c188f27c162e652dde",
+      "case_id": "finish-everything-fixture-083",
+      "case_name": "model-priced V2 quote blocked repeat 083",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "60e1207a98e1b40b15c7d73aff69827f7ad2ff74f32db29c37dc05dd8618c51d",
+      "case_id": "finish-everything-fixture-084",
+      "case_name": "model-priced V2 scenario grid repeat 084",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "63fe5a48de4779b2f1d69fb4bed3a7350365a1a42eb330c3eb11ce795fb8f8d9",
+      "case_id": "finish-everything-fixture-085",
+      "case_name": "model-priced V2 theta stress repeat 085",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "351fa92da7ffca3750b2c396561d07165a27e9bf5e1f2a1d33d1a61a4a35cffe",
+      "case_id": "finish-everything-fixture-086",
+      "case_name": "model-priced V2 IV shock repeat 086",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "aa711865e52bfec827b79fac14c9997fa8478d4aed52505d98687fc9b00d377c",
+      "case_id": "finish-everything-fixture-087",
+      "case_name": "model-priced V2 moneyness repeat 087",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "cc9aeaffae720cf749975a3a19cb63529ab97a1534291d3b32e27d00ff83fa43",
+      "case_id": "finish-everything-fixture-088",
+      "case_name": "model-priced V2 expiration bucket repeat 088",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "66d8b681f2c682f56801a24266b68d87b7c3f12113af5cf510e5342bda15f7db",
+      "case_id": "finish-everything-fixture-089",
+      "case_name": "model-priced V2 risk stress repeat 089",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "9d5fce21666dc3260efeecb5d35efd9171703556b4cbc0abe39c999647868193",
+      "case_id": "finish-everything-fixture-090",
+      "case_name": "model-priced V2 no data repeat 090",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b049d7292c1fafcc473fb0f5effd2c2bc5309a56cc725d4740e1b14bc9b774d0",
+      "case_id": "finish-everything-fixture-091",
+      "case_name": "model-priced V2 accepted OHLCV repeat 091",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1b4343d4944e1f910d600ae7de3e33c5c87d36d0b7223658e384348f909a2506",
+      "case_id": "finish-everything-fixture-092",
+      "case_name": "model-priced V2 quote blocked repeat 092",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "64f11fb3865f0cab165f40fae814ed338e6b03e6dbc54d21aae8eecf0651dae7",
+      "case_id": "finish-everything-fixture-093",
+      "case_name": "model-priced V2 scenario grid repeat 093",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "07362c629f7c5ecbe8c16402168ba3176ad083a1569c4dfad9b6850934bdab0c",
+      "case_id": "finish-everything-fixture-094",
+      "case_name": "model-priced V2 theta stress repeat 094",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "22ca7903d8d578fc7fb9b48d904dbca93f781d19d4b3b9a79cc8b28e47303c70",
+      "case_id": "finish-everything-fixture-095",
+      "case_name": "model-priced V2 IV shock repeat 095",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "141687d29917231ab7e1b67b61e99c2b3b753d126aac86221fe2b502ef83b621",
+      "case_id": "finish-everything-fixture-096",
+      "case_name": "model-priced V2 moneyness repeat 096",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a3547116341843a60261ba636471517a55af6d9a5e04fc48026c21a35e071179",
+      "case_id": "finish-everything-fixture-097",
+      "case_name": "model-priced V2 expiration bucket repeat 097",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "aa2a0a927e28561e0d833c9863e25961eb3fd8f5576c4a7c6d2ed821c5c7a967",
+      "case_id": "finish-everything-fixture-098",
+      "case_name": "model-priced V2 risk stress repeat 098",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "29aa25ccf6fc7bf6875056ce3616cc38e8fbb7fd0e43ed9dcf810f2a4e7e8a6c",
+      "case_id": "finish-everything-fixture-099",
+      "case_name": "model-priced V2 no data repeat 099",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    }
+  ]
+}

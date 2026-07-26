@@ -1,0 +1,24 @@
+{
+  "schema_version": "dopey-universe-contract-v1",
+  "environment_id": "dopey-options-paper-v1",
+  "environment_hash": "811d348d94e151087cd77d496bd1f5135b24dd40ba107b5d860cde34b8475652",
+  "authority_state": "development_mechanics_only",
+  "watch_universe": {
+    "manifest_id": "dopey-active-watch-universe-2026-07-17",
+    "captured_at": "2026-07-17T07:16:12.026331Z",
+    "membership_effective_at": "2026-07-17T07:16:12.026331Z",
+    "membership_expires_at": "2026-07-18T00:00:00Z",
+    "source_uri": "snapshot://dopey/artifacts/dopey/universe/universe_registry.json",
+    "source_record_hash": "d0b9453545de1b5f762e173d864e505fda002a5ebfac3b8ae8ecde003b7d700a",
+    "symbols": ["AAPL","ABBV","ABNB","ABT","ACN","ADBE","ADM","ADP","ADSK","AEP","AI","AIG","AJG","ALB","ALL","AMAT","AMD","AMGN","AMP","AMT","AMZN","ANET","AON","APD","ARKK","ARKW","ARM","ASML","AVB","AVGO","AWK","AXP","AZO","BA","BAC","BALL","BBAI","BDX","BIIB","BIL","BKNG","BKR","BLK","BSX","C","CAG","CARR","CAT","CB","CBOE","CBRE","CCI","CCL","CDNS","CEG","CFG","CHD","CHTR","CL","CLSK","CMG","COF","COIN","COP","COST","CRM","CRWD","CSCO","CSX","CVX","DBC","DDOG","DE","DELL","DHR","DIA","DIS","EEM","EFA","EOG","ETN","FDX","FTNT","GD","GE","GILD","GLD","GOOG","GOOGL","GS","HAL","HD","HON","HPE","HYG","IBB","IBIT","IEF","INTC","IONQ","ISRG","IWM","IYR","JNJ","JPM","KMB","KMI","KO","LCID","LLY","LMT","LOW","LQD","LRCX","LULU","MA","MARA","MCD","MDB","MDLZ","MDY","META","MO","MPC","MRK","MS","MSFT","MSTR","MU","NET","NFLX","NKE","NOC","NOW","NVDA","OKTA","ORCL","OXY","PANW","PEP","PFE","PG","PLTR","PM","PSX","PYPL","QCOM","QQQ","REGN","RIOT","RIVN","RSP","RTX","SBUX","SCHW","SHY","SLB","SLV","SMCI","SMH","SNOW","SOUN","SOXX","SPY","TGT","TIP","TLT","TMO","TSLA","TSM","TXN","UNG","UNH","UNP","UPS","USO","UUP","V","VIX","VIXY","VLO","VOO","VRTX","VTI","WFC","WMT","XBI","XLB","XLC","XLE","XLF","XLI","XLK","XLP","XLRE","XLU","XLV","XLY","XOM","ZS"]
+  },
+  "options_mechanics_coverage": {
+    "manifest_id": "options-chain-snapshots-operator-2026-07-16",
+    "source_uri": "snapshot://dopey/dopey_data/real/manifests/options_data_manifest.json",
+    "source_record_hash": "6ddc39e58e69c0b8a411ffee2c36d8a4cbd5d05f98340bee997ddbdf5572bad3",
+    "symbols": ["AAPL","ABBV","ABNB","ABT","ACN","ADBE","ADM","ADP","ADSK","AEP","AI","AIG","AJG","ALB","ALL","AMAT","AMD","AMGN","AMP","AMT","AMZN","ANET","AON","APD","ARKK","ARKW","ARM","ASML","AVB","AVGO","AWK","AXP","AZO","BA","BAC","BALL","BBAI","BDX","BIIB","BIL","BKNG","BKR","BLK","BSX","C","CAG","CARR","CAT","CB","CBOE","CBRE","CCI","CCL","CDNS","CEG","CFG","CHD","CHTR","CL","CLSK","CMG","COF","COIN","COP","COST","CRM","CRWD","CSCO","CSX","CVX","DBC","DDOG","DE","DELL","DHR","DIA","DIS","EEM","EFA","EOG","ETN","FDX","FTNT","GD","GE","GILD","GLD","GOOG","GOOGL","GS","HAL","HD","HON","HPE","HYG","IBB","IBIT","IEF","INTC","IONQ","ISRG","IWM","IYR","JNJ","JPM","KMB","KMI","KO","LCID","LLY","LMT","LOW","LQD","LRCX","LULU","MA","MARA","MCD","MDB","MDLZ","MDY","META","MO","MPC","MRK","MS","MSFT","MSTR","MU","NET","NFLX","NKE","NOC","NOW","NVDA","OKTA","ORCL","OXY","PANW","PEP","PFE","PG","PLTR","PM","PSX","PYPL","QCOM","QQQ","REGN","RIOT","RIVN","RSP","RTX","SBUX","SCHW","SHY","SLB","SLV","SMCI","SMH","SNOW","SOUN","SOXX","SPY","TGT","TIP","TLT","TMO","TSLA","TSM","TXN","UNG","UNH","UNP","UPS","USO","UUP","V","VIXY","VLO","VOO","VRTX","VTI","WFC","WMT","XBI","XLB","XLC","XLE","XLF","XLI","XLK","XLP","XLRE","XLU","XLV","XLY","XOM","ZS"]
+  },
+  "context_only_symbols": ["VIX"],
+  "paper_only": true,
+  "live_blocked": true
+}

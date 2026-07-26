@@ -1,0 +1,159 @@
+{
+  "case_count": 14,
+  "cases": [
+    {
+      "case_hash": "c65b41b98cf820d60b675149ae8f3cda14a3606c34c7859bb54e070b05f8cd7b",
+      "case_id": "local-free-ohlcv-stack-case-001",
+      "case_name": "combined no files status",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "85bb1676c205fad81c75062ce01a3ec117a448904007fbf391c05183556847f9",
+      "case_id": "local-free-ohlcv-stack-case-002",
+      "case_name": "combined validation fail status",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "bb433530e47ecabf9fb7944d66f2e25f31a0e499f897fb56cc563ae840cf68d7",
+      "case_id": "local-free-ohlcv-stack-case-003",
+      "case_name": "combined validation pass status",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "c2498b16e1c6b7e4523d8368ccdd202459925cdca899c16d75afa2f329c5e443",
+      "case_id": "local-free-ohlcv-stack-case-004",
+      "case_name": "network fetch false",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "d41a7253ac271f21ba7854de36bd8ac5a4b6b73e88a9628ef414a35a03fa423f",
+      "case_id": "local-free-ohlcv-stack-case-005",
+      "case_name": "credentials false",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "dc1b72f7705eacced26876164c04247338b03e917c5d2ed97f0b1302bd36f808",
+      "case_id": "local-free-ohlcv-stack-case-006",
+      "case_name": "env false",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "3102225998146650c19a916000ca9510d91f35617e6dc26feaa739889f48236a",
+      "case_id": "local-free-ohlcv-stack-case-007",
+      "case_name": "broker false",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "bb4a4a0a74c549ddcb2d4b2a52b6d8133829a63c04fd7140aca9119d70ee9209",
+      "case_id": "local-free-ohlcv-stack-case-008",
+      "case_name": "strategy promotion false",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "9b4cccfd1ac15423eefbcb06308dac71888c64fbe2b212f597451667ef8bcca0",
+      "case_id": "local-free-ohlcv-stack-case-009",
+      "case_name": "Alpha Vantage excluded",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "a4969c2305a5717f7f3b8ccca4b5bc57201991afdb3098ab8d167506303d1a59",
+      "case_id": "local-free-ohlcv-stack-case-010",
+      "case_name": "real signal evidence false when missing",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "f7b55bd5d7ba95f0718f0868606e8bff9e94ae123a870e99ae4cf2ed41ed24a8",
+      "case_id": "local-free-ohlcv-stack-case-011",
+      "case_name": "next target manual staging",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "bddd63ad819cda49f567f10e8a83ba572794258117231e45f0aa142cb5090bf9",
+      "case_id": "local-free-ohlcv-stack-case-012",
+      "case_name": "full pytest timeout inconclusive",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "1f53de5c58457d15617067f066a86ea6766d933c0b1e0373c447fb21a8aa6003",
+      "case_id": "local-free-ohlcv-stack-case-013",
+      "case_name": "export verifier timeout inconclusive",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "70a01ba8187f3791c4ec7a44cede514800cdbf1ceec7ee764f20ab959ed95c92",
+      "case_id": "local-free-ohlcv-stack-case-014",
+      "case_name": "live trading disabled",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    }
+  ]
+}

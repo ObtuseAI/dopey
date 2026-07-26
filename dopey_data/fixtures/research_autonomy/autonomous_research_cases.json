@@ -1,0 +1,756 @@
+{
+  "artifact_type": "autonomous_research_cases",
+  "case_count": 75,
+  "cases": [
+    {
+      "case_hash": "a95c9e76ae5a77f22338d932a0dc8ce13284f076370337c349db8cd0789a5099",
+      "case_id": "autonomy-fixture-001",
+      "case_name": "options data unavailable",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2466518533a0ece98ddb998a2a9f2fb338f6c40769d51c5256a43844bccf9f4f",
+      "case_id": "autonomy-fixture-002",
+      "case_name": "options data accepted",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1a6bbba1a118523dddde50a66e2cc373b9e877213faab64ee6679ec5a773f16a",
+      "case_id": "autonomy-fixture-003",
+      "case_name": "options data rejected license",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "642e08c8988c32634d3657945f1c7ecb08f52c99e10621c0d491f43fe2631c8b",
+      "case_id": "autonomy-fixture-004",
+      "case_name": "model priced fallback",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "9163d77844f9a385ee902ec8789cb2469caa144bca3ca5254c050dba7caba2ea",
+      "case_id": "autonomy-fixture-005",
+      "case_name": "quote priced blocked",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c7db30a8003143e0c4506ccefe685a622111aa52b748907411f685d25b7f5e9b",
+      "case_id": "autonomy-fixture-006",
+      "case_name": "signal factory no data blocked",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "3ab758fedd81de8b0edd0df8a44347ca880da7bb6dfc97cedbc02ffbdcd0db50",
+      "case_id": "autonomy-fixture-007",
+      "case_name": "signal factory accepted data",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2cf14f1beb1b8ece91ce8059107cb80b72f4d86a7e3717fd3e8be945896cd97e",
+      "case_id": "autonomy-fixture-008",
+      "case_name": "strategy search no trade",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "6adb703744cdea3f1bd341e46d4861607542dc0c777a475968bb517af5a60536",
+      "case_id": "autonomy-fixture-009",
+      "case_name": "long call intent",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b4d8460b01ed61b61c55b10494939ed7f4b5ba2e9592a47883963c649e87321c",
+      "case_id": "autonomy-fixture-010",
+      "case_name": "long put intent",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "34d7de970c8340e1673d19520240253b5655652119634ebcb288976b7023f9c4",
+      "case_id": "autonomy-fixture-011",
+      "case_name": "no trade intent",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a5cf7b4e5672670b0bc9e149fc798218e1cea1406deb232ddadb99ad007c3bc8",
+      "case_id": "autonomy-fixture-012",
+      "case_name": "backtest fixture only",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7b48e4e269d4b47087dcd35521cd9046d974bba8ec2f59d8d3cfd8be6480726a",
+      "case_id": "autonomy-fixture-013",
+      "case_name": "backtest accepted OHLCV",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a63b08695f542a492d4d0ae241d3f6537982b99b1a4c843297a1ebe2195a8771",
+      "case_id": "autonomy-fixture-014",
+      "case_name": "stats blocked sample size",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "de77fc9fe204b1a98d84f505063b3acdf0e6d52eed64ad9d843c941888aa24d1",
+      "case_id": "autonomy-fixture-015",
+      "case_name": "stats pass",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "85df6516981dfe0c4657931657dc0640c88fc83d0afd4e26a7981d356599c9fd",
+      "case_id": "autonomy-fixture-016",
+      "case_name": "fitness blocked",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a5373402a824c21b2fe86502d96556baa1011259baaa2cb6b35a8fa77bb1e71c",
+      "case_id": "autonomy-fixture-017",
+      "case_name": "fitness pass paper only",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a2a709f0be6dd776318fa81b08e5a15c91c0d52efc8fd460f796e7edaefcd497",
+      "case_id": "autonomy-fixture-018",
+      "case_name": "benchmark no data",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "fdb0d9857550e48e2b2a802e6de788ff04a9b7cf150bf6dddb36e719c516111f",
+      "case_id": "autonomy-fixture-019",
+      "case_name": "benchmark with data",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "626d995c934f0f21845187652af484b4385ee78ae700d4fe4102c3ceb36d85dd",
+      "case_id": "autonomy-fixture-020",
+      "case_name": "S-tier engineering progress",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "8d0240b3f3785b27e4cbcf86b5078dfb22f4b8109f7187ed798d569b93536c0f",
+      "case_id": "autonomy-fixture-021",
+      "case_name": "live superiority claim false",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "fe5fe07f09788a2f2752f0976afdc8e281b4ce1e0845cd8a81c36800e66335be",
+      "case_id": "autonomy-fixture-022",
+      "case_name": "no strategy promotion",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "843b6db3625f5ca3a2687b27bf906a6781705281781cb3e99b73a0042d7c8de5",
+      "case_id": "autonomy-fixture-023",
+      "case_name": "no profitability claim",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d5511aa307b7adab3664b3bc51fcfb9a1da1112265d7b2a7c0510e7f8858e935",
+      "case_id": "autonomy-fixture-024",
+      "case_name": "no live readiness",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "3930187f9f7bfe6174fe9744a53e081d6e7d1130164fe00e4fd58f6957634236",
+      "case_id": "autonomy-fixture-025",
+      "case_name": "options data unavailable repeat 024",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "968315dc2a839ead935ee1d96ecfd0fe207835d916edbff16645d86b8383e3a2",
+      "case_id": "autonomy-fixture-026",
+      "case_name": "options data accepted repeat 025",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "fc4d7b6605542a79558db22215f58b07e907e3289d362fb5a6c467d4cc7b9afe",
+      "case_id": "autonomy-fixture-027",
+      "case_name": "options data rejected license repeat 026",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2260f184f581f0fe3040b3621e28b76e3feb9f23de46271a489f390d64cbaf30",
+      "case_id": "autonomy-fixture-028",
+      "case_name": "model priced fallback repeat 027",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "047a0a18e5a8436db4a29073f4f010247933307c6de64376ea08c2cbef5d7550",
+      "case_id": "autonomy-fixture-029",
+      "case_name": "quote priced blocked repeat 028",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "11c6a7508da5fa3ac3c53a579e08486f8ee4e9b6a2a2be5c47deff8ea56a04a4",
+      "case_id": "autonomy-fixture-030",
+      "case_name": "signal factory no data blocked repeat 029",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "8b9b0419f6428e2f2c2aee6da82a1a936b1c1484239cce51fbbbf133fcf8724b",
+      "case_id": "autonomy-fixture-031",
+      "case_name": "signal factory accepted data repeat 030",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "f254aa00088c47115041a15f8c4f44b5476c04c6bbc8fa9e1bde037220f3aea9",
+      "case_id": "autonomy-fixture-032",
+      "case_name": "strategy search no trade repeat 031",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ad10b0de1df30f4d0536bf8fdceb9ef076fa333901153d4d0a31a87013040b47",
+      "case_id": "autonomy-fixture-033",
+      "case_name": "long call intent repeat 032",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "32692677df6a23f1973e362dd99a4074f082fbc90016bd0faec886041bea26aa",
+      "case_id": "autonomy-fixture-034",
+      "case_name": "long put intent repeat 033",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "73e5b7bcf3f7edc3c2c0979297dd88d1c8db2de0c1f31e8037c976e427269adf",
+      "case_id": "autonomy-fixture-035",
+      "case_name": "no trade intent repeat 034",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e601aa07924e60ec9ffee16bc0b65b5e795cfe8958e9ee74dffceefd69d8752a",
+      "case_id": "autonomy-fixture-036",
+      "case_name": "backtest fixture only repeat 035",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "6b8bea0b9b5db525c13ef4a8f635b8fb30329df2b4bb0b9abb9cb1ca9d0db376",
+      "case_id": "autonomy-fixture-037",
+      "case_name": "backtest accepted OHLCV repeat 036",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "20a6e1a63ab4d939aa5c2e6abc1e8eaab570503248d7f568e3f7a6cc10ba8fa6",
+      "case_id": "autonomy-fixture-038",
+      "case_name": "stats blocked sample size repeat 037",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7be6df48636950c28e89eaf3231a97df8cf407f29f6ec22de285e5e99fd12e0f",
+      "case_id": "autonomy-fixture-039",
+      "case_name": "stats pass repeat 038",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "3166a2668963512f0bac1a73c21dbc9a2f6ca98bbbaab63d3f5c5589c599e430",
+      "case_id": "autonomy-fixture-040",
+      "case_name": "fitness blocked repeat 039",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "9ed2398562ee10e2c66105f7583bdf723c6f1de1da328253aeae69ddd348e097",
+      "case_id": "autonomy-fixture-041",
+      "case_name": "fitness pass paper only repeat 040",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7e6a4711fbeb35ce154e8ec0da9d2597faa3eeb86c9dcaf524e6ddd89852b829",
+      "case_id": "autonomy-fixture-042",
+      "case_name": "benchmark no data repeat 041",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1f597eaf807f3375285a87bccccc5590410cca2be0a34af650434774784cee68",
+      "case_id": "autonomy-fixture-043",
+      "case_name": "benchmark with data repeat 042",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "94f82753600ba8bd26cc9064fc08e52d31a211515487b98a8a7f1ef2e6709552",
+      "case_id": "autonomy-fixture-044",
+      "case_name": "S-tier engineering progress repeat 043",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "edad49ee0ddf8bad3de75e4a8830c5b9854e7b96081148b177e1edf428a00337",
+      "case_id": "autonomy-fixture-045",
+      "case_name": "live superiority claim false repeat 044",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e16fe35769d5d19a214638f6ca2d8ee9fe1e7d5fee0aadb041bfb048e4c26f40",
+      "case_id": "autonomy-fixture-046",
+      "case_name": "no strategy promotion repeat 045",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "bcf4d5861054f8a32ea68ca67bd3bcf595f1463a49721b57c023f7ae2448477f",
+      "case_id": "autonomy-fixture-047",
+      "case_name": "no profitability claim repeat 046",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c50ab2af9f6de0e8ebff566a43abe55ff7f2c107825bfb335f565c1d2c7f3ed4",
+      "case_id": "autonomy-fixture-048",
+      "case_name": "no live readiness repeat 047",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e6ae0e5d1237ee652e9d2bb1b79254531b473efee67858d1cde0202a8062fbdc",
+      "case_id": "autonomy-fixture-049",
+      "case_name": "options data unavailable repeat 048",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d571744f0116a75494eeff1f90ef66c2aadde24eb9d5e3877c0188923d74cd74",
+      "case_id": "autonomy-fixture-050",
+      "case_name": "options data accepted repeat 049",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "9d9e1966517c016ef3663a1ff1f56f64d659fca53f4d4221ca7ca857cfb5abf3",
+      "case_id": "autonomy-fixture-051",
+      "case_name": "options data rejected license repeat 050",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "6b1a2d3b37e615dfd4d8d5f70af29d18786e4da72fdfb2dad0150960c8487455",
+      "case_id": "autonomy-fixture-052",
+      "case_name": "model priced fallback repeat 051",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b7f11bb9e18144db0e93edb4cf9bb246ad53cf1c6a4de75f0d7123661eef3feb",
+      "case_id": "autonomy-fixture-053",
+      "case_name": "quote priced blocked repeat 052",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1318794c35fb5f750c72659f49b9114207637d731126f4b41b8fe469d8c7ca5f",
+      "case_id": "autonomy-fixture-054",
+      "case_name": "signal factory no data blocked repeat 053",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1c313b7e3ab670a788758c62b025aea724f1af80383364289f44a9e8074b8d25",
+      "case_id": "autonomy-fixture-055",
+      "case_name": "signal factory accepted data repeat 054",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "83d8a60fd9e8ffbbc65e8b14d02a68e0b3a902302476b088054f89bdc10a0349",
+      "case_id": "autonomy-fixture-056",
+      "case_name": "strategy search no trade repeat 055",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1d9776069827e0c66e8fff5e00ad764c5d5f73cbb0d0bd4d49c0a5e82edc5430",
+      "case_id": "autonomy-fixture-057",
+      "case_name": "long call intent repeat 056",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1d5ce9b6f27407be54f46ed6bd3c4edfb576ead03c273f08b99e5679655e9238",
+      "case_id": "autonomy-fixture-058",
+      "case_name": "long put intent repeat 057",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1d9ae2fed8841dc947891ef79a2f0f1b72854a1baffdf28463578ec3cd95bd58",
+      "case_id": "autonomy-fixture-059",
+      "case_name": "no trade intent repeat 058",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "6fa6a842c2a36bd1b1fdfe797d5c401441009216083b062771222c6e7e1562c4",
+      "case_id": "autonomy-fixture-060",
+      "case_name": "backtest fixture only repeat 059",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "93e1e5024ee0bfcccab58f7acbedac970c5f13fe44d7d7201ff3b309d486975e",
+      "case_id": "autonomy-fixture-061",
+      "case_name": "backtest accepted OHLCV repeat 060",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "89ad2cf1d8405816fb86493abc63b003e5be0bb6f91d2c88d320ca7bd78cd844",
+      "case_id": "autonomy-fixture-062",
+      "case_name": "stats blocked sample size repeat 061",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d041c01f1050d3da7d16de2952ad4c018e0410767c198d4173772220a7b0047c",
+      "case_id": "autonomy-fixture-063",
+      "case_name": "stats pass repeat 062",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "5db85060f3ddb3808af09d9d3e268cbea367b8585bd2274b8ec0c9f651e082a8",
+      "case_id": "autonomy-fixture-064",
+      "case_name": "fitness blocked repeat 063",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7e9429540a77b8b39a50ceb6944989afdcc0360b415f90ffbc37901ff9ccb7d4",
+      "case_id": "autonomy-fixture-065",
+      "case_name": "fitness pass paper only repeat 064",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b149022d4037743031d7f56003b6bfb5ead09c54e11a2ab62473ebcce7ec62b9",
+      "case_id": "autonomy-fixture-066",
+      "case_name": "benchmark no data repeat 065",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "799947f342e74467015eaac47f3e90a7bc9b1a173d9d0d95227473c28dbef8be",
+      "case_id": "autonomy-fixture-067",
+      "case_name": "benchmark with data repeat 066",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ec834bfdad6ca107ee6a4c13cec1562fd5a1a00fd492f52011bb71e1812b5a0b",
+      "case_id": "autonomy-fixture-068",
+      "case_name": "S-tier engineering progress repeat 067",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7551cd72067e27179223a0c3a85e5a63bbf128541942d2869aabae410722b653",
+      "case_id": "autonomy-fixture-069",
+      "case_name": "live superiority claim false repeat 068",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b8b06b4fbd0f05d2bb63ee604e4058ff195a8ab3c5fdea05acdc0dc148009a46",
+      "case_id": "autonomy-fixture-070",
+      "case_name": "no strategy promotion repeat 069",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ccb4f04ad775fb3db8fb942a92da1e1185450861c344bc2d5483116070cc301d",
+      "case_id": "autonomy-fixture-071",
+      "case_name": "no profitability claim repeat 070",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b514dc54bf99998f750814b0e20c8e6172c2d84f165110b94d0a08d4f053adce",
+      "case_id": "autonomy-fixture-072",
+      "case_name": "no live readiness repeat 071",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1592c179e6df63a8bf1025bb297ee1ed78bdf0975d9437742c45d08e7ebcaeb0",
+      "case_id": "autonomy-fixture-073",
+      "case_name": "options data unavailable repeat 072",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "f0094eb98100d0a0dd55bae5a7afb5cf1c3ced0e81024cc40e348ce9d6c84be8",
+      "case_id": "autonomy-fixture-074",
+      "case_name": "options data accepted repeat 073",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "11ffba4aeca8f4bb34a756b53d84b478794ada8ed91290b48e0867859e9fd4f9",
+      "case_id": "autonomy-fixture-075",
+      "case_name": "options data rejected license repeat 074",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    }
+  ]
+}

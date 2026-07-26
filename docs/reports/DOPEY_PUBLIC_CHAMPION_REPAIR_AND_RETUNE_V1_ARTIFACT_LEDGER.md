@@ -1,0 +1,3 @@
+# DOPEY_PUBLIC_CHAMPION_REPAIR_AND_RETUNE_V1_ARTIFACT_LEDGER
+
+- artifacts/dopey/champion_repair/

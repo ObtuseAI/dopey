@@ -1,0 +1,442 @@
+{
+  "archive_bytes": 4215266,
+  "archive_path": "tests/fixtures/runtime_artifact_seed_v1.zip",
+  "archive_sha256": "0e86901b43d93e1776a72777ad4c4ef2fb2f949fcd82bb6613b84e84cac85027",
+  "artifact_count": 71,
+  "broker_account_or_order_history_included": false,
+  "derived_historical_public_market_test_fixture": true,
+  "evidence_policy": "derived paper-research outputs from historical public-market observations are preserved only as isolated integration-test inputs; they are not current state or forward evidence",
+  "files": {
+    "artifacts/dopey/audit/evidence_replay_audit_proof.jsonl": {
+      "bytes": 16768636,
+      "sha256": "3802d31b7b911a739dcd48675233243a38b3ffe90b8346c3a44b004367189503",
+      "source_mode": "latest_jsonl_record",
+      "source_relative_path": "artifacts/dopey/audit/evidence_replay_audit_proof.jsonl"
+    },
+    "artifacts/dopey/champion_registry/champion_registry.jsonl": {
+      "bytes": 31027,
+      "sha256": "b9ca9a7b3700105c707128caf2a6480c543e378825678eb6b616a627ef599146",
+      "source_mode": "latest_jsonl_record",
+      "source_relative_path": "artifacts/dopey/champion_registry/champion_registry.jsonl"
+    },
+    "artifacts/dopey/champion_repair/public_champion_artifact_guard_v1_summary.json": {
+      "bytes": 1212,
+      "sha256": "5fbc9ecc43da979a2335b185432ec954cd9ba68a7bad383a39a0784ea9ed28b4",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/champion_repair/public_champion_artifact_guard_v1_summary.json"
+    },
+    "artifacts/dopey/ensemble_allocator/ensemble_allocation_registry.jsonl": {
+      "bytes": 29419,
+      "sha256": "9e3d2e59b8c44415159b472c898e982069b78514c27bf41352d9d5aa59f1235e",
+      "source_mode": "latest_jsonl_record",
+      "source_relative_path": "artifacts/dopey/ensemble_allocator/ensemble_allocation_registry.jsonl"
+    },
+    "artifacts/dopey/export_reviews/export_review_proof.jsonl": {
+      "bytes": 10582,
+      "sha256": "9b6560acf069df119324a44696c85f953318184b07202964199b5862db000e52",
+      "source_mode": "latest_jsonl_record",
+      "source_relative_path": "artifacts/dopey/export_reviews/export_review_proof.jsonl"
+    },
+    "artifacts/dopey/exports/export_safety_scan.jsonl": {
+      "bytes": 422,
+      "sha256": "5db6778c1a81e423b7ade6c3698d044d92775217bbeb6fa81dffd923ec4c8ceb",
+      "source_mode": "latest_jsonl_record",
+      "source_relative_path": "artifacts/dopey/exports/export_safety_scan.jsonl"
+    },
+    "artifacts/dopey/failure_feedback/failure_feedback_registry.jsonl": {
+      "bytes": 317398,
+      "sha256": "f707eee8cfde696bb29504bafd9ece1c46e3ec57005ba2753fccba6395e74367",
+      "source_mode": "latest_jsonl_record",
+      "source_relative_path": "artifacts/dopey/failure_feedback/failure_feedback_registry.jsonl"
+    },
+    "artifacts/dopey/failure_modes/failure_mode_registry.jsonl": {
+      "bytes": 99969,
+      "sha256": "4e72c8a60ee10b64d2df1ad6740cecdf4bbc47a363e564decd4c3d74c7eda547",
+      "source_mode": "latest_jsonl_record",
+      "source_relative_path": "artifacts/dopey/failure_modes/failure_mode_registry.jsonl"
+    },
+    "artifacts/dopey/fundamental_fixtures/fundamental_registry.jsonl": {
+      "bytes": 286098,
+      "sha256": "db93d0f60a69fa70dc28d1be55042f0864d965fe1eae748e49cff6c88989c628",
+      "source_mode": "latest_jsonl_record",
+      "source_relative_path": "artifacts/dopey/fundamental_fixtures/fundamental_registry.jsonl"
+    },
+    "artifacts/dopey/incident_response/incident_rehearsal_summary.json": {
+      "bytes": 3734,
+      "sha256": "56f786a880aa0713af40f6ab6692fd1916032843685565e0a7360a64577d1d2c",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/incident_response/incident_rehearsal_summary.json"
+    },
+    "artifacts/dopey/iv_surface/iv_surface_registry.jsonl": {
+      "bytes": 300640,
+      "sha256": "231c033ebe171e59af5bf5b1f2015fe31d208d5ef3586399e4b0e056c365275c",
+      "source_mode": "latest_jsonl_record",
+      "source_relative_path": "artifacts/dopey/iv_surface/iv_surface_registry.jsonl"
+    },
+    "artifacts/dopey/lifecycle/lifecycle_summary.json": {
+      "bytes": 3332,
+      "sha256": "7f494146eb3a1681e1f53bd191f7601c68cad0653565720434315fdcfc8aa5c5",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/lifecycle/lifecycle_summary.json"
+    },
+    "artifacts/dopey/live_gate/public_signal_research_live_gate_status_v4.json": {
+      "bytes": 1170,
+      "sha256": "6b31be2bda219e29185bb71fdaa496b0c65b320454fe0f98f4cc20690a3643db",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/live_gate/public_signal_research_live_gate_status_v4.json"
+    },
+    "artifacts/dopey/live_gate/public_signal_research_live_gate_status_v5.json": {
+      "bytes": 1097,
+      "sha256": "589c401b712d1952bde6db4ead52f7cc76dc043bf7d7f39effd4034665b0932a",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/live_gate/public_signal_research_live_gate_status_v5.json"
+    },
+    "artifacts/dopey/live_gate/public_signal_research_live_gate_status_v6.json": {
+      "bytes": 1097,
+      "sha256": "54e3ae5dc9bfb9aa539975ef233aa654e42c9843b2e43e1d803d0376615603a9",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/live_gate/public_signal_research_live_gate_status_v6.json"
+    },
+    "artifacts/dopey/macro_events/macro_event_registry.jsonl": {
+      "bytes": 254488,
+      "sha256": "38e6928dddc7bdbfc4cd07888d919d1b64f414a89b34f956cef0f0dc1260fff9",
+      "source_mode": "latest_jsonl_record",
+      "source_relative_path": "artifacts/dopey/macro_events/macro_event_registry.jsonl"
+    },
+    "artifacts/dopey/meta_governor/meta_governor_decisions.jsonl": {
+      "bytes": 20665,
+      "sha256": "878bf64ef3c64ca0874b61b92b02879a545b162533de0d60b54ab9d4c3aa2856",
+      "source_mode": "latest_jsonl_record",
+      "source_relative_path": "artifacts/dopey/meta_governor/meta_governor_decisions.jsonl"
+    },
+    "artifacts/dopey/meta_governor/meta_governor_proof.jsonl": {
+      "bytes": 60777,
+      "sha256": "8795bdd1235b62c0e9db92edca2cedc386d3c62e66bdecbca3c094e0c74d3707",
+      "source_mode": "latest_jsonl_record",
+      "source_relative_path": "artifacts/dopey/meta_governor/meta_governor_proof.jsonl"
+    },
+    "artifacts/dopey/meta_governor/meta_governor_registry.jsonl": {
+      "bytes": 55848,
+      "sha256": "b760d7918f21b906202dd77e35550680720f3cae95992be0213383f401593056",
+      "source_mode": "latest_jsonl_record",
+      "source_relative_path": "artifacts/dopey/meta_governor/meta_governor_registry.jsonl"
+    },
+    "artifacts/dopey/mutations/mutation_registry.jsonl": {
+      "bytes": 127001,
+      "sha256": "594835da9f17e53da4270aebd071c960160818290aa42ee23b63ac48aa911152",
+      "source_mode": "latest_jsonl_record",
+      "source_relative_path": "artifacts/dopey/mutations/mutation_registry.jsonl"
+    },
+    "artifacts/dopey/regime_holdout_corpus_v2/corpus_registry.jsonl": {
+      "bytes": 405492,
+      "sha256": "2281edacda70ba8206f98d9fa716d6a937bbf30eb93e2aa74af1c3fed5d30b6d",
+      "source_mode": "latest_jsonl_record",
+      "source_relative_path": "artifacts/dopey/regime_holdout_corpus_v2/corpus_registry.jsonl"
+    },
+    "artifacts/dopey/scoreboard/public_signal_research_scoreboard_v4.json": {
+      "bytes": 1795,
+      "sha256": "8efe45a7c2d2a58c9386afe2323253102fbcc6bb8aa52a07b48f6fce9890152e",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/scoreboard/public_signal_research_scoreboard_v4.json"
+    },
+    "artifacts/dopey/scoreboard/public_signal_research_scoreboard_v5.json": {
+      "bytes": 4289,
+      "sha256": "a092df03ede0bc19dacb9a758bb1c2d03240c69cf4d3501d69075e9ec4b1e0b6",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/scoreboard/public_signal_research_scoreboard_v5.json"
+    },
+    "artifacts/dopey/scoreboard/public_signal_research_scoreboard_v6.json": {
+      "bytes": 5844,
+      "sha256": "4b70f3ecb298f0301d8081ec42bdd6325881c88bd8c65a812b4767e5cfdd9128",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/scoreboard/public_signal_research_scoreboard_v6.json"
+    },
+    "artifacts/dopey/signal_research/failed_champion_family_quarantine_v1.jsonl": {
+      "bytes": 1018,
+      "sha256": "071179888f1b65927c4769b7bacdb9970a3a2c9c07620a9d7829f14579535704",
+      "source_mode": "latest_jsonl_record",
+      "source_relative_path": "artifacts/dopey/signal_research/failed_champion_family_quarantine_v1.jsonl"
+    },
+    "artifacts/dopey/signal_research/failed_champion_family_quarantine_v1_summary.json": {
+      "bytes": 1386,
+      "sha256": "d351b399168979893f12836f3bfea1c16236e5f60cfcb50a8d09f3a86ca85ae4",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research/failed_champion_family_quarantine_v1_summary.json"
+    },
+    "artifacts/dopey/signal_research/public_signal_research_breakthrough_v1_summary.json": {
+      "bytes": 1721,
+      "sha256": "e0381044397d57101ef0ac5ac480e63bf28c4d300fd9b1dbbd4f6668394163f8",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research/public_signal_research_breakthrough_v1_summary.json"
+    },
+    "artifacts/dopey/signal_research/research_breakthrough_gate_v1_summary.json": {
+      "bytes": 1321,
+      "sha256": "a04808e3147ddb92d8916e3871784b89a08e9e819ff5e0f3b71aba1360744d51",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research/research_breakthrough_gate_v1_summary.json"
+    },
+    "artifacts/dopey/signal_research/research_tournament_leaderboard_v1.jsonl": {
+      "bytes": 6422,
+      "sha256": "84326a72dd65e4dd8be9fc2b218d5e17940563ee2be11f8a4a98a8f005bc0976",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research/research_tournament_leaderboard_v1.jsonl"
+    },
+    "artifacts/dopey/signal_research_v2/public_signal_research_breakthrough_v2_summary.json": {
+      "bytes": 1889,
+      "sha256": "050ab9fc28afb18e597700265e813c0bd47cacaf847d5caaee79e5f8dfb2bfa3",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research_v2/public_signal_research_breakthrough_v2_summary.json"
+    },
+    "artifacts/dopey/signal_research_v2/research_breakthrough_gate_v2_summary.json": {
+      "bytes": 1339,
+      "sha256": "0b81aaa0f4756e83610852973ed580be728514f6a507478b0b9cdadf0bcf57ae",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research_v2/research_breakthrough_gate_v2_summary.json"
+    },
+    "artifacts/dopey/signal_research_v2/research_candidate_generator_v2_summary.json": {
+      "bytes": 1163,
+      "sha256": "a40b4260be0da79fa6b90529a5c61e0af4f2c955eced9a12a32a963416cdfd7d",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research_v2/research_candidate_generator_v2_summary.json"
+    },
+    "artifacts/dopey/signal_research_v2/research_mutation_queue_v2.jsonl": {
+      "bytes": 26050,
+      "sha256": "474e02aa66c23f886ecc545fa36ad5b9f09e27e9dbed522e82c151bff8ffb989",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research_v2/research_mutation_queue_v2.jsonl"
+    },
+    "artifacts/dopey/signal_research_v2/research_mutation_queue_v2_summary.json": {
+      "bytes": 1036,
+      "sha256": "03656b100b3bdd7f5d84522face32b7dc95f4fe2132b538357a30fd54cf8608a",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research_v2/research_mutation_queue_v2_summary.json"
+    },
+    "artifacts/dopey/signal_research_v2/research_tournament_v2_summary.json": {
+      "bytes": 1406,
+      "sha256": "16f8f64aada6be0d358e1cedeeccf1be5e761a2b880aa154ea02470c4c654751",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research_v2/research_tournament_v2_summary.json"
+    },
+    "artifacts/dopey/signal_research_v3/public_signal_research_breakthrough_v3_summary.json": {
+      "bytes": 2135,
+      "sha256": "87a438c55ad29852f957e97a2dad88ce853b092b87a0f56b69fef778063774d4",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research_v3/public_signal_research_breakthrough_v3_summary.json"
+    },
+    "artifacts/dopey/signal_research_v3/research_breakthrough_gate_v3_summary.json": {
+      "bytes": 1417,
+      "sha256": "804fd24362c8b859449848082cf3735f213f69ad17973437f1d64f2f16eb55ad",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research_v3/research_breakthrough_gate_v3_summary.json"
+    },
+    "artifacts/dopey/signal_research_v3/research_breakthrough_rejections_v3.jsonl": {
+      "bytes": 1136,
+      "sha256": "a653a38d2ccd967cc7cbfda954f08bace5b0e90ec6e39db0cbff8362441db02e",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research_v3/research_breakthrough_rejections_v3.jsonl"
+    },
+    "artifacts/dopey/signal_research_v3/research_candidate_generator_v3_summary.json": {
+      "bytes": 1351,
+      "sha256": "0d5d385dad8617e6f8bdc14a0726d4b91b8e55d1bd5b92cdfd6ab43d695f3b76",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research_v3/research_candidate_generator_v3_summary.json"
+    },
+    "artifacts/dopey/signal_research_v3/research_mutation_queue_v3.jsonl": {
+      "bytes": 7347,
+      "sha256": "4f818738bcfba99f76273a153230224a9a37efcba425d80f262da62d592fc919",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research_v3/research_mutation_queue_v3.jsonl"
+    },
+    "artifacts/dopey/signal_research_v3/research_mutation_queue_v3_summary.json": {
+      "bytes": 1309,
+      "sha256": "8bec2780a726d8953899f53da9d9d5598d8b65ba1ba757ed6600d21e9db59b47",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research_v3/research_mutation_queue_v3_summary.json"
+    },
+    "artifacts/dopey/signal_research_v3/research_no_trade_filter_records_v3.jsonl": {
+      "bytes": 808,
+      "sha256": "6d2c235fe9c80edaaf52c73a3deece310bea15095af458e707fe2c1e376a1c90",
+      "source_mode": "latest_jsonl_record",
+      "source_relative_path": "artifacts/dopey/signal_research_v3/research_no_trade_filter_records_v3.jsonl"
+    },
+    "artifacts/dopey/signal_research_v3/research_path_trades_v3.jsonl": {
+      "bytes": 43872663,
+      "sha256": "dda49062b2a47d01d1ee09e2471d644f4fe4da50a2995649cd707bb5da980693",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research_v3/research_path_trades_v3.jsonl"
+    },
+    "artifacts/dopey/signal_research_v3/research_signal_candidates_v3.jsonl": {
+      "bytes": 2919,
+      "sha256": "1564cdaf73b2a647fcc694a4ff4aee6f7b94dcc0aaf03161d284fc47165b9c71",
+      "source_mode": "latest_jsonl_record",
+      "source_relative_path": "artifacts/dopey/signal_research_v3/research_signal_candidates_v3.jsonl"
+    },
+    "artifacts/dopey/signal_research_v3/research_tournament_holdout_scores_v3.jsonl": {
+      "bytes": 1618,
+      "sha256": "5d8f4de49bb21f95a9b9b1bf58c9c22f97c29cd29d29c9af551dac6897415971",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research_v3/research_tournament_holdout_scores_v3.jsonl"
+    },
+    "artifacts/dopey/signal_research_v3/research_tournament_regime_scores_v3.jsonl": {
+      "bytes": 744,
+      "sha256": "055c6cb016bcc5e9f45eff636ddd5151c06bd212645f8816588ba69a8a926baf",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research_v3/research_tournament_regime_scores_v3.jsonl"
+    },
+    "artifacts/dopey/signal_research_v3/research_tournament_v3_summary.json": {
+      "bytes": 1433,
+      "sha256": "2d49218d64e73c8bc9ffc8328716402bc7ef577407ef25d380bcbaced42cc25d",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research_v3/research_tournament_v3_summary.json"
+    },
+    "artifacts/dopey/signal_research_v3/research_watchlist_candidates_v3.jsonl": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research_v3/research_watchlist_candidates_v3.jsonl"
+    },
+    "artifacts/dopey/signal_research_v3/stable_family_template_repair_v3_summary.json": {
+      "bytes": 1065,
+      "sha256": "30cae23c59d1618ca7b8dbb74e83b23794e5464cd6d515e2dedf15c5087645cb",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research_v3/stable_family_template_repair_v3_summary.json"
+    },
+    "artifacts/dopey/signal_research_v4/public_signal_research_breakthrough_v4_summary.json": {
+      "bytes": 2461,
+      "sha256": "2a631fafb31758e1013a6be4b863528616b4668e824e86d02911299de9f79e46",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research_v4/public_signal_research_breakthrough_v4_summary.json"
+    },
+    "artifacts/dopey/signal_research_v4/public_signal_research_breakthrough_v4_validation_summary.json": {
+      "bytes": 2285,
+      "sha256": "38a11b33cc6a16bfd9f8398a26f9081ed7409d5ff428e74121aa366f26e7109a",
+      "source_mode": "sanitized_json",
+      "source_relative_path": "artifacts/dopey/signal_research_v4/public_signal_research_breakthrough_v4_validation_summary.json"
+    },
+    "artifacts/dopey/signal_research_v4/research_breakthrough_gate_v4_summary.json": {
+      "bytes": 1461,
+      "sha256": "5068fecb5e9ac0802418a253f97d01ec746222f0b424da803bd421dd3d9366be",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research_v4/research_breakthrough_gate_v4_summary.json"
+    },
+    "artifacts/dopey/signal_research_v4/research_mutation_queue_v4_summary.json": {
+      "bytes": 1320,
+      "sha256": "449a4e817f83c62a0e90634bd30babe2f9b0cb36d992dbc807ca1bf250ab6095",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research_v4/research_mutation_queue_v4_summary.json"
+    },
+    "artifacts/dopey/signal_research_v4/research_tournament_v4_summary.json": {
+      "bytes": 1528,
+      "sha256": "f84a78c70bab20e9725b53005d3a64994e37c0d2d6a8099c72ca8003e09bf447",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research_v4/research_tournament_v4_summary.json"
+    },
+    "artifacts/dopey/signal_research_v5/public_signal_research_breakthrough_v5_summary.json": {
+      "bytes": 2947,
+      "sha256": "66ba5d494a57585ba3dd17d0d6e5842fed26872a33929a8de769b98cbfba2c8e",
+      "source_mode": "sanitized_json",
+      "source_relative_path": "artifacts/dopey/signal_research_v5/public_signal_research_breakthrough_v5_summary.json"
+    },
+    "artifacts/dopey/signal_research_v5/public_signal_research_breakthrough_v5_timeout_records.jsonl": {
+      "bytes": 651,
+      "sha256": "8a76d2f49beb11dd77563de92e445418454e0908f2f2fc90840f1dc574748ff1",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research_v5/public_signal_research_breakthrough_v5_timeout_records.jsonl"
+    },
+    "artifacts/dopey/signal_research_v5/public_signal_research_breakthrough_v5_validation_summary.json": {
+      "bytes": 4203,
+      "sha256": "a9fcdbe67282a6830583517a5bc59e226dd2157dbaf34116542046de5dd7bdde",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research_v5/public_signal_research_breakthrough_v5_validation_summary.json"
+    },
+    "artifacts/dopey/signal_research_v5/public_signal_research_expensive_lane_summary_v5.json": {
+      "bytes": 1265,
+      "sha256": "02f214ece6da4d18c9d6b6e51e551a56494640f10bc1f810f16a87dbfd546eaf",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research_v5/public_signal_research_expensive_lane_summary_v5.json"
+    },
+    "artifacts/dopey/signal_research_v5/research_breakthrough_gate_v5_summary.json": {
+      "bytes": 1554,
+      "sha256": "37da9267cf26ffed010cf657d9f6d4ad656dd627aa4769c01c57f8d210f524f9",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research_v5/research_breakthrough_gate_v5_summary.json"
+    },
+    "artifacts/dopey/signal_research_v5/research_mutation_queue_v5.jsonl": {
+      "bytes": 173484,
+      "sha256": "89b2a92358fdeda59f71ed7830dd20730635ee6646f8ff05ae5ffdeba24c4284",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research_v5/research_mutation_queue_v5.jsonl"
+    },
+    "artifacts/dopey/signal_research_v5/research_mutation_queue_v5_summary.json": {
+      "bytes": 1895,
+      "sha256": "73a9e0d0d94f486118df1d61b82468a541c507e728f23c24392434631259cad7",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research_v5/research_mutation_queue_v5_summary.json"
+    },
+    "artifacts/dopey/signal_research_v5/research_watchlist_candidates_v5.jsonl": {
+      "bytes": 7764,
+      "sha256": "3839e40ddc0c19e9b273ad5d7a7dad511195665da7dab1e7283041805fd0610b",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research_v5/research_watchlist_candidates_v5.jsonl"
+    },
+    "artifacts/dopey/signal_research_v6/public_signal_research_breakthrough_v6_summary.json": {
+      "bytes": 2945,
+      "sha256": "8bb5019d3a46135512c02b322cd9748e4bb07baa319c3ad251d52447daed2640",
+      "source_mode": "sanitized_json",
+      "source_relative_path": "artifacts/dopey/signal_research_v6/public_signal_research_breakthrough_v6_summary.json"
+    },
+    "artifacts/dopey/signal_research_v6/public_signal_research_breakthrough_v6_timeout_records.jsonl": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research_v6/public_signal_research_breakthrough_v6_timeout_records.jsonl"
+    },
+    "artifacts/dopey/signal_research_v6/public_signal_research_breakthrough_v6_validation_summary.json": {
+      "bytes": 4033,
+      "sha256": "b506dabe323ba32c81f5bb798c2b64ad562330b4c03a5cf73068bb7e6ae92fb5",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research_v6/public_signal_research_breakthrough_v6_validation_summary.json"
+    },
+    "artifacts/dopey/signal_research_v6/research_breakthrough_gate_v6_summary.json": {
+      "bytes": 1694,
+      "sha256": "5609c198adbf1103847025a7a3dc0e0a60a25c1dab02df7b1c2a2420d62eff9e",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research_v6/research_breakthrough_gate_v6_summary.json"
+    },
+    "artifacts/dopey/signal_research_v6/research_mutation_queue_v6.jsonl": {
+      "bytes": 64886,
+      "sha256": "835ef682e147e51590bfef32c982469f8eb29f9f1af7183dd13f2d4a5fbb6a47",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research_v6/research_mutation_queue_v6.jsonl"
+    },
+    "artifacts/dopey/signal_research_v6/research_mutation_queue_v6_summary.json": {
+      "bytes": 2013,
+      "sha256": "148c4771f28c289a5408f1b451ef9192f576e25674fb67837baeac4da00d0ae3",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research_v6/research_mutation_queue_v6_summary.json"
+    },
+    "artifacts/dopey/signal_research_v6/research_watchlist_candidates_v6.jsonl": {
+      "bytes": 2696,
+      "sha256": "7bb04bbada8f513cc74a8597ab903696d018fbe6bac4407f5b43ff8f90e78286",
+      "source_mode": "full_file",
+      "source_relative_path": "artifacts/dopey/signal_research_v6/research_watchlist_candidates_v6.jsonl"
+    },
+    "artifacts/dopey/tournaments/dopey_tournament.jsonl": {
+      "bytes": 204400,
+      "sha256": "e82a9fc803309660f91000009002987ebda5021b24804879c241c600187eafbc",
+      "source_mode": "latest_jsonl_record",
+      "source_relative_path": "artifacts/dopey/tournaments/dopey_tournament.jsonl"
+    },
+    "artifacts/dopey/walk_forward_consistency/consistency_registry.jsonl": {
+      "bytes": 233367,
+      "sha256": "49f2a2eebb19962756a0b122c3818e11f27db23f82800afac45ce2a69a0e5ce9",
+      "source_mode": "latest_jsonl_record",
+      "source_relative_path": "artifacts/dopey/walk_forward_consistency/consistency_registry.jsonl"
+    }
+  },
+  "live_blocked": true,
+  "operational_runtime_state": false,
+  "paper_only": true,
+  "raw_provider_market_data_included": false,
+  "seed_version": "dopey-runtime-artifact-seed-v1"
+}

@@ -1,0 +1,7 @@
+cryptography==49.0.0
+exchange-calendars==4.13.2
+pyinstaller==6.21.0
+pystray==0.19.5
+pywebview==6.2.1
+requests==2.34.2
+tzdata==2026.2

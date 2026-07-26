@@ -1,0 +1,13 @@
+{
+  "fixture_version": "dopey-rotation-planner-cases-v1",
+  "paper_only": true,
+  "live_blocked": true,
+  "cases": [
+    {"case_id": "open_call_today_open_different_put_allowed", "expected": "open_allowed_without_closing_existing_position"},
+    {"case_id": "open_put_today_open_new_call_allowed", "expected": "open_allowed_without_closing_existing_position"},
+    {"case_id": "close_yesterday_call_open_new_put_allowed", "expected": "close_allowed_then_open_allowed"},
+    {"case_id": "delayed_rotation_plan_when_same_day_close_blocked", "expected": "rotate_allowed_after_delayed_exit"},
+    {"case_id": "planner_blocks_live_path", "expected": "blocked_live_path"},
+    {"case_id": "planner_marks_policy_compliant_aggressive_entry_allowed", "expected": "open_allowed"}
+  ]
+}

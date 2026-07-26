@@ -1,0 +1,13 @@
+# DOPEY_PUBLIC_PAPER_CHAMPION_HARDENING_AND_DEEP_STRESS_V1_ARTIFACT_LEDGER
+
+- `artifacts/dopey/champion_hardening/champion_hardening_preflight_summary.json`
+- `artifacts/dopey/champion_hardening/public_signal_artifact_cleaner_summary.json`
+- `artifacts/dopey/champion_hardening/public_champion_inventory_v1_summary.json`
+- `artifacts/dopey/champion_hardening/public_champion_deep_stress_matrix_v1_summary.json`
+- `artifacts/dopey/champion_hardening/public_champion_holdout_expansion_v1_summary.json`
+- `artifacts/dopey/champion_hardening/public_champion_decay_monitor_v1_summary.json`
+- `artifacts/dopey/champion_hardening/public_champion_hardening_gate_v1_summary.json`
+- `artifacts/dopey/scoreboard/public_champion_hardening_scoreboard_v1.json`
+- `artifacts/dopey/live_gate/public_champion_hardening_live_gate_status_v3.json`
+- `artifacts/dopey/champion_hardening/public_paper_champion_hardening_and_deep_stress_v1_summary.json`
+- `artifacts/dopey/champion_hardening/public_paper_champion_hardening_and_deep_stress_v1_validation_summary.json`

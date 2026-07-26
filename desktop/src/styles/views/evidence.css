@@ -1,0 +1,354 @@
+.evidence-view {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.evidence-view {
+  background:
+    linear-gradient(90deg, transparent 49.95%, #101410 50%, transparent 50.05%),
+    var(--graphite-1);
+}
+
+.evidence-header h1 {
+  color: var(--limestone);
+}
+
+.evidence-grid {
+  display: grid;
+  grid-template-columns: minmax(520px, 1.3fr) minmax(360px, 0.9fr);
+  gap: 10px;
+}
+
+.evidence-grid__metrics,
+.evidence-grid__economics {
+  grid-column: 1 / -1;
+}
+
+.evidence-grid__stack {
+  grid-row: span 2;
+}
+
+.dossier-metrics {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.dossier-metrics > div {
+  min-height: 94px;
+  padding: 15px;
+  border-right: 1px solid var(--hairline);
+}
+
+.dossier-metrics > div:nth-child(4n) {
+  border-right: 0;
+}
+
+.dossier-metrics > div:nth-child(-n + 4) {
+  border-bottom: 1px solid var(--hairline);
+}
+
+.dossier-metrics span {
+  display: block;
+  min-height: 28px;
+  color: var(--dim);
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+}
+
+.dossier-metrics strong {
+  display: block;
+  margin-top: 9px;
+  color: var(--limestone);
+  font-family: var(--mono);
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.evidence-stack {
+  padding: 8px 11px;
+}
+
+.evidence-stack__layer {
+  display: grid;
+  min-height: 46px;
+  grid-template-columns: 38px minmax(140px, 1fr) 150px 52px;
+  align-items: center;
+  border-bottom: 1px solid #222722;
+}
+
+.evidence-stack__layer > span,
+.evidence-stack__layer > b {
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.evidence-stack__layer > span { color: var(--dim); }
+
+.evidence-stack__layer > strong { font-size: 10px; letter-spacing: 0.06em; }
+
+.evidence-stack__layer > b { color: var(--muted); text-align: right; }
+
+.evidence-stack__layer > i { height: 3px; margin-left: 16px; background: var(--hairline-bright); }
+
+.evidence-stack__layer--nominal > i { background: var(--mineral); }
+
+.evidence-stack__layer--nominal > b { color: var(--celadon); }
+
+.evidence-stack__layer--warning > i { background: var(--ochre); }
+
+.evidence-stack__layer--warning > b { color: var(--ochre); }
+
+.evidence-stack__layer--critical > i { background: var(--vermilion); }
+
+.evidence-stack__layer--critical > b { color: #ff9386; }
+
+.frontier-ledger {
+  padding: 7px 11px;
+}
+
+.frontier-ledger > div {
+  display: grid;
+  min-height: 39px;
+  grid-template-columns: 28px 1fr 108px;
+  align-items: center;
+  border-bottom: 1px solid #222722;
+}
+
+.frontier-ledger span,
+.frontier-ledger em {
+  color: var(--dim);
+  font-family: var(--mono);
+  font-size: 10px;
+  font-style: normal;
+}
+
+.frontier-ledger strong {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+.frontier-ledger em {
+  color: var(--ochre);
+  text-align: right;
+}
+
+.oracle-instrument {
+  display: grid;
+  min-height: 176px;
+  grid-template-columns: 150px 1fr;
+}
+
+.oracle-instrument__dial {
+  display: grid;
+  place-items: center;
+  border-right: 1px solid var(--hairline);
+  background: repeating-conic-gradient(from 0deg, #334139 0 2deg, transparent 2deg 8deg);
+}
+
+.oracle-instrument__dial span {
+  display: grid;
+  width: 92px;
+  height: 92px;
+  place-items: center;
+  border: 1px solid #506b57;
+  border-radius: 50%;
+  color: var(--celadon);
+  background: var(--graphite-1);
+  font-family: var(--mono);
+  font-size: 17px;
+}
+
+.oracle-instrument dl,
+.node-inspector dl {
+  margin: 0;
+  padding: 8px 12px;
+}
+
+.oracle-instrument dl > div,
+.node-inspector dl > div {
+  display: flex;
+  min-height: 33px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border-bottom: 1px solid #222722;
+}
+
+.oracle-instrument dt,
+.node-inspector dt {
+  color: var(--dim);
+  font-family: var(--mono);
+  font-size: 10px;
+}
+
+.oracle-instrument dd,
+.node-inspector dd {
+  margin: 0;
+  color: var(--limestone);
+  font-family: var(--mono);
+  font-size: 10px;
+  text-align: right;
+}
+
+.settlement-instrument {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.settlement-instrument > div {
+  min-height: 69px;
+  padding: 12px;
+  border-right: 1px solid var(--hairline);
+  border-bottom: 1px solid var(--hairline);
+}
+
+.settlement-instrument > div:nth-child(even) { border-right: 0; }
+
+.settlement-instrument span { display: block; color: var(--dim); font-family: var(--mono); font-size: 10px; }
+
+.settlement-instrument strong { display: block; margin-top: 9px; color: var(--celadon); font-family: var(--mono); font-size: 12px; font-weight: 400; }
+
+.settlement-instrument p { grid-column: 1 / -1; margin: 0; padding: 10px 12px; color: var(--dim); font-size: 10px; }
+
+.economics-strip {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) minmax(320px, 1.4fr);
+}
+
+.economics-strip > div {
+  min-height: 84px;
+  padding: 14px;
+  border-right: 1px solid var(--hairline);
+}
+
+.economics-strip span { display: block; color: var(--dim); font-family: var(--mono); font-size: 10px; }
+
+.economics-strip strong { display: block; margin-top: 9px; color: var(--limestone); font-family: var(--mono); font-size: 18px; font-weight: 400; }
+
+.economics-strip p { margin: 0; padding: 17px; color: var(--ochre); font-size: 10px; }
+
+.genealogy-workbench {
+  display: grid;
+  min-height: 420px;
+  grid-template-columns: minmax(0, 1fr) 270px;
+}
+
+.genealogy-canvas {
+  overflow: hidden;
+  min-width: 0;
+  border-right: 1px solid var(--hairline);
+  background:
+    linear-gradient(#182019 1px, transparent 1px),
+    linear-gradient(90deg, #182019 1px, transparent 1px),
+    #0b0f0c;
+  background-size: 35px 35px;
+}
+
+.genealogy-canvas svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.genealogy-edge {
+  fill: none;
+  stroke: #2d3830;
+  stroke-width: 1;
+}
+
+.genealogy-edge--critical { stroke: #63362f; stroke-dasharray: 3 4; }
+
+.genealogy-edge--warning { stroke: #6e5a2f; }
+
+.genealogy-edge--nominal { stroke: #45624c; }
+
+.genealogy-node {
+  outline: none;
+  cursor: pointer;
+}
+
+.genealogy-node circle {
+  fill: #111713;
+  stroke: #546057;
+  stroke-width: 1.5;
+}
+
+.genealogy-node text {
+  fill: #79867b;
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.02em;
+}
+
+.genealogy-node--nominal circle { fill: #294332; stroke: var(--celadon); }
+
+.genealogy-node--warning circle { fill: #42381f; stroke: var(--ochre); }
+
+.genealogy-node--critical circle { fill: #3d201b; stroke: var(--vermilion); }
+
+.genealogy-node.is-frontier circle { stroke-width: 3; }
+
+.genealogy-node.is-selected text { fill: var(--limestone); }
+
+.genealogy-node.is-selected circle { filter: drop-shadow(0 0 5px #9bc7a4); }
+
+.node-inspector {
+  padding: 15px;
+  background: #101410;
+}
+
+.node-inspector > span {
+  color: var(--dim);
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+}
+
+.node-inspector h3 {
+  margin: 7px 0 10px;
+  color: var(--limestone);
+  font-size: 15px;
+  font-weight: 500;
+  overflow-wrap: anywhere;
+}
+
+.node-inspector .status-cell { margin-bottom: 8px; }
+
+.node-inspector dl { padding: 4px 0; }
+
+.node-inspector p { margin: 10px 0 0; padding-top: 10px; border-top: 1px solid var(--hairline); color: var(--muted); font-size: 10px; }
+
+@media (max-width: 1120px) {
+.evidence-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas: none;
+  }
+
+.evidence-grid > * {
+    grid-row: auto;
+    grid-column: auto;
+  }
+
+.dossier-metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+.dossier-metrics > div:nth-child(4n) { border-right: 1px solid var(--hairline); }
+
+.dossier-metrics > div:nth-child(2n) { border-right: 0; }
+
+.dossier-metrics > div:nth-child(-n + 6) { border-bottom: 1px solid var(--hairline); }
+
+.economics-strip { grid-template-columns: repeat(3, 1fr); }
+
+.economics-strip p { grid-column: 1 / -1; }
+
+.genealogy-workbench { grid-template-columns: 1fr; }
+
+.genealogy-canvas { min-height: 360px; border-right: 0; border-bottom: 1px solid var(--hairline); }
+}
+
+.dossier-metrics > div {
+  background: linear-gradient(145deg, rgba(118, 240, 166, 0.018), transparent 62%);
+}

@@ -1,0 +1,146 @@
+.constitution-seal {
+  display: grid;
+  grid-template-columns: 92px 1fr minmax(280px, 0.6fr);
+  align-items: center;
+  min-height: 178px;
+  margin-bottom: 12px;
+  padding: 18px;
+  border: 1px solid #74382f;
+  background: #1b100e;
+  clip-path: polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 16px 100%, 0 calc(100% - 16px));
+}
+
+.constitution-seal__mark {
+  position: relative;
+  display: grid;
+  width: 66px;
+  height: 92px;
+  place-items: center;
+  border: 1px solid var(--vermilion);
+  color: var(--vermilion);
+  font-family: var(--mono);
+  font-size: 31px;
+}
+
+.constitution-seal__mark::before,
+.constitution-seal__mark::after,
+.constitution-seal__mark i,
+.constitution-seal__mark b {
+  position: absolute;
+  background: var(--vermilion);
+  content: "";
+}
+
+.constitution-seal__mark::before { top: 11px; right: 11px; left: 11px; height: 1px; }
+
+.constitution-seal__mark::after { right: 11px; bottom: 11px; left: 11px; height: 1px; }
+
+.constitution-seal__mark i { top: 11px; bottom: 11px; left: 11px; width: 1px; }
+
+.constitution-seal__mark b { top: 11px; right: 11px; bottom: 11px; width: 1px; }
+
+.constitution-seal > div:nth-child(2) > span {
+  color: #d9796d;
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.1em;
+}
+
+.constitution-seal h2 {
+  margin: 6px 0;
+  color: #f09c90;
+  font-size: 29px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+}
+
+.constitution-seal p {
+  max-width: 650px;
+  margin: 0;
+  color: #d4aaa4;
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.constitution-seal dl {
+  margin: 0;
+  border: 1px solid #4d2924;
+}
+
+.constitution-seal dl div {
+  display: grid;
+  min-height: 36px;
+  padding: 0 9px;
+  grid-template-columns: 110px 1fr;
+  align-items: center;
+  font-family: var(--mono);
+  font-size: 10px;
+}
+
+.constitution-seal dl div + div { border-top: 1px solid #4d2924; }
+
+.constitution-seal dt { color: #d9796d; }
+
+.constitution-seal dd { overflow: hidden; margin: 0; color: #ffc1b8; text-overflow: ellipsis; white-space: nowrap; }
+
+.constitution-seal--fault {
+  border-color: #ff8173;
+  background: #2a1110;
+  box-shadow: inset 0 0 0 1px #7a312a;
+}
+
+.constitution-seal--fault h2 { color: #ff9a8d; }
+
+.constitution-seal--unverified {
+  border-color: #8c692a;
+  background: #211a0e;
+}
+
+.constitution-seal--unverified h2,
+.constitution-seal--unverified .constitution-seal__mark { color: #efbd58; }
+
+.constitution-seal--unverified .constitution-seal__mark { border-color: #efbd58; }
+
+.constitution-grid {
+  display: grid;
+  grid-template-columns: minmax(380px, 0.85fr) minmax(520px, 1.3fr);
+  gap: 10px;
+}
+
+.law-list {
+  margin: 0;
+  padding: 8px 12px;
+  list-style: none;
+}
+
+.law-list li {
+  display: grid;
+  min-height: 47px;
+  grid-template-columns: 38px 1fr;
+  align-items: center;
+  border-bottom: 1px solid #28231f;
+}
+
+.law-list span {
+  color: var(--vermilion);
+  font-family: var(--mono);
+  font-size: 10px;
+}
+
+.law-list strong {
+  color: #d9aca6;
+  font-size: 10px;
+  letter-spacing: 0.05em;
+}
+
+@media (max-width: 1120px) {
+.constitution-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas: none;
+  }
+
+.constitution-grid > * {
+    grid-row: auto;
+    grid-column: auto;
+  }
+}

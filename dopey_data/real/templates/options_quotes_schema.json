@@ -1,0 +1,46 @@
+{
+  "column_types": {
+    "ask": "number",
+    "ask_size": "integer",
+    "bid": "number",
+    "bid_size": "integer",
+    "contract_symbol": "string",
+    "expiration_date": "date",
+    "last": "number",
+    "open_interest": "integer",
+    "option_type": "string",
+    "source": "string",
+    "strike": "number",
+    "timestamp": "timestamp",
+    "underlying_symbol": "string",
+    "volume": "integer"
+  },
+  "dataset_family": "historical_options_quotes",
+  "live_blocked": true,
+  "not_real_data_ingested": true,
+  "optional_columns": [],
+  "paper_only": true,
+  "primary_key_columns": [
+    "timestamp",
+    "contract_symbol"
+  ],
+  "required_columns": [
+    "timestamp",
+    "underlying_symbol",
+    "contract_symbol",
+    "expiration_date",
+    "strike",
+    "option_type",
+    "bid",
+    "ask",
+    "bid_size",
+    "ask_size",
+    "last",
+    "volume",
+    "open_interest",
+    "source"
+  ],
+  "sample_only_rows_allowed_as_real": false,
+  "schema_id": "schema-historical_options_quotes",
+  "schema_version": "dopey-real-data-schema-contract-v1"
+}

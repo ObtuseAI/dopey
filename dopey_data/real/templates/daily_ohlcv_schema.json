@@ -1,0 +1,41 @@
+{
+  "column_types": {
+    "adjusted_close": "number",
+    "close": "number",
+    "date": "date",
+    "dividend": "number",
+    "high": "number",
+    "low": "number",
+    "open": "number",
+    "source": "string",
+    "split_factor": "number",
+    "symbol": "string",
+    "volume": "integer"
+  },
+  "dataset_family": "daily_ohlcv",
+  "live_blocked": true,
+  "not_real_data_ingested": true,
+  "optional_columns": [
+    "source",
+    "dividend",
+    "split_factor"
+  ],
+  "paper_only": true,
+  "primary_key_columns": [
+    "date",
+    "symbol"
+  ],
+  "required_columns": [
+    "date",
+    "symbol",
+    "open",
+    "high",
+    "low",
+    "close",
+    "adjusted_close",
+    "volume"
+  ],
+  "sample_only_rows_allowed_as_real": false,
+  "schema_id": "schema-daily_ohlcv",
+  "schema_version": "dopey-real-data-schema-contract-v1"
+}

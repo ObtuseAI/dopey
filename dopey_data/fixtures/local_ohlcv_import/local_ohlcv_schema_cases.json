@@ -1,0 +1,203 @@
+{
+  "case_count": 18,
+  "cases": [
+    {
+      "case_hash": "a1fd8ce6a1863f1873d0481e99dd768f63cef99970af171145b7efc66676ee1c",
+      "case_id": "local-free-ohlcv-stack-case-001",
+      "case_name": "valid CSV header",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "1f6d0f087cc271a71f4b66d75136e1d58209abcf901a974837778c3c55a19f64",
+      "case_id": "local-free-ohlcv-stack-case-002",
+      "case_name": "missing required columns",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "95d6a0b5ad0258ac489f8ae9ae14c04b5fb556f20678ee4ada55c9991e57a570",
+      "case_id": "local-free-ohlcv-stack-case-003",
+      "case_name": "malformed row",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "9ecfdac95f322a36d7939c8514df72ed69de29310d38638140fd2cd01babf550",
+      "case_id": "local-free-ohlcv-stack-case-004",
+      "case_name": "extra column recorded",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "7c43d8da33380253ccccd60d1f3c87ae00f5c6ba4c25680dcafc075def480c4d",
+      "case_id": "local-free-ohlcv-stack-case-005",
+      "case_name": "daily OHLCV accepted",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "6aa9b3503f70497f49adbce60f4cb40847c2ecd673f9d6428e827f2e28d02b8b",
+      "case_id": "local-free-ohlcv-stack-case-006",
+      "case_name": "market_context accepted schema",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "e6c8f8506ddab0f0cbec56caa33d8be35d9033cebc4a7b21ea4f85b3fac2e430",
+      "case_id": "local-free-ohlcv-stack-case-007",
+      "case_name": "corporate_actions accepted schema",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "2d45ad62a45b74d9284064d373aa18cd5b6764c7f1308b14410c41fbcab89b70",
+      "case_id": "local-free-ohlcv-stack-case-008",
+      "case_name": "unsupported extension fail",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "e08a772b45325303d7134a836fbfcea85f41b85848fd7db4ba10f01599b453a5",
+      "case_id": "local-free-ohlcv-stack-case-009",
+      "case_name": "missing date fail",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "6c81f5ade1e536832ef2123515462ed20680ac1f2164f457cefd625ad81af5e1",
+      "case_id": "local-free-ohlcv-stack-case-010",
+      "case_name": "missing symbol fail",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "0a5b8ea6ec84b87bc2354ba6d65af200ae8a257954d94f0bbafd372ca5c8f7e8",
+      "case_id": "local-free-ohlcv-stack-case-011",
+      "case_name": "missing open fail",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "dc47dadb481d34938f610bd81e1b4cac343be8360c5fdff665f944715fc54e76",
+      "case_id": "local-free-ohlcv-stack-case-012",
+      "case_name": "missing high fail",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "01c2d42c5b2beae9e49fe1b8c55bfed7794b7ab08fc74d03620f92311ee5a90c",
+      "case_id": "local-free-ohlcv-stack-case-013",
+      "case_name": "missing low fail",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "4b72e49f5729c474add279add10d2b46e824b2eaf686c73eda45dbe26eb6a84a",
+      "case_id": "local-free-ohlcv-stack-case-014",
+      "case_name": "missing close fail",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "e0d2ff50a96b1b4244477137b53eec150bb7deea5e32bb50ff71257cbac7370b",
+      "case_id": "local-free-ohlcv-stack-case-015",
+      "case_name": "adjusted close missing",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "d63d3b1ee933c29a6ca27609097e22da580042cd82bc234e1cd9822a09ef3b3a",
+      "case_id": "local-free-ohlcv-stack-case-016",
+      "case_name": "volume missing",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "1a4ca8deabc51a8dac5c2f339289006d4ca58afa07b9d2e3e5a25794a8e5f09f",
+      "case_id": "local-free-ohlcv-stack-case-017",
+      "case_name": "jsonl schema accepted",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "ff18ad3ee2ad54e9a5e7efe59a90a81103b85b826063ae505203f8e95505469c",
+      "case_id": "local-free-ohlcv-stack-case-018",
+      "case_name": "empty header fail",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    }
+  ]
+}

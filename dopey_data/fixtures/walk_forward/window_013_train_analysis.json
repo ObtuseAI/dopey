@@ -1,0 +1,54 @@
+{
+  "macro": {
+    "regime_tag": "macro_contradiction_pressure",
+    "risk_on_score": 0.5,
+    "volatility_regime_score": 0.45,
+    "event_risk_score": 0.75,
+    "sector_rotation_score": 0.45,
+    "breadth_score": 0.475,
+    "liquidity_regime_score": 0.65,
+    "notes": "macro_contradiction_pressure: deterministic macro placeholder (no real data)"
+  },
+  "microstructure": {
+    "spread_quality_score": 0.8,
+    "liquidity_score": 0.65,
+    "slippage_sensitivity_score": 0.18,
+    "volume_oi_anomaly_score": 0.35,
+    "quote_stability_score": 0.82,
+    "contract_fillability_score": 0.585,
+    "notes": "macro_contradiction_pressure: deterministic microstructure placeholder"
+  },
+  "technical": {
+    "trend_score": 0.5,
+    "momentum_score": 0.475,
+    "realized_volatility_score": 0.35,
+    "breakout_score": 0.3,
+    "fakeout_risk_score": 0.3,
+    "support_resistance_score": 0.6,
+    "volume_confirmation_score": 0.585,
+    "gap_behavior_score": 0.7,
+    "notes": "macro_contradiction_pressure: deterministic technical placeholder"
+  },
+  "fundamental": {
+    "earnings_risk_score": 0.75,
+    "filing_event_score": 0.1,
+    "valuation_context_score": 0.5,
+    "growth_quality_score": 0.45,
+    "analyst_revision_score": 0.425,
+    "sector_peer_score": 0.6,
+    "fundamental_support_score": 0.45,
+    "notes": "macro_contradiction_pressure: deterministic fundamental placeholder"
+  },
+  "patterns": [
+    {
+      "pattern_id": "p-macro_contradiction_pressure-dir",
+      "pattern_type": "neutral_directional",
+      "confidence": 0.5,
+      "directional_bias": "neutral",
+      "volatility_bias": "neutral",
+      "regime_dependency": "macro_contradiction_pressure",
+      "failure_mode": "",
+      "notes": "deterministic placeholder"
+    }
+  ]
+}

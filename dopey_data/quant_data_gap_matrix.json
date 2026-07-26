@@ -1,0 +1,215 @@
+{
+  "artifact_type": "quant_trader_data_gap_matrix",
+  "matrix_version": "dopey-quant-data-gap-matrix-v1",
+  "as_of": "2026-07-19",
+  "scope": "paper research only; no broker, account, credential, paid-feed circumvention, or live execution",
+  "summary": {
+    "category_count": 24,
+    "covered_or_partial_before": 11,
+    "new_automated_source_families": 7,
+    "licensed_or_unresolved_gap_count": 8,
+    "highest_value_gap": "point_in_time_context_and_market_microstructure"
+  },
+  "categories": [
+    {
+      "category": "daily_adjusted_ohlcv",
+      "priority": "critical",
+      "prior_status": "covered",
+      "current_status": "covered",
+      "dopey_surface": "governed public daily OHLCV lake",
+      "remaining_gap": "survivorship-safe delisted history and authoritative corporate-action reconciliation"
+    },
+    {
+      "category": "intraday_trades_and_nbbo_quotes",
+      "priority": "critical",
+      "prior_status": "partial",
+      "current_status": "partial",
+      "dopey_surface": "current underlying/option observations only",
+      "remaining_gap": "licensed consolidated timestamped history; public scraping is not an acceptable substitute"
+    },
+    {
+      "category": "order_book_and_market_microstructure",
+      "priority": "high",
+      "prior_status": "missing",
+      "current_status": "missing_licensed",
+      "dopey_surface": "none",
+      "remaining_gap": "historical depth, cancellations, queue position, auction imbalance, venue routing and odd-lot data"
+    },
+    {
+      "category": "current_options_chains",
+      "priority": "critical",
+      "prior_status": "covered_personal_research",
+      "current_status": "covered_personal_research",
+      "dopey_surface": "operator option-chain snapshots",
+      "remaining_gap": "authoritative consolidated quote provenance and exchange corrections"
+    },
+    {
+      "category": "historical_options_quotes_greeks_and_open_interest",
+      "priority": "critical",
+      "prior_status": "missing",
+      "current_status": "missing_licensed",
+      "dopey_surface": "model-priced research is explicitly separated",
+      "remaining_gap": "point-in-time chains, bid/ask, trade conditions, implied volatility, Greeks, OI revisions and lifecycle events"
+    },
+    {
+      "category": "aggregate_options_positioning",
+      "priority": "high",
+      "prior_status": "partial",
+      "current_status": "automated_supplemental",
+      "dopey_surface": "Cboe total, index, ETP, equity, VIX and SPX put-call ratios",
+      "remaining_gap": "not consolidated customer flow, dealer inventory, gamma, vanna or charm exposure",
+      "source": "https://www.cboe.com/markets/us/options/market-statistics/daily"
+    },
+    {
+      "category": "cross_asset_prices_and_volatility",
+      "priority": "high",
+      "prior_status": "covered",
+      "current_status": "covered",
+      "dopey_surface": "futures, commodities, crypto, FX, Treasury and volatility proxies",
+      "remaining_gap": "institutional futures curves, roll-adjusted histories and venue-level volume/open interest"
+    },
+    {
+      "category": "rates_credit_liquidity_and_financial_conditions",
+      "priority": "critical",
+      "prior_status": "partial",
+      "current_status": "expanded_automated",
+      "dopey_surface": "23 FRED regime series with immutable prospective snapshots",
+      "remaining_gap": "historical release vintages require ALFRED credentials; latest history may contain revisions",
+      "source": "https://fred.stlouisfed.org/graph/fredgraph.csv"
+    },
+    {
+      "category": "labor_inflation_and_real_economy",
+      "priority": "critical",
+      "prior_status": "missing_direct_source",
+      "current_status": "automated",
+      "dopey_surface": "eight BLS CPI, payroll, earnings, unemployment, participation, JOLTS and PPI series",
+      "remaining_gap": "release-calendar surprise values and reconstructed historical vintages",
+      "source": "https://api.bls.gov/publicAPI/v2/timeseries/data/"
+    },
+    {
+      "category": "fiscal_stock_and_treasury_supply_context",
+      "priority": "high",
+      "prior_status": "partial",
+      "current_status": "expanded_automated",
+      "dopey_surface": "Debt to the Penny daily public, intragovernmental and total debt",
+      "remaining_gap": "auction allotments, refunding composition, daily operating cash flows and maturity wall features",
+      "source": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v2/accounting/od/debt_to_penny"
+    },
+    {
+      "category": "futures_positioning",
+      "priority": "critical",
+      "prior_status": "es_only",
+      "current_status": "expanded_automated",
+      "dopey_surface": "17 CFTC equity, volatility, rates, FX, energy, metals and crypto groups",
+      "remaining_gap": "COT is weekly, thresholded reportable positioning rather than complete market ownership",
+      "source": "https://publicreporting.cftc.gov/resource/6dca-aqww.json"
+    },
+    {
+      "category": "daily_short_sale_volume",
+      "priority": "medium",
+      "prior_status": "covered",
+      "current_status": "covered_with_semantic_guard",
+      "dopey_surface": "FINRA consolidated off-exchange daily short-sale volume",
+      "remaining_gap": "not exchange-consolidated and not short interest; must not be labeled as a position",
+      "source": "https://www.finra.org/finra-data/browse-catalog/short-sale-volume"
+    },
+    {
+      "category": "short_interest_and_securities_lending",
+      "priority": "high",
+      "prior_status": "missing",
+      "current_status": "missing_mixed_public_and_licensed",
+      "dopey_surface": "none",
+      "remaining_gap": "bi-monthly official short interest plus daily borrow fee, availability and utilization from licensed lending feeds"
+    },
+    {
+      "category": "fails_to_deliver",
+      "priority": "medium",
+      "prior_status": "missing",
+      "current_status": "automated_supplemental_source_block_visible",
+      "dopey_surface": "latest two SEC archive halves filtered to the active universe",
+      "remaining_gap": "SEC network rate-threshold blocks are preserved explicitly; FTD is not naked-short evidence",
+      "source": "https://www.sec.gov/data-research/sec-markets-data/fails-deliver-data"
+    },
+    {
+      "category": "corporate_filing_events",
+      "priority": "critical",
+      "prior_status": "stub_only",
+      "current_status": "automated_supplemental_source_block_visible",
+      "dopey_surface": "SEC submissions metadata for governed active symbols and material forms",
+      "remaining_gap": "current SEC rate-threshold block and normalized filing-text/XBRL feature extraction",
+      "source": "https://data.sec.gov/submissions/"
+    },
+    {
+      "category": "point_in_time_fundamentals",
+      "priority": "critical",
+      "prior_status": "partial_provider_snapshot",
+      "current_status": "partial_provider_snapshot",
+      "dopey_surface": "accruing Yahoo Finance valuation/quality snapshots",
+      "remaining_gap": "issuer-reported standardized SEC XBRL facts, restatements, fiscal-period alignment and filing-time availability"
+    },
+    {
+      "category": "earnings_calendar_and_corporate_events",
+      "priority": "high",
+      "prior_status": "partial",
+      "current_status": "partial",
+      "dopey_surface": "earnings calendar plus new SEC event metadata when reachable",
+      "remaining_gap": "authoritative guidance, dividends, splits, buybacks, M&A, index changes and exchange notices"
+    },
+    {
+      "category": "news_regulatory_and_geopolitical_events",
+      "priority": "high",
+      "prior_status": "covered_with_supplemental_failures",
+      "current_status": "covered_with_supplemental_failures",
+      "dopey_surface": "official Federal Reserve, SEC, CFTC, EIA, Treasury and GDELT metadata",
+      "remaining_gap": "licensed low-latency full text, entity linking and global primary-source breadth; GDELT 429 remains explicit"
+    },
+    {
+      "category": "analyst_estimates_transcripts_and_guidance",
+      "priority": "high",
+      "prior_status": "missing",
+      "current_status": "missing_licensed",
+      "dopey_surface": "none",
+      "remaining_gap": "point-in-time consensus revisions, transcript rights and guidance normalization"
+    },
+    {
+      "category": "institutional_holdings_and_fund_flows",
+      "priority": "medium",
+      "prior_status": "missing",
+      "current_status": "missing_public_pipeline",
+      "dopey_surface": "none",
+      "remaining_gap": "13F, N-PORT, ETF creations/redemptions and holdings point-in-time normalization"
+    },
+    {
+      "category": "alternative_attention_data",
+      "priority": "medium",
+      "prior_status": "partial",
+      "current_status": "partial",
+      "dopey_surface": "Wikimedia pageviews and public news metadata",
+      "remaining_gap": "search trends, social firehose, web traffic and app usage with stable rights and bot-resistant provenance"
+    },
+    {
+      "category": "transaction_satellite_and_supply_chain_alternative_data",
+      "priority": "low_until_licensed",
+      "prior_status": "missing",
+      "current_status": "missing_licensed",
+      "dopey_surface": "none",
+      "remaining_gap": "card transactions, geolocation, satellite imagery, shipping and supplier telemetry"
+    },
+    {
+      "category": "crypto_on_chain_and_derivatives_microstructure",
+      "priority": "medium",
+      "prior_status": "price_only",
+      "current_status": "price_and_cftc_positioning",
+      "dopey_surface": "spot proxy history plus CME Bitcoin/Ether COT groups",
+      "remaining_gap": "on-chain flows, exchange reserves, funding, basis, liquidations and venue-quality normalization"
+    },
+    {
+      "category": "data_quality_and_point_in_time_lineage",
+      "priority": "critical",
+      "prior_status": "strong_partial",
+      "current_status": "expanded",
+      "dopey_surface": "source URLs, immutable timestamped snapshots, hashes, row counts, freshness and exact failures",
+      "remaining_gap": "licensed release-vintage archives and cross-provider correction reconciliation"
+    }
+  ]
+}

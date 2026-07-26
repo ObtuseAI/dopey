@@ -1,0 +1,11 @@
+# DOPEY paper profile — paper broker only. Simulated fills allowed; no funded account.
+mode: PAPER
+live_trading_enabled: false
+funded_broker_connections_enabled: false
+allow_unofficial_robinhood_api: false
+robinhood_mcp_discovery_enabled: true
+paper_trading_enabled: true
+default_structure_policy: defined_risk_first
+max_first_pass_order_mode: paper
+max_position_fraction: 0.05
+# Paper broker only; simulated fills; never touches a funded account.

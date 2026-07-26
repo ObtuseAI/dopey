@@ -1,0 +1,15 @@
+{
+  "fixture_version": "dopey-account-ledger-cases-v1",
+  "paper_only": true,
+  "live_blocked": true,
+  "cases": [
+    {"case_id": "open_long_call_today_close_today_rejected", "open_date": "2026-07-03", "close_date": "2026-07-03", "structure": "long_call", "expected": "same_day_round_trip_rejected"},
+    {"case_id": "open_long_put_today_close_today_rejected", "open_date": "2026-07-03", "close_date": "2026-07-03", "structure": "long_put", "expected": "same_day_round_trip_rejected"},
+    {"case_id": "open_long_call_yesterday_close_today_allowed", "open_date": "2026-07-02", "close_date": "2026-07-03", "structure": "long_call", "expected": "close_allowed"},
+    {"case_id": "open_long_put_yesterday_close_today_allowed", "open_date": "2026-07-02", "close_date": "2026-07-03", "structure": "long_put", "expected": "close_allowed"},
+    {"case_id": "sell_to_open_rejected", "order_action": "sell_to_open", "expected": "sell_to_open_rejected"},
+    {"case_id": "unsupported_spread_rejected", "structure": "vertical", "expected": "unsupported_multileg_structure_rejected"},
+    {"case_id": "close_without_open_rejected", "order_action": "sell_to_close", "expected": "close_without_open_position_rejected"},
+    {"case_id": "ledger_hash_deterministic", "expected": "stable_reproducibility_hash"}
+  ]
+}

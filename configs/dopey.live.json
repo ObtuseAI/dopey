@@ -1,0 +1,14 @@
+{
+  "schema_version": "dopey-live-branch-control-v1",
+  "mode": "LIVE",
+  "account_label": "agentic",
+  "official_mcp_endpoint": "https://agent.robinhood.com/mcp/trading",
+  "live_branch_enabled": true,
+  "stock_execution_enabled": true,
+  "options_execution_enabled": false,
+  "paper_twin_required": true,
+  "no_day_trading_enforced": true,
+  "use_full_available_balance": true,
+  "unofficial_broker_api_allowed": false,
+  "owner_authorization_id": "owner-confirmation-2026-07-19-live-branch"
+}

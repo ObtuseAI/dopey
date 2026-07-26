@@ -1,0 +1,3 @@
+# DOPEY_PUBLIC_SIGNAL_RESEARCH_BREAKTHROUGH_V2_ARTIFACT_LEDGER
+
+Artifacts under artifacts/dopey/signal_research_v2/

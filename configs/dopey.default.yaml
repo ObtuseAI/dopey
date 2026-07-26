@@ -1,0 +1,13 @@
+# DOPEY default configuration — RESEARCH-ONLY. Live trading blocked by default.
+# This is the source of truth for the default safety state. Do NOT weaken these defaults.
+mode: RESEARCH
+live_trading_enabled: false
+funded_broker_connections_enabled: false
+allow_unofficial_robinhood_api: false
+robinhood_mcp_discovery_enabled: false
+paper_trading_enabled: true
+default_structure_policy: defined_risk_first
+max_first_pass_order_mode: none
+min_proof_strength: 0.6
+min_oos_edge: 0.05
+max_position_fraction: 0.05

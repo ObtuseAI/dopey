@@ -1,0 +1,485 @@
+{
+  "case_count": 20,
+  "cases": [
+    {
+      "case_hash": "ae62ba9ae4b5f30ca54494d52de40b8b267a3dece2146ac5fd51ea133de0a658",
+      "case_id": "provider-001",
+      "case_type": "provider_candidate",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "provider_name": "Polygon"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "95f48f764e1eff8d7dbf59f1c91b950895cb397c1eef385fd73ccd9fcbe6652b",
+      "case_id": "provider-002",
+      "case_type": "provider_candidate",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "provider_name": "Cboe DataShop"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "db73d0bcddb0a13c808e5c446d8bb8c3ee9e0965390bc13f7cc6fdd6902c7250",
+      "case_id": "provider-003",
+      "case_type": "provider_candidate",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "provider_name": "ORATS"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "f38e0ecdd176e1c793f9eba897112a486d3be827a212571161e730cc0fd7a89a",
+      "case_id": "provider-004",
+      "case_type": "provider_candidate",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "provider_name": "OptionMetrics"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "1ddee1cadbc352eb2f3d5380e80c244587784f952ee8c5e322986cd8bd7883b1",
+      "case_id": "provider-005",
+      "case_type": "provider_candidate",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "provider_name": "Nasdaq Data Link"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "65c22217363d900d15431603f9b1fe9820143ba94fb0b72debfd2472e157d6eb",
+      "case_id": "provider-006",
+      "case_type": "provider_candidate",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "provider_name": "Alpha Vantage"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "4253fc096ad8c9411c2f33a2cee044d601ae4d9e7269f4687316a72a0598cfc7",
+      "case_id": "provider-007",
+      "case_type": "provider_candidate",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "provider_name": "Tiingo"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "4af142577ec1c37550c468cbc7b32e38ece2407b5a4a2d364c17a4355c9912cc",
+      "case_id": "provider-008",
+      "case_type": "provider_candidate",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "provider_name": "Stooq"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "8345ff5ec80f4dd0773d20d214047c6f00db7c31243059125d7fb16c0106745f",
+      "case_id": "provider-009",
+      "case_type": "provider_candidate",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "provider_name": "Yahoo Finance manual download"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "d11039086e1708d470bea8dfe27d36124db2cd3fc814cb6b59324d94da45e665",
+      "case_id": "provider-010",
+      "case_type": "provider_candidate",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "provider_name": "SEC EDGAR"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "1fc84675c81ffffcfb646c59a25871b0c0184e6a39266597eb8f1c9c7ed0c49d",
+      "case_id": "provider-011",
+      "case_type": "provider_candidate",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "provider_name": "FRED"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "53cb79ac241246afa330ab0cf9f4f967f93b83e81dfeb03e72424ce0e9b2336f",
+      "case_id": "provider-012",
+      "case_type": "provider_candidate",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "provider_name": "credential-required-manual-review"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "02dde7496231600eac8fa1b6ac1110d1f2f7e393ac95d97df04ae14eec47f81f",
+      "case_id": "provider-013",
+      "case_type": "provider_candidate",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "provider_name": "license-review-required"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "b14ae22660575475075b661170fad481bd311a7c2ec608f2accf9daca98049bc",
+      "case_id": "provider-014",
+      "case_type": "provider_candidate",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "provider_name": "candidate-only-not-integrated"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "3b151fcf913dfa5320a35cf17f3658935476fe07e71b9d917d0321d651650248",
+      "case_id": "provider-015",
+      "case_type": "provider_candidate",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "provider_name": "manual-offline-export-only"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "a83ebca9806a805c742ddac36c178c6e43b726e09ac3cb13f78b80bf9eb70aed",
+      "case_id": "provider-016",
+      "case_type": "provider_candidate",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "provider_name": "rejected-unlicensed"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "d832d00f92cfb0080d9f3d0ee5c8c61939056cb8556e448105737d287ec2e553",
+      "case_id": "provider-017",
+      "case_type": "provider_candidate",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "provider_name": "redistribution-restricted"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "aa071e2e55ae75697daf117c294809d346645dd7f1bfa81e8f6a318eb0620dbc",
+      "case_id": "provider-018",
+      "case_type": "provider_candidate",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "provider_name": "options-data-available"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "018ca517cb60446a81e412647889c636f00bce869cd0fc73a38302e8b618afe3",
+      "case_id": "provider-019",
+      "case_type": "provider_candidate",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "provider_name": "corporate-actions-available"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "c5cfa0cdf044c4ba4f1e0adf7ec66dfff6eaabbe7cc37e98fb3261dfd8281474",
+      "case_id": "provider-020",
+      "case_type": "provider_candidate",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "provider_name": "fundamentals-available"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    }
+  ]
+}

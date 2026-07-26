@@ -1,0 +1,9 @@
+.organism-view-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.organism-view-grid__hypotheses {
+  grid-column: 1 / -1;
+}

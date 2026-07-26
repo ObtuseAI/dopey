@@ -1,0 +1,12 @@
+{
+  "fixture_version": "dopey-zero-dte-account-cases-v1",
+  "paper_only": true,
+  "live_blocked": true,
+  "cases": [
+    {"case_id": "zero_dte_missing_liquidity_rejected", "liquidity_approved": false, "risk_cap_approved": true, "expected": "zero_dte_policy_violation_missing_liquidity_approval"},
+    {"case_id": "zero_dte_missing_risk_cap_rejected", "liquidity_approved": true, "risk_cap_approved": false, "expected": "zero_dte_policy_violation_missing_risk_cap"},
+    {"case_id": "zero_dte_special_close_missing_reason_rejected", "liquidity_approved": true, "risk_cap_approved": true, "reason_code": "", "expected": "zero_dte_special_close_requires_explicit_reason_code"},
+    {"case_id": "zero_dte_special_close_with_all_approvals_allowed", "liquidity_approved": true, "risk_cap_approved": true, "reason_code": "expiry_window", "expected": "zero_dte_expiry_managed_not_normal_day_trade"},
+    {"case_id": "zero_dte_expiry_managed_state_written", "expected": "zero_dte_expiry_managed"}
+  ]
+}

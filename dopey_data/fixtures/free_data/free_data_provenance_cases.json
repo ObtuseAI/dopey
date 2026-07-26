@@ -1,0 +1,181 @@
+{
+  "case_count": 16,
+  "cases": [
+    {
+      "case_hash": "f5746d033e2a3b70488b92289ba208c24c15f1487781a944978f629b0c74c681",
+      "case_id": "local-free-ohlcv-stack-case-001",
+      "case_name": "free data candidate manual review",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "7272c478a8a4e8ff9ca632da3f7a216384619b1fb59ff486934a7cd0d98d81cd",
+      "case_id": "local-free-ohlcv-stack-case-002",
+      "case_name": "free data candidate evidence blocked",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "270025a811cbd42f945f81a209b2cbfc9ab99f58463b4ed8603f208809a653e2",
+      "case_id": "local-free-ohlcv-stack-case-003",
+      "case_name": "free data candidate evidence allowed after provenance",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "4ff74de1ba6af92f694bb3bf0ce6291629aeaaf4c5c88de886756e099c6e6d98",
+      "case_id": "local-free-ohlcv-stack-case-004",
+      "case_name": "no Alpha Vantage candidate",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "f30d66408ae9256dd4d3739348011796db35b9a0e8c4dbf28f30a58f259d467f",
+      "case_id": "local-free-ohlcv-stack-case-005",
+      "case_name": "manual exchange export",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "31ab7afbeb417720c4b30f2751b5d494fa1161bcd60941f9cde74242f8889c0e",
+      "case_id": "local-free-ohlcv-stack-case-006",
+      "case_name": "SEC EDGAR candidate",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "5e46599e52e3184d79c72f3966d76eee47c954a6c497cbdae240f179667a8a75",
+      "case_id": "local-free-ohlcv-stack-case-007",
+      "case_name": "FRED candidate",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "a25b2aa4dfcc32a0fdac1a9f7a488e21042234afa07f57d1fdb91fb5dea3db47",
+      "case_id": "local-free-ohlcv-stack-case-008",
+      "case_name": "Stooq-style candidate",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "6ba6a3fd65775e35a8ac1fdd30a8c25c762a6e9202180bea53974dbce06120af",
+      "case_id": "local-free-ohlcv-stack-case-009",
+      "case_name": "Yahoo manual candidate",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "8b1f47f1d8c0f560b471556f033b9876642654f728fb92ff9770ae8a1dcc3520",
+      "case_id": "local-free-ohlcv-stack-case-010",
+      "case_name": "Nasdaq public file candidate",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "4a7fc385fe7e8e6ce9cc06291dd4c0248da06746f1cee75fa66ee7ce21e9f7f7",
+      "case_id": "local-free-ohlcv-stack-case-011",
+      "case_name": "CBOE reference candidate",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "03f79e97dbf9ddc5474185f86bff2b6dd512553038b640c9d77cf32f014c762e",
+      "case_id": "local-free-ohlcv-stack-case-012",
+      "case_name": "GitHub license review required",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "30225bcc86e76519c0cea5de7cc8fb612c5afc356335164473f4862245a3296a",
+      "case_id": "local-free-ohlcv-stack-case-013",
+      "case_name": "no network fetch",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "f48e09ee09d5910efb9c2687043a317c43748e1b636dc91ebdd009dab2d80598",
+      "case_id": "local-free-ohlcv-stack-case-014",
+      "case_name": "no credentials",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "ca3a9d43cc3c528991bbede2a178c6cfa45db6c22d6ee2562f824ac1ddf3f66c",
+      "case_id": "local-free-ohlcv-stack-case-015",
+      "case_name": "operator must stage files",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "71fa90514ddc669689451720a998d0d65dbae1d5f356e142bee66a18c9a38b1f",
+      "case_id": "local-free-ohlcv-stack-case-016",
+      "case_name": "terms review required",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    }
+  ]
+}

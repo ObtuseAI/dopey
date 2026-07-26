@@ -1,0 +1,22 @@
+{
+  "approval_record": "REQUIRED_BEFORE_ANY_IMPORT",
+  "candidate_id": "REQUIRED",
+  "credentials_created": false,
+  "dependency_installed_by_dopey": false,
+  "env_created": false,
+  "external_code_executed": false,
+  "external_code_imported": false,
+  "import_mode": "reference_only",
+  "license_name": "REQUIRED",
+  "license_review_status": "manual_review_required",
+  "live_blocked": true,
+  "manifest_id": "OPERATOR_FILLED_OSS_IMPORT_MANIFEST",
+  "network_fetch_performed": false,
+  "oss_stack_version": "dopey-open-source-quant-stack-and-free-data-path-v1",
+  "paper_only": true,
+  "repo_cloned_by_dopey": false,
+  "security_review_status": "manual_review_required",
+  "source_commit_or_release": "REQUIRED_IF_APPROVED",
+  "source_repo_name": "REQUIRED",
+  "source_repo_url": "REQUIRED"
+}

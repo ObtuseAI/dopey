@@ -1,0 +1,25 @@
+{
+  "$schema": "blunder/minimal-subset",
+  "title": "Blunder Work Packet",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "task_id", "title", "objective", "task_type", "risk_level",
+    "allowed_actions", "forbidden_actions", "inputs", "expected_outputs",
+    "validation_targets", "rollback_plan", "human_gate_required"
+  ],
+  "properties": {
+    "task_id": { "type": "string", "minLength": 1 },
+    "title": { "type": "string", "minLength": 1 },
+    "objective": { "type": "string" },
+    "task_type": { "type": "string", "enum": ["planning_only", "code_file", "benchmark", "validation", "self_improvement", "risky_irreversible"] },
+    "risk_level": { "type": "string", "enum": ["low", "medium", "high", "irreversible"] },
+    "allowed_actions": { "type": "array", "items": { "type": "string" } },
+    "forbidden_actions": { "type": "array", "items": { "type": "string" } },
+    "inputs": { "type": "object" },
+    "expected_outputs": { "type": "array", "items": { "type": "string" } },
+    "validation_targets": { "type": "array", "items": { "type": "string" } },
+    "rollback_plan": { "type": "string" },
+    "human_gate_required": { "type": "boolean" }
+  }
+}

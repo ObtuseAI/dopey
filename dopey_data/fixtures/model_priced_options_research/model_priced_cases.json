@@ -1,0 +1,756 @@
+{
+  "artifact_type": "model_priced_cases",
+  "case_count": 75,
+  "cases": [
+    {
+      "case_hash": "c2b700794e882ec0f40ab1d615c257c5270301d44e56ceb72e00b8ad8080aeac",
+      "case_id": "open-data-breakthrough-fixture-000",
+      "case_name": "model-priced fallback no options",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ae2670adc005222c241276356f40f3663dba7b6697a331feda8c4b3fe8802424",
+      "case_id": "open-data-breakthrough-fixture-001",
+      "case_name": "model-priced scenario grid",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "24b475dbd8850ff5faf8a9feb472256b958cdf2d74f4aea6744ffb53ae75aa00",
+      "case_id": "open-data-breakthrough-fixture-002",
+      "case_name": "model-priced stress pass",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "6cf4eccae5fdef32c34d551d3b8cb4425643c696470fa60a87e83040941befc4",
+      "case_id": "open-data-breakthrough-fixture-003",
+      "case_name": "no quote evidence claim",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "4c3cf2cf46f5af8f8da8bdc009b9321658991513ae9ea11b2244a3574f63cfd6",
+      "case_id": "open-data-breakthrough-fixture-004",
+      "case_name": "no profitability claim",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ec8e16e8562c377c83b6c04f4c3704a41dcd8f7395486681c96e905779fb8732",
+      "case_id": "open-data-breakthrough-fixture-005",
+      "case_name": "no live readiness claim",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "68ea40cd751184909b22ccc7d0cf59423c3d941262e48285db3632deacd644de",
+      "case_id": "open-data-breakthrough-fixture-006",
+      "case_name": "delta bucket selection",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "4289f67bf5d2cdca2c5555c259884abb7aed4806be06d7a49267c30be57a8dd0",
+      "case_id": "open-data-breakthrough-fixture-007",
+      "case_name": "theta decay stress",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e0b612c35b9615e2a34fd257633e3a5ef324eb30a2c323cf8a21b1dca2321baa",
+      "case_id": "open-data-breakthrough-fixture-008",
+      "case_name": "IV expansion stress",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a438cd8e37d0326cf80084978aa5b79a366d1deea271dd6c27bb7d9059f00c39",
+      "case_id": "open-data-breakthrough-fixture-009",
+      "case_name": "IV compression stress",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "026c793fc0b8f6d064acfe47a0e9e9b08f1c3c373f84ea38e1c61816b5af4e64",
+      "case_id": "open-data-breakthrough-fixture-010",
+      "case_name": "event exclusion",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b70b9fb28150ab9d305af10099f0adc367e6fca4982b908f641a6d71050ff84a",
+      "case_id": "open-data-breakthrough-fixture-011",
+      "case_name": "volatility regime filter",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a3d8e313c8da45cfd185943563cff1cf1c7323fd189f364d9900382385a32075",
+      "case_id": "open-data-breakthrough-fixture-012",
+      "case_name": "market regime filter",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c65a18cff06744667112c4b7e4273bd0a1a24dc36610cc4e4ead1d3480c9f924",
+      "case_id": "open-data-breakthrough-fixture-013",
+      "case_name": "liquidity proxy",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c2189029c737d067e32008413278df1bb09c3d694c5bad2325108c6d1aafddda",
+      "case_id": "open-data-breakthrough-fixture-014",
+      "case_name": "0DTE research guard",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "43a78afb255b3bea6b6b83300f60be43e11ad48d459e69f4f14499e4e987b814",
+      "case_id": "open-data-breakthrough-fixture-015",
+      "case_name": "model-priced fallback no options repeat 015",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "30d7ec1a3781ba48a3260ddd633b7060861a67413570cd03696c0a54296175be",
+      "case_id": "open-data-breakthrough-fixture-016",
+      "case_name": "model-priced scenario grid repeat 016",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7c658da59f1e04f68b4a1c57efa26ca4045b2fd3536b078d2244fea4a6b90a98",
+      "case_id": "open-data-breakthrough-fixture-017",
+      "case_name": "model-priced stress pass repeat 017",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "de21c9234bbd50b17f7cce4745f887db13daa540f7609a9b803e5312b3113562",
+      "case_id": "open-data-breakthrough-fixture-018",
+      "case_name": "no quote evidence claim repeat 018",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "14d278fe0bda3278df701efbde6d51c9d9369a7c859700661ff0895bf3ee1c4e",
+      "case_id": "open-data-breakthrough-fixture-019",
+      "case_name": "no profitability claim repeat 019",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a4310ff88658cab1f386b14e6b26fc98f34d90e3f667e617c467dfe321ebf3d0",
+      "case_id": "open-data-breakthrough-fixture-020",
+      "case_name": "no live readiness claim repeat 020",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e8c2eb5e902371952755b8a62ba5d5701ebda3e1d4fa7fedc68ee2ff255ec22a",
+      "case_id": "open-data-breakthrough-fixture-021",
+      "case_name": "delta bucket selection repeat 021",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "4cc621933e27e3a67b803552b6ab212fbbbc79900dc373950624b8cc67a3123c",
+      "case_id": "open-data-breakthrough-fixture-022",
+      "case_name": "theta decay stress repeat 022",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "0060f0d086f8ea126f6fe572da2a540902f79efbaf4de4780f2891e16c0f73b8",
+      "case_id": "open-data-breakthrough-fixture-023",
+      "case_name": "IV expansion stress repeat 023",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "938df0027a60acd7224b0dd095ca375f3d8b9731d6d741d53533f32ec3be84c4",
+      "case_id": "open-data-breakthrough-fixture-024",
+      "case_name": "IV compression stress repeat 024",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "5b732fcb807c723fe27ce725c482613a60b6afc3011917f18b39f84c2bd03039",
+      "case_id": "open-data-breakthrough-fixture-025",
+      "case_name": "event exclusion repeat 025",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "dd7f9997ebb965105667647d186df417f09ff49d1c5b755116008a1734ed7b11",
+      "case_id": "open-data-breakthrough-fixture-026",
+      "case_name": "volatility regime filter repeat 026",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "4d249fd6b4dd823316c902c1db412854980c0f82d7291a49272ef276bcd5327c",
+      "case_id": "open-data-breakthrough-fixture-027",
+      "case_name": "market regime filter repeat 027",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2e688e862d48e57e0c36fbfa384ad56fea22a13a6aff434667315c342a96790d",
+      "case_id": "open-data-breakthrough-fixture-028",
+      "case_name": "liquidity proxy repeat 028",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "0e81bfcd39fc5e127f6b68a9e90119083f90be98295ef346a2ca643085b5dc07",
+      "case_id": "open-data-breakthrough-fixture-029",
+      "case_name": "0DTE research guard repeat 029",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "9db204beb9358ec5a43b2c6f5d45eed5be0fe9b5c02d932472de840247da014a",
+      "case_id": "open-data-breakthrough-fixture-030",
+      "case_name": "model-priced fallback no options repeat 030",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "82c1f95fa3450de947228d7231e274bb934f8666d2da3e1b61eec9436827c48e",
+      "case_id": "open-data-breakthrough-fixture-031",
+      "case_name": "model-priced scenario grid repeat 031",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "6d3e424098ab3443e89c9feeb786e36d429d752dd4c06d5814e4cfb71832995e",
+      "case_id": "open-data-breakthrough-fixture-032",
+      "case_name": "model-priced stress pass repeat 032",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c039cc4e9517ba625ebe24fffdcaf8d883628398bed3eadb32ed0c7af3ea82c1",
+      "case_id": "open-data-breakthrough-fixture-033",
+      "case_name": "no quote evidence claim repeat 033",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "52661752a7f193dc7469fc72ca040645dca397896ccfdbaf1c168d06b4001be8",
+      "case_id": "open-data-breakthrough-fixture-034",
+      "case_name": "no profitability claim repeat 034",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "3fd1de6e3f4ba3ce85a532cec13a6e77b7e5a61dd7e2c0a05f4289409c0038bf",
+      "case_id": "open-data-breakthrough-fixture-035",
+      "case_name": "no live readiness claim repeat 035",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "6b9f585b064053c895bfba69d9399296c00756de9a575ed3b8f83c5729fdcd86",
+      "case_id": "open-data-breakthrough-fixture-036",
+      "case_name": "delta bucket selection repeat 036",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1d9148beec465a4430d2740c5b2acba844109c0c6e6ce6f2dc7bc7b9027f46d3",
+      "case_id": "open-data-breakthrough-fixture-037",
+      "case_name": "theta decay stress repeat 037",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b13b293ec45f4c9852cd03986f22373f0de15fcb3431db1de01254ddda48a758",
+      "case_id": "open-data-breakthrough-fixture-038",
+      "case_name": "IV expansion stress repeat 038",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "3b587701af0338fc9e8c93782224e64f6037f8cb0a710040b26c7e1700e36a13",
+      "case_id": "open-data-breakthrough-fixture-039",
+      "case_name": "IV compression stress repeat 039",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "69cf732a6ccaf9e518f6370544e340dce67d8935d74b769bce13e8a3116fa431",
+      "case_id": "open-data-breakthrough-fixture-040",
+      "case_name": "event exclusion repeat 040",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "4d063031da9e5f89f1cd58ea1d690dfe51159c91811d9d443a69142c9e18c91b",
+      "case_id": "open-data-breakthrough-fixture-041",
+      "case_name": "volatility regime filter repeat 041",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e912d82aa290d5ec7377f0f560f433cd40ce3bffccf3df9f51b57aeb4e558fec",
+      "case_id": "open-data-breakthrough-fixture-042",
+      "case_name": "market regime filter repeat 042",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "8948058ea876c2e6cbadc33fc39420dcdc0083d1842db90c50f6b75b57c2ab99",
+      "case_id": "open-data-breakthrough-fixture-043",
+      "case_name": "liquidity proxy repeat 043",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2d8bbe9f117e13310fe197281b191c17d2cb8d61b49ddb0d913934765c93e8cc",
+      "case_id": "open-data-breakthrough-fixture-044",
+      "case_name": "0DTE research guard repeat 044",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e030de488aea9084abe9f44e1d3d18df8c739a728ac5d190046d258855a2d832",
+      "case_id": "open-data-breakthrough-fixture-045",
+      "case_name": "model-priced fallback no options repeat 045",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "9ad069fd5a73e42c1dd85a9a6458069ac552917e090d55c055f53fd86961eefe",
+      "case_id": "open-data-breakthrough-fixture-046",
+      "case_name": "model-priced scenario grid repeat 046",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "378f5a8e4cb39e83602cf765db0eb0f7a09d11f3b8901b97ead327d090e403b8",
+      "case_id": "open-data-breakthrough-fixture-047",
+      "case_name": "model-priced stress pass repeat 047",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "13354293f864944d0bccd0b886d2ddca0b1a157aff25328b2479d686e90efca9",
+      "case_id": "open-data-breakthrough-fixture-048",
+      "case_name": "no quote evidence claim repeat 048",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c3d1f7a38d02cafa03ac7ddd879db5e1e43ecd7a5035ca0c01abd99f3b8e4e13",
+      "case_id": "open-data-breakthrough-fixture-049",
+      "case_name": "no profitability claim repeat 049",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "15742bb2312f2fd3f67a85251ad076a8be026e7ff395f9c086b2491c193df33d",
+      "case_id": "open-data-breakthrough-fixture-050",
+      "case_name": "no live readiness claim repeat 050",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "5fd33034469ad441c595b280f71aa2d3cd685d1a078ae6a24c83fd2274c37c26",
+      "case_id": "open-data-breakthrough-fixture-051",
+      "case_name": "delta bucket selection repeat 051",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d7a57a16db09addf5da2af332a6c40482850d5076ee84df4bc276a5481a71289",
+      "case_id": "open-data-breakthrough-fixture-052",
+      "case_name": "theta decay stress repeat 052",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d6afbc3d032530f4212253aa2d0a834c53296648aef225ce0abcdd42430d6381",
+      "case_id": "open-data-breakthrough-fixture-053",
+      "case_name": "IV expansion stress repeat 053",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7a02cee4611e96b2d553f7d4b5eecb315b0074870155ddab9dad991fe0628642",
+      "case_id": "open-data-breakthrough-fixture-054",
+      "case_name": "IV compression stress repeat 054",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1617f2ca91baf3aad0776d088864d81d6a76a6e3efe4f5df9ded37924d73292f",
+      "case_id": "open-data-breakthrough-fixture-055",
+      "case_name": "event exclusion repeat 055",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "90e69e8bd36a8d0868052846aa7b698df79a81bcf2ffd18f88c9fd2a3c170f22",
+      "case_id": "open-data-breakthrough-fixture-056",
+      "case_name": "volatility regime filter repeat 056",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "371772cfc49a3f0aa2c534e18b52e57df967ac2bb7f5f7319e7883b3f81b2628",
+      "case_id": "open-data-breakthrough-fixture-057",
+      "case_name": "market regime filter repeat 057",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "5a973b3711ff30d59a468b4e4bbb0b6e023b8e72e4b9c378bd64ab7851dcbc48",
+      "case_id": "open-data-breakthrough-fixture-058",
+      "case_name": "liquidity proxy repeat 058",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "94cb176fca4d6c96e342de666675eb25a8095c6efa444ef6164e64671ecfc299",
+      "case_id": "open-data-breakthrough-fixture-059",
+      "case_name": "0DTE research guard repeat 059",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "09a74924d61cf0b2c8503f5836220f6cfd137a5ab0908adcaa1bbabf3f9efb12",
+      "case_id": "open-data-breakthrough-fixture-060",
+      "case_name": "model-priced fallback no options repeat 060",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "52d57b0ba14465905774d9911a944f9d091cc38f2922dff8fa6c79a59ee3a480",
+      "case_id": "open-data-breakthrough-fixture-061",
+      "case_name": "model-priced scenario grid repeat 061",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "56b57602a7221e8295705d84006cd15f82a0fc781c316f00453cd7f24b26686d",
+      "case_id": "open-data-breakthrough-fixture-062",
+      "case_name": "model-priced stress pass repeat 062",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c689db008c84a7b8ed0a76dd60a16ebfac7280df8d4aa0a10eaabd30724ffbf3",
+      "case_id": "open-data-breakthrough-fixture-063",
+      "case_name": "no quote evidence claim repeat 063",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "bb4d61abcdf482eb4544c78168d26e6503005524c24ec0df7486bbc0bc50a930",
+      "case_id": "open-data-breakthrough-fixture-064",
+      "case_name": "no profitability claim repeat 064",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a839ce7be5974fd5074fdab2491e38ca2ebcb3f76324586c441877f67a7deb82",
+      "case_id": "open-data-breakthrough-fixture-065",
+      "case_name": "no live readiness claim repeat 065",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "071db7b38e5f1e3f664a56b8c6b8cb55181265c18823c89867d947b8c7ae4b07",
+      "case_id": "open-data-breakthrough-fixture-066",
+      "case_name": "delta bucket selection repeat 066",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "197686b506abfdc824db4216b027c553e5931b233e92669e5f4e415ed7f8fed0",
+      "case_id": "open-data-breakthrough-fixture-067",
+      "case_name": "theta decay stress repeat 067",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "80a6595f79f13edaf1ee0dd57abcf7a22f1c83816a6974e7cf0615e3d2e227fe",
+      "case_id": "open-data-breakthrough-fixture-068",
+      "case_name": "IV expansion stress repeat 068",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "4ab5637d5063e51eaa910ac7e87a4255342ede3819dc000352e62160c92dfa35",
+      "case_id": "open-data-breakthrough-fixture-069",
+      "case_name": "IV compression stress repeat 069",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1255b0727ac8b4882a2062a6a89365d38927d63005cf2f0fc66909b148d8fc9b",
+      "case_id": "open-data-breakthrough-fixture-070",
+      "case_name": "event exclusion repeat 070",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "74a11c0ed84fc93513cf24551ba36d6559115ddda5227dabdd9e508c863708dd",
+      "case_id": "open-data-breakthrough-fixture-071",
+      "case_name": "volatility regime filter repeat 071",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c3a6074f395549d12cc7b7046a099706e19932c1987610bfb0841271a322113c",
+      "case_id": "open-data-breakthrough-fixture-072",
+      "case_name": "market regime filter repeat 072",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "be1ee3f500a84c659fb3691e78f8496564bd75401b76187817cb3fc1adb06f2e",
+      "case_id": "open-data-breakthrough-fixture-073",
+      "case_name": "liquidity proxy repeat 073",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ca0d0ce073f69354fc479802dfc03f8a5ad966c5e92601a6fe0b8b25a08ec041",
+      "case_id": "open-data-breakthrough-fixture-074",
+      "case_name": "0DTE research guard repeat 074",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    }
+  ]
+}

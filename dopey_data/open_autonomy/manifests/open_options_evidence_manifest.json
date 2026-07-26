@@ -1,0 +1,40 @@
+{
+  "artifact_type": "open_options_evidence_manifest",
+  "date_range": {
+    "end": "2024-01-02",
+    "start": "2024-01-02"
+  },
+  "file_count": 1,
+  "files": [
+    {
+      "admissibility_ids": [
+        "accepted-options"
+      ],
+      "candidate_id": "accepted-options",
+      "date_range": {
+        "end": "2024-01-02",
+        "start": "2024-01-02"
+      },
+      "entry_hash": "6b72099634ae53e39f694451518937c0956717dfcdd7213203dd99e969120eb5",
+      "file_hash": "578cd46f7a5885d4e19cfbe64fc7c9a1507c2f4ea44469fd901c750bbf0b74b6",
+      "file_path": "C:\\Users\\CH\\dopey\\dopey_data\\open_autonomy\\accepted\\options_quotes\\accepted_options.csv",
+      "license": "MIT",
+      "provenance_hash": "1c846e00ac0de63b012cf54b795dbd9db7a36c8b583e28483ed6ca688f0c1f81",
+      "row_count": 1,
+      "schema_version": "dopey-open-data-breakthrough-normalized-v1",
+      "source_url": "https://example.invalid/accepted-options",
+      "symbol_count": 1,
+      "symbols": [
+        "SPY"
+      ]
+    }
+  ],
+  "live_blocked": true,
+  "manifest_hash": "b5d0c9eb0443854840929d1dd63526a8d3b235db21805180780515b920fd53c7",
+  "manifest_version": "dopey-open-data-breakthrough-options-evidence-completion-v1",
+  "not_live_ready": true,
+  "not_profitability_claim": true,
+  "paper_only": true,
+  "row_count": 1,
+  "symbol_count": 1
+}

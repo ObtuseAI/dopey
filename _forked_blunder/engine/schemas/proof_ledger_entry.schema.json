@@ -1,0 +1,29 @@
+{
+  "$schema": "blunder/minimal-subset",
+  "title": "Blunder Proof Ledger Entry",
+  "type": "object",
+  "required": [
+    "run_id", "task_id", "timestamp", "input_hash", "plan_hash",
+    "mock_trial_result", "execution_result", "validation_result",
+    "repair_attempts", "artifacts", "diffs", "test_results",
+    "final_status", "lessons_candidate", "promotion_candidate", "limitations"
+  ],
+  "properties": {
+    "run_id": { "type": "string", "minLength": 1 },
+    "task_id": { "type": "string", "minLength": 1 },
+    "timestamp": { "type": "string", "minLength": 1 },
+    "input_hash": { "type": "string", "minLength": 16 },
+    "plan_hash": { "type": "string", "minLength": 16 },
+    "mock_trial_result": { "type": "string", "enum": ["MOCK_PASS", "MOCK_WARN", "MOCK_FAIL", "MOCK_BLOCKED"] },
+    "execution_result": { "type": "object" },
+    "validation_result": { "type": "string", "enum": ["VALIDATION_PASS", "VALIDATION_WARN", "VALIDATION_FAIL", "VALIDATION_BLOCKED"] },
+    "repair_attempts": { "type": "integer", "minimum": 0, "maximum": 3 },
+    "artifacts": { "type": "array" },
+    "diffs": { "type": "array" },
+    "test_results": { "type": "object" },
+    "final_status": { "type": "string", "enum": ["PASS", "PASS_WITH_NOTES", "PARTIAL", "FAIL", "BLOCKED"] },
+    "lessons_candidate": { "type": "array" },
+    "promotion_candidate": { "type": "array" },
+    "limitations": { "type": "array" }
+  }
+}

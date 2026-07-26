@@ -1,0 +1,2 @@
+date,symbol,open,high,low,close,adjusted_close,volume,source,sample_only,not_real_data
+2000-01-03,SAMPLE_ONLY,100.0,101.0,99.0,100.5,100.5,1,SAMPLE_ONLY,true,true

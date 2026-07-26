@@ -1,0 +1,24 @@
+# DOPEY Human-Approved Read-Only Broker Capability Detector
+
+- objective: `human-approved read-only broker capability detector framework`
+- exact_approval_present: `true`
+- detector_ran: `true`
+- provider_type_used: `fixture_only`
+- why_read_only: `fixture provider only; no credentials, no broker mutation, no live order tools, no scheduler, no real sizing`
+- capability_records_total: `884`
+- read_only_records_total: `476`
+- write_execute_blocked_total: `408`
+- credential_block_total: `68`
+- scheduler_block_total: `68`
+- live_execution_block_total: `68`
+- post_run_evidence_written: `True`
+- incident_escalation_count: `52`
+- boundary_violation_count: `12`
+- detector_status_distribution: `{'not_run_approval_missing': 31, 'not_run_manual_review_required': 1, 'not_run_pre_run_blocked': 1, 'not_run_terminal_block': 19, 'read_only_detector_fixture_completed': 68}`
+- provider_type_distribution: `{'fixture_only': 884}`
+- capability_family_distribution: `{'account_metadata_shape': 68, 'credential_block': 68, 'live_execution_block': 68, 'option_chain_shape': 68, 'option_error_shape': 68, 'option_order_cancellation_blocked': 68, 'option_order_placement_blocked': 68, 'option_order_review_blocked': 68, 'option_order_status_shape': 68, 'option_position_shape': 68, 'option_quote_shape': 68, 'scheduler_block': 68, 'tool_inventory': 68}`
+- audit_report_export_integration: `read-only detector artifacts are registered for audit, reporting, export, and review surfaces`
+- validation: `targeted detector shard plus dependent shards; full suite remains timeout-bounded until separately proven`
+- limitations: `no broker capability proof, no live readiness proof, no credential setup, no real provider adapter`
+- safety_state: `paper_only_live_blocked_read_only_detector_not_live_ready`
+- next_required_gate: `read_only_detector_post_run_evidence_review_before_any_future_broker_work`

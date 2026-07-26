@@ -1,0 +1,2 @@
+timestamp,underlying_symbol,contract_symbol,expiration_date,strike,option_type,bid,ask,bid_size,ask_size,last,volume,open_interest,source,sample_only,not_real_data
+2000-01-03T21:00:00Z,SAMPLE_ONLY,SAMPLE_ONLY200001C00100000,2000-02-18,100.0,call,1.0,1.2,1,1,1.1,1,1,SAMPLE_ONLY,true,true

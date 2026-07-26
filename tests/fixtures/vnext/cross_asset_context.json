@@ -1,0 +1,17 @@
+{
+  "artifact_type": "cross_asset_regime_context_fixture",
+  "as_of_date": "2026-07-14",
+  "context_status": "complete",
+  "decision_date": "2026-07-14",
+  "es_positioning": {
+    "noncomm_net_z_52w": 0.0
+  },
+  "growth_impulse_score": 0.2,
+  "inflation_pressure_score": 0.1,
+  "live_blocked": true,
+  "not_readiness_evidence": true,
+  "paper_only": true,
+  "provenance": "integration_fixture_not_forward_evidence",
+  "risk_appetite_score": 0.1,
+  "systemic_stress_score": 0.2
+}

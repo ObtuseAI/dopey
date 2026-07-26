@@ -1,0 +1,533 @@
+{
+  "case_count": 22,
+  "cases": [
+    {
+      "case_hash": "94b630fd6585673f2e521652dc8526876d258cdd093d629222e1498923b6793a",
+      "case_id": "schema-001",
+      "case_type": "schema_contract",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "schema_family": "daily_ohlcv_required_columns"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "ddf4bfef6a51f3b486a5241ace1edec645feceba2d42b8ca50b2736af05ba032",
+      "case_id": "schema-002",
+      "case_type": "schema_contract",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "schema_family": "daily_ohlcv_optional_actions"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "1f0f5a940f1a4c401b3fe3bf5738051e3ea980f753118ba1bf8488d64a3a3f57",
+      "case_id": "schema-003",
+      "case_type": "schema_contract",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "schema_family": "daily_ohlcv_primary_key"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "36e171dd164c377fd8acfc13f3d235ceb5a41d712d26c765017f329ae448352f",
+      "case_id": "schema-004",
+      "case_type": "schema_contract",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "schema_family": "corporate_actions_required_columns"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "e4de2cc12382464d7bfb4b18b470a0d4afaf4d541b1513045bcba19ab5f59816",
+      "case_id": "schema-005",
+      "case_type": "schema_contract",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "schema_family": "corporate_actions_primary_key"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "fe9d6d0a73e33648d084f1fd5b0d4c67c995590ecaba490814e6f83872b86170",
+      "case_id": "schema-006",
+      "case_type": "schema_contract",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "schema_family": "options_chain_required_columns"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "48639b961f35d16c8c3105780cec6abbca444d4d4f77205f79640a07472b8b65",
+      "case_id": "schema-007",
+      "case_type": "schema_contract",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "schema_family": "options_chain_greeks_optional"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "e23b7bd389aa1451b21931027a1d6e231b5e103d05efd438a94b97f6fcfad77e",
+      "case_id": "schema-008",
+      "case_type": "schema_contract",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "schema_family": "options_chain_option_type"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "2969bec6eec036982152f6385ceb9726c2c2dd09848176db5f5ed1a335495a2a",
+      "case_id": "schema-009",
+      "case_type": "schema_contract",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "schema_family": "options_quotes_required_columns"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "39b8e5c739026b8fefff0593896293f55600aff1ec11a34690f0bd0105de6652",
+      "case_id": "schema-010",
+      "case_type": "schema_contract",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "schema_family": "options_quotes_bid_ask_size"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "5cbd86960a2cbd529f2e1478b8f2df27dff09ac4d9cfee866ed408b994c46f63",
+      "case_id": "schema-011",
+      "case_type": "schema_contract",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "schema_family": "fundamentals_required_columns"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "bf78bafd56fb2937df22946e9027f27093dc6031796f64f5490364dc42edfc65",
+      "case_id": "schema-012",
+      "case_type": "schema_contract",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "schema_family": "fundamentals_numeric_parse"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "acea67efa229926e44a155ab1f7cd81ea8c17065516393c9627aa91c5930c55a",
+      "case_id": "schema-013",
+      "case_type": "schema_contract",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "schema_family": "earnings_calendar_required_columns"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "23cb187852fbca681b7dc76fb8915f5d8c7e50116dc68f14aa1f5e1f6c498730",
+      "case_id": "schema-014",
+      "case_type": "schema_contract",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "schema_family": "earnings_report_time"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "90c18f6874aedb874350ae115d0a691c03feb677a27f550dc41f3084b3cab2b5",
+      "case_id": "schema-015",
+      "case_type": "schema_contract",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "schema_family": "market_context_same_as_ohlcv"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "2913359f21ddf49cdcbd6c8c07cc90cecaf035195e3a689b124529eb00b7dd8b",
+      "case_id": "schema-016",
+      "case_type": "schema_contract",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "schema_family": "market_context_vix_equivalent"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "21d5b03768fb1633a34f83e3448d072c8d0e8587e1866238dee0a9ffc72ab0b0",
+      "case_id": "schema-017",
+      "case_type": "schema_contract",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "schema_family": "universe_metadata_required_columns"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "1d4353ce2207fb8308b19bebb60f53ca52261e3be716380f3c2ac86d46f5b789",
+      "case_id": "schema-018",
+      "case_type": "schema_contract",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "schema_family": "universe_metadata_survivorship"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "39cf6d91a5a77f85be72aa99f9f6b6df2bd3691f288dbcc89243c74602857c87",
+      "case_id": "schema-019",
+      "case_type": "schema_contract",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "schema_family": "sample_daily_ohlcv_blocked"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "ddd8a6a96032536aeee2d74734c078f5d151d80de68e2701257f7ad3baadffbb",
+      "case_id": "schema-020",
+      "case_type": "schema_contract",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "schema_family": "sample_options_chain_blocked"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "dafad79d478caf73899ca38cf42f0f58c59076c4b6e09f93ccd835e1051a96a8",
+      "case_id": "schema-021",
+      "case_type": "schema_contract",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "schema_family": "sample_options_quotes_blocked"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "f9f4024ad1ca1596ca8f22fab59a5542c3bcd73aea300d9b8b4c65bba638a54f",
+      "case_id": "schema-022",
+      "case_type": "schema_contract",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "schema_family": "sample_fundamentals_blocked"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    }
+  ]
+}

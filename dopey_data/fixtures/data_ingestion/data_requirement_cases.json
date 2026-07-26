@@ -1,0 +1,485 @@
+{
+  "case_count": 20,
+  "cases": [
+    {
+      "case_hash": "f2ca97f421c5e2535c5e3389dda491e2a2e3665c17c04cd4fc6cbf7dfc77e032",
+      "case_id": "requirement-001",
+      "case_type": "dataset_requirement",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "dataset_family": "daily_ohlcv"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "cc4f57a31da3ee0bd2ac3fde793b51daa35a01305f6e60591534422636e66327",
+      "case_id": "requirement-002",
+      "case_type": "dataset_requirement",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "dataset_family": "corporate_actions"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "98abb1414d6ea611504526972562db311c9e9f71bf068608dd7bfc37d3abd575",
+      "case_id": "requirement-003",
+      "case_type": "dataset_requirement",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "dataset_family": "historical_options_chain"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "7cff4084d8bf692831e62496f4dac7ea36188b2257f1b2af3404eacb91fb2c5f",
+      "case_id": "requirement-004",
+      "case_type": "dataset_requirement",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "dataset_family": "historical_options_quotes"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "d5cfcfbf406992da38995a42ccfcd3c2ded92dc4e8c09fa8fe6b2e678f264888",
+      "case_id": "requirement-005",
+      "case_type": "dataset_requirement",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "dataset_family": "fundamentals"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "54bab643735c147824925c7b29423389c90d370d88ef0b0f66c61d494eca9f90",
+      "case_id": "requirement-006",
+      "case_type": "dataset_requirement",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "dataset_family": "earnings_calendar"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "67c69da461cf96d8274dbfe0feef8b3d10c631d666e348f124decb8d9d516d98",
+      "case_id": "requirement-007",
+      "case_type": "dataset_requirement",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "dataset_family": "market_context"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "40114c7aaeaf5fdab33e0763bd0b0667b6c97c48a05e399b885ae990704b2d10",
+      "case_id": "requirement-008",
+      "case_type": "dataset_requirement",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "dataset_family": "benchmark_and_universe_metadata"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "860486e9e92d3d79927a94a15b4c94ba62a35f4de30fc253fafd290fa91dd711",
+      "case_id": "requirement-009",
+      "case_type": "dataset_requirement",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "dataset_family": "missing-real-file"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "9c067f764650a6cdb9ab268ac5124a7c894940c59ab6e4c44affc6a8cf5e63fb",
+      "case_id": "requirement-010",
+      "case_type": "dataset_requirement",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "dataset_family": "manifest-missing"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "775d3946882298df424699bc812aebedcb44b27f902d86f15e34c0274c5fac66",
+      "case_id": "requirement-011",
+      "case_type": "dataset_requirement",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "dataset_family": "license-required"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "ed5f86eab31f9652518cfabc6512da9ac751b6bbcce6555bac953f3368eb10b9",
+      "case_id": "requirement-012",
+      "case_type": "dataset_requirement",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "dataset_family": "provenance-required"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "7d2ab4b21ed1a86d0f3611993f2972fc1e152bef2ceec74f07c5f7eb0c26cb2b",
+      "case_id": "requirement-013",
+      "case_type": "dataset_requirement",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "dataset_family": "manual-review"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "d1b372531b0788af9c9e0cca0d1f249ca464845bf2a404ae406eb63650527f9a",
+      "case_id": "requirement-014",
+      "case_type": "dataset_requirement",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "dataset_family": "terminal-block"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "31035433600af2ffbcb781fc79077215596bd389a9eec0f5b6ed41a28e421114",
+      "case_id": "requirement-015",
+      "case_type": "dataset_requirement",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "dataset_family": "no-network-fetch"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "dda4dd66bf4564ed0665cf963b8e9cbbbcfb09112e30be592e7210057327f309",
+      "case_id": "requirement-016",
+      "case_type": "dataset_requirement",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "dataset_family": "sample-only-blocked"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "f9bf7df92723724cdffb330b5f9f9487c89e4aad61327b9dabd082d23edac8de",
+      "case_id": "requirement-017",
+      "case_type": "dataset_requirement",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "dataset_family": "credential-token-blocked"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "5b5791c79f4f782e2e95f44d5e35b26531b3f550b51b1a9c33a7cdbba821cace",
+      "case_id": "requirement-018",
+      "case_type": "dataset_requirement",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "dataset_family": "broker-live-order-scheduler-real-sizing-blocked"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "b2abb78077a29aa61e6a53783e40824f3579ce9bcbbbab7a188594a9c1256527",
+      "case_id": "requirement-019",
+      "case_type": "dataset_requirement",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "dataset_family": "daily-ohlcv-positive-prices"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "5e6d10be812a28a6c158ba503b6bb39d0b2a4d6a78988faff7ec1789879315bc",
+      "case_id": "requirement-020",
+      "case_type": "dataset_requirement",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "dataset_family": "options-expiry-check"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    }
+  ]
+}

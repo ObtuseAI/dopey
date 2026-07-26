@@ -1,0 +1,10 @@
+{
+  "dataset": "blunder-fixture-v1",
+  "records": [
+    { "id": "r1", "value": 10 },
+    { "id": "r2", "value": 25 },
+    { "id": "r3", "value": 5 },
+    { "id": "r4", "value": 40 },
+    { "id": "r5", "value": 20 }
+  ]
+}

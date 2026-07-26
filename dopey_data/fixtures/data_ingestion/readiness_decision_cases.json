@@ -1,0 +1,533 @@
+{
+  "case_count": 22,
+  "cases": [
+    {
+      "case_hash": "e7fb04ba72f4fb5f435679aea2ad1fdec92f565d450003e847137f7f9ac24597",
+      "case_id": "readiness-001",
+      "case_type": "readiness_decision",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "scenario": "plan_ready_import_not_started"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "0bb9727bcdf731c59eca597f333fcf1ce12ce77309ac6f0821eb044796403bc5",
+      "case_id": "readiness-002",
+      "case_type": "readiness_decision",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "scenario": "real_files_present_manifest_missing"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "0818d70611f7827288c1c58e6fbdabe80bfca125177e3fc68e2e427cf11c9d69",
+      "case_id": "readiness-003",
+      "case_type": "readiness_decision",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "scenario": "blocked_missing_license"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "84cfe9183c9569b7e6d2725a0baca6d248a9396a8b49c209863086da661d0467",
+      "case_id": "readiness-004",
+      "case_type": "readiness_decision",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "scenario": "blocked_missing_provenance"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "f1887e411852151f36c1f68552fa3d979714eeada7600b6420c18f90a93bf5f1",
+      "case_id": "readiness-005",
+      "case_type": "readiness_decision",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "scenario": "blocked_network_fetch_attempt"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "a1e73afa5fe3e6a417c27b7d891bf03062935ebc079d57e4cbc75954ad0a3488",
+      "case_id": "readiness-006",
+      "case_type": "readiness_decision",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "scenario": "blocked_fake_real_data"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "255e84f6d3d02655540c964b02c2ec1c1945d67ef91f73e7021badb726782ffd",
+      "case_id": "readiness-007",
+      "case_type": "readiness_decision",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "scenario": "sample_only_row_terminal_block"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "f09f026a8ce36e969a0ec6c60526bebfa5bf69896a7735389b0473c1094c7d26",
+      "case_id": "readiness-008",
+      "case_type": "readiness_decision",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "scenario": "credential_token_terminal_block"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "656f4126b42307382849b57d556c3fdd32e2e300fbc142b366cb269befe964f6",
+      "case_id": "readiness-009",
+      "case_type": "readiness_decision",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "scenario": "broker_path_terminal_block"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "89dbb1fcd0648fa8293987030286cbe9851d32bd04c8c22eee656f2240c5008a",
+      "case_id": "readiness-010",
+      "case_type": "readiness_decision",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "scenario": "live_order_terminal_block"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "580043df6520ec18e061394037e111bb8292b363ba4d8e8fe13ba3b08a12dacd",
+      "case_id": "readiness-011",
+      "case_type": "readiness_decision",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "scenario": "scheduler_terminal_block"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "79d4ab3381e54a18dc02c01c1a033ca0e90f57d7569a81d9c628612e1cf1a8e3",
+      "case_id": "readiness-012",
+      "case_type": "readiness_decision",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "scenario": "real_sizing_terminal_block"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "733aead7a653660118a1017c0c8ac9406f6b3fd1af86d14ff569d77a14f1beb6",
+      "case_id": "readiness-013",
+      "case_type": "readiness_decision",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "scenario": "manifest_present_validation_not_run"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "c5d2724741253a98d19ae50801f18cb009fd3259ee7c18b067caa91b6b52d60e",
+      "case_id": "readiness-014",
+      "case_type": "readiness_decision",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "scenario": "license_review_required"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "5603a28fb6efe8dca96367caddb1844bf354ccfe65699b22ffee6466ba584a0e",
+      "case_id": "readiness-015",
+      "case_type": "readiness_decision",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "scenario": "manual_review_required"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "0c440276b470264b881f400a00e9eec18a6da0882b2e6d9bb0bd2c758f18e0f9",
+      "case_id": "readiness-016",
+      "case_type": "readiness_decision",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "scenario": "terminal_block"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "f7c427f2b0d930ffdc554dcb26e771c9736eb9de8291bcc7cbc99816e027a9c0",
+      "case_id": "readiness-017",
+      "case_type": "readiness_decision",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "scenario": "full_pytest_timeout_inconclusive_not_pass"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "187b6bcd4e15ffb5b1da87cdb3ed8c142fbf6a9ebc3aacdbdca0ae428492531b",
+      "case_id": "readiness-018",
+      "case_type": "readiness_decision",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "scenario": "live_trading_disabled"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "b8535c950b2f2739a73a18ab1b7a6d2da22034baf6a9d74b0bb98e686e3f135d",
+      "case_id": "readiness-019",
+      "case_type": "readiness_decision",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "scenario": "broker_connection_absent"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "1824e54ed27fcedccd987dedb8a657de50ee8a246182a0c6177d2d365b70c65d",
+      "case_id": "readiness-020",
+      "case_type": "readiness_decision",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "scenario": "credentials_absent"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "93120cc2836fb6a4a19d0816d629e232eb80d3d2050b91de5cc2063a0702ed25",
+      "case_id": "readiness-021",
+      "case_type": "readiness_decision",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "scenario": "env_absent"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    },
+    {
+      "case_hash": "bfdc834be7d2801bd9e0a47eddfb8a9f826cc8db2b8fe2fc224f87fcbc9cd1bc",
+      "case_id": "readiness-022",
+      "case_type": "readiness_decision",
+      "expected": {
+        "fixture_only": true,
+        "live_blocked": true,
+        "not_real_data": true,
+        "not_real_data_ingested": true,
+        "paper_only": true,
+        "real_data_ingested": false,
+        "sample_only": true
+      },
+      "fixture_only": true,
+      "input": {
+        "scenario": "robinhood_mcp_not_integrated"
+      },
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "real_data_ingested": false,
+      "sample_only": true
+    }
+  ]
+}

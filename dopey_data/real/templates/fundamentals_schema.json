@@ -1,0 +1,45 @@
+{
+  "column_types": {
+    "cash": "number",
+    "debt": "number",
+    "eps": "number",
+    "free_cash_flow": "number",
+    "gross_profit": "number",
+    "net_income": "number",
+    "operating_income": "number",
+    "period_end_date": "date",
+    "provider_record_id": "string",
+    "revenue": "number",
+    "shares_outstanding": "integer",
+    "source": "string",
+    "symbol": "string"
+  },
+  "dataset_family": "fundamentals",
+  "live_blocked": true,
+  "not_real_data_ingested": true,
+  "optional_columns": [],
+  "paper_only": true,
+  "primary_key_columns": [
+    "period_end_date",
+    "symbol",
+    "provider_record_id"
+  ],
+  "required_columns": [
+    "period_end_date",
+    "symbol",
+    "revenue",
+    "gross_profit",
+    "operating_income",
+    "net_income",
+    "eps",
+    "free_cash_flow",
+    "cash",
+    "debt",
+    "shares_outstanding",
+    "source",
+    "provider_record_id"
+  ],
+  "sample_only_rows_allowed_as_real": false,
+  "schema_id": "schema-fundamentals",
+  "schema_version": "dopey-real-data-schema-contract-v1"
+}

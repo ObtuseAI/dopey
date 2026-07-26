@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools==83.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dopey"
+version = "0.1.0"
+description = "Evidence-first autonomous market research OS with adversarial evaluation, paper twins, and a bounded Robinhood Live Branch."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "DOPEY operator" }]
+dependencies = [
+    "cryptography==49.0.0",
+    "exchange-calendars==4.13.2",
+    "requests==2.34.2",
+    "tzdata==2026.2",
+    "yfinance==1.5.1",
+]
+
+[project.urls]
+Repository = "https://github.com/ObtuseAI/dopey"
+Documentation = "https://github.com/ObtuseAI/dopey#readme"
+Issues = "https://github.com/ObtuseAI/dopey/issues"
+
+[project.optional-dependencies]
+desktop = [
+    "pystray==0.19.5",
+    "pywebview==6.2.1",
+]
+dev = [
+    "pytest==9.1.1",
+    "PyYAML==6.0.3",
+    "ruff==0.15.20",
+]
+
+[tool.setuptools.packages.find]
+# Release kernel only. Every included package must be import-self-contained:
+# its module-level dopey.* imports must resolve inside this include list, and
+# it must not import the laboratory layers (dopey_data, dopey_execution,
+# dopey_governor, dopey_core, dopey_equity_swing). dopey.settlement and
+# dopey.truth are laboratory machinery wired to those layers and are
+# deliberately NOT shipped. Enforced by tests/test_release_wheel_self_contained.py.
+include = [
+    "dopey",
+    "dopey.ascendancy*",
+    "dopey.constitution*",
+    "dopey.protocols*",
+    "sealed_evaluator_client*",
+    "verifier*",
+]
+exclude = ["dopey_data.real*", "dopey_data.history*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+markers = [
+    "slow: end-to-end tests that drive real pipeline engines (signal/backtest/supervisor); minutes each. Skip in the daytime loop with -m 'not slow'; the nightly harness runs them.",
+]

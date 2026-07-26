@@ -1,0 +1,10 @@
+# DOPEY research profile — research only. No broker credentials, no live exec, no account mutation.
+mode: RESEARCH
+live_trading_enabled: false
+funded_broker_connections_enabled: false
+allow_unofficial_robinhood_api: false
+robinhood_mcp_discovery_enabled: true
+paper_trading_enabled: false
+default_structure_policy: defined_risk_first
+max_first_pass_order_mode: none
+# No broker credentials are read in this profile. All adapters are stubs.

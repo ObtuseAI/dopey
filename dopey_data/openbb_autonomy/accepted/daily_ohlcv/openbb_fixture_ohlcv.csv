@@ -1,0 +1,2 @@
+date,symbol,open,high,low,close,adjusted_close,volume,source,source_provider,source_url,license_status,provenance_hash,openbb_provider_id,autonomous_admissibility_id
+2024-01-03,QQQ,400.0,405.0,399.0,404.0,404.0,900000,OpenBB,fixture_openbb,openbb://openbb.equity.price.historical,machine_verified_openbb_provider,f6d85539a65b1a3e7dd4fcb2188b41e3f795b3a9803678a3d8ff61d3efe3d736,openbb-provider-fixture,openbb-probe-fixture_openbb

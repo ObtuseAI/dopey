@@ -1,0 +1,2 @@
+snapshot_date,underlying_symbol,expiration_date,strike,option_type,bid,ask,mid,last,volume,open_interest,implied_volatility,source,provider_record_id,sample_only,not_real_data
+2000-01-03,SAMPLE_ONLY,2000-02-18,100.0,call,1.0,1.2,1.1,1.1,1,1,0.2,SAMPLE_ONLY,SAMPLE_ONLY,true,true

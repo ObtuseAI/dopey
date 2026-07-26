@@ -1,0 +1,64 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "benchmark",
+    "task_id",
+    "category",
+    "prompt",
+    "expected_kind",
+    "scoring",
+    "answer_withheld"
+  ],
+  "properties": {
+    "benchmark": {
+      "type": "string",
+      "minLength": 1
+    },
+    "task_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "code",
+        "reasoning",
+        "schema",
+        "repair",
+        "validation",
+        "artifact"
+      ]
+    },
+    "prompt": {
+      "type": "string",
+      "minLength": 1
+    },
+    "expected_kind": {
+      "type": "string",
+      "enum": [
+        "exact",
+        "unit_test",
+        "schema",
+        "fixture",
+        "judge"
+      ]
+    },
+    "scoring": {
+      "type": "string",
+      "enum": [
+        "pass_fail",
+        "partial",
+        "score"
+      ]
+    },
+    "answer_withheld": {
+      "type": "boolean",
+      "const": true
+    },
+    "max_time_s": {
+      "type": "number",
+      "minimum": 0
+    }
+  }
+}

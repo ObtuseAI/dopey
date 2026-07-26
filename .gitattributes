@@ -1,0 +1,33 @@
+# Raw-hash-pinned inputs and sources must stay byte-exact across checkouts.
+ARTIFACT_PROVENANCE.json -text
+DATA_MANIFEST.json -text
+DYNAMIC_ANCHOR_TRUST.json -text
+ENVIRONMENT_V1_FREEZE.json -text
+FORWARD_EVIDENCE_TRUST.json -text
+PROMOTION_AUTHORITY_TRUST.json -text
+SEALED_EVALUATOR_TRUST.json -text
+DOPEY_CONSTITUTION.md -text
+PROTECTED_MANIFEST.json -text
+dopey/ascendancy/** -text
+dopey/constitution/** -text
+dopey/settlement/** -text
+dopey/truth/** -text
+dopey/__init__.py -text
+dopey_core/config.py -text
+dopey_execution/** -text
+dopey_governor/** -text
+dopey_live/** -text
+sealed_evaluator_client/** -text
+dopey_data/** -text
+data_contracts/** -text
+environments/** -text
+pyproject.toml -text
+verifier/** -text
+*.csv -text
+*.jsonl -text
+
+# CI shell entrypoints must remain executable by Bash on Windows and Linux checkouts.
+.github/ci/*.sh text eol=lf
+
+# The scheduler pins this launcher by raw SHA-256; keep its bytes stable on Windows.
+operator_tools/run_scheduled_hidden.vbs text eol=lf

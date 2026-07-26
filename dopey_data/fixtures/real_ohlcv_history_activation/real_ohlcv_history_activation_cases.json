@@ -1,0 +1,159 @@
+{
+  "case_count": 14,
+  "cases": [
+    {
+      "case_hash": "5bb868d29dc6a67a48f431e152138de6eb3278cdde7e2cf9ae93d79eaafb1521",
+      "case_id": "local-free-ohlcv-stack-case-001",
+      "case_name": "history activation blocked missing files",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "89d21bb125adf16a4471ea96defd6b6dd24c657a4bde6bdcc754c4263183a796",
+      "case_id": "local-free-ohlcv-stack-case-002",
+      "case_name": "history activation blocked validation fail",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "a0584031692bd1d9b741a04180614b358cff63f26db24e799a66473a41191381",
+      "case_id": "local-free-ohlcv-stack-case-003",
+      "case_name": "history activation pass",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "bded832bf23c73ec4764fffda83a9e4d17bd2e2a2060a6eaa92f32498840f9df",
+      "case_id": "local-free-ohlcv-stack-case-004",
+      "case_name": "symbol coverage written",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "60aba1d6702bd60b035a7bf1c7024a8202b13963093c1cba6c4ae5d28950da17",
+      "case_id": "local-free-ohlcv-stack-case-005",
+      "case_name": "date coverage written",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "5442f31ce0893beda1cf47a978d9fa1d6caa5105bc29ac35d503d99affefab18",
+      "case_id": "local-free-ohlcv-stack-case-006",
+      "case_name": "source provenance references preserved",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "191db6b026630d4226815f68042af9c9b9cfd10feda884644ef474c8f95c5317",
+      "case_id": "local-free-ohlcv-stack-case-007",
+      "case_name": "hash references preserved",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "e8a2c06a09fb5568eec911829ab1836b89586e41386965cd0b3c1cd676b5de28",
+      "case_id": "local-free-ohlcv-stack-case-008",
+      "case_name": "fixture history not modified",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "239f0734084b54a674e6502ab46c09b0f2d76b3e131b129b58476bb7c21b1f75",
+      "case_id": "local-free-ohlcv-stack-case-009",
+      "case_name": "synthetic data not created",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "a5eea6e5c47d6d1bb03d127747a6ee9e9af0b0fbf469f120bb7531884307aca5",
+      "case_id": "local-free-ohlcv-stack-case-010",
+      "case_name": "strategy promotion blocked",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "a5dfc45eddcae889c685d8bbaacc256d7f781655487d2b64c4b69c9a0f058773",
+      "case_id": "local-free-ohlcv-stack-case-011",
+      "case_name": "no real evidence when missing",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "6dd318bd242417cafbe4e48d8a706d1abe28ad45d152d9df9f0948497dc08ece",
+      "case_id": "local-free-ohlcv-stack-case-012",
+      "case_name": "real history used only after pass",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "a6f2d95aa3f9618eb5a56a7f38de31d6b90613cbed13a4f978b032a21f55fc2c",
+      "case_id": "local-free-ohlcv-stack-case-013",
+      "case_name": "activation blockers written",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    },
+    {
+      "case_hash": "2f00bc47b4a35b208136473b27997d9daf9d384e25d1b1eb250d8e5734115100",
+      "case_id": "local-free-ohlcv-stack-case-014",
+      "case_name": "quality flags written",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "not_real_data_ingested": true,
+      "paper_only": true,
+      "sample_only": true
+    }
+  ]
+}

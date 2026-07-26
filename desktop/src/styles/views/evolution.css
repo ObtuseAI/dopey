@@ -1,0 +1,120 @@
+.selection-field span {
+  display: block;
+  color: var(--dim);
+  font-family: var(--mono);
+  font-size: 10px;
+}
+
+.selection-field strong {
+  display: block;
+  margin-top: 4px;
+  color: var(--limestone);
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.evolution-grid {
+  display: grid;
+  grid-template-columns: minmax(510px, 1.4fr) minmax(320px, 0.9fr);
+  gap: 10px;
+}
+
+.evolution-grid__graph {
+  grid-column: 1 / -1;
+}
+
+.evolution-grid__candidates {
+  grid-row: 1 / span 2;
+}
+
+.evolution-grid__graph + .evolution-grid__candidates {
+  grid-row: auto / span 2;
+}
+
+.evolution-grid__budgets {
+  grid-column: 1 / -1;
+}
+
+.selection-field {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.selection-field > div {
+  min-height: 78px;
+  padding: 14px;
+  border-bottom: 1px solid var(--hairline);
+}
+
+.selection-field > div:nth-child(even) {
+  border-left: 1px solid var(--hairline);
+}
+
+.promotion-stack {
+  padding: 8px 11px;
+}
+
+.promotion-stack > div {
+  display: grid;
+  min-height: 34px;
+  grid-template-columns: 28px 1fr 45px;
+  align-items: center;
+  border-bottom: 1px solid #222722;
+}
+
+.promotion-stack span {
+  color: var(--dim);
+  font-family: var(--mono);
+  font-size: 10px;
+}
+
+.promotion-stack strong {
+  font-size: 10px;
+  letter-spacing: 0.07em;
+}
+
+.promotion-stack i {
+  height: 3px;
+  background: var(--hairline-bright);
+}
+
+.promotion-stack > div:nth-child(-n + 2) i {
+  background: var(--mineral);
+}
+
+.family-budget-ledger {
+  padding: 8px 11px;
+}
+
+.family-budget-ledger > div {
+  display: grid;
+  min-height: 38px;
+  grid-template-columns: minmax(200px, 1fr) 88px 1.3fr 84px;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #222722;
+}
+
+.family-budget-ledger strong { font-size: 10px; font-weight: 500; }
+
+.family-budget-ledger span,
+.family-budget-ledger em { color: var(--dim); font-family: var(--mono); font-size: 10px; font-style: normal; }
+
+.family-budget-ledger > div > i { height: 4px; background: #242a25; }
+
+.family-budget-ledger > div > i > b { display: block; height: 100%; background: var(--mineral); }
+
+.family-budget-ledger em { text-align: right; }
+
+@media (max-width: 1120px) {
+.evolution-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas: none;
+  }
+
+.evolution-grid > * {
+    grid-row: auto;
+    grid-column: auto;
+  }
+}

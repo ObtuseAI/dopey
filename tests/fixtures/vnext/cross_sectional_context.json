@@ -1,0 +1,25 @@
+{
+  "artifact_type": "cross_sectional_market_context_fixture",
+  "as_of": "2026-07-14T20:00:00+00:00",
+  "breadth": {
+    "sample_count": 2,
+    "state": "insufficient_exchange_breadth_sample"
+  },
+  "content_hash": "integration-fixture-not-forward-evidence",
+  "correlation_structure": {
+    "pairs": [],
+    "state": "insufficient_pair_sample"
+  },
+  "evidence_id": "cross-section:integration-fixture",
+  "live_blocked": true,
+  "market_fragility": {
+    "state": "unknown"
+  },
+  "not_readiness_evidence": true,
+  "paper_only": true,
+  "provenance": "integration_fixture_not_forward_evidence",
+  "sector_leadership": {
+    "ranking": [],
+    "state": "insufficient_sector_sample"
+  }
+}

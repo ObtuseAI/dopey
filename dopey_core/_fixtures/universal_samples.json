@@ -1,0 +1,21 @@
+{
+  "proof_ledger_text": "{\"run_id\":\"r-seed-1\",\"task_id\":\"seed\",\"final_status\":\"PASS\",\"input_hash\":\"abc123\",\"plan_hash\":\"def456\",\"mock_trial_result\":\"MOCK_PASS\",\"execution_result\":{},\"validation_result\":\"VALIDATION_PASS\"}\n{\"run_id\":\"r-seed-2\",\"task_id\":\"seed\",\"final_status\":\"PASS_WITH_NOTES\",\"input_hash\":\"abc124\",\"plan_hash\":\"def457\",\"mock_trial_result\":\"MOCK_WARN\",\"execution_result\":{},\"validation_result\":\"VALIDATION_PASS\"}",
+  "command_trace_text": "$ python build_summary.py --in input_records.json\nexit=0\n$ python -m unittest blunder.tests\nexit=0\n",
+  "encoded_names": [
+    "obtuse-blunder-mega-fusion-v1-33f1df027c9eea2f791a5ba26040f53ef4dcc575.bundle",
+    "gamingpc3-v4-return-closeout-v1-cbaca3dce942848ebbf3f23c1ca6342bff0a5b21.bundle"
+  ],
+  "schema_instance_pairs": [
+    {
+      "expect_valid": true,
+      "schema": { "type": "object", "required": ["id", "value"], "properties": { "id": { "type": "string" }, "value": { "type": "integer", "minimum": 0 } }, "additionalProperties": false },
+      "instance": { "id": "r1", "value": 10 }
+    },
+    {
+      "expect_valid": false,
+      "schema": { "type": "object", "required": ["id", "value"], "properties": { "id": { "type": "string" }, "value": { "type": "integer", "minimum": 0 } }, "additionalProperties": false },
+      "instance": { "id": "r1", "value": "ten", "rogue": true }
+    }
+  ],
+  "python_text": "def add(a, b):\n    return a + b\n\nclass Demo:\n    def run(self):\n        return add(2, 3)\n"
+}

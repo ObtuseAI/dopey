@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="DOPEY evidence-spine D">
+  <defs>
+    <clipPath id="tile"><rect x="13" y="13" width="486" height="486" rx="92"/></clipPath>
+  </defs>
+  <g clip-path="url(#tile)">
+    <rect width="512" height="512" fill="#090b0d"/>
+    <path d="M0 43h512M0 85h512M0 128h512M0 171h512M0 213h512M0 256h512M0 299h512M0 341h512M0 384h512M0 427h512M0 469h512M43 0v512M85 0v512M128 0v512M171 0v512M213 0v512M256 0v512M299 0v512M341 0v512M384 0v512M427 0v512M469 0v512" stroke="#12181a" stroke-width="1"/>
+    <rect x="13" y="13" width="486" height="486" rx="92" fill="none" stroke="#161b1e" stroke-width="18"/>
+    <path d="M151 82h21c132 0 207 69 207 174s-75 174-207 174h-21" fill="none" stroke="#e8e4d9" stroke-width="48" stroke-linejoin="round"/>
+    <path d="M126 77h46v358h-46z" fill="#e8e4d9"/>
+    <path d="M146 77h26v358h-26z" fill="#9ccfa9"/>
+    <g stroke="#79a6d8" stroke-width="9" stroke-linecap="square">
+      <path d="M166 136h67"/><path d="M166 196h110"/><path d="M166 256h84"/><path d="M166 316h131"/><path d="M166 376h62"/>
+    </g>
+    <g fill="#9ccfa9">
+      <rect x="147" y="124" width="24" height="24"/><rect x="147" y="184" width="24" height="24"/><rect x="147" y="244" width="24" height="24"/><rect x="147" y="304" width="24" height="24"/><rect x="147" y="364" width="24" height="24"/>
+    </g>
+  </g>
+</svg>

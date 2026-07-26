@@ -1,0 +1,756 @@
+{
+  "artifact_type": "autonomous_paper_cases",
+  "case_count": 75,
+  "cases": [
+    {
+      "case_hash": "7096712d7de12af28a37e6eda5ace68f8878c6f4ee7621b46e57514026cfaa77",
+      "case_id": "autonomy-fixture-001",
+      "case_name": "paper loop blocked no data",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a87be6e13626f49f09476e00ae60a77127013b1dc641dbe52c2a36353a663dd0",
+      "case_id": "autonomy-fixture-002",
+      "case_name": "paper loop runs accepted data",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7b833438a1638521b73ffdd361e2f31df9701e40f9039f8f6cc87c47650b7a2a",
+      "case_id": "autonomy-fixture-003",
+      "case_name": "daily scan",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a8f0e8a708f261386024fdb8768179c6b5c0e5982207832d4be2255bb061bf9d",
+      "case_id": "autonomy-fixture-004",
+      "case_name": "opportunity ranker",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1c487a900620bf1c5a381a4fed11f9ddba8cfb1cd3b991f2882c1cdb5595913e",
+      "case_id": "autonomy-fixture-005",
+      "case_name": "long call paper intent",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "6f341bc4990424c97b3c511b43979f63e03ff2a1abe65556ed324115a9799859",
+      "case_id": "autonomy-fixture-006",
+      "case_name": "long put paper intent",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "10fac67d4e226c6fd2bad1dd431e9c661719e0f54ce9b45b3523bd02dcda842c",
+      "case_id": "autonomy-fixture-007",
+      "case_name": "no trade paper intent",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b734159f0645e50791a6b81f09e89d8fa4cc103da734b89614d9075393de50e0",
+      "case_id": "autonomy-fixture-008",
+      "case_name": "max risk guard",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d6dec660d7b14acd117f70a0943fb24866738265b5cde3153390f73ff5d2e4ae",
+      "case_id": "autonomy-fixture-009",
+      "case_name": "max drawdown guard",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "3e7aff6ede64f61f27f2d8a48d603ff6e00a79d40e01a69f82e86a73db593c1b",
+      "case_id": "autonomy-fixture-010",
+      "case_name": "theta IV risk guard",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "6bb6330147dec7affd7156b5551fc45323254e5a3b6b001724d0e81d0b0d7374",
+      "case_id": "autonomy-fixture-011",
+      "case_name": "event risk guard",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "259b68a880c74984e07e14ef0add97eb0c44d12c4f65986e8123cf2fb7373c85",
+      "case_id": "autonomy-fixture-012",
+      "case_name": "0DTE special guard",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c2a8d659c9fb251e1367ffe55446fe22d54ed0874a43b31efaca9f1f85dcd87a",
+      "case_id": "autonomy-fixture-013",
+      "case_name": "no same day churn default",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "8a505fbad37c7c75262b93c882f674a1a6184e1dff42c23618fba9f0597e77e8",
+      "case_id": "autonomy-fixture-014",
+      "case_name": "paper fill simulator",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "69e43809a279c69eece476ef723c95325a855e1afdbed8929cbf3c87359ba251",
+      "case_id": "autonomy-fixture-015",
+      "case_name": "paper lifecycle manager",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b7b3079558992f4716828bcaacd1c5119f3c3ba5b614ca9c6d0f582b7e83b836",
+      "case_id": "autonomy-fixture-016",
+      "case_name": "paper exit rules",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "53aa10902327e52d7af6dff1a43c12c87b0120de46b552f6e677ea038b813841",
+      "case_id": "autonomy-fixture-017",
+      "case_name": "paper ledger",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "fb5d15e1bf2877e8787737d341b6d4fefbca95d006bffd3b88b0844f6f0008a1",
+      "case_id": "autonomy-fixture-018",
+      "case_name": "incident kill switch simulation",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "9219044065fa6606311694b8466f6513ae4978f34ebdd1b2817cdc0fd08d7e65",
+      "case_id": "autonomy-fixture-019",
+      "case_name": "recursive feedback queue",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "971ad92580f58d105432a22b27c4bf2353bcd5b67a5d82c958b4c7d5bac22257",
+      "case_id": "autonomy-fixture-020",
+      "case_name": "no real capital sizing",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "587d36c8348f55b473474e08ea6e91947e8d7b8aec2f66444bfcb20063b4d153",
+      "case_id": "autonomy-fixture-021",
+      "case_name": "paper loop blocked no data repeat 020",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "74c5cf4719ed543bbc430687c219dc6babb834669b8509ee9d560459225ea72c",
+      "case_id": "autonomy-fixture-022",
+      "case_name": "paper loop runs accepted data repeat 021",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2c0105349058a5b2a70829a95411d56d18f179e1ffc7c18c1e83b4121309cf17",
+      "case_id": "autonomy-fixture-023",
+      "case_name": "daily scan repeat 022",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "175ada754468ac58d1fe3da1d13ac172d136cd9f4e2bf9dee0a8bb7778b8771f",
+      "case_id": "autonomy-fixture-024",
+      "case_name": "opportunity ranker repeat 023",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d705b801e5e34f7e86f07ad100d01be29a3e16d0c15484c8bc05a8d3fc48f67f",
+      "case_id": "autonomy-fixture-025",
+      "case_name": "long call paper intent repeat 024",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e823ca91b30e0f6caedacd6f7921d3ac0851890431a2fe390b17be0a0c7c28b0",
+      "case_id": "autonomy-fixture-026",
+      "case_name": "long put paper intent repeat 025",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ef46832e1b8993ef9de60f518b858bc6f2c70247ee39693183bf48fee5615351",
+      "case_id": "autonomy-fixture-027",
+      "case_name": "no trade paper intent repeat 026",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ffe9d259d22281ba286a5240fb5aa399134ec5d2efa28c0e1ef4c47155ffcc66",
+      "case_id": "autonomy-fixture-028",
+      "case_name": "max risk guard repeat 027",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "fc8a8f29440c580d94d9ad3626a70b602c5b2f900dfa730216dd775b360b8def",
+      "case_id": "autonomy-fixture-029",
+      "case_name": "max drawdown guard repeat 028",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1d61829153715d4861f131afbc7358261c1f4a1372c34d50ace4757a3b860791",
+      "case_id": "autonomy-fixture-030",
+      "case_name": "theta IV risk guard repeat 029",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "9649d918ff2d0ce47dc2586ab9ddc2d8ccec7146373324f58b1c6fe97cb4f6ac",
+      "case_id": "autonomy-fixture-031",
+      "case_name": "event risk guard repeat 030",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e9cdf89b3b37b6d111ba380f856135a49d58101e4bc20336fb284e98357bbfe1",
+      "case_id": "autonomy-fixture-032",
+      "case_name": "0DTE special guard repeat 031",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "453cd7609561159086f7d06c0e26299eb332315e5ab43092d3ea6215b24fcc68",
+      "case_id": "autonomy-fixture-033",
+      "case_name": "no same day churn default repeat 032",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a7ea1686bb8200641ad16be05d79ce6e4f1112f7f465d7e069851a5377f372f4",
+      "case_id": "autonomy-fixture-034",
+      "case_name": "paper fill simulator repeat 033",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "cdf528320a7918d71da79a8f99524d1a549b8876fa1fc4a5490e723d501ed0f5",
+      "case_id": "autonomy-fixture-035",
+      "case_name": "paper lifecycle manager repeat 034",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1a87f29ca83dd8cb937c56be562d0ae02b2f207b39b604f0bb3fff0bf96d9388",
+      "case_id": "autonomy-fixture-036",
+      "case_name": "paper exit rules repeat 035",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "354e2f6caa170bd02cf6e81cc2a678d68ae9108cf3577fa5511b83b599e57ca5",
+      "case_id": "autonomy-fixture-037",
+      "case_name": "paper ledger repeat 036",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "cfcaf576af06b87d86dca02d2a2753fc4a2f8d529bf057f472bdf4a93831f501",
+      "case_id": "autonomy-fixture-038",
+      "case_name": "incident kill switch simulation repeat 037",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d7168d34fc845ab6c2714f1796cc3f1a7a3b8151c4062395a57acbffc2ca712b",
+      "case_id": "autonomy-fixture-039",
+      "case_name": "recursive feedback queue repeat 038",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1dc1c55e58c568501352d093c3a95c5cae14a451ddcc8de8200f4765086cfa20",
+      "case_id": "autonomy-fixture-040",
+      "case_name": "no real capital sizing repeat 039",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "5e74ef84a85775b869da2d0e146e209c553938909a5349ae35a961c58cd4e33e",
+      "case_id": "autonomy-fixture-041",
+      "case_name": "paper loop blocked no data repeat 040",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "9bf8ccb188bbbd480afc0ea8a0483ca5ccdac722e276f934e49bc70a2ad76ef2",
+      "case_id": "autonomy-fixture-042",
+      "case_name": "paper loop runs accepted data repeat 041",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2b144b7b9c9e2c99f838d43e3c4825e16b3a7fab5177ce14a3f0b02f393bcadf",
+      "case_id": "autonomy-fixture-043",
+      "case_name": "daily scan repeat 042",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a86a009a27117e94bdfa9f37d37472ab5898bfcbb4c8be21a111a1a575f2dcd3",
+      "case_id": "autonomy-fixture-044",
+      "case_name": "opportunity ranker repeat 043",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1b1873f75d2a746e363a979e04ed4292ed9a27a1ccea3bb10e4a2b6e4fed409a",
+      "case_id": "autonomy-fixture-045",
+      "case_name": "long call paper intent repeat 044",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ae734cf1c646fd34cb3c68d93b312bef668b2d516ffb8c8535232cf9e447af22",
+      "case_id": "autonomy-fixture-046",
+      "case_name": "long put paper intent repeat 045",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "dc27284b603ae434a93525d67c5d45cd6146f3f5f7e5b5b043156b97dc0960b4",
+      "case_id": "autonomy-fixture-047",
+      "case_name": "no trade paper intent repeat 046",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "d40cd24902b75f3eb15e460e091d985daecfe0c60b18294023588ede909a4367",
+      "case_id": "autonomy-fixture-048",
+      "case_name": "max risk guard repeat 047",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "7158178b805a00e41e819d4f38a7581c6c6f2d2f2df28cc034999d0438bbaf60",
+      "case_id": "autonomy-fixture-049",
+      "case_name": "max drawdown guard repeat 048",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "31a24e5469aae2611ac76f7cd47e6fd2b78b79defc0194d80a16a5ee1b3a2ae8",
+      "case_id": "autonomy-fixture-050",
+      "case_name": "theta IV risk guard repeat 049",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "042b4d733c748d31f3dc102af8fa55326758cb12ecb1e17abaa219420bf74f74",
+      "case_id": "autonomy-fixture-051",
+      "case_name": "event risk guard repeat 050",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "1a3f66ab1dc79a45790198b857d2fa97f3856b5a6fbecbffaefe81f9f3eae609",
+      "case_id": "autonomy-fixture-052",
+      "case_name": "0DTE special guard repeat 051",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c7b54d6346cfaf448d5f2b381d25c90c93a98d37f37e4c949455a510eadc0ce6",
+      "case_id": "autonomy-fixture-053",
+      "case_name": "no same day churn default repeat 052",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c08f9d1ffc5af0e64f9822a56452b0e95ca917be6bc746303278379403895641",
+      "case_id": "autonomy-fixture-054",
+      "case_name": "paper fill simulator repeat 053",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e52d373ee5e81c175a5fbd8ce5def2ca968d842f926cfe0548926034e2584286",
+      "case_id": "autonomy-fixture-055",
+      "case_name": "paper lifecycle manager repeat 054",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c99d5dd601038cef1302973836891e65a35f3c5d6ed2e0a9c940edac219de4d8",
+      "case_id": "autonomy-fixture-056",
+      "case_name": "paper exit rules repeat 055",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "ab8831303990f93955d318da0db395c1c4f529fbd476519411f9d8c59a73d819",
+      "case_id": "autonomy-fixture-057",
+      "case_name": "paper ledger repeat 056",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "6cde6e371b9e5d9e1cf9b514463d7f1bae64c1f6254e38eaf9fd89b7fee1960f",
+      "case_id": "autonomy-fixture-058",
+      "case_name": "incident kill switch simulation repeat 057",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "00bc8fba56d9f87aa114821903821f70c5b18aa91328224a1df7aef2d158ac00",
+      "case_id": "autonomy-fixture-059",
+      "case_name": "recursive feedback queue repeat 058",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "579645d4c3bdfae14f7c4283b787d310fb5bef9d1e434fd82ea046418535cf83",
+      "case_id": "autonomy-fixture-060",
+      "case_name": "no real capital sizing repeat 059",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "2bddba0cd7ac40a505d9490c178f066f658d095654ec3dfd152042eea5b665a4",
+      "case_id": "autonomy-fixture-061",
+      "case_name": "paper loop blocked no data repeat 060",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "c3df29ad3218fe02593124dfa6873ad14e6693650d843415f3030c9f07c0a788",
+      "case_id": "autonomy-fixture-062",
+      "case_name": "paper loop runs accepted data repeat 061",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b453c3062bcfba7fa5d80f28830bd9795038b52be72a5b65ef3bdcf69df0395a",
+      "case_id": "autonomy-fixture-063",
+      "case_name": "daily scan repeat 062",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "950ccc53b30aae60946bb4bfe5ba422d300f8375d84af3bcafe85747c653769d",
+      "case_id": "autonomy-fixture-064",
+      "case_name": "opportunity ranker repeat 063",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "68228c6184c53e6a8800a3093e8807ca743e2d7617a27ef165409c8f69420e30",
+      "case_id": "autonomy-fixture-065",
+      "case_name": "long call paper intent repeat 064",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a633dc89a0342df0affbb8ab914fb82959aa971804ec3f57a3cfc41f4aa087f5",
+      "case_id": "autonomy-fixture-066",
+      "case_name": "long put paper intent repeat 065",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "9d449afc366c6a67a7b70c93e0ca2146809e2dbb86125f12c73e1e88ffef1b9f",
+      "case_id": "autonomy-fixture-067",
+      "case_name": "no trade paper intent repeat 066",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "494ca80a94525d3a62646050c22efd44ccacf6828e4f65b8e3b4c3990c04c2d4",
+      "case_id": "autonomy-fixture-068",
+      "case_name": "max risk guard repeat 067",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b077855b8c6d6d16618a155a06aa2280f9b342f621191c4bca60ae271724ed68",
+      "case_id": "autonomy-fixture-069",
+      "case_name": "max drawdown guard repeat 068",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "e3eb2ab5a7ae91102f4b3cb4e7de2fb746880514729e91c822e2b86965f0dd5b",
+      "case_id": "autonomy-fixture-070",
+      "case_name": "theta IV risk guard repeat 069",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "a94ed995177dfa070a3dac7a7ed714ac2a226a8fc236a746fba6589317471648",
+      "case_id": "autonomy-fixture-071",
+      "case_name": "event risk guard repeat 070",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "87dd9227181af7fa813d4fd0819fdb66a2eec8b212d2e64f368971ebfe9422d1",
+      "case_id": "autonomy-fixture-072",
+      "case_name": "0DTE special guard repeat 071",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "f3028958674e1f8892e191b9925610bd0fe01c988df5c798333741c72f02e10a",
+      "case_id": "autonomy-fixture-073",
+      "case_name": "no same day churn default repeat 072",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "b620a8ec7451f3fe5d77ec8856ba58502d53fca5f4974f70bb2e3738704c8176",
+      "case_id": "autonomy-fixture-074",
+      "case_name": "paper fill simulator repeat 073",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    },
+    {
+      "case_hash": "008c32f69d54559a12791cafd9d85998bc2277e6a2a6ce78e9065a8ae61bd275",
+      "case_id": "autonomy-fixture-075",
+      "case_name": "paper lifecycle manager repeat 074",
+      "fixture_only": true,
+      "live_blocked": true,
+      "not_real_data": true,
+      "paper_only": true,
+      "strategy_promotion_allowed": false
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "artifact_type": "wealth_engine_fixture_summary",
+  "case_count": 720,
+  "fixture_root": "C:\\Users\\CH\\dopey\\dopey_data\\fixtures\\wealth_engine",
+  "fixture_status": "complete",
+  "live_blocked": true,
+  "ohlcv_rows_per_symbol": 900,
+  "ohlcv_symbol_count": 22,
+  "paper_only": true,
+  "summary_hash": "e87b92ab66314030c292cecd70c89ce32682c9d7176d9c252e98e344cff8ea2b"
+}
