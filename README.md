@@ -20,14 +20,14 @@
 
 <img src="docs/images/dopey_evidence_before_promotion.png" alt="DOPEY - Evidence before promotion" width="1536">
 
-<sub>An evidence operating system for equities, options, macro, extreme-market intelligence, autonomous research, and governed execution.</sub>
+<sub>An evidence operating system for equities, options, macro, extreme-market intelligence, governed research, and human-owned authority.</sub>
 
 [Why DOPEY is different](#why-dopey-is-different) |
 [How it works](#how-dopey-works) |
 [Capability atlas](#capability-atlas) |
 [Squeeze engine](#short-squeeze-intelligence) |
 [Bubble engine](#bubble-leverage-ipo-and-valuation-intelligence) |
-[Autonomy](#autonomy-recursive-improvement-and-dynamic-control) |
+[Research autonomy](#research-autonomy-recursive-improvement-and-dynamic-control) |
 [Desktop](#native-desktop-control-center) |
 [Quick start](#quick-start)
 
@@ -35,9 +35,28 @@
 
 ---
 
+## Product truth
+
+| Contract | Current public state |
+| --- | --- |
+| **Portfolio role** | **Governed Market Research OS** — paper-only intelligence for equities and options with provenance, adversarial validation, durable memory, and bounded research. |
+| **Maturity** | **Paper-only research release** |
+| **Engineering evidence baseline** | [`57a806af`](https://github.com/ObtuseAI/dopey/commit/57a806af4578ac599b2ae979136a4cf39c4b3935) · required [public test workflow](https://github.com/ObtuseAI/dopey/actions/workflows/tests.yml) |
+| **Proved now** | The required public shards pass 1,245 collected nodes from the protected 70-file manifest and exercise the evidence kernel, market-intelligence contracts, paper research, governance, and fail-closed boundaries. |
+| **Authority ceiling** | **Live-disabled** and `not_action_ready`. Research, paper simulation, recommendations, and broker-readiness evidence do not grant order authority. |
+| **Clean demonstration** | Follow the [quick start](#quick-start) to validate a fresh public checkout and run bounded research surfaces with explicit blocked states when governed inputs are absent. |
+| **Known limit** | A fresh clone contains no provider market data, broker session, credentials, account history, or private runtime lake. The broader collected suite remains `inconclusive_timeout`; required-shard success is not full-suite coverage. |
+
+**Designed for:** investment research and risk teams that want machine-scale market investigation without collapsing backtests, paper evidence, broker state, and capital authority into one unsafe score.
+
+[Explore the ObtuseAI portfolio](https://github.com/ObtuseAI) ·
+[Inspect the evidence lifecycle](#how-dopey-works) ·
+[Start a technical conversation](https://github.com/ObtuseAI/dopey/issues)
+
 ## What is DOPEY?
 
-DOPEY is an autonomous, evidence-first market-intelligence operating system.
+DOPEY is a governed, evidence-first market-intelligence operating system for
+paper research.
 It is built to investigate equities, options, volatility, macro conditions,
 market structure, short crowding, speculative bubbles, IPO reflexivity,
 portfolio risk, and the quality of its own reasoning.
@@ -60,11 +79,11 @@ connected by explicit evidence contracts:
 DOPEY is designed around a difficult question:
 
 > How do you build a market-research system that becomes more capable,
-> adaptive, and autonomous without becoming more vulnerable to overfitting,
+> adaptive and increasingly self-directed in research without becoming more vulnerable to overfitting,
 > hindsight, duplicated evidence, stale state, fabricated certainty, or
 > authority creep?
 
-Its answer is to make truth, memory, autonomy, and execution separate systems
+Its answer is to make truth, memory, research autonomy, and execution separate systems
 that must agree through typed, content-addressed artifacts.
 
 > **Public-release truth:** a fresh clone starts with no provider market data,
@@ -83,7 +102,7 @@ that must agree through typed, content-addressed artifacts.
 | Research option expressions | Models IV, skew, term structure, Greeks, liquidity, scenarios, and defined-risk structures | The derivative expresses an underlying thesis; it does not invent one |
 | Learn per-symbol skill | Settles prior calls, collapses overlapping windows, tests chronological eras, and runs a circular-shift null | Repeated detections cannot inflate confidence |
 | Evolve research methods | Generates bounded challengers, runs protected experiments, records lineage, and rolls back fitness drops | Self-improvement cannot rewrite the rules that judge it |
-| Operate autonomously | Runs a dependency-aware 39-stage supervisor with locks, heartbeats, timeouts, recovery, and repair queues | A failed lane remains visible without erasing independent work |
+| Operate scheduled research | Runs a dependency-aware 39-stage supervisor with locks, heartbeats, timeouts, recovery, and repair queues | A failed lane remains visible without erasing independent work |
 | Preserve institutional memory | Uses immutable IDs, append-only ledgers, hashes, atomic publication, and rebuildable projections | Every conclusion can be traced to the evidence that produced it |
 | Enforce a live boundary | Keeps broker authority inside `dopey_live/` and requires an exact paper twin before review | Research cannot silently become execution |
 
@@ -191,7 +210,7 @@ flowchart TB
     E["Memory and evolution<br/>trade memory | failure memory | mutations | tournaments"]
     F["Governance<br/>fitness | readiness | rollback | constitution"]
     G["Execution boundary<br/>exact paper twin | broker review | Live Branch"]
-    H["Autonomous operations<br/>39-stage DAG | dynamic scheduler | snapshots | recovery"]
+    H["Scheduled research operations<br/>39-stage DAG | dynamic scheduler | snapshots | recovery"]
 
     A --> B
     B --> C
@@ -220,12 +239,12 @@ flowchart TB
 | Strategy research | Playbooks, baselines, challengers, honest backtests, purged rolling origin, era walk-forward, forward paper walk | [`dopey_backtest/`](dopey_backtest/), [`dopey_strategy_lab/`](dopey_strategy_lab/), [`dopey_walk_forward/`](dopey_walk_forward/) |
 | Statistical and causal truth | Selection-aware truth, negative controls, causal evaluation, cohort analysis, calibration, abstention | [`dopey/truth/`](dopey/truth/), [`dopey_stats/`](dopey_stats/), [`dopey_calibration/`](dopey_calibration/) |
 | Portfolio and risk | Exposure policy, capacity, risk throttles, stress ladders, crisis mode, exit policy, drawdown, concentration, kill switches | [`dopey_portfolio/`](dopey_portfolio/), [`dopey_risk_engine/`](dopey_risk_engine/), [`dopey_governor/`](dopey_governor/) |
-| Autonomous research | Invention, experiments, evidence synthesis, mutation genealogy, fitness quarantine, tournaments, rollback | [`dopey/autoresearch/`](dopey/autoresearch/), [`dopey_evolution/`](dopey_evolution/), [`dopey_fitness/`](dopey_fitness/) |
+| Governed research automation | Invention, experiments, evidence synthesis, mutation genealogy, fitness quarantine, tournaments, rollback | [`dopey/autoresearch/`](dopey/autoresearch/), [`dopey_evolution/`](dopey_evolution/), [`dopey_fitness/`](dopey_fitness/) |
 | Metacognition | Confidence, calibration, abstention, disagreement, difficulty, resource control, knowledge boundaries, strategy selection | [`dopey/metacognition/`](dopey/metacognition/) |
 | Durable memory | Immutable predictions, settlements, trade memory, source registry, content-addressed generations, SQLite projection | [`dopey/strategy_engineering/`](dopey/strategy_engineering/), [`dopey_audit/`](dopey_audit/) |
 | Resilient operations | 39-stage DAG, dynamic scheduling, snapshots, locks, heartbeats, timeouts, process-tree termination, recovery, repair queues | [`dopey_autonomy/`](dopey_autonomy/), [`dopey_acceleration/`](dopey_acceleration/), [`dopey_ops/`](dopey_ops/) |
 | Operator experience | Native React control center, command palette, Market Tissue, Symbol Lab, Evidence, Truth, Evolution, Constitution, Paper, Playbooks | [`desktop/`](desktop/) |
-| Governed execution | Exact paper twins, account attestation, reconciliation, immutable intents, no-day-trade guard, broker outcome evidence | [`dopey_live/`](dopey_live/), [`dopey_execution/`](dopey_execution/), [`dopey_broker_readiness/`](dopey_broker_readiness/) |
+| Sealed execution-readiness research | Exact paper twins, account attestation, reconciliation, content-addressed intents, no-day-trade guard, broker outcome evidence | [`dopey_live/`](dopey_live/), [`dopey_execution/`](dopey_execution/), [`dopey_broker_readiness/`](dopey_broker_readiness/) |
 
 ## Market sensing and data intelligence
 
@@ -689,7 +708,7 @@ uses:
 
 These are explicit policy values, so changes are reviewable and testable.
 
-## Autonomy, recursive improvement, and dynamic control
+## Research autonomy, recursive improvement, and dynamic control
 
 DOPEY uses **RSI** in two distinct ways:
 
@@ -1003,7 +1022,7 @@ Critical rules:
 Read the full authority contract in
 [`DOPEY_CONSTITUTION.md`](DOPEY_CONSTITUTION.md).
 
-## Why the architecture is impressive
+## Architecture principles
 
 ### 1. It models mechanisms, not just correlations
 
