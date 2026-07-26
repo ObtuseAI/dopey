@@ -184,95 +184,25 @@ Every serious DOPEY artifact answers the same questions:
 
 ```mermaid
 flowchart TB
-    subgraph Sources["Governed evidence sources"]
-        PH["Price history and corporate actions"]
-        OP["Option chains, quotes, IV, Greeks"]
-        MA["Macro, rates, credit, margin, breadth"]
-        FI["Filings, fundamentals, earnings, IPO"]
-        SH["Short interest, FTD, threshold, borrow"]
-        AT["News, attention, cross-asset context"]
-    end
+    A["Governed sensing<br/>price | options | macro | filings | shorts | IPO"]
+    B["Market understanding<br/>regime | structure | volatility | fundamentals | catalysts"]
+    C["Specialist intelligence<br/>targeting | squeeze | bubble | options | portfolio risk"]
+    D["Adversarial truth<br/>epistemic attack | paper settlement | statistical truth"]
+    E["Memory and evolution<br/>trade memory | failure memory | mutations | tournaments"]
+    F["Governance<br/>fitness | readiness | rollback | constitution"]
+    G["Execution boundary<br/>exact paper twin | broker review | Live Branch"]
+    H["Autonomous operations<br/>39-stage DAG | dynamic scheduler | snapshots | recovery"]
 
-    subgraph Context["Context and market understanding"]
-        RE["Regime and world model"]
-        MS["Market structure and technical evidence"]
-        FU["Fundamental and peer valuation"]
-        VO["Volatility surface and options state"]
-        CA["Catalyst and attention identity"]
-    end
-
-    subgraph Specialists["Specialized intelligence"]
-        TA["Per-symbol targeting"]
-        SQ["Short-squeeze engine"]
-        BU["Bubble, leverage, IPO, unwind engine"]
-        EX["Defined-risk expression selection"]
-        PO["Portfolio and risk engines"]
-    end
-
-    subgraph Truth["Truth and learning"]
-        EP["Epistemic adversary"]
-        WF["Walk-forward paper settlement"]
-        ST["Statistical and causal truth"]
-        TM["Durable trade memory"]
-        EV["Mutation, autoresearch, tournaments"]
-    end
-
-    subgraph Operations["Autonomous operations"]
-        SU["39-stage resilient supervisor"]
-        SC["Dynamic scheduler"]
-        SS["Transactional system snapshot"]
-        RL["Reliability, recovery, repair"]
-    end
-
-    subgraph Authority["Governed authority"]
-        RR["Research readiness"]
-        PT["Exact paper twin"]
-        LB["Live Branch"]
-    end
-
-    PH --> RE
-    PH --> MS
-    OP --> VO
-    MA --> RE
-    FI --> FU
-    FI --> CA
-    SH --> SQ
-    AT --> CA
-
-    RE --> TA
-    MS --> TA
-    FU --> TA
-    VO --> TA
-    RE --> SQ
-    MS --> SQ
-    VO --> SQ
-    FU --> BU
-    RE --> BU
-    MS --> BU
-    VO --> BU
-    TA --> EX
-    SQ --> EX
-    BU --> EX
-    EX --> PO
-
-    TA --> EP
-    SQ --> EP
-    BU --> EP
-    EP --> WF
-    PO --> WF
-    WF --> ST
-    ST --> TM
-    TM --> EV
-    EV --> Context
-
-    SU --> SC
-    SC --> SS
-    SS --> RL
-    RL --> SU
-
-    ST --> RR
-    RR -.->|"still separately gated"| PT
-    PT -.->|"operator-controlled authority"| LB
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> A
+    F -.->|"eligible evidence only"| G
+    H -.->|"coordinates"| A
+    H -.->|"coordinates"| C
+    H -.->|"records"| D
 ```
 
 ## Capability atlas
