@@ -77,7 +77,7 @@
     "dopey_live/dumbmoney_windows_service.py": "4cba589b6e0a05f69916fdd8ca45321898d8c8fc07a44c6f05a5385010bc0a47",
     "dopey_live/ledger.py": "934d5a03e5a378400ec5fd787e270a948c57e0235615ca0b57ab78e6c1b993b7",
     "dopey_live/models.py": "e1f78db857fae5c72ca368724b78096c5d3ba7b3497c5a52c29d9ddeca0f05a9",
-    "dopey_live/robinhood_gateway.py": "e6c3a07b2013d5a26bddb5f9d665d3cd137ccee2b5581f1e22de75d2d0492fb3",
+    "dopey_live/robinhood_gateway.py": "a12e7c8e60067fabca3fabd7d274cfc117bcf55ab6b71082f98c1855b73c1cff",
     "dopey_live/robinhood_mcp_direct.py": "a181bebbb99e094440a2ae0353ad100a1883ce0c57bdef16c0c94ef6b69d6c7a",
     "dopey_live/service.py": "899611c7d0dcd1240ef3467ec39f24defdc1b6cb754c64ad049407116e3f8b46",
     "dopey_live/settlement.py": "336892885775e3476010e5a6b319c9f4299c92758c0c7fc4f997787f049d8dd9",
@@ -96,6 +96,6 @@
     "verifier/path_policy.py": "740d9947b7b12cec4db86f3aae9c9f6c26c029a7243efb047d1fe57ee39c3ea5",
     "verifier/protected_manifest.py": "2dd350cbe84c3638c78d164a85acb7207a472d5398c593792aa913d18e2a6343"
   },
-  "manifest_hash": "894c621aab645f30eef84802ed987138da4fa35236a083fa996bccaebbb56470",
+  "manifest_hash": "75408a8d57f7b349700f602574eabeab8142419a4af7085834ecfadfcb76123e",
   "schema_version": "dopey-protected-manifest-v1"
 }

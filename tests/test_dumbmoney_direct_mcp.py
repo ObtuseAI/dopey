@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import sys
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 from types import SimpleNamespace
@@ -11,6 +12,7 @@ import pytest
 import requests
 
 from dopey_live import service as live_service
+from dopey_live import robinhood_gateway as gateway_module
 from dopey_live.robinhood_gateway import (
     RobinhoodAgenticGateway,
     RobinhoodGatewayError,
@@ -853,6 +855,11 @@ def test_operator_default_gateway_cannot_place_or_cancel_through_model(
         live_service.subprocess,
         "run",
         lambda *_args, **_kwargs: runner_calls.append(True),
+    )
+    monkeypatch.setattr(
+        gateway_module.shutil,
+        "which",
+        lambda executable: sys.executable if executable == "codex" else None,
     )
     gateway = live_service.default_gateway()
     intent = SimpleNamespace(
