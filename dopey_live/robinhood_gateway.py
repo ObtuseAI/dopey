@@ -2034,11 +2034,15 @@ class RobinhoodAgenticGateway:
                 raise ValueError(
                     "codex_executable_sha256 requires codex_executable_path"
                 )
-            executable = shutil.which("codex")
-            if executable is None:
-                raise RobinhoodGatewayError(
-                    "Codex CLI is required for the Robinhood Trading MCP gateway"
-                )
+            if deterministic_mcp_call is not None:
+                executable = ""
+            else:
+                discovered_executable = shutil.which("codex")
+                if discovered_executable is None:
+                    raise RobinhoodGatewayError(
+                        "Codex CLI is required for the Robinhood Trading MCP gateway"
+                    )
+                executable = discovered_executable
             self._codex_sha256: str | None = None
         else:
             if not codex_executable_path.is_absolute():
