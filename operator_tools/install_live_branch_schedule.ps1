@@ -5,13 +5,9 @@ $ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
 
 $repoRoot = (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot "..")).Path
-$projectMarker = Join-Path $repoRoot "pyproject.toml"
-$commandMarker = Join-Path $repoRoot "operator_tools\live_branch.cmd"
-if (
-    -not (Test-Path -LiteralPath $projectMarker -PathType Leaf) -or
-    -not (Test-Path -LiteralPath $commandMarker -PathType Leaf)
-) {
-    throw "Resolved repository root lacks required DOPEY release markers: root=$repoRoot"
+$expectedRoot = "C:\Users\CH\dopey"
+if (-not $repoRoot.Equals($expectedRoot, [System.StringComparison]::OrdinalIgnoreCase)) {
+    throw "Repository root mismatch: expected=$expectedRoot actual=$repoRoot"
 }
 
 $systemRoot = [Environment]::GetEnvironmentVariable("SystemRoot")

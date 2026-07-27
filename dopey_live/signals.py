@@ -10,7 +10,7 @@ from dataclasses import replace
 from datetime import date, datetime, timedelta, timezone
 from decimal import ROUND_DOWN, ROUND_UP, Decimal
 from pathlib import Path
-from typing import Any, Final, cast
+from typing import Any, Final
 from zoneinfo import ZoneInfo
 
 import exchange_calendars as xcals
@@ -22,7 +22,6 @@ from dopey_equity_swing.leveraged_etf import (
 )
 
 from .models import (
-    AnalysisRelationship,
     EQUITY_SNAPSHOT_SOURCE,
     EquityExecutionSnapshot,
     EquityQuoteSnapshot,
@@ -46,7 +45,9 @@ REPOSITORY_ROOT: Final[Path] = Path(__file__).resolve().parent.parent
 ACTION_READINESS_ARTIFACT_TYPE: Final[str] = "action_readiness_gate"
 RELEASE_GATE_VERSION: Final[str] = "dopey-live-pivot-release-gate-v1"
 CALIBRATION_VERSION: Final[str] = "dopey-vnext-calibration-v2"
-CHAMPION_HARDENING_VERSION: Final[str] = "dopey-public-champion-hardening-gate-v1"
+CHAMPION_HARDENING_VERSION: Final[str] = (
+    "dopey-public-champion-hardening-gate-v1"
+)
 MAX_GATE_RECOMPUTE_AGE: Final[timedelta] = timedelta(minutes=5)
 MAX_RESEARCH_INPUT_AGE: Final[timedelta] = timedelta(hours=36)
 MAX_ARTIFACT_FUTURE_SKEW: Final[timedelta] = timedelta(seconds=5)
@@ -273,7 +274,8 @@ def _artifact_integrity_blockers(
         and fitness_determinism.get("deterministic") is True
     )
     hardened_champion_available = bool(
-        champion.get("artifact_type") == "public_champion_hardening_gate_v1_summary"
+        champion.get("artifact_type")
+        == "public_champion_hardening_gate_v1_summary"
         and champion.get("public_champion_hardening_gate_version")
         == CHAMPION_HARDENING_VERSION
         and type(champion.get("hardened_champion_count")) is int
@@ -313,12 +315,15 @@ def _artifact_integrity_blockers(
             "action_release_binding_invalid",
         ),
         (
-            calibration.get("artifact_type") == "vnext_probability_calibration_summary"
+            calibration.get("artifact_type")
+            == "vnext_probability_calibration_summary"
             and calibration.get("calibration_version") == CALIBRATION_VERSION,
             "forward_calibration_schema_invalid",
         ),
         (
-            SHA256_PATTERN.fullmatch(str(calibration.get("reproducibility_hash", "")))
+            SHA256_PATTERN.fullmatch(
+                str(calibration.get("reproducibility_hash", ""))
+            )
             is not None
             and calibration.get("reproducibility_hash")
             == _canonical_summary_hash(calibration),
@@ -338,13 +343,15 @@ def _artifact_integrity_blockers(
             "forward_calibration_stale",
         ),
         (
-            champion.get("artifact_type") == "public_champion_hardening_gate_v1_summary"
+            champion.get("artifact_type")
+            == "public_champion_hardening_gate_v1_summary"
             and champion.get("public_champion_hardening_gate_version")
             == CHAMPION_HARDENING_VERSION,
             "champion_hardening_schema_invalid",
         ),
         (
-            SHA256_PATTERN.fullmatch(str(champion.get("summary_hash", ""))) is not None
+            SHA256_PATTERN.fullmatch(str(champion.get("summary_hash", "")))
+            is not None
             and champion.get("summary_hash") == _stable_summary_hash(champion),
             "champion_hardening_hash_invalid",
         ),
@@ -366,7 +373,8 @@ def _artifact_integrity_blockers(
             "nightly_schema_invalid",
         ),
         (
-            SHA256_PATTERN.fullmatch(str(nightly.get("summary_hash", ""))) is not None
+            SHA256_PATTERN.fullmatch(str(nightly.get("summary_hash", "")))
+            is not None
             and nightly.get("summary_hash") == _stable_summary_hash(nightly),
             "nightly_hash_invalid",
         ),
@@ -384,7 +392,8 @@ def _artifact_integrity_blockers(
             "release_champion_binding_invalid",
         ),
         (
-            release_checks_object.get("full_nightly_validation_green") is nightly_green,
+            release_checks_object.get("full_nightly_validation_green")
+            is nightly_green,
             "release_nightly_binding_invalid",
         ),
         (
@@ -404,7 +413,9 @@ def _artifact_integrity_blockers(
 def research_maturity_blockers(repository_root: Path) -> tuple[str, ...]:
     artifact_root = repository_root.resolve() / "artifacts" / "dopey"
     action_path = artifact_root / "broker_readiness" / "action_readiness_gate.json"
-    release_path = artifact_root / "broker_readiness" / "live_pivot_release_gate.json"
+    release_path = (
+        artifact_root / "broker_readiness" / "live_pivot_release_gate.json"
+    )
     calibration_path = (
         artifact_root
         / "vnext"
@@ -740,22 +751,11 @@ def prepare_equity_entry_for_execution(
         )
     if notional_usd <= 0.0:
         raise LiveSignalError("Equity limit order has no positive risk-capped notional")
-    quantity = float(
-        (Decimal(str(notional_usd)) / Decimal(str(limit_price))).quantize(
-            Decimal("0.000001"),
-            rounding=ROUND_DOWN,
-        )
-    )
-    if quantity <= 0.0:
-        raise LiveSignalError(
-            "Equity limit order has no positive deterministic share quantity"
-        )
     return replace(
         intent,
         order_type="limit",
         limit_price=limit_price,
         notional_usd=notional_usd,
-        quantity=quantity,
         execution_snapshot=snapshot,
         reason_codes=(
             *intent.reason_codes,
@@ -1038,10 +1038,7 @@ def build_leveraged_etf_entry_intents(
                 source_hash=source_hash,
                 thesis_direction=str(plan.get("exposure_direction", "")),
                 analysis_symbol=analysis_symbol,
-                analysis_relationship=cast(
-                    AnalysisRelationship,
-                    str(plan.get("analysis_relationship", "")),
-                ),
+                analysis_relationship=str(plan.get("analysis_relationship", "")),
                 analysis_reference_price=float(entry_plan["analysis_reference_price"]),
                 analysis_invalidation_price=float(
                     exit_plan["analysis_invalidation_price"]
@@ -1150,18 +1147,10 @@ def build_option_entry_intents(
         direction = str(thesis.get("direction", ""))
         if (direction, option_type) not in {("bullish", "call"), ("bearish", "put")}:
             continue
-        try:
-            ask = float(primary.get("ask", 0.0))
-            multiplier = int(primary.get("multiplier", 0))
-            expiry = date.fromisoformat(str(primary.get("expiry", "")))
-        except (TypeError, ValueError):
-            continue
+        ask = float(primary.get("ask", 0.0))
         contract_score = float(primary.get("contract_score", 0.0))
         if (
             ask <= 0.0
-            or not math.isfinite(ask)
-            or multiplier != 100
-            or expiry < market_date
             or contract_score <= 0.0
             or str(primary.get("hard_reject_reason", ""))
             or not _option_quote_matches_market_session(primary, market_date)
@@ -1184,7 +1173,6 @@ def build_option_entry_intents(
             continue
         option_contract = {
             "contract_symbol_key": str(primary.get("contract_symbol_key", "")),
-            "contract_id": str(primary.get("contract_id", "")),
             "expiry": str(primary.get("expiry", "")),
             "option_type": str(
                 primary.get("option_type", selection.get("option_type", ""))
@@ -1194,7 +1182,6 @@ def build_option_entry_intents(
             "order_action": "buy_to_open",
             "defined_risk": True,
             "quote_observed_at": str(primary["quote_observed_at"]),
-            "multiplier": multiplier,
             "maximum_loss_usd": round(premium_per_contract * quantity, 2),
         }
         source = {"thesis": thesis, "contract": selection}
@@ -1247,64 +1234,6 @@ def build_option_entry_intents(
             )
         )
     return tuple(intents)
-
-
-def validate_option_entry_for_execution(
-    intent: LiveExecutionIntent,
-    now_utc: datetime,
-    maximum_quote_age: timedelta = timedelta(seconds=60),
-) -> None:
-    """Require a fresh, exact, fully bounded long-premium option debit."""
-    if intent.instrument != "option" or intent.side != "buy":
-        raise LiveSignalError(
-            "Option execution validation is limited to long-premium entries"
-        )
-    if now_utc.tzinfo is None:
-        raise LiveSignalError("Option execution validation requires aware now_utc")
-    contract = intent.option_contract
-    try:
-        observed_at = datetime.fromisoformat(
-            str(contract.get("quote_observed_at", "")).replace("Z", "+00:00")
-        )
-        expiry = date.fromisoformat(str(contract.get("expiry", "")))
-        multiplier = int(contract.get("multiplier", 0))
-        maximum_loss = Decimal(str(contract.get("maximum_loss_usd", "")))
-        exact_debit = (
-            Decimal(str(intent.limit_price))
-            * Decimal(str(intent.quantity))
-            * Decimal(multiplier)
-        )
-        notional = Decimal(str(intent.notional_usd))
-    except (ValueError, TypeError, ArithmeticError) as error:
-        raise LiveSignalError(
-            "Option execution contract has invalid quote, expiry, multiplier, or debit fields"
-        ) from error
-    if observed_at.tzinfo is None:
-        raise LiveSignalError("Option execution quote must be timezone-aware")
-    quote_age = now_utc.astimezone(timezone.utc) - observed_at.astimezone(timezone.utc)
-    if quote_age < timedelta(seconds=-5) or quote_age > maximum_quote_age:
-        raise LiveSignalError(
-            "Option execution quote is outside the 60-second freshness window"
-        )
-    if expiry < now_utc.astimezone(NEW_YORK).date():
-        raise LiveSignalError("Option contract is expired")
-    if multiplier != 100:
-        raise LiveSignalError("Option contract multiplier must be exactly 100")
-    if (
-        intent.order_type != "limit"
-        or intent.limit_price <= 0.0
-        or intent.quantity <= 0.0
-        or not str(contract.get("contract_id", "")).strip()
-        or contract.get("defined_risk") is not True
-        or contract.get("order_action") != "buy_to_open"
-    ):
-        raise LiveSignalError(
-            "Option entry must be an exact defined-risk buy-to-open limit order"
-        )
-    if exact_debit <= 0 or maximum_loss != exact_debit or notional != exact_debit:
-        raise LiveSignalError(
-            "Option max loss and notional must equal exact limit debit"
-        )
 
 
 def build_entry_intents(
