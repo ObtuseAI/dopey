@@ -17,7 +17,7 @@
   "operator_agent_configuration_included": false,
   "aggregate_non_account_validation_metadata_included": true,
   "source_inventory": {
-    "public_file_count": 2679,
+    "public_file_count": 2700,
     "public_source_size_class": "under_50_mib",
     "excluded_file_count": 4514
   },
