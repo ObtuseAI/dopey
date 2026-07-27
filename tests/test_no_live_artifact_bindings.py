@@ -18,7 +18,7 @@ import importlib
 import sys
 from pathlib import Path
 
-import conftest
+from tests import conftest
 
 # Vendored third-party trees and PowerShell-only dirs: nothing to import.
 _WALK_EXCLUDED_TOP_LEVEL = {"dopey_open_source_vendor"}

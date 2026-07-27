@@ -89,3 +89,11 @@ tests/test_ci_and_epistemic_ledger_stability.py
 tests/test_epistemic_adversarial_supervision.py
 tests/test_epistemic_runtime_integration.py
 tests/test_squeeze_bubble_epistemic_hardening.py
+tests/test_dumbmoney_live_authority.py
+tests/test_dumbmoney_command_feed.py
+tests/test_dumbmoney_contract_feed.py
+tests/test_dumbmoney_direct_mcp.py
+tests/test_dumbmoney_journal_anchor.py
+tests/test_dumbmoney_windows_service.py
+tests/test_live_cash_settlement_and_auth.py
+tests/test_live_owner_liquidation_and_legacy_twin.py
