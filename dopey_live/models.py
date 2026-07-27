@@ -25,6 +25,9 @@ class AccountSnapshot:
     equity_order_history_complete: bool
     option_order_history_complete: bool
     error: str
+    # SHA-256 of the broker account identifier. The raw identifier is retained
+    # only in the in-memory MCP attestation and is never serialized by DOPEY.
+    account_hash: str = ""
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
@@ -83,6 +86,8 @@ class LiveExecutionIntent:
     execution_snapshot: EquityExecutionSnapshot | None
     option_contract: dict[str, Any]
     reason_codes: tuple[str, ...]
+    promotion_hash: str = ""
+    passport_hash: str = ""
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
@@ -120,11 +125,12 @@ def live_execution_intent_from_dict(payload: dict[str, Any]) -> LiveExecutionInt
     if not isinstance(raw_option_contract, dict):
         raise ValueError("Option contract must be an object")
     migrated["option_contract"] = dict(raw_option_contract)
+    raw_limit_price = migrated.get(
+        "limit_price",
+        raw_option_contract.get("limit_price", 0.0),
+    )
     migrated["limit_price"] = float(
-        migrated.get(
-            "limit_price",
-            raw_option_contract.get("limit_price", 0.0),
-        )
+        0.0 if raw_limit_price is None else raw_limit_price
     )
     raw_execution_snapshot = migrated.get("execution_snapshot")
     if raw_execution_snapshot is None:
@@ -146,6 +152,8 @@ def live_execution_intent_from_dict(payload: dict[str, Any]) -> LiveExecutionInt
     migrated["reason_codes"] = tuple(
         str(value) for value in migrated.get("reason_codes", ())
     )
+    migrated["promotion_hash"] = str(migrated.get("promotion_hash", ""))
+    migrated["passport_hash"] = str(migrated.get("passport_hash", ""))
     return LiveExecutionIntent(**migrated)
 
 
@@ -159,6 +167,19 @@ class GatewayOrderResult:
     average_fill_price: float
     submitted_at: str
     filled_at: str
+    warnings: tuple[str, ...]
+    error: str
+    observed_tools: tuple[str, ...]
+
+    def to_dict(self) -> dict[str, Any]:
+        return asdict(self)
+
+
+@dataclass(frozen=True)
+class GatewayCancelResult:
+    cancel_requested: bool
+    order_id: str
+    status: str
     warnings: tuple[str, ...]
     error: str
     observed_tools: tuple[str, ...]

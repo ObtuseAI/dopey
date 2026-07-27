@@ -1,0 +1,23 @@
+{
+  "fixture_schema": "dopey.dumbmoney-capital-envelope-negative-cases.v1",
+  "cases": [
+    {
+      "name": "max_order_exceeds_max_correlated",
+      "overrides": {
+        "max_order_risk_cents": 301,
+        "max_correlated_risk_cents": 300,
+        "max_open_risk_cents": 1250
+      },
+      "expected_error": "max_order_risk_cents <= max_correlated_risk_cents <= max_open_risk_cents"
+    },
+    {
+      "name": "max_correlated_exceeds_max_open",
+      "overrides": {
+        "max_order_risk_cents": 100,
+        "max_correlated_risk_cents": 1251,
+        "max_open_risk_cents": 1250
+      },
+      "expected_error": "max_order_risk_cents <= max_correlated_risk_cents <= max_open_risk_cents"
+    }
+  ]
+}

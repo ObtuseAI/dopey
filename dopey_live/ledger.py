@@ -305,6 +305,123 @@ def reserve_intent(
     return True
 
 
+def activate_dumbmoney_fence(
+    repository_root: Path,
+    envelope_id: str,
+    event_id: str,
+    body_digest: str,
+    fencing_generation: int,
+    policy_epoch: int,
+) -> dict[str, Any]:
+    """Persist the highest signed fund-control generation under the ledger lock.
+
+    The existing local process and ledger locks prevent concurrent writers on
+    one host. This monotonic fence additionally rejects a stale control-plane
+    process even after it reacquires a local lock.
+    """
+    if fencing_generation <= 0 or policy_epoch <= 0:
+        raise LiveBranchLedgerError(
+            "DumbMoney fence generation and policy epoch must be positive"
+        )
+    for label, digest in (
+        ("envelope_id", envelope_id),
+        ("event_id", event_id),
+        ("body_digest", body_digest),
+    ):
+        if not isinstance(digest, str) or len(digest) != 64 or digest.lower() != digest:
+            raise LiveBranchLedgerError(
+                f"DumbMoney fence {label} must be lowercase SHA-256 hex"
+            )
+        try:
+            bytes.fromhex(digest)
+        except ValueError as error:
+            raise LiveBranchLedgerError(
+                f"DumbMoney fence {label} must be lowercase SHA-256 hex"
+            ) from error
+    path = ledger_path(repository_root)
+    with _exclusive_ledger_lock(path):
+        records = read_ledger(path)
+        latest: dict[str, Any] | None = None
+        for record in records:
+            if record.get("event_type") != "dumbmoney_fence_activated":
+                continue
+            payload = record.get("payload")
+            if isinstance(payload, dict):
+                latest = payload
+        if latest is not None:
+            latest_generation = int(latest.get("fencing_generation", 0))
+            latest_epoch = int(latest.get("policy_epoch", 0))
+            latest_envelope = str(latest.get("envelope_id", ""))
+            latest_event = str(latest.get("event_id", ""))
+            latest_body_digest = str(latest.get("body_digest", ""))
+            if fencing_generation < latest_generation:
+                raise LiveBranchLedgerError(
+                    "DumbMoney CapitalEnvelopeV1 is fenced by a newer generation"
+                )
+            if policy_epoch < latest_epoch:
+                raise LiveBranchLedgerError(
+                    "DumbMoney CapitalEnvelopeV1 is fenced by a newer policy epoch"
+                )
+            if fencing_generation == latest_generation:
+                if (
+                    envelope_id != latest_envelope
+                    or event_id != latest_event
+                    or body_digest != latest_body_digest
+                    or policy_epoch != latest_epoch
+                ):
+                    raise LiveBranchLedgerError(
+                        "DumbMoney fence generation was reused with different authority"
+                    )
+                return dict(latest)
+        payload = {
+            "envelope_id": envelope_id,
+            "event_id": event_id,
+            "body_digest": body_digest,
+            "fencing_generation": fencing_generation,
+            "policy_epoch": policy_epoch,
+        }
+        _append_record_unlocked(path, "dumbmoney_fence_activated", payload)
+        return payload
+
+
+def assert_current_dumbmoney_fence(
+    repository_root: Path,
+    envelope_id: str,
+    event_id: str,
+    body_digest: str,
+    fencing_generation: int,
+    policy_epoch: int,
+) -> None:
+    path = ledger_path(repository_root)
+    with _exclusive_ledger_lock(path):
+        latest: dict[str, Any] | None = None
+        for record in read_ledger(path):
+            if record.get("event_type") != "dumbmoney_fence_activated":
+                continue
+            payload = record.get("payload")
+            if isinstance(payload, dict):
+                latest = payload
+    expected = (
+        envelope_id,
+        event_id,
+        body_digest,
+        fencing_generation,
+        policy_epoch,
+    )
+    observed = (
+        str(latest.get("envelope_id", "")) if latest else "",
+        str(latest.get("event_id", "")) if latest else "",
+        str(latest.get("body_digest", "")) if latest else "",
+        int(latest.get("fencing_generation", 0)) if latest else 0,
+        int(latest.get("policy_epoch", 0)) if latest else 0,
+    )
+    if observed != expected:
+        raise LiveBranchLedgerError(
+            "DumbMoney authority is no longer the active execution fence: "
+            f"expected={expected}, observed={observed}"
+        )
+
+
 def _unresolved_submission_payload(
     records: tuple[dict[str, Any], ...],
     intent_id: str,
