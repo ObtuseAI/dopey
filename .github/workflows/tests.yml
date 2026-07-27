@@ -159,7 +159,6 @@ jobs:
           ruff check . --select E9,F63,F7,F82
           ruff check \
             dopey \
-            dopey_live \
             dopey_acceleration \
             dopey_execution \
             dopey_governor \

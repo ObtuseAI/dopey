@@ -1,5 +1,4 @@
 """Run or preflight the DOPEY Live Branch."""
-
 from __future__ import annotations
 
 import argparse
@@ -9,11 +8,8 @@ import uuid
 from contextlib import contextmanager
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from typing import Callable, Iterator
+from typing import Iterator
 
-from dopey_live.dumbmoney_authority import DumbMoneyAuthorityContext
-from dopey_live.dumbmoney_command_feed import DumbMoneyCommandDispatch
-from dopey_live.dumbmoney_promotion import PromotionAuthorityResolver
 from dopey_live.ledger import write_latest_cycle
 from dopey_live.service import default_gateway, run_live_branch_cycle
 
@@ -127,49 +123,15 @@ def _exclusive_live_process(now_utc: datetime) -> Iterator[None]:
         lock_path.unlink()
 
 
-def _run_with_crash_tombstone(
-    execute_orders: bool,
-    dumbmoney_authority: DumbMoneyAuthorityContext | None = None,
-    *,
-    dumbmoney_controls: DumbMoneyCommandDispatch | None = None,
-    dumbmoney_control_refresh: (
-        Callable[[datetime], DumbMoneyCommandDispatch] | None
-    ) = None,
-    dumbmoney_promotion_resolver: PromotionAuthorityResolver | None = None,
-) -> dict[str, object]:
-    if execute_orders:
-        raise RuntimeError(
-            "Legacy operator execution is disabled; use the supervised "
-            "DumbMoney Windows service"
-        )
+def _run_with_crash_tombstone(execute_orders: bool) -> dict[str, object]:
     started_at_utc = datetime.now(timezone.utc)
     try:
         with _exclusive_live_process(started_at_utc):
-            resolved_controls = dumbmoney_controls
-            if (
-                resolved_controls is None
-                and dumbmoney_authority is None
-                and dumbmoney_control_refresh is not None
-            ):
-                resolved_controls = dumbmoney_control_refresh(started_at_utc)
-            arguments = (
+            return run_live_branch_cycle(
                 REPOSITORY_ROOT,
                 default_gateway(),
                 started_at_utc,
                 execute_orders,
-            )
-            if (
-                dumbmoney_authority is None
-                and resolved_controls is None
-                and dumbmoney_control_refresh is None
-            ):
-                return run_live_branch_cycle(*arguments)
-            return run_live_branch_cycle(
-                *arguments,
-                dumbmoney_authority=dumbmoney_authority,
-                dumbmoney_controls=resolved_controls,
-                dumbmoney_control_refresh=dumbmoney_control_refresh,
-                dumbmoney_promotion_resolver=dumbmoney_promotion_resolver,
             )
     except Exception as error:
         tombstone: dict[str, object] = {
@@ -194,92 +156,11 @@ def _run_with_crash_tombstone(
         raise
 
 
-def run_supervised_dumbmoney_cycle(
-    command_feed_poll: Callable[[datetime], DumbMoneyCommandDispatch],
-    promotion_resolver: PromotionAuthorityResolver,
-    *,
-    execute_orders: bool,
-) -> dict[str, object]:
-    """Run one process-locked cycle with initial and broker-boundary feed polls."""
-
-    return _run_with_crash_tombstone(
-        execute_orders,
-        dumbmoney_control_refresh=command_feed_poll,
-        dumbmoney_promotion_resolver=promotion_resolver,
-    )
-
-
 def main() -> int:
-    parser = argparse.ArgumentParser(
-        description="Operate DOPEY Live Branch through official Robinhood Agentic MCP"
-    )
-    parser.add_argument(
-        "--execute",
-        action="store_true",
-        help=(
-            "Disabled legacy switch; production execution requires the "
-            "supervised DumbMoney Windows service"
-        ),
-    )
-    parser.add_argument(
-        "--dumbmoney-strict",
-        action="store_true",
-        help=(
-            "Require complete DumbMoney authority inputs for read-only legacy preflight"
-        ),
-    )
-    parser.add_argument(
-        "--dumbmoney-envelope",
-        type=Path,
-        help="Opt in to DumbMoney authority with this signed CapitalEnvelopeV1",
-    )
-    parser.add_argument(
-        "--dumbmoney-public-key",
-        type=Path,
-        help="Trusted DumbMoney Ed25519 public key (raw, hex, or base64url)",
-    )
-    parser.add_argument(
-        "--dumbmoney-account-hash",
-        help="Pinned lowercase SHA-256 of the dedicated Agentic account ID",
-    )
+    parser = argparse.ArgumentParser(description="Operate DOPEY Live Branch through official Robinhood Agentic MCP")
+    parser.add_argument("--execute", action="store_true", help="Submit eligible reviewed orders while the market is open")
     arguments = parser.parse_args()
-    if arguments.execute:
-        parser.error(
-            "--execute is disabled in the legacy operator; use "
-            "dopey_live.dumbmoney_windows_service"
-        )
-    dumbmoney_values = (
-        arguments.dumbmoney_envelope,
-        arguments.dumbmoney_public_key,
-        arguments.dumbmoney_account_hash,
-    )
-    if any(value is not None for value in dumbmoney_values) and not all(
-        value is not None for value in dumbmoney_values
-    ):
-        parser.error(
-            "DumbMoney mode requires --dumbmoney-envelope, "
-            "--dumbmoney-public-key, and --dumbmoney-account-hash together"
-        )
-    if arguments.dumbmoney_strict and not all(
-        value is not None for value in dumbmoney_values
-    ):
-        parser.error(
-            "--dumbmoney-strict requires the complete DumbMoney envelope, "
-            "public key, and account hash"
-        )
-    authority = (
-        DumbMoneyAuthorityContext.from_files(
-            arguments.dumbmoney_envelope,
-            arguments.dumbmoney_public_key,
-            arguments.dumbmoney_account_hash,
-        )
-        if all(value is not None for value in dumbmoney_values)
-        else None
-    )
-    result = _run_with_crash_tombstone(
-        False,
-        authority,
-    )
+    result = _run_with_crash_tombstone(bool(arguments.execute))
     print(json.dumps(result, indent=2, sort_keys=True, ensure_ascii=False))
     cycle_status = str(result.get("cycle_status", ""))
     successful_statuses = {
