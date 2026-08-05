@@ -11,7 +11,7 @@ requires-python = ">=3.11"
 license = { text = "MIT" }
 authors = [{ name = "DOPEY operator" }]
 dependencies = [
-    "cryptography==49.0.0",
+    "cryptography==50.0.0",
     "exchange-calendars==4.13.2",
     "requests==2.34.2",
     "tzdata==2026.2",
